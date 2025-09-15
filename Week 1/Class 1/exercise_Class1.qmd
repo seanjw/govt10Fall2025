@@ -1,0 +1,129 @@
+---
+title: "Week 1, Class 1: Practice Exercises"
+subtitle: "Introduction to Quantitative Political Analysis"
+date: "2025"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+---
+
+```{r setup, echo=F, include=F}
+library(knitr)
+library(formatR)
+library(tidyverse)
+args <- commandArgs(trailingOnly = FALSE)
+script <- sub("^--file=", "", args[grep("^--file=", args)])
+setwd(dirname(normalizePath(script)))
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# Non-AI Exercises
+
+## 1. Vocabulary & Concepts
+
+### 1.1 Code Detective
+
+Explain what each line of this code does:
+
+``` r
+electoral_votes <- 270
+winner <- "Biden"
+margin <- 81283501 - 74223975
+percentage <- margin / 155507476 * 100
+```
+
+Line 1: \_\_\_\_\_ Line 2: \_\_\_\_\_ Line 3: \_\_\_\_\_ Line 4: \_\_\_\_\_
+
+## 2. Historical Example: John Snow
+
+### 2.1 The conventional wisdom in 1854 was that cholera spread through:
+
+a)  Contaminated water
+b)  Bad air (miasma)
+c)  Person-to-person contact
+d)  Poor nutrition
+
+Answer: \_\_\_\_\_
+
+### 2.2 Data-Driven Decision Making
+
+John Snow challenged the conventional wisdom about cholera transmission. What made his approach "quantitative" rather than just observational? Why was mapping the data crucial to his discovery?
+
+Answer:
+
+## 3. Critical Thinking: AI and Analysis
+
+### 3.1 Critical Thinking with AI
+
+Why is it important to verify AI-generated analysis rather than accepting it automatically? Give an example of how an AI might produce technically correct code that leads to a misleading conclusion.
+
+Answer:
+
+## 4. Applications of Quantitative Political Analysis
+
+# AI Exercises
+
+For each AI exercise: 
+
+- Write your prompt in the designated space 
+- Record Claude's response 
+- Run the code and document the results
+
+## 5. Introduction to Political Data
+
+**Dataset: nat_pol_attitudes.csv**
+
+**Description**: Simulates a nationally representative survey measuring political attitudes, ideology, and demographics.
+
+**Variables**: 
+
+- `respondent_id`: Unique respondent ID (int) 
+- `age`: Age in years, 18-90 (int) 
+- `gender`: male, female, nonbinary (factor) 
+- `race_ethnicity`: White, Black, Latino, Asian, Other (factor) 
+- `education`: Less than HS, HS, Some College, BA, Postgrad (ordered) 
+- `income_bracket`: Ten brackets from \<\$10k to \>\$200k (ordered) 
+- `ideology`: 1 (very liberal) to 7 (very conservative) (int) 
+- `party_id`: Democrat, Republican, Independent, Other (factor) 
+- `trust_gov`: 0-10 political trust scale (int) 
+- `policy_support_env`: Support for environmental regulation, 0/1 (binary) 
+- `policy_support_guns`: Support for stricter gun laws, 0/1 (binary)
+
+### 5.1 Data Exploration
+
+```{r}
+# Load the dataset
+nat_pol_attitudes <- read_csv("nat_pol_attitudes.csv")
+
+# Explore the structure of the data
+glimpse(nat_pol_attitudes)
+```
+
+Using Claude, explore this political attitudes dataset. Ask it to help you understand if ideology varies by income bracket. (Bonus: Try to do this without using Claude.)
+
+Prompt: I am working with a dataset in R called nat_pol_attitudes.csv. I am usin tidyverse. I want to know if ideology varies by income bracket. Write code to explore this and explain each step.
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+
+### 5.2 Basic Summary Statistics
+
+Work with Claude to calculate the average age and political trust score by party affiliation. Record both your prompt and the code Claude provides. (Bonus: Try to do this without using Claude.)
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+

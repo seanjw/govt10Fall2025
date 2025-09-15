@@ -1,0 +1,432 @@
+---
+title: "Week 1, Class 2: Practice Exercises"
+subtitle: "Introduction to R and Data Frames"
+date: "2025"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+---
+
+```{r setup, echo=F, include=F}
+library(knitr)
+library(formatR)
+library(tidyverse)
+args <- commandArgs(trailingOnly = FALSE)
+script <- sub("^--file=", "", args[grep("^--file=", args)])
+setwd(dirname(normalizePath(script)))
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# Non-AI Exercises
+
+## 1. Basic R Operations and Variables
+
+### 1.1 Match Data Types
+
+What type of data would each of these variables contain?
+
+a) `vote_count <- 538`
+b) `party_name <- "Democratic"`
+c) `is_incumbent <- TRUE`
+d) `approval_rating <- "45%"`
+
+Options: numeric, character, logical
+
+Answers: a = _____, b = _____, c = _____, d = _____
+
+### 1.2 Fill in the Blanks: Vector Creation
+
+Complete this code to create a vector of battleground states:
+
+```r
+battleground_states <- __("Texas", _____, "Pennsylvania", _____, _____)
+```
+
+Missing states: Florida, Ohio, Michigan
+
+
+### 1.3 Code Detective: Vector Operations
+
+What does this code do? Explain each line:
+
+```r
+poll_results <- c(48, 52, 45, 51, 49)
+average_result <- mean(poll_results)
+max_result <- max(poll_results)
+results_above_50 <- poll_results > 50
+```
+
+Line 1: _____
+Line 2: _____
+Line 3: _____
+Line 4: _____
+
+## 2. Understanding Data Frames
+
+### 2.1 Data Frame Structure
+
+When you see this output from `glimpse()`:
+
+```
+Rows: 100
+Columns: 5
+$ candidate     <chr> "Smith", "Jones", "Brown"...
+$ party         <chr> "Dem", "Rep", "Dem"...
+$ votes         <dbl> 15234, 16789, 14556...
+$ district      <int> 1, 1, 2...
+$ incumbent     <lgl> TRUE, FALSE, FALSE...
+```
+
+Answer these questions:
+- How many observations are in this dataset? _____
+- How many variables are in this dataset? _____
+- What type of data is stored in the `votes` column? _____
+- Which column contains TRUE/FALSE values? _____
+
+### 2.2 True or False: Data Frames
+
+Mark each statement as True (T) or False (F):
+
+_____ Data frames can only contain numeric data
+_____ Each column in a data frame must have the same length
+_____ Rows represent observations, columns represent variables
+_____ You can mix different data types in the same column
+_____ glimpse() shows you the structure and first few values
+
+## 3. Data Types and Functions
+
+### 3.1 Matching Data Types
+
+Match each data type abbreviation with its meaning:
+
+**Abbreviations:**
+a) `<dbl>`
+b) `<chr>`
+c) `<int>`
+d) `<lgl>`
+e) `<date>`
+
+**Meanings:**
+1. Whole numbers only
+2. TRUE/FALSE values
+3. Text data
+4. Decimal numbers
+5. Calendar dates
+
+Matches: a = _____, b = _____, c = _____, d = _____, e = _____
+
+### 3.2 Multiple Choice: Functions
+
+Which function would you use to:
+
+1. See the first 6 rows of data: _____
+2. Get column names: _____
+3. Get summary statistics: _____
+4. See data structure and types: _____
+5. Round to 2 decimal places: _____
+
+Options: a) head(), b) names(), c) summary(), d) glimpse(), e) round(x, 2)
+
+## 4. Error Diagnosis
+
+### 4.1 Spot the Error
+
+What's wrong with each code snippet?
+
+```r
+# Error 1
+Mean(poll_results)
+
+# Error 2
+numbers <- c("1", "2", "3")
+mean(numbers)
+
+# Error 3
+read_csv("data.csv")
+```
+
+Error 1 problem: _____
+Error 2 problem: _____
+Error 3 problem: _____
+
+### 4.2 Multiple Choice: Debugging
+
+In the code below, why does line 2 produce an error?
+
+```r
+electoral_votes <- c(20, 16, 10, 11, 16, 6)
+average_votes = mean(Electoral_Votes)
+```
+
+a) The mean() function doesn't exist
+b) Variable names are case-sensitive (electoral_votes ≠ Electoral_Votes)
+c) You can't calculate mean of a vector
+d) The assignment operator should be <-
+
+Answer: _____
+
+# AI Exercises
+
+For each AI exercise:
+- Write your prompt in the designated space
+- Record Claude's response
+- Run the code and document the results
+
+## 5. Working with Congressional Data
+
+**Dataset: congressional_leaders.csv**
+
+**Description**: Dataset containing information about current Congressional leadership.
+
+**Variables**:
+
+- `member_id`: Unique identifier (int)
+- `name`: Leader's name (chr)
+- `party`: Political party (chr)
+- `chamber`: House or Senate (chr)
+- `state`: State represented (chr)
+- `years_served`: Years in Congress (int)
+- `age`: Current age (int)
+- `committee_chair`: Whether they chair a committee (lgl)
+- `leadership_position`: Their leadership role (chr)
+
+### 5.1 Loading and Exploring Data
+
+```{r}
+# Load the dataset
+library(tidyverse)
+leaders <- read_csv("congressional_leaders.csv")
+
+# Explore the data
+glimpse(leaders)
+head(leaders)
+```
+
+Use Claude to help you understand this Congressional leadership dataset and calculate summary statistics about years of service and age.
+
+### 5.2 Basic Analysis
+
+Ask Claude to help you find:
+
+- The average years of service by party
+- Which chamber has older members on average
+- How many committee chairs there are
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+
+### 5.3 Creating Summaries
+
+Work with Claude to create a summary table showing the number of leaders by party and chamber.
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+
+## 6. State Voting Patterns Analysis
+
+**Dataset: state_voting_patterns.csv**
+
+**Description**: State-level voting patterns in recent presidential elections.
+
+**Variables**:
+
+- `state`: State name (chr)
+- `state_abbr`: Two-letter state code (chr)
+- `region`: Geographic region (chr)
+- `electoral_votes`: Number of electoral votes (int)
+- `dem_2020`: Democratic vote share 2020 (dbl)
+- `rep_2020`: Republican vote share 2020 (dbl)
+- `dem_2016`: Democratic vote share 2016 (dbl)
+- `rep_2016`: Republican vote share 2016 (dbl)
+- `swing_state`: Whether considered a swing state (lgl)
+- `population_millions`: State population in millions (dbl)
+
+### 6.1 Initial Data Exploration
+
+```{r}
+# Load the dataset
+voting <- read_csv("state_voting_patterns.csv")
+
+# Examine the structure
+glimpse(voting)
+summary(voting)
+```
+
+Work with Claude to explore state voting patterns. What questions would you ask to understand partisan geography?
+
+### 6.2 Calculating Vote Margins
+
+Ask Claude to help you:
+
+- Calculate the margin of victory in 2020 for each state (Republican % - Democratic %)
+- Find which states had the closest elections (smallest margins)
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+
+### 6.3 Swing State Analysis
+
+Work with Claude to analyze differences between swing states and non-swing states in terms of population and electoral votes.
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+
+## 7. Public Opinion Tracking
+
+**Dataset: presidential_approval.csv**
+
+**Description**: Weekly presidential approval ratings over time.
+
+**Variables**:
+
+- `week_id`: Week identifier (int)
+- `date`: Date of poll (date)
+- `president`: President's name (chr)
+- `party`: President's party (chr)
+- `approve`: Approval percentage (dbl)
+- `disapprove`: Disapproval percentage (dbl)
+- `unsure`: Unsure percentage (dbl)
+- `sample_size`: Number of respondents (int)
+- `pollster`: Polling organization (chr)
+- `economic_index`: Economic conditions index (dbl)
+
+### 7.1 Loading and Understanding the Data
+
+```{r}
+# Load the dataset
+approval <- read_csv("presidential_approval.csv")
+
+# Check the data
+glimpse(approval)
+names(approval)
+```
+
+This dataset tracks presidential approval over time. Ask Claude to help you understand the structure and calculate key metrics.
+
+### 7.2 Trend Analysis
+
+Ask Claude to help you:
+
+- Calculate the average approval rating by president
+- Find the highest and lowest approval ratings for each president
+- Identify any patterns in the "unsure" responses
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+
+### 7.3 Data Quality Check
+
+Work with Claude to:
+
+- Verify that approve + disapprove + unsure = 100 for each row
+- Identify any data quality issues
+- Create a summary of findings
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+
+## 8. Campaign Finance Exploration
+
+**Dataset: campaign.csv**
+
+**Description**: Campaign contribution data for federal candidates.
+
+**Variables**:
+
+- `contribution_id`: Unique identifier (int)
+- `candidate_name`: Recipient candidate (chr)
+- `candidate_party`: Party affiliation (chr)
+- `office`: Office sought (chr)
+- `state`: State (chr)
+- `amount`: Contribution amount in dollars (dbl)
+- `date`: Date of contribution (date)
+- `contributor_type`: Individual, PAC, etc. (chr)
+- `contributor_state`: Contributor's state (chr)
+- `is_corporate`: Whether from corporate PAC (lgl)
+
+### 8.1 Initial Data Load
+
+```{r}
+# Load the dataset
+campaign <- read_csv("campaign.csv")
+
+# Explore campaign finance data
+glimpse(campaign)
+```
+
+Campaign finance data can reveal patterns in political support. Work with Claude to explore contribution patterns.
+
+### 8.2 Contribution Patterns
+
+Ask Claude to help you analyze:
+
+- Average contribution size by contributor type
+- Total contributions by party
+- Which states contribute the most
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
+### 8.3 Creating a Summary Report
+
+Work with Claude to create a brief summary report about campaign finance patterns, including key statistics and any interesting findings.
+
+Prompt:
+
+Response:
+
+```{r}
+
+```
+
+Interpretation:
