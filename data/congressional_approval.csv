@@ -1,0 +1,2001 @@
+respondent_id,age,education,party_id,income_category,region,congress_approval
+1,31,Some College,Independent,$30k-$60k,Midwest,19.132043952530566
+2,68,Bachelor's,Republican,$30k-$60k,South,19.898067847496836
+3,41,Some College,Republican,$30k-$60k,South,17.585641403645575
+4,75,Bachelor's,Democrat,$30k-$60k,South,52.89177463793749
+5,19,Some College,Democrat,$60k-$100k,West,14.571161802393675
+6,55,Some College,Republican,$30k-$60k,South,30.634467991883874
+7,27,Some College,Democrat,$60k-$100k,Midwest,19.844348107498345
+8,49,High School,Republican,Under $30k,West,30.524796726010898
+9,57,Bachelor's,Republican,Under $30k,Midwest,40.05865714097429
+10,56,High School,Democrat,Over $100k,South,32.4182182037974
+11,55,Graduate,Democrat,Under $30k,West,32.6081390266129
+12,47,Some College,Independent,$30k-$60k,South,16.10569009076303
+13,18,Graduate,Independent,Over $100k,Midwest,11.323784933605285
+14,29,High School,Independent,$60k-$100k,West,25.746507305776465
+15,20,High School,Republican,$60k-$100k,Midwest,20.881558324469744
+16,26,Bachelor's,Independent,$30k-$60k,Northeast,14.496453825113687
+17,31,Some College,Republican,$60k-$100k,South,11.843316342186252
+18,30,Bachelor's,Democrat,Over $100k,Northeast,42.36537126257571
+19,81,Bachelor's,Republican,$60k-$100k,Midwest,43.17398787453911
+20,37,Some College,Republican,Under $30k,South,10.81521940312529
+21,33,Some College,Democrat,$30k-$60k,West,10.94718798162868
+22,79,Some College,Republican,$30k-$60k,Northeast,41.80592253701714
+23,77,High School,Democrat,Over $100k,Midwest,60.245958075765046
+24,49,Some College,Independent,Over $100k,Northeast,3.1691295976218115
+25,42,Bachelor's,Independent,Over $100k,South,3.6950080873571807
+26,53,Bachelor's,Republican,Under $30k,West,38.716967919058874
+27,55,High School,Independent,$30k-$60k,South,11.569311815696548
+28,26,High School,Independent,Over $100k,Midwest,29.52706435975998
+29,22,Some College,Republican,$30k-$60k,Midwest,20.71194888212791
+30,34,High School,Republican,$30k-$60k,Northeast,13.488174767142405
+31,34,Graduate,Democrat,Under $30k,Midwest,35.35632224288939
+32,54,High School,Republican,Under $30k,Midwest,33.60276075456195
+33,75,Some College,Republican,$30k-$60k,West,17.75152899312321
+34,84,Bachelor's,Independent,Under $30k,South,46.586428557072125
+35,30,Some College,Independent,$30k-$60k,Midwest,26.798840203736077
+36,84,Some College,Independent,Under $30k,South,38.718259278829024
+37,66,Some College,Independent,$30k-$60k,West,15.733198860872692
+38,73,Bachelor's,Independent,$30k-$60k,Midwest,16.445356090551645
+39,51,Bachelor's,Independent,Over $100k,South,14.395524656133516
+40,61,Graduate,Democrat,$30k-$60k,South,13.193376130344106
+41,52,High School,Republican,$60k-$100k,Midwest,50.7954498984246
+42,68,High School,Republican,$60k-$100k,South,35.35202306088694
+43,72,Bachelor's,Republican,Under $30k,South,31.949848002148283
+44,40,Bachelor's,Republican,Over $100k,West,31.775782548477345
+45,43,Some College,Democrat,$60k-$100k,West,35.742776639319295
+46,72,Graduate,Republican,$60k-$100k,West,22.01156032333117
+47,24,Bachelor's,Republican,$60k-$100k,South,29.06796173312538
+48,32,Bachelor's,Democrat,Under $30k,Northeast,27.539970297759236
+49,63,Bachelor's,Republican,Over $100k,Northeast,20.583182329139717
+50,29,Bachelor's,Republican,Over $100k,West,33.756725986039484
+51,22,High School,Democrat,$30k-$60k,West,40.04629615936376
+52,85,Some College,Republican,Over $100k,Midwest,27.317738457073485
+53,28,Graduate,Democrat,Under $30k,South,48.510071502875405
+54,66,Bachelor's,Republican,Under $30k,Northeast,21.26057400992589
+55,84,Bachelor's,Independent,$30k-$60k,South,0
+56,32,Some College,Independent,Under $30k,Northeast,13.505737772435685
+57,24,High School,Independent,Over $100k,South,0
+58,59,Graduate,Democrat,Over $100k,West,38.823048578660945
+59,72,High School,Independent,Under $30k,Northeast,3.6862515555567477
+60,21,High School,Democrat,$30k-$60k,West,33.10065959817464
+61,21,Graduate,Independent,Under $30k,Northeast,0
+62,49,High School,Independent,$30k-$60k,West,23.000930442942778
+63,74,Bachelor's,Independent,Under $30k,Northeast,24.295760005418455
+64,82,Some College,Democrat,$30k-$60k,West,38.70354560642681
+65,65,Bachelor's,Democrat,$60k-$100k,South,30.17694202844844
+66,72,Graduate,Democrat,Under $30k,South,61.232778416756496
+67,34,High School,Democrat,$60k-$100k,South,39.66486993415044
+68,20,Bachelor's,Republican,$60k-$100k,South,23.687514074394226
+69,35,High School,Independent,$30k-$60k,West,10.705283621420808
+70,24,High School,Independent,Under $30k,Northeast,3.3317590242387407
+71,37,Bachelor's,Republican,Under $30k,South,24.48486492894906
+72,29,Bachelor's,Republican,Over $100k,South,7.301692601065142
+73,85,Bachelor's,Independent,Over $100k,Midwest,27.443388984579283
+74,52,Bachelor's,Independent,$30k-$60k,Midwest,40.38419083421575
+75,23,Graduate,Democrat,$30k-$60k,South,50.6183861414204
+76,40,Graduate,Democrat,$30k-$60k,Midwest,42.15403419264619
+77,85,High School,Democrat,$30k-$60k,Midwest,36.94974132496356
+78,76,Bachelor's,Independent,$30k-$60k,Midwest,29.047256430770457
+79,47,High School,Independent,Over $100k,Northeast,23.402024221038737
+80,67,Some College,Democrat,$30k-$60k,Midwest,41.524760374618246
+81,48,Bachelor's,Republican,$30k-$60k,South,38.45851800964611
+82,42,High School,Independent,$30k-$60k,Northeast,36.65467144944755
+83,65,Some College,Independent,$60k-$100k,West,14.479496136831127
+84,42,Some College,Democrat,$30k-$60k,South,25.77060726653253
+85,45,High School,Democrat,$30k-$60k,South,30.66796758612957
+86,25,Bachelor's,Democrat,$60k-$100k,South,28.056934195935497
+87,35,Some College,Democrat,$30k-$60k,Midwest,24.54116405307651
+88,37,Graduate,Republican,$60k-$100k,South,30.345552450638184
+89,38,Bachelor's,Democrat,$30k-$60k,Midwest,33.52457380278507
+90,64,Bachelor's,Independent,$30k-$60k,South,29.151177429151826
+91,28,Some College,Democrat,$60k-$100k,South,16.243912096437295
+92,68,Some College,Republican,$60k-$100k,South,44.0178774488765
+93,61,High School,Republican,$30k-$60k,West,5.087668716758603
+94,41,Some College,Independent,Under $30k,Northeast,39.419028281063504
+95,80,Bachelor's,Republican,Under $30k,South,20.4508672387785
+96,79,Some College,Democrat,$30k-$60k,West,40.01301179594245
+97,73,Bachelor's,Republican,$60k-$100k,West,18.82120134106981
+98,54,Some College,Independent,$60k-$100k,South,49.78376654829285
+99,28,High School,Democrat,Under $30k,South,33.60002763327435
+100,26,Bachelor's,Republican,Over $100k,Northeast,36.04326865851574
+101,53,Some College,Republican,$60k-$100k,Northeast,40.71630718416997
+102,27,Graduate,Republican,$60k-$100k,Midwest,26.156802659294495
+103,75,Graduate,Democrat,$60k-$100k,West,31.86931192628832
+104,63,Graduate,Independent,$30k-$60k,West,17.665654841968724
+105,18,Some College,Independent,$30k-$60k,West,15.570003852617534
+106,67,High School,Democrat,$60k-$100k,South,41.22370712426927
+107,72,Bachelor's,Democrat,$30k-$60k,South,38.24757314493119
+108,78,High School,Republican,Under $30k,Midwest,17.434188320955542
+109,30,High School,Democrat,$30k-$60k,South,54.340165378182235
+110,64,High School,Democrat,Over $100k,South,17.42977467693748
+111,64,High School,Democrat,Under $30k,Northeast,20.15009398476622
+112,76,Some College,Democrat,Under $30k,Midwest,34.88610981344385
+113,79,Some College,Democrat,$30k-$60k,West,36.53188162361451
+114,50,Bachelor's,Democrat,Over $100k,South,44.90962129038436
+115,79,Some College,Republican,$60k-$100k,Northeast,47.619065109779235
+116,31,Some College,Republican,Over $100k,Midwest,26.862687105048547
+117,84,Graduate,Democrat,$30k-$60k,South,58.28962692162937
+118,48,Graduate,Independent,Under $30k,South,14.534394980292607
+119,25,High School,Republican,Under $30k,West,10.60404918148214
+120,63,Graduate,Democrat,Over $100k,Northeast,37.373523323468525
+121,77,Bachelor's,Republican,$30k-$60k,West,42.07088164723085
+122,79,High School,Democrat,$60k-$100k,Midwest,42.76784361993108
+123,83,Bachelor's,Republican,Under $30k,Northeast,22.497602500770828
+124,18,High School,Independent,$60k-$100k,Midwest,5.750418264753325
+125,55,Bachelor's,Republican,Under $30k,Midwest,39.44777147994509
+126,73,Graduate,Democrat,$30k-$60k,Midwest,54.860289494384226
+127,32,Bachelor's,Republican,Under $30k,Midwest,26.654644890124256
+128,27,Some College,Republican,Under $30k,Midwest,4.7776777892081626
+129,21,Graduate,Republican,$60k-$100k,West,28.001943954386753
+130,57,High School,Independent,$60k-$100k,South,20.068047039835733
+131,51,High School,Independent,Over $100k,South,29.185936029957087
+132,84,Graduate,Independent,Under $30k,Midwest,27.82777132280084
+133,80,High School,Republican,$30k-$60k,South,4.8316739803737505
+134,84,Bachelor's,Independent,$30k-$60k,Midwest,10.676995350814128
+135,76,Bachelor's,Independent,Under $30k,Northeast,34.55508061431107
+136,62,High School,Republican,$60k-$100k,Midwest,24.782157884449422
+137,74,Bachelor's,Republican,$30k-$60k,Northeast,31.583397074727785
+138,29,High School,Democrat,Under $30k,South,35.51628293209218
+139,48,High School,Democrat,$60k-$100k,Midwest,48.188546769624985
+140,57,High School,Republican,Under $30k,Midwest,34.2100225815208
+141,25,Some College,Democrat,Over $100k,South,49.37308106731094
+142,41,Some College,Independent,Under $30k,West,0
+143,80,Some College,Republican,$60k-$100k,Midwest,16.446916554168443
+144,26,Bachelor's,Republican,Under $30k,Midwest,35.577453375055654
+145,49,Graduate,Independent,Over $100k,Northeast,54.51616640529973
+146,32,Some College,Independent,Over $100k,South,31.38094036370513
+147,59,Some College,Democrat,$30k-$60k,Midwest,48.004222917370704
+148,83,Bachelor's,Republican,$30k-$60k,South,24.9026955640823
+149,37,Bachelor's,Democrat,$30k-$60k,South,60.15440333826953
+150,48,Some College,Independent,$60k-$100k,Midwest,2.80838400287713
+151,43,High School,Democrat,Under $30k,South,29.510505832013955
+152,40,High School,Independent,Over $100k,South,42.70543757712358
+153,76,High School,Independent,$60k-$100k,South,24.999225386590563
+154,37,High School,Democrat,Under $30k,West,41.30282799160931
+155,45,Some College,Democrat,Under $30k,South,5.314489194012893
+156,33,Bachelor's,Republican,$30k-$60k,West,36.96588304973295
+157,48,High School,Democrat,Under $30k,South,37.473533482416975
+158,83,High School,Democrat,$60k-$100k,South,36.61651126247739
+159,54,High School,Democrat,Under $30k,West,43.04701648800979
+160,83,Some College,Democrat,$60k-$100k,West,11.72759567954192
+161,60,Bachelor's,Independent,$30k-$60k,Northeast,14.015674469994325
+162,38,Graduate,Democrat,Over $100k,West,21.28385854672652
+163,53,Bachelor's,Independent,Over $100k,West,39.31571978246417
+164,21,Graduate,Democrat,Under $30k,Northeast,35.33573734722724
+165,37,Some College,Democrat,$60k-$100k,South,33.48302907311063
+166,23,High School,Republican,$60k-$100k,South,23.25338614395446
+167,44,Graduate,Independent,$60k-$100k,West,33.58436045012617
+168,82,Bachelor's,Republican,Under $30k,South,48.1231845698752
+169,24,Graduate,Independent,$60k-$100k,Midwest,10.386459790235264
+170,53,Graduate,Independent,$30k-$60k,South,25.626237321217936
+171,34,Bachelor's,Republican,$30k-$60k,Midwest,17.815775478198262
+172,50,Bachelor's,Democrat,Under $30k,South,36.328400154318146
+173,66,Some College,Democrat,Under $30k,Northeast,45.904336615073
+174,71,Bachelor's,Republican,Over $100k,South,41.85208983426706
+175,38,Some College,Republican,$30k-$60k,West,18.15426562178814
+176,84,Graduate,Republican,$60k-$100k,South,17.980649402551688
+177,24,High School,Independent,$60k-$100k,Northeast,20.05219146711092
+178,71,High School,Democrat,$30k-$60k,Midwest,40.187365540240634
+179,32,High School,Republican,Under $30k,Midwest,22.22721562467723
+180,38,Some College,Democrat,Over $100k,South,60.625641535926086
+181,24,Bachelor's,Democrat,$60k-$100k,Northeast,16.053858402245922
+182,82,High School,Republican,$30k-$60k,Northeast,15.608504802939585
+183,75,Some College,Independent,Under $30k,West,55.588496721003544
+184,64,Bachelor's,Democrat,Over $100k,South,18.326391649474175
+185,35,Graduate,Democrat,$30k-$60k,South,26.25910879766076
+186,47,Some College,Republican,$30k-$60k,South,0.8715132209138439
+187,76,Some College,Republican,$30k-$60k,West,28.128534863883978
+188,75,High School,Republican,Under $30k,Northeast,33.45553700648261
+189,41,Some College,Republican,Over $100k,Midwest,29.26004877646779
+190,41,High School,Republican,$30k-$60k,South,43.409791799050176
+191,70,Bachelor's,Republican,$30k-$60k,Northeast,7.972518326845812
+192,51,High School,Independent,$30k-$60k,Midwest,30.129707595536534
+193,24,Graduate,Democrat,$30k-$60k,South,41.93326016417083
+194,56,High School,Independent,$30k-$60k,Midwest,18.619359222416538
+195,70,Graduate,Republican,Under $30k,Northeast,22.914802770671386
+196,51,High School,Democrat,$30k-$60k,West,62.81641757885839
+197,50,Some College,Independent,$60k-$100k,Northeast,19.953960505965014
+198,26,Some College,Democrat,Under $30k,West,17.484271795103908
+199,49,High School,Democrat,Under $30k,West,18.19803644472774
+200,22,Bachelor's,Republican,Under $30k,Northeast,19.667531929294885
+201,39,Some College,Independent,Under $30k,Northeast,27.799464701212305
+202,69,High School,Democrat,Under $30k,Northeast,31.60459441310735
+203,85,Some College,Republican,Under $30k,Northeast,7.878909451453051
+204,60,Graduate,Republican,Under $30k,West,60.54858379708684
+205,73,High School,Independent,$30k-$60k,South,5.189610595727494
+206,56,Bachelor's,Independent,$60k-$100k,South,42.30713426403639
+207,75,Bachelor's,Republican,$30k-$60k,South,20.52566918008915
+208,19,Some College,Democrat,Over $100k,South,15.7948571831324
+209,54,Bachelor's,Democrat,Over $100k,Midwest,42.782692760028375
+210,27,Bachelor's,Democrat,Under $30k,South,28.75924956555844
+211,83,Bachelor's,Democrat,Over $100k,West,48.37305969628403
+212,78,High School,Democrat,$30k-$60k,South,30.62322845839077
+213,36,High School,Independent,$60k-$100k,Midwest,26.134530323042476
+214,50,High School,Democrat,$30k-$60k,West,41.967440627911216
+215,65,High School,Democrat,$30k-$60k,Northeast,49.463107403927495
+216,33,Some College,Democrat,$30k-$60k,South,33.922681363383184
+217,41,Graduate,Republican,Over $100k,Midwest,38.058885229229574
+218,75,Some College,Republican,$60k-$100k,South,17.454888166907114
+219,27,Graduate,Republican,$30k-$60k,West,14.352994125223885
+220,31,High School,Democrat,$30k-$60k,West,58.361199597149884
+221,43,Bachelor's,Independent,Under $30k,South,44.00731425935879
+222,58,Bachelor's,Independent,Under $30k,South,20.733845989914087
+223,61,High School,Independent,$60k-$100k,Northeast,7.748614950806603
+224,48,Graduate,Democrat,$60k-$100k,Midwest,41.61786354489884
+225,26,High School,Democrat,$60k-$100k,West,36.860521086818906
+226,76,High School,Independent,$30k-$60k,Northeast,35.477931720580756
+227,70,Graduate,Independent,$30k-$60k,South,15.724180711070783
+228,37,Some College,Democrat,Under $30k,Northeast,32.869695513906144
+229,76,Some College,Independent,$60k-$100k,South,26.96861239997261
+230,68,Bachelor's,Independent,Over $100k,South,21.089578004253585
+231,74,High School,Republican,$30k-$60k,Northeast,20.24377717476397
+232,27,Some College,Democrat,Over $100k,Midwest,18.352009063499267
+233,23,High School,Democrat,$30k-$60k,Midwest,34.97732519505111
+234,58,Bachelor's,Independent,Under $30k,South,33.025177912187424
+235,49,Bachelor's,Democrat,$30k-$60k,Midwest,47.19043759753237
+236,73,Bachelor's,Democrat,Under $30k,West,35.85039871027992
+237,66,High School,Democrat,Over $100k,South,40.55573597815431
+238,40,Graduate,Democrat,$60k-$100k,West,33.37360370331641
+239,50,High School,Independent,$30k-$60k,Northeast,15.238486203576711
+240,27,High School,Democrat,Over $100k,Midwest,39.623860620894916
+241,40,High School,Independent,Under $30k,South,22.18065158599486
+242,80,High School,Republican,$60k-$100k,South,31.665719118840688
+243,79,High School,Independent,$60k-$100k,Midwest,44.67756147292907
+244,25,Some College,Republican,$60k-$100k,West,11.147538697640908
+245,24,Some College,Republican,Under $30k,South,10.547086469022318
+246,18,High School,Democrat,$60k-$100k,South,50.514224225339014
+247,56,Bachelor's,Independent,$30k-$60k,South,8.270681270845113
+248,83,High School,Independent,$30k-$60k,South,29.04574158537521
+249,82,Bachelor's,Democrat,Under $30k,Midwest,40.993839770174546
+250,82,Graduate,Democrat,$60k-$100k,Northeast,55.21174583720597
+251,50,Some College,Republican,$60k-$100k,Northeast,17.445709407021084
+252,67,High School,Democrat,$60k-$100k,West,31.44232192314637
+253,29,Bachelor's,Independent,$30k-$60k,South,35.378563652619576
+254,51,Graduate,Republican,$30k-$60k,South,0
+255,35,Some College,Independent,Over $100k,South,26.693426366849515
+256,44,Graduate,Independent,$30k-$60k,South,24.36243319414487
+257,62,Graduate,Democrat,Under $30k,West,46.22449268115392
+258,22,Some College,Independent,$60k-$100k,West,0
+259,58,Bachelor's,Independent,Under $30k,South,3.6796182040525913
+260,44,Graduate,Democrat,Under $30k,South,32.058611418625915
+261,85,High School,Republican,Over $100k,South,30.000262897230694
+262,58,High School,Democrat,$30k-$60k,South,26.25707514524288
+263,42,Bachelor's,Independent,Under $30k,Midwest,7.375962218312628
+264,77,High School,Republican,Over $100k,Midwest,18.162746844233002
+265,77,Some College,Republican,$60k-$100k,South,30.124116830827496
+266,70,High School,Democrat,Under $30k,Northeast,43.1755282790836
+267,29,Bachelor's,Democrat,$60k-$100k,South,38.295802426372724
+268,42,Bachelor's,Republican,$60k-$100k,West,22.379886358179608
+269,58,High School,Republican,Over $100k,Northeast,22.060475704662803
+270,52,High School,Democrat,$30k-$60k,Midwest,38.36009270331431
+271,20,High School,Democrat,$30k-$60k,West,41.741363098958544
+272,65,Some College,Republican,$60k-$100k,South,8.974829807548165
+273,74,Some College,Republican,Over $100k,West,34.72955909858054
+274,58,Some College,Independent,$30k-$60k,West,27.30463753465385
+275,78,Some College,Independent,$60k-$100k,South,32.89861472615031
+276,60,High School,Democrat,$30k-$60k,South,40.021659538101524
+277,51,High School,Independent,$60k-$100k,Northeast,38.22141419814325
+278,42,Graduate,Republican,Under $30k,South,37.210751268349
+279,36,High School,Independent,$30k-$60k,South,14.42165336061623
+280,33,Some College,Republican,$30k-$60k,South,28.78026511185715
+281,76,Bachelor's,Republican,$30k-$60k,South,15.06963821040577
+282,24,High School,Democrat,$30k-$60k,West,15.177547329385526
+283,52,Graduate,Independent,Under $30k,Northeast,17.107653615306013
+284,80,Bachelor's,Independent,$30k-$60k,South,34.01018856324976
+285,54,High School,Republican,Under $30k,South,33.11649511113876
+286,84,Bachelor's,Democrat,$30k-$60k,West,51.105443426075176
+287,78,High School,Republican,Under $30k,Midwest,20.7762515646542
+288,40,Bachelor's,Independent,$30k-$60k,South,8.648314743011095
+289,69,High School,Republican,Under $30k,South,27.248671680456976
+290,54,Graduate,Democrat,Under $30k,West,41.73604795691966
+291,24,High School,Democrat,$60k-$100k,South,28.997550511513072
+292,20,Some College,Republican,$30k-$60k,Midwest,29.66856149036291
+293,32,High School,Democrat,Over $100k,South,34.793729374356374
+294,61,Graduate,Democrat,Under $30k,Northeast,32.79855955967487
+295,49,High School,Independent,$60k-$100k,South,21.96859348686588
+296,44,High School,Independent,Over $100k,South,3.0377158615742132
+297,55,Some College,Independent,$60k-$100k,Northeast,16.34676287810771
+298,69,Bachelor's,Republican,Under $30k,South,30.1473015510055
+299,46,Bachelor's,Democrat,Under $30k,Midwest,12.911249050292128
+300,51,Some College,Democrat,$60k-$100k,Northeast,41.30708544945976
+301,18,Some College,Republican,$60k-$100k,West,20.05241704756041
+302,24,High School,Independent,$30k-$60k,Northeast,14.033609222866389
+303,71,High School,Democrat,$30k-$60k,South,29.250596791996625
+304,73,Some College,Independent,$30k-$60k,West,33.9838516053905
+305,78,High School,Independent,$30k-$60k,South,35.184704594072116
+306,61,High School,Independent,Under $30k,Midwest,15.780785946306565
+307,80,High School,Republican,$60k-$100k,South,10.31755157165395
+308,51,Some College,Republican,Under $30k,West,19.824045968860315
+309,26,Graduate,Democrat,Over $100k,Northeast,39.28762982980059
+310,33,High School,Democrat,$30k-$60k,South,40.40612355592616
+311,69,Graduate,Independent,$60k-$100k,South,31.62254725953141
+312,62,Some College,Republican,$60k-$100k,Northeast,40.626413708653686
+313,73,Some College,Independent,Over $100k,South,36.83750958023467
+314,18,Bachelor's,Republican,$60k-$100k,West,8.761778378373037
+315,58,Some College,Democrat,$30k-$60k,South,26.92782087675977
+316,75,Bachelor's,Independent,$60k-$100k,West,22.43621948830609
+317,27,Bachelor's,Republican,Under $30k,West,19.742238411370746
+318,85,High School,Independent,$60k-$100k,Northeast,25.38581763975001
+319,52,Some College,Democrat,$30k-$60k,South,63.77025077349453
+320,42,Bachelor's,Democrat,$60k-$100k,West,39.95697619847224
+321,20,Some College,Republican,$30k-$60k,Midwest,23.82708645303605
+322,60,Some College,Independent,$30k-$60k,Northeast,40.41123363067539
+323,18,High School,Independent,Over $100k,Northeast,32.02047331129177
+324,56,Some College,Republican,$30k-$60k,South,50.530605418859025
+325,30,Bachelor's,Independent,$30k-$60k,Midwest,17.14899089474158
+326,22,Bachelor's,Democrat,$30k-$60k,South,50.68930822705363
+327,50,Bachelor's,Independent,Under $30k,West,8.624806899068943
+328,25,Bachelor's,Democrat,$30k-$60k,West,15.723593390768155
+329,38,High School,Independent,Under $30k,South,22.466615883682387
+330,18,High School,Democrat,Under $30k,Midwest,24.270590317173856
+331,29,Graduate,Independent,Under $30k,South,31.213354198707755
+332,43,Some College,Republican,$60k-$100k,West,19.36507221588425
+333,43,High School,Democrat,$30k-$60k,Midwest,38.451175035762084
+334,71,Some College,Republican,Over $100k,West,37.5481259040325
+335,40,High School,Independent,$30k-$60k,Midwest,3.179790194723026
+336,74,Bachelor's,Democrat,Over $100k,Midwest,56.60089108794631
+337,42,Bachelor's,Republican,Under $30k,South,37.75508452819364
+338,25,High School,Independent,$60k-$100k,West,25.42736444836645
+339,21,Bachelor's,Democrat,$60k-$100k,South,35.434612390801185
+340,76,High School,Republican,Over $100k,South,24.909051752589743
+341,41,Graduate,Republican,$60k-$100k,South,56.32477781664838
+342,37,Bachelor's,Republican,$30k-$60k,Northeast,23.827295480861974
+343,79,Some College,Independent,$30k-$60k,Northeast,7.23490690976063
+344,66,High School,Republican,Over $100k,Midwest,20.06167365336907
+345,45,Bachelor's,Democrat,$60k-$100k,Northeast,56.085744259424054
+346,54,High School,Republican,$30k-$60k,Midwest,25.667624759905294
+347,29,Some College,Republican,$30k-$60k,West,39.92116609221815
+348,50,Graduate,Independent,$60k-$100k,South,21.10266354651115
+349,76,Bachelor's,Democrat,Over $100k,Midwest,39.32475082228067
+350,80,High School,Democrat,$30k-$60k,Midwest,54.47160149693612
+351,52,Bachelor's,Republican,$30k-$60k,South,38.969503041583664
+352,73,High School,Republican,Over $100k,Midwest,31.32161209977791
+353,56,Bachelor's,Republican,$60k-$100k,Midwest,35.92689836870255
+354,47,Graduate,Republican,Over $100k,South,26.01083236799013
+355,58,Graduate,Independent,$30k-$60k,South,21.74266404661926
+356,74,Bachelor's,Independent,$30k-$60k,South,39.49380482517173
+357,51,Bachelor's,Republican,Under $30k,South,17.142573352254452
+358,59,High School,Republican,Under $30k,South,39.31626180201839
+359,42,Some College,Democrat,$60k-$100k,South,48.261050109941124
+360,18,High School,Independent,$30k-$60k,West,3.8373943092850347
+361,48,Bachelor's,Democrat,$60k-$100k,West,29.252347018298085
+362,58,Bachelor's,Republican,$30k-$60k,Northeast,40.74001006486082
+363,35,Bachelor's,Republican,$30k-$60k,West,14.598792461803185
+364,80,Bachelor's,Republican,Over $100k,Midwest,45.056310023921725
+365,83,High School,Independent,Under $30k,South,3.557604020109757
+366,28,Some College,Republican,Under $30k,South,3.0524599131226466
+367,31,Some College,Democrat,$60k-$100k,South,19.371961514374238
+368,84,Some College,Democrat,Under $30k,South,50.139178648092326
+369,44,Bachelor's,Democrat,Under $30k,South,46.63723705886449
+370,65,Some College,Democrat,$60k-$100k,South,39.245409645195295
+371,57,High School,Democrat,Under $30k,West,37.664412057866635
+372,57,Bachelor's,Republican,Under $30k,West,8.009723028280039
+373,25,Some College,Democrat,Under $30k,Midwest,25.340653988783046
+374,81,Bachelor's,Democrat,Over $100k,Midwest,38.49411317413525
+375,63,Bachelor's,Democrat,$60k-$100k,Midwest,31.334061468309446
+376,52,High School,Republican,$60k-$100k,West,29.62594701461269
+377,63,Some College,Republican,Over $100k,West,32.12767627295606
+378,39,Bachelor's,Republican,$60k-$100k,Northeast,42.43728545210536
+379,63,High School,Independent,$60k-$100k,South,0
+380,35,Some College,Independent,$60k-$100k,Northeast,37.43609690617973
+381,62,Some College,Democrat,Over $100k,Midwest,26.718621582641912
+382,18,Bachelor's,Democrat,$30k-$60k,South,35.06362069226558
+383,36,Bachelor's,Democrat,$30k-$60k,Midwest,39.85058424573809
+384,29,High School,Democrat,Over $100k,Northeast,34.94501457068207
+385,81,Graduate,Republican,$30k-$60k,Midwest,41.86337873993316
+386,28,Bachelor's,Democrat,Under $30k,Midwest,17.60536836187478
+387,24,Bachelor's,Democrat,$60k-$100k,Northeast,19.051039613488133
+388,82,Some College,Republican,Under $30k,West,31.96935545594578
+389,65,Some College,Democrat,$60k-$100k,Northeast,53.11315648291826
+390,22,Bachelor's,Republican,Over $100k,West,14.622392421552433
+391,53,Bachelor's,Democrat,$60k-$100k,South,40.19393465812028
+392,50,Bachelor's,Democrat,Over $100k,Midwest,24.543027341047033
+393,32,Some College,Independent,Over $100k,South,43.871484828837225
+394,40,Some College,Democrat,$30k-$60k,Midwest,25.04542495680064
+395,74,Graduate,Independent,$60k-$100k,Midwest,46.555849445378556
+396,22,High School,Independent,Under $30k,South,16.658938200511553
+397,63,Graduate,Republican,Over $100k,Midwest,40.02582784133328
+398,33,High School,Republican,$60k-$100k,South,21.71204053957826
+399,66,Bachelor's,Republican,$60k-$100k,South,44.52679186313007
+400,29,High School,Republican,$30k-$60k,South,34.20321595681884
+401,30,High School,Independent,$30k-$60k,Midwest,30.867949459044436
+402,28,Bachelor's,Democrat,Over $100k,Midwest,21.668815777471547
+403,54,High School,Republican,Over $100k,South,29.357534753322113
+404,65,Bachelor's,Democrat,$30k-$60k,West,44.31785543716894
+405,45,Some College,Independent,$30k-$60k,South,17.21562613443752
+406,64,High School,Democrat,$30k-$60k,South,31.089970096468054
+407,45,High School,Democrat,$30k-$60k,South,25.47800741457481
+408,61,Bachelor's,Republican,Over $100k,South,32.69611133665682
+409,21,Bachelor's,Independent,$30k-$60k,Midwest,13.750436233727473
+410,69,Bachelor's,Independent,Over $100k,South,23.186380198995742
+411,20,Some College,Independent,Under $30k,West,21.81165347079288
+412,52,Graduate,Independent,$30k-$60k,Northeast,30.612234590549335
+413,59,High School,Republican,Over $100k,Northeast,27.73283208372561
+414,46,Some College,Republican,Under $30k,Northeast,38.79334699943418
+415,64,Some College,Republican,Over $100k,Northeast,15.68174284181216
+416,50,Bachelor's,Democrat,$60k-$100k,Northeast,40.37495997960726
+417,68,High School,Democrat,Under $30k,Northeast,47.297962490019145
+418,43,High School,Independent,$30k-$60k,West,37.36834915125394
+419,24,High School,Democrat,$30k-$60k,West,21.767441502737007
+420,63,Graduate,Republican,Under $30k,West,28.711627253138147
+421,75,Bachelor's,Independent,Under $30k,South,38.27221809971475
+422,74,Bachelor's,Democrat,Under $30k,Northeast,33.93102851187853
+423,47,Graduate,Republican,$60k-$100k,South,25.162486647958314
+424,58,Bachelor's,Democrat,Under $30k,Northeast,57.30226543458914
+425,31,Graduate,Independent,Over $100k,South,0
+426,58,Some College,Republican,Under $30k,South,30.186324777406764
+427,25,Some College,Independent,Over $100k,South,21.525795401243425
+428,74,High School,Independent,$30k-$60k,South,19.420143338355174
+429,64,Some College,Independent,$30k-$60k,South,11.648265455191158
+430,58,High School,Republican,$60k-$100k,Midwest,27.21984005047897
+431,19,Some College,Democrat,$30k-$60k,Northeast,43.45321339374687
+432,70,High School,Democrat,$60k-$100k,South,44.43225369387215
+433,81,Bachelor's,Republican,Under $30k,South,21.78863511527768
+434,58,High School,Independent,Under $30k,West,18.215086997518537
+435,76,Some College,Democrat,$30k-$60k,South,35.3737645483474
+436,18,Bachelor's,Democrat,Over $100k,South,18.89458232124854
+437,66,Some College,Independent,$60k-$100k,South,50.99556025852169
+438,73,Graduate,Democrat,$60k-$100k,Midwest,44.24149728616147
+439,56,Some College,Democrat,$30k-$60k,Midwest,38.056586731944186
+440,70,Some College,Republican,Over $100k,Northeast,38.43488754021158
+441,52,Graduate,Independent,$30k-$60k,Midwest,38.55596549441057
+442,33,Some College,Democrat,$30k-$60k,Midwest,28.09064235528276
+443,53,High School,Republican,$30k-$60k,Midwest,13.466603191707208
+444,20,Some College,Independent,$60k-$100k,Northeast,27.77791081217992
+445,36,Some College,Democrat,$30k-$60k,West,52.06377890090625
+446,76,Graduate,Independent,$60k-$100k,Midwest,50.13161241595448
+447,22,High School,Democrat,$30k-$60k,Midwest,13.777184630567884
+448,52,Bachelor's,Republican,$30k-$60k,Midwest,49.94097927115868
+449,19,High School,Democrat,Under $30k,Northeast,40.350702328508014
+450,64,Graduate,Democrat,Under $30k,West,48.715699083054616
+451,41,Graduate,Republican,$30k-$60k,Midwest,29.93272530823997
+452,81,Bachelor's,Independent,Under $30k,West,23.634070610181876
+453,48,Some College,Independent,$60k-$100k,Northeast,15.422379475576362
+454,59,Some College,Independent,$60k-$100k,Midwest,15.905409273915666
+455,33,Bachelor's,Democrat,$30k-$60k,Midwest,43.882120384025406
+456,66,Some College,Republican,Under $30k,West,8.418515221911598
+457,38,High School,Independent,$30k-$60k,South,13.53437948009313
+458,32,Graduate,Independent,Under $30k,Northeast,24.620228669252967
+459,52,Some College,Republican,$60k-$100k,Northeast,33.9091389486334
+460,44,Bachelor's,Independent,$30k-$60k,West,32.49467680186065
+461,76,High School,Independent,Under $30k,Midwest,24.441824825055374
+462,81,Some College,Independent,Over $100k,South,21.258640667374603
+463,41,High School,Independent,Under $30k,West,28.16054860939095
+464,61,High School,Democrat,$60k-$100k,Midwest,13.6252144499453
+465,24,Some College,Democrat,$30k-$60k,South,37.83953835296938
+466,65,Bachelor's,Republican,Under $30k,South,40.3807501192703
+467,50,Some College,Democrat,Under $30k,West,23.86468751891115
+468,75,High School,Republican,Under $30k,Northeast,20.91706668091966
+469,60,High School,Independent,Under $30k,South,7.582749536732612
+470,80,High School,Republican,Over $100k,South,25.965674089322782
+471,27,Bachelor's,Democrat,$30k-$60k,South,22.993772480973224
+472,41,Some College,Democrat,$30k-$60k,South,32.237697766662
+473,79,Bachelor's,Republican,$30k-$60k,Northeast,46.05623425841975
+474,21,Some College,Democrat,$60k-$100k,Northeast,32.50505157100298
+475,85,Bachelor's,Independent,Under $30k,South,38.34472238260574
+476,58,High School,Republican,Over $100k,Midwest,32.63156361009375
+477,41,Graduate,Independent,$60k-$100k,Midwest,22.860029055068544
+478,77,High School,Democrat,$30k-$60k,South,25.656815258991752
+479,39,High School,Independent,$30k-$60k,West,0
+480,84,Graduate,Republican,$30k-$60k,South,30.898702450504683
+481,43,High School,Republican,Under $30k,South,33.68712522807861
+482,53,Some College,Independent,$60k-$100k,West,17.584551058931023
+483,46,High School,Republican,$60k-$100k,West,25.271728171508304
+484,67,Graduate,Democrat,$30k-$60k,Midwest,45.192002469473856
+485,78,Graduate,Democrat,$60k-$100k,West,26.540279513949617
+486,25,Bachelor's,Independent,Over $100k,Northeast,42.966003178583314
+487,72,Some College,Republican,$60k-$100k,South,28.33590828431977
+488,73,Bachelor's,Republican,$30k-$60k,South,29.098775794922275
+489,73,High School,Independent,$30k-$60k,West,39.820412090700884
+490,36,Some College,Republican,$60k-$100k,South,43.61352599514715
+491,55,Bachelor's,Independent,$30k-$60k,South,12.482072234720478
+492,70,High School,Independent,Over $100k,West,20.15518259983248
+493,60,Some College,Republican,$30k-$60k,South,7.0252398342722415
+494,20,Graduate,Republican,Under $30k,West,13.127650775271773
+495,85,Some College,Democrat,Under $30k,West,46.9630033823075
+496,38,Bachelor's,Democrat,$30k-$60k,South,50.215539930203704
+497,76,Bachelor's,Republican,$30k-$60k,Northeast,40.5473310985043
+498,85,Graduate,Democrat,$30k-$60k,West,41.63610509403917
+499,62,Graduate,Independent,Over $100k,West,32.33653459373775
+500,78,Bachelor's,Independent,$30k-$60k,South,42.59724727135411
+501,64,Graduate,Independent,Over $100k,Midwest,24.539199516779863
+502,21,Bachelor's,Independent,$60k-$100k,West,20.459224397996714
+503,70,Bachelor's,Republican,Under $30k,South,16.17446104574713
+504,19,Some College,Republican,$30k-$60k,South,12.063949595230108
+505,18,Bachelor's,Independent,$30k-$60k,Northeast,12.787547268175356
+506,79,High School,Democrat,$60k-$100k,Midwest,20.938067755659667
+507,24,Bachelor's,Democrat,$30k-$60k,West,5.566593710497084
+508,24,Some College,Independent,$30k-$60k,Northeast,20.027810677286887
+509,59,Some College,Independent,$30k-$60k,Midwest,0
+510,24,Bachelor's,Republican,$60k-$100k,South,34.30989490617827
+511,48,Bachelor's,Republican,$30k-$60k,South,24.5806149086867
+512,70,High School,Republican,$30k-$60k,South,39.46389664852232
+513,74,Graduate,Democrat,$30k-$60k,South,61.774739949707666
+514,49,Some College,Democrat,Under $30k,South,39.733130838694215
+515,26,Bachelor's,Republican,$60k-$100k,Midwest,38.68907808206866
+516,51,High School,Democrat,$60k-$100k,South,25.1302966620784
+517,42,Some College,Republican,Over $100k,South,38.33985716382026
+518,51,Graduate,Democrat,$60k-$100k,West,32.061342275985055
+519,29,Graduate,Democrat,$30k-$60k,Northeast,40.64846329063618
+520,24,Bachelor's,Independent,Under $30k,South,18.893692091147738
+521,35,Bachelor's,Democrat,Under $30k,Northeast,17.29661610031149
+522,59,Some College,Democrat,Under $30k,Northeast,18.430662310868765
+523,59,Some College,Democrat,$30k-$60k,Midwest,24.337320256072864
+524,40,High School,Independent,$60k-$100k,Midwest,32.603107903711134
+525,79,High School,Republican,$30k-$60k,West,23.162062548053665
+526,50,High School,Democrat,$30k-$60k,Midwest,44.06280140886618
+527,49,Some College,Democrat,$60k-$100k,Northeast,37.12301608597923
+528,46,Some College,Republican,$30k-$60k,Northeast,34.306899911431444
+529,76,High School,Democrat,$60k-$100k,South,37.07184005669026
+530,21,Some College,Democrat,$30k-$60k,West,19.19009112246472
+531,42,Bachelor's,Independent,Under $30k,West,20.477024335653383
+532,45,High School,Independent,Under $30k,South,26.551316655000093
+533,19,Some College,Republican,Under $30k,Midwest,13.13016558578989
+534,70,High School,Independent,Under $30k,South,21.582529227408532
+535,27,Some College,Independent,Under $30k,Midwest,6.668734481910263
+536,28,High School,Republican,$60k-$100k,Midwest,41.73981035964151
+537,53,Some College,Democrat,$30k-$60k,Northeast,20.338721151522556
+538,65,Some College,Republican,$30k-$60k,West,27.211778668034917
+539,85,Bachelor's,Independent,$60k-$100k,Midwest,35.52253382846553
+540,80,High School,Republican,$60k-$100k,South,27.848247955621485
+541,51,Bachelor's,Independent,$30k-$60k,Midwest,11.843738957929961
+542,29,High School,Democrat,$30k-$60k,South,36.95468957610605
+543,37,Some College,Democrat,$30k-$60k,West,36.016077785539494
+544,23,Bachelor's,Democrat,Under $30k,Northeast,46.16994234748
+545,47,High School,Independent,$30k-$60k,South,15.607331948997356
+546,82,Some College,Democrat,$60k-$100k,Northeast,8.22240488046586
+547,23,Some College,Independent,$30k-$60k,West,30.22827303436626
+548,80,Graduate,Independent,Under $30k,South,40.395627285656644
+549,62,Bachelor's,Democrat,$30k-$60k,South,22.051693736630074
+550,30,High School,Democrat,$60k-$100k,West,39.86272559412006
+551,45,Bachelor's,Independent,$30k-$60k,Northeast,16.018401704024043
+552,85,Some College,Democrat,Under $30k,South,22.941292121663018
+553,52,Graduate,Independent,$60k-$100k,Northeast,27.392540876799263
+554,68,Bachelor's,Independent,Under $30k,Northeast,26.045006048467823
+555,82,Bachelor's,Republican,$30k-$60k,Northeast,23.533138160013454
+556,74,Bachelor's,Democrat,Under $30k,West,35.926973397801284
+557,51,Some College,Republican,Over $100k,South,26.56404403563858
+558,45,Graduate,Democrat,$60k-$100k,South,37.93805078527742
+559,71,Graduate,Republican,Over $100k,West,53.241361284903704
+560,28,High School,Independent,$30k-$60k,South,0
+561,21,High School,Independent,Over $100k,Midwest,0
+562,71,Some College,Independent,$60k-$100k,West,1.6482339038062435
+563,49,High School,Democrat,Under $30k,West,13.49829512634598
+564,53,High School,Democrat,$60k-$100k,South,0
+565,81,Some College,Independent,Over $100k,South,14.839841552775193
+566,80,Some College,Independent,Under $30k,South,38.236445297975514
+567,73,Some College,Democrat,$60k-$100k,South,38.11988233088396
+568,82,Some College,Republican,Over $100k,South,12.187326319864681
+569,23,Some College,Democrat,Under $30k,West,30.019133532756232
+570,23,Bachelor's,Democrat,$60k-$100k,South,38.45679625590044
+571,64,Some College,Republican,$30k-$60k,South,36.018621204835966
+572,79,High School,Independent,$60k-$100k,South,40.28455570485206
+573,79,Graduate,Democrat,$30k-$60k,West,61.059691824254486
+574,71,Graduate,Democrat,Over $100k,West,51.559377784582985
+575,81,Bachelor's,Independent,$60k-$100k,Northeast,32.81827196928437
+576,47,Bachelor's,Independent,Under $30k,West,7.648934496126493
+577,39,Bachelor's,Republican,Over $100k,South,40.91250724780018
+578,84,Some College,Democrat,Over $100k,West,32.17693846877877
+579,46,Some College,Democrat,Under $30k,Northeast,27.910047018845262
+580,30,High School,Republican,$30k-$60k,West,34.505581060535576
+581,47,Some College,Democrat,$60k-$100k,South,32.492949585266764
+582,34,Bachelor's,Democrat,$30k-$60k,South,30.85732140876032
+583,21,Graduate,Democrat,Over $100k,South,17.751012177736655
+584,76,High School,Independent,Over $100k,Northeast,37.73935984803577
+585,39,High School,Independent,$60k-$100k,West,0
+586,42,Bachelor's,Democrat,$30k-$60k,South,27.99289284306422
+587,35,Some College,Republican,$30k-$60k,South,44.818847970669296
+588,63,High School,Democrat,$30k-$60k,Northeast,39.33268409493823
+589,29,Bachelor's,Democrat,$30k-$60k,Northeast,49.35894663899925
+590,35,High School,Republican,$30k-$60k,West,16.694355936892705
+591,57,High School,Republican,$30k-$60k,Northeast,18.932591549383393
+592,61,Bachelor's,Democrat,$60k-$100k,Northeast,47.154532529113105
+593,34,Bachelor's,Democrat,$30k-$60k,South,62.42344032471395
+594,22,High School,Republican,Under $30k,South,20.069818689432303
+595,72,Graduate,Democrat,Under $30k,Midwest,15.87829230476627
+596,60,Some College,Republican,Over $100k,South,33.33016050559339
+597,51,Some College,Democrat,$30k-$60k,South,25.083947818637192
+598,43,High School,Independent,$30k-$60k,Northeast,7.413426742678592
+599,45,Some College,Democrat,$60k-$100k,South,22.40660640289495
+600,55,Some College,Republican,Under $30k,West,23.17876742077814
+601,81,High School,Republican,$30k-$60k,West,15.766328240513378
+602,51,High School,Democrat,$30k-$60k,South,40.33006599971454
+603,79,High School,Democrat,$30k-$60k,Northeast,57.902526675166264
+604,74,Bachelor's,Democrat,$60k-$100k,Northeast,22.986392554968596
+605,18,Some College,Independent,$60k-$100k,South,33.25864193630582
+606,33,Some College,Democrat,$60k-$100k,South,45.738569262779606
+607,57,High School,Independent,$60k-$100k,South,12.810077018652343
+608,52,Bachelor's,Independent,$60k-$100k,South,17.277800245755053
+609,48,Some College,Independent,$60k-$100k,Midwest,14.147793781366811
+610,70,Some College,Democrat,Over $100k,Northeast,61.05369794345404
+611,52,High School,Independent,Over $100k,West,21.06981690156124
+612,22,Graduate,Republican,$30k-$60k,Northeast,26.362669822224646
+613,28,Graduate,Independent,$60k-$100k,Northeast,16.17626380831897
+614,21,Some College,Republican,$30k-$60k,West,12.107807071345968
+615,70,Some College,Democrat,Over $100k,South,52.887641464036655
+616,33,High School,Republican,Under $30k,Midwest,0.23797097488313312
+617,27,Some College,Republican,$30k-$60k,Midwest,23.190967279091357
+618,24,High School,Republican,$60k-$100k,Midwest,35.30591484853202
+619,80,Bachelor's,Republican,$60k-$100k,West,0
+620,85,Some College,Independent,Under $30k,Midwest,16.860512044433975
+621,82,Some College,Democrat,$60k-$100k,Midwest,47.74887100019829
+622,49,Bachelor's,Democrat,$30k-$60k,Northeast,53.30019764199235
+623,43,Bachelor's,Republican,$60k-$100k,Northeast,51.047365636064654
+624,22,Graduate,Independent,$30k-$60k,South,10.343628419737486
+625,75,High School,Democrat,$30k-$60k,West,23.690147351084683
+626,80,Bachelor's,Republican,Under $30k,Midwest,25.286186646434366
+627,34,Some College,Independent,Under $30k,Northeast,17.960738248996602
+628,42,Bachelor's,Democrat,$30k-$60k,South,60.29701079450214
+629,59,Graduate,Democrat,$30k-$60k,Northeast,38.19002952030583
+630,56,Graduate,Independent,$30k-$60k,Midwest,45.79806245886545
+631,43,Bachelor's,Republican,Under $30k,West,38.91351431679277
+632,27,High School,Democrat,Under $30k,Midwest,34.68424367638986
+633,57,High School,Republican,Over $100k,South,35.19338679982065
+634,77,Bachelor's,Republican,$60k-$100k,Midwest,25.285442526154487
+635,79,Bachelor's,Republican,$30k-$60k,South,20.22005911525266
+636,31,High School,Independent,$30k-$60k,Midwest,31.945201497434418
+637,22,High School,Independent,$30k-$60k,West,28.60139422710396
+638,37,Graduate,Democrat,Under $30k,South,46.44304036243284
+639,20,Bachelor's,Independent,$60k-$100k,Midwest,18.264616285439292
+640,74,High School,Independent,$30k-$60k,Northeast,18.648849645877558
+641,45,Some College,Democrat,$60k-$100k,Northeast,36.62126626884158
+642,43,Some College,Democrat,$30k-$60k,West,47.3518309437855
+643,55,Some College,Independent,Under $30k,South,37.093957332725594
+644,39,High School,Republican,$30k-$60k,Northeast,25.771379824298037
+645,38,High School,Democrat,$30k-$60k,Midwest,41.97250770710599
+646,26,Bachelor's,Independent,$30k-$60k,South,22.60463838541503
+647,25,Graduate,Republican,$30k-$60k,West,19.472378075119078
+648,76,Some College,Republican,Under $30k,Midwest,21.69713919769854
+649,22,Bachelor's,Republican,$60k-$100k,Midwest,37.85086007453244
+650,50,Some College,Republican,$60k-$100k,South,27.44914150469037
+651,64,Some College,Republican,$60k-$100k,Midwest,33.26123582594491
+652,74,Some College,Democrat,Over $100k,South,41.104603274323736
+653,55,High School,Democrat,$30k-$60k,South,15.110282435242688
+654,51,Some College,Independent,$60k-$100k,Midwest,25.533876978780583
+655,26,Some College,Republican,Under $30k,South,25.61631527617009
+656,72,Bachelor's,Independent,$30k-$60k,South,27.09973093923916
+657,61,Graduate,Democrat,Under $30k,Midwest,37.77150640462127
+658,53,Some College,Independent,$30k-$60k,Midwest,24.510520231242182
+659,43,Graduate,Republican,Under $30k,Northeast,37.52862408695957
+660,22,Bachelor's,Democrat,$30k-$60k,South,18.826843245533453
+661,49,Bachelor's,Republican,Under $30k,Midwest,42.645349054129454
+662,83,Bachelor's,Independent,$30k-$60k,Midwest,7.337501115006045
+663,20,High School,Democrat,Under $30k,Midwest,46.75460978003467
+664,51,Graduate,Independent,$30k-$60k,South,34.462155649055205
+665,46,Some College,Republican,$60k-$100k,South,21.319332605557626
+666,55,High School,Republican,$30k-$60k,West,33.362573944169405
+667,26,Some College,Independent,Over $100k,South,32.5761569082554
+668,59,Graduate,Democrat,$60k-$100k,South,41.31569697607181
+669,27,High School,Independent,$60k-$100k,South,23.63090500783283
+670,80,High School,Independent,$30k-$60k,South,24.208624001114877
+671,49,Graduate,Republican,$60k-$100k,South,18.251499616935615
+672,29,High School,Democrat,Under $30k,West,9.518893276086978
+673,80,Bachelor's,Republican,Over $100k,West,55.13784544957612
+674,64,High School,Republican,$30k-$60k,West,29.378332395271578
+675,24,Some College,Independent,$60k-$100k,South,28.679912755645777
+676,26,High School,Independent,$30k-$60k,Northeast,34.12034404169157
+677,20,Some College,Republican,$30k-$60k,South,18.22626601092109
+678,34,Bachelor's,Republican,$60k-$100k,Midwest,27.424463896171055
+679,57,High School,Republican,$60k-$100k,Midwest,53.93607332216387
+680,37,High School,Independent,Under $30k,Northeast,2.063701326265644
+681,41,Graduate,Independent,$30k-$60k,South,21.724999981489937
+682,55,Bachelor's,Democrat,Under $30k,Northeast,23.00988907717454
+683,72,High School,Democrat,$30k-$60k,South,47.196692589420486
+684,77,Some College,Independent,$60k-$100k,Northeast,33.94747431009982
+685,24,Graduate,Republican,$30k-$60k,West,42.50750268899962
+686,23,Bachelor's,Democrat,Under $30k,South,40.02400825031688
+687,47,High School,Democrat,$60k-$100k,South,14.088740945850162
+688,36,Some College,Republican,$30k-$60k,Northeast,2.9460861270690657
+689,43,Graduate,Republican,$30k-$60k,Northeast,25.125632570204278
+690,59,Bachelor's,Independent,Over $100k,South,16.52961785948943
+691,79,Some College,Independent,$30k-$60k,Northeast,17.55840960476185
+692,38,Bachelor's,Democrat,$30k-$60k,Northeast,60.16963202303294
+693,63,High School,Democrat,$30k-$60k,South,34.2458010894506
+694,61,Some College,Democrat,$60k-$100k,Midwest,27.573752401235737
+695,54,High School,Democrat,Over $100k,South,28.710690056003937
+696,44,Some College,Democrat,Under $30k,Northeast,41.69031079571807
+697,60,Some College,Democrat,$30k-$60k,South,29.692420760973228
+698,60,High School,Democrat,$60k-$100k,Midwest,39.90432133200351
+699,63,High School,Democrat,$30k-$60k,West,18.1623521143765
+700,80,High School,Republican,Under $30k,South,29.04502313093858
+701,23,Some College,Republican,Over $100k,West,14.59967565604227
+702,55,Bachelor's,Republican,$30k-$60k,Midwest,17.993917625487718
+703,25,Bachelor's,Republican,Under $30k,South,32.89084420317374
+704,62,High School,Republican,$30k-$60k,South,4.483772370297672
+705,46,Bachelor's,Democrat,Over $100k,Midwest,20.111415022054523
+706,83,Some College,Democrat,$60k-$100k,West,60.20522124280373
+707,36,Some College,Democrat,Under $30k,South,31.925352889538832
+708,71,High School,Republican,$60k-$100k,Midwest,21.688954453238964
+709,66,High School,Independent,$30k-$60k,Midwest,26.70991419717162
+710,40,High School,Republican,Under $30k,South,45.98123342753157
+711,40,Bachelor's,Democrat,Over $100k,Midwest,40.327568228708444
+712,31,High School,Democrat,Under $30k,South,35.15775303991479
+713,37,High School,Democrat,Over $100k,West,20.06904610860438
+714,27,Graduate,Democrat,Under $30k,Northeast,48.86405877048109
+715,67,High School,Independent,Over $100k,Midwest,0
+716,32,Graduate,Republican,Over $100k,West,42.83548588336404
+717,64,High School,Democrat,Over $100k,Midwest,28.449866994600868
+718,34,Bachelor's,Republican,$30k-$60k,Northeast,24.896565530833378
+719,67,Some College,Independent,Under $30k,Midwest,22.242158504700416
+720,31,High School,Republican,$30k-$60k,South,9.268306637740626
+721,75,Some College,Democrat,$30k-$60k,South,47.609763885595086
+722,83,High School,Independent,$30k-$60k,South,3.0865555293103064
+723,63,Bachelor's,Independent,Over $100k,Midwest,26.96268190737341
+724,33,Graduate,Republican,$60k-$100k,Midwest,30.166074956138072
+725,53,Some College,Republican,$60k-$100k,Northeast,24.666595521386792
+726,79,High School,Republican,Over $100k,West,19.544280738103478
+727,57,Bachelor's,Republican,Under $30k,South,37.159165114546695
+728,47,Bachelor's,Democrat,$30k-$60k,Midwest,28.68353617639189
+729,39,High School,Republican,$30k-$60k,South,25.192564930644142
+730,38,High School,Independent,$30k-$60k,South,26.99598924080899
+731,82,High School,Democrat,$30k-$60k,South,46.34518558958081
+732,69,High School,Independent,Under $30k,West,22.71605485515586
+733,38,Bachelor's,Independent,$60k-$100k,Northeast,28.29615630929165
+734,67,Bachelor's,Republican,Under $30k,South,8.820836329280802
+735,58,Bachelor's,Independent,$30k-$60k,Midwest,29.987481310757417
+736,20,Some College,Democrat,$60k-$100k,South,23.72592810691343
+737,84,Graduate,Republican,Under $30k,West,30.182074034100154
+738,24,Graduate,Democrat,$30k-$60k,South,36.03720281427121
+739,74,Graduate,Republican,$30k-$60k,South,29.13812545048677
+740,74,High School,Democrat,Under $30k,South,49.151590664959926
+741,59,High School,Republican,Under $30k,South,23.566204426712204
+742,54,Bachelor's,Democrat,$30k-$60k,South,42.33016852743224
+743,59,Graduate,Republican,$60k-$100k,South,32.23502118200246
+744,84,Some College,Independent,$60k-$100k,South,23.128482544249188
+745,84,Graduate,Republican,$30k-$60k,Northeast,13.198511091162619
+746,55,High School,Democrat,Under $30k,Midwest,30.809056276975014
+747,55,Bachelor's,Democrat,Under $30k,South,21.128489908188083
+748,41,High School,Independent,$30k-$60k,South,17.235003601569773
+749,42,High School,Democrat,$30k-$60k,Midwest,40.56530813793496
+750,74,High School,Democrat,Over $100k,South,37.07241000641467
+751,52,Graduate,Democrat,$30k-$60k,South,37.77351816294935
+752,43,High School,Democrat,Under $30k,South,41.183541379141644
+753,21,Bachelor's,Republican,Under $30k,South,23.577616654049578
+754,21,High School,Republican,$60k-$100k,West,30.953537161323915
+755,26,Bachelor's,Republican,$60k-$100k,Midwest,14.730499328270577
+756,39,Some College,Republican,$30k-$60k,West,35.91325680421355
+757,29,High School,Independent,$30k-$60k,Midwest,5.6874687357691265
+758,35,High School,Republican,$30k-$60k,South,48.35506318751827
+759,27,Graduate,Republican,Over $100k,Midwest,15.077120855325
+760,44,High School,Democrat,Over $100k,Midwest,31.323077218708246
+761,56,Some College,Democrat,Over $100k,Northeast,62.251673672804785
+762,37,Some College,Democrat,Under $30k,South,19.865546413473595
+763,83,High School,Democrat,Under $30k,South,37.85342999777353
+764,46,Graduate,Independent,$30k-$60k,West,44.71261788835767
+765,35,Some College,Independent,$30k-$60k,Northeast,29.865677838652005
+766,49,Bachelor's,Independent,$60k-$100k,Northeast,24.472345978036543
+767,46,High School,Democrat,$30k-$60k,South,28.323615743309524
+768,84,Some College,Democrat,Under $30k,West,38.39750798260215
+769,68,Some College,Independent,Under $30k,Northeast,29.317659651772075
+770,54,High School,Democrat,$60k-$100k,West,29.475626315275047
+771,60,High School,Republican,$30k-$60k,South,14.731915364641557
+772,82,Some College,Independent,$30k-$60k,West,12.126663543266107
+773,78,Some College,Democrat,Under $30k,West,45.90932079193218
+774,18,High School,Democrat,$30k-$60k,West,57.20208201706145
+775,36,Graduate,Democrat,$30k-$60k,West,32.68957394151431
+776,37,Bachelor's,Independent,Under $30k,Midwest,22.96954278054369
+777,36,Bachelor's,Independent,Under $30k,South,12.757902643443657
+778,67,Bachelor's,Independent,$60k-$100k,South,35.190015565102314
+779,29,Some College,Democrat,$30k-$60k,South,42.91712476917856
+780,35,Some College,Republican,$30k-$60k,South,12.057777520009978
+781,57,Bachelor's,Independent,Under $30k,Midwest,17.50205956191361
+782,37,Some College,Democrat,$60k-$100k,South,30.067152915692894
+783,79,Bachelor's,Independent,$30k-$60k,West,24.244598451282815
+784,36,High School,Independent,Under $30k,South,18.315586432450754
+785,46,High School,Democrat,$30k-$60k,South,24.518803951544534
+786,44,Some College,Democrat,$30k-$60k,Midwest,19.827864779022025
+787,65,High School,Republican,$30k-$60k,Northeast,23.872772475426455
+788,84,Some College,Republican,Under $30k,South,43.40533231955965
+789,26,Some College,Republican,$30k-$60k,West,13.609763164469364
+790,84,Bachelor's,Republican,$30k-$60k,Midwest,15.515923878181898
+791,46,High School,Democrat,$60k-$100k,West,26.963332375739405
+792,41,Some College,Independent,Under $30k,South,14.172213303542794
+793,75,Graduate,Republican,$30k-$60k,Northeast,28.840203370111354
+794,52,High School,Independent,$60k-$100k,South,18.551911353969707
+795,42,Bachelor's,Independent,Over $100k,South,29.440542583991938
+796,85,High School,Democrat,$60k-$100k,West,53.00308867255755
+797,42,High School,Democrat,$60k-$100k,Midwest,32.26388042513455
+798,57,Bachelor's,Republican,Under $30k,South,23.76958904026001
+799,81,Graduate,Independent,Under $30k,Northeast,41.86896430354395
+800,48,Bachelor's,Independent,$30k-$60k,Midwest,14.62817834572898
+801,59,Some College,Democrat,$30k-$60k,Midwest,49.80916561182349
+802,57,Bachelor's,Democrat,Under $30k,West,55.01249568804857
+803,74,Some College,Independent,$60k-$100k,Midwest,21.231280053443395
+804,48,Some College,Republican,Under $30k,Midwest,11.492156939613716
+805,27,Graduate,Independent,$60k-$100k,Northeast,1.5449194810572386
+806,49,Some College,Democrat,$30k-$60k,South,33.8862337296743
+807,46,High School,Democrat,$30k-$60k,Midwest,35.69840609118976
+808,48,Some College,Independent,$60k-$100k,West,31.986153081227716
+809,73,High School,Republican,$30k-$60k,South,22.9771939113764
+810,28,Some College,Democrat,Under $30k,South,43.146041437130364
+811,37,Some College,Republican,$30k-$60k,Midwest,28.23023066732844
+812,58,Bachelor's,Independent,$30k-$60k,South,20.797435501650416
+813,74,Bachelor's,Democrat,Over $100k,Northeast,56.794690921518935
+814,32,High School,Independent,$60k-$100k,South,7.71808812221661
+815,50,Graduate,Republican,Over $100k,Midwest,38.083329339057656
+816,37,Some College,Republican,$30k-$60k,Northeast,36.20840577547546
+817,78,Bachelor's,Independent,$30k-$60k,South,34.02018518616653
+818,29,Graduate,Republican,$30k-$60k,Northeast,38.74892852730856
+819,77,Some College,Democrat,$30k-$60k,South,44.79692982308179
+820,55,Some College,Democrat,$60k-$100k,West,13.044811704724527
+821,53,Bachelor's,Democrat,Over $100k,South,41.43171516258314
+822,56,Some College,Democrat,$60k-$100k,South,38.146403919321415
+823,84,High School,Republican,Over $100k,West,17.297810291641028
+824,23,High School,Independent,Under $30k,West,25.49935764139325
+825,73,High School,Independent,Under $30k,West,30.102003584241256
+826,25,Some College,Democrat,$60k-$100k,West,16.39380883538258
+827,38,Bachelor's,Democrat,$60k-$100k,South,9.961689915810496
+828,46,High School,Democrat,$30k-$60k,South,34.9786311101975
+829,21,Some College,Democrat,Under $30k,West,16.026743465293542
+830,62,Graduate,Independent,Under $30k,West,29.346350547392394
+831,49,Bachelor's,Democrat,$60k-$100k,South,37.421869136112726
+832,85,Some College,Independent,Under $30k,Midwest,4.540812704983502
+833,57,High School,Democrat,$30k-$60k,South,11.377963405389274
+834,35,Bachelor's,Democrat,Under $30k,South,55.714343454139424
+835,71,High School,Democrat,Over $100k,West,40.44052196285055
+836,30,Bachelor's,Independent,$60k-$100k,Northeast,28.421608228336275
+837,38,High School,Republican,Under $30k,West,24.927097468604025
+838,79,High School,Independent,$30k-$60k,West,24.93055498692619
+839,78,Graduate,Democrat,$60k-$100k,Midwest,37.48306904560911
+840,71,Bachelor's,Democrat,Over $100k,South,35.81395845789189
+841,42,Some College,Republican,$60k-$100k,Northeast,29.3350009368678
+842,64,Graduate,Republican,$30k-$60k,South,30.190801812054826
+843,67,Some College,Republican,$30k-$60k,Midwest,24.72614948639238
+844,71,Bachelor's,Democrat,$60k-$100k,South,49.500168160912196
+845,28,Some College,Republican,$30k-$60k,South,6.33878025161151
+846,37,Some College,Democrat,$30k-$60k,South,20.53688179581027
+847,48,Bachelor's,Democrat,$60k-$100k,South,52.990142269855895
+848,85,Some College,Republican,Under $30k,West,37.39256160836083
+849,55,High School,Republican,$60k-$100k,Midwest,12.168745813017221
+850,79,Some College,Independent,Under $30k,South,13.437321078397584
+851,69,Bachelor's,Republican,$30k-$60k,South,18.42524689672653
+852,24,Some College,Independent,$30k-$60k,Midwest,20.82765802978913
+853,51,Bachelor's,Republican,Under $30k,Midwest,31.102681478006016
+854,82,Some College,Republican,$30k-$60k,West,23.408103322254554
+855,74,High School,Democrat,$60k-$100k,West,25.743197366537117
+856,20,Graduate,Republican,$60k-$100k,South,27.83740584627076
+857,84,High School,Democrat,Under $30k,South,58.66907789576225
+858,62,High School,Democrat,$30k-$60k,South,41.65687122294244
+859,54,Some College,Republican,Under $30k,West,21.416272300089076
+860,46,Some College,Republican,Under $30k,Northeast,17.09451524954847
+861,66,Some College,Democrat,Over $100k,Midwest,39.58123580815847
+862,47,Some College,Independent,Under $30k,West,12.421374758567898
+863,78,Some College,Independent,$60k-$100k,West,39.83684393593278
+864,30,High School,Independent,Under $30k,Northeast,15.485804080740046
+865,73,High School,Independent,Under $30k,South,13.54503673170768
+866,56,High School,Independent,Under $30k,South,1.3606551479981732
+867,66,High School,Democrat,$60k-$100k,West,45.81605923365727
+868,75,Some College,Independent,$30k-$60k,West,41.02869198124657
+869,72,High School,Democrat,$30k-$60k,South,29.565308813971804
+870,80,Some College,Democrat,$60k-$100k,West,43.18507021650099
+871,19,Some College,Independent,$60k-$100k,South,25.160042584541586
+872,20,Bachelor's,Republican,$60k-$100k,Northeast,18.85216974912672
+873,75,Bachelor's,Democrat,Under $30k,Midwest,39.253397068396325
+874,38,High School,Democrat,Under $30k,Midwest,42.13957937347693
+875,31,High School,Democrat,Under $30k,Northeast,53.702518397218185
+876,57,Some College,Independent,Over $100k,Northeast,20.629977362855612
+877,47,Bachelor's,Republican,$30k-$60k,Northeast,10.134787818413436
+878,67,Some College,Democrat,$30k-$60k,South,54.17955134985581
+879,47,Some College,Republican,$30k-$60k,Midwest,27.94819799353011
+880,69,Bachelor's,Republican,Over $100k,South,42.94261457431278
+881,53,Graduate,Republican,Over $100k,Northeast,31.717350156087278
+882,43,High School,Democrat,$60k-$100k,South,30.04049663619639
+883,35,High School,Independent,$30k-$60k,Midwest,20.11973906417212
+884,39,Some College,Democrat,$30k-$60k,Midwest,28.77566142428599
+885,54,Graduate,Republican,$30k-$60k,Northeast,35.27644438134815
+886,42,Bachelor's,Independent,Over $100k,Midwest,21.77302234994486
+887,66,High School,Democrat,$30k-$60k,Midwest,46.64800540280722
+888,75,High School,Republican,$30k-$60k,Midwest,24.423096374194298
+889,54,High School,Democrat,Under $30k,Midwest,39.96263742046646
+890,24,Some College,Democrat,Under $30k,South,39.48070463552543
+891,43,High School,Democrat,$30k-$60k,South,23.502208813083676
+892,36,Some College,Republican,$60k-$100k,West,46.32428514994896
+893,70,Bachelor's,Democrat,$60k-$100k,West,38.07817364813391
+894,34,Bachelor's,Republican,$60k-$100k,Northeast,23.746205000630976
+895,85,Some College,Democrat,$60k-$100k,Midwest,47.44478691219785
+896,85,High School,Republican,$60k-$100k,South,33.21472765551019
+897,58,Some College,Democrat,Under $30k,Midwest,28.324828780648502
+898,61,Bachelor's,Republican,Under $30k,West,25.703070088487756
+899,69,High School,Democrat,$30k-$60k,Midwest,30.6379555548237
+900,77,Bachelor's,Democrat,Over $100k,West,27.18895805240306
+901,79,Bachelor's,Independent,Under $30k,Northeast,23.97748690997936
+902,53,Some College,Republican,Under $30k,South,15.783279528092525
+903,58,Graduate,Democrat,$60k-$100k,West,12.059078500190644
+904,62,Bachelor's,Republican,Over $100k,West,27.7034009976284
+905,31,High School,Independent,$30k-$60k,Midwest,44.565471917964516
+906,72,Some College,Independent,$60k-$100k,Midwest,16.353354377528532
+907,31,Some College,Independent,$30k-$60k,South,37.58208816833938
+908,20,High School,Democrat,$30k-$60k,South,43.61014443853688
+909,32,High School,Republican,$30k-$60k,West,33.13509970666313
+910,78,Some College,Republican,Over $100k,West,9.633291552843424
+911,20,High School,Republican,$30k-$60k,West,30.764371691981207
+912,29,Bachelor's,Democrat,$30k-$60k,Northeast,48.741438330669965
+913,44,Some College,Republican,$60k-$100k,Northeast,33.02680149176683
+914,19,Bachelor's,Democrat,$30k-$60k,West,23.152362277126336
+915,82,Some College,Democrat,$30k-$60k,South,62.5736734579439
+916,62,Some College,Independent,$60k-$100k,West,27.431556501201754
+917,48,Graduate,Independent,Under $30k,South,37.76581037372531
+918,48,High School,Independent,Over $100k,South,11.176635604458175
+919,52,Some College,Republican,Under $30k,South,32.32271543342892
+920,58,Bachelor's,Republican,Over $100k,South,29.04430229301452
+921,56,Graduate,Republican,$60k-$100k,West,40.01564223730291
+922,60,Bachelor's,Republican,$60k-$100k,South,17.890709089493008
+923,31,High School,Democrat,$30k-$60k,South,49.252159738815166
+924,53,High School,Democrat,$60k-$100k,South,54.91316630121271
+925,51,Bachelor's,Independent,Over $100k,West,6.715758068100355
+926,65,Some College,Republican,$60k-$100k,South,32.21858365274266
+927,52,Some College,Republican,$60k-$100k,South,33.68558513211568
+928,51,High School,Independent,Under $30k,Northeast,16.85204231992876
+929,42,Bachelor's,Democrat,$30k-$60k,Northeast,54.881551398518
+930,80,Bachelor's,Republican,Under $30k,South,16.568308497851987
+931,34,Graduate,Independent,$60k-$100k,Midwest,26.492058672008817
+932,32,Some College,Independent,$30k-$60k,Midwest,37.661298357703316
+933,45,Graduate,Independent,$30k-$60k,South,31.970841204342026
+934,24,Some College,Democrat,Under $30k,Midwest,0.8310274421286792
+935,70,Some College,Republican,$30k-$60k,Northeast,19.189406307774433
+936,47,Bachelor's,Republican,$30k-$60k,Northeast,33.25946232940553
+937,85,Some College,Independent,$30k-$60k,Midwest,27.524243592655008
+938,37,Some College,Democrat,Under $30k,South,47.94920936878559
+939,27,High School,Independent,Under $30k,Midwest,26.32087077810634
+940,18,Graduate,Independent,$60k-$100k,South,18.766861694749014
+941,61,Bachelor's,Democrat,Under $30k,West,30.708300447450267
+942,64,Bachelor's,Independent,Under $30k,Northeast,41.6486641028858
+943,70,High School,Democrat,$30k-$60k,West,32.00960444444938
+944,71,Bachelor's,Democrat,$30k-$60k,South,30.8626339269217
+945,82,Some College,Democrat,$60k-$100k,Midwest,43.44009720367637
+946,84,Some College,Independent,$60k-$100k,Northeast,13.281895293060757
+947,35,Graduate,Independent,Under $30k,South,26.43802625437907
+948,48,Some College,Independent,$30k-$60k,Midwest,15.67210151580468
+949,58,High School,Independent,Under $30k,South,22.3056663505821
+950,59,Bachelor's,Republican,Over $100k,Midwest,29.588424001792834
+951,75,High School,Independent,Over $100k,South,9.233056792608675
+952,68,Some College,Republican,Under $30k,South,26.27511053743237
+953,72,Graduate,Independent,Under $30k,Midwest,21.125942212382135
+954,58,Some College,Independent,Under $30k,South,23.088887216513555
+955,48,Bachelor's,Independent,$30k-$60k,Northeast,20.30247196849008
+956,67,High School,Democrat,$60k-$100k,Midwest,39.09778349026152
+957,26,Graduate,Republican,$60k-$100k,Midwest,8.766310784453168
+958,22,High School,Republican,$30k-$60k,West,38.97244548592796
+959,42,Some College,Democrat,Over $100k,Northeast,37.30248545272709
+960,52,Graduate,Republican,Over $100k,South,39.466419863144466
+961,22,Graduate,Independent,$60k-$100k,Midwest,14.491750694631161
+962,68,Some College,Republican,$60k-$100k,South,24.909393115906546
+963,83,Bachelor's,Democrat,$60k-$100k,Midwest,32.84445623259499
+964,78,High School,Republican,Under $30k,South,45.729826431684394
+965,47,Bachelor's,Republican,$30k-$60k,Midwest,40.52958119176736
+966,75,Some College,Republican,Under $30k,Northeast,32.512481944540234
+967,59,Graduate,Republican,Under $30k,Northeast,33.68971858058035
+968,77,High School,Democrat,$30k-$60k,Northeast,55.25214634597356
+969,71,Bachelor's,Republican,Under $30k,South,39.23208922452319
+970,34,Some College,Democrat,Under $30k,South,24.795758268287987
+971,47,Graduate,Democrat,$60k-$100k,Northeast,53.1428712012834
+972,24,Some College,Democrat,$60k-$100k,South,42.77671678022315
+973,31,High School,Republican,$30k-$60k,Northeast,31.490366226413045
+974,73,Some College,Democrat,Under $30k,South,33.79581588571633
+975,53,Some College,Independent,$30k-$60k,South,23.090241607371414
+976,50,Some College,Independent,$60k-$100k,Northeast,24.307305874981463
+977,27,High School,Democrat,$30k-$60k,Midwest,34.143165764596375
+978,61,Some College,Independent,$60k-$100k,South,11.526896742605711
+979,18,Some College,Democrat,$30k-$60k,West,57.075194931609914
+980,27,Some College,Republican,Over $100k,South,16.600237515150127
+981,39,Some College,Democrat,Under $30k,West,38.29870160837753
+982,36,Graduate,Republican,Under $30k,South,25.883169380101968
+983,22,Some College,Democrat,Over $100k,West,38.828616086371305
+984,65,Some College,Democrat,Under $30k,Midwest,28.767478349773338
+985,37,Bachelor's,Democrat,Over $100k,West,45.996824312088684
+986,43,Bachelor's,Republican,Under $30k,South,19.14163792276374
+987,59,Some College,Republican,Over $100k,Midwest,30.401056383200615
+988,72,Some College,Republican,$30k-$60k,South,51.57911528885346
+989,82,Some College,Republican,$60k-$100k,Midwest,22.66862515049732
+990,27,Bachelor's,Republican,Under $30k,South,36.22344092647628
+991,24,Some College,Republican,$30k-$60k,South,19.811210576250055
+992,21,Bachelor's,Republican,$60k-$100k,West,33.654288546902954
+993,74,Some College,Democrat,Under $30k,Midwest,39.81842274317079
+994,34,Bachelor's,Republican,Under $30k,Northeast,16.068104896706544
+995,25,High School,Independent,Under $30k,South,15.658837853909777
+996,48,High School,Independent,Under $30k,Northeast,27.315015636914698
+997,73,Some College,Democrat,$60k-$100k,Northeast,73.427934194541
+998,85,Some College,Democrat,Under $30k,West,39.197775163541884
+999,53,Graduate,Republican,$30k-$60k,South,28.759101570594563
+1000,21,High School,Democrat,Over $100k,South,28.83823565285765
+1001,83,Some College,Democrat,$60k-$100k,Midwest,54.34751326859563
+1002,43,Bachelor's,Independent,$30k-$60k,South,28.645596728516782
+1003,54,Bachelor's,Republican,Under $30k,South,28.89898724860537
+1004,85,Bachelor's,Democrat,$30k-$60k,South,58.997724598564176
+1005,42,Some College,Democrat,Over $100k,Midwest,38.037706837302636
+1006,76,Graduate,Independent,$60k-$100k,South,34.692042116573845
+1007,29,Some College,Republican,$30k-$60k,South,30.557593659883167
+1008,69,High School,Independent,$60k-$100k,Northeast,39.7676092344989
+1009,37,High School,Independent,$30k-$60k,Midwest,16.271875134155845
+1010,28,High School,Republican,Under $30k,West,38.15140025855581
+1011,37,High School,Republican,$60k-$100k,Northeast,23.3693221964514
+1012,69,Bachelor's,Republican,$60k-$100k,Northeast,16.862495009669118
+1013,48,Some College,Independent,$30k-$60k,West,9.658766674016732
+1014,56,High School,Republican,$30k-$60k,South,25.093858449590318
+1015,27,Some College,Independent,Under $30k,South,0.8753922579967615
+1016,48,Some College,Democrat,$30k-$60k,Midwest,37.92687324547262
+1017,28,Bachelor's,Democrat,Under $30k,Northeast,44.09174128188499
+1018,76,Bachelor's,Republican,$60k-$100k,Midwest,28.29916270800885
+1019,30,Graduate,Independent,Over $100k,South,50.59498213335003
+1020,63,Some College,Independent,$60k-$100k,West,33.34048469377612
+1021,51,Graduate,Independent,$30k-$60k,Midwest,60.67497240372472
+1022,84,Bachelor's,Republican,$30k-$60k,South,34.976027620875875
+1023,34,Some College,Independent,$60k-$100k,Northeast,27.32570743620709
+1024,60,High School,Independent,$30k-$60k,Northeast,18.208990044972698
+1025,54,High School,Republican,Under $30k,West,16.131809356661577
+1026,23,High School,Independent,$30k-$60k,West,11.110404054549042
+1027,28,Some College,Republican,$60k-$100k,Midwest,22.52350560790008
+1028,30,Graduate,Republican,$30k-$60k,South,38.72051230355269
+1029,75,Some College,Independent,Over $100k,Midwest,24.608364604513056
+1030,46,High School,Democrat,$60k-$100k,Midwest,43.6538511746135
+1031,79,Bachelor's,Independent,Over $100k,South,17.058223975051973
+1032,81,Some College,Independent,$60k-$100k,West,33.1252350267715
+1033,84,Some College,Independent,$30k-$60k,South,16.852280295665587
+1034,31,High School,Democrat,Under $30k,South,41.89623591198265
+1035,38,Some College,Republican,Over $100k,South,20.14370940007045
+1036,20,Some College,Democrat,$30k-$60k,West,19.17364798478266
+1037,71,High School,Democrat,$30k-$60k,South,33.44252059136732
+1038,26,Some College,Democrat,$30k-$60k,South,19.997353937673246
+1039,58,Some College,Independent,$30k-$60k,South,28.210198952292785
+1040,72,Bachelor's,Republican,$30k-$60k,South,13.821212099111591
+1041,83,High School,Independent,Under $30k,Midwest,11.646107694415749
+1042,79,Bachelor's,Independent,$30k-$60k,West,28.668242377267
+1043,70,High School,Republican,$60k-$100k,Northeast,30.510215338621776
+1044,50,Bachelor's,Republican,Under $30k,South,28.29965360458232
+1045,35,Bachelor's,Independent,Under $30k,West,27.592645824369757
+1046,37,High School,Democrat,Under $30k,Northeast,50.51722425625263
+1047,59,Some College,Independent,$60k-$100k,Midwest,31.771360615634165
+1048,38,Some College,Democrat,$30k-$60k,Northeast,21.399887252247844
+1049,19,Graduate,Democrat,Under $30k,Northeast,37.44685664371525
+1050,31,High School,Independent,$60k-$100k,West,12.835498839133143
+1051,82,Some College,Republican,$30k-$60k,Northeast,47.38144432136694
+1052,24,Bachelor's,Republican,$30k-$60k,Northeast,50.48052706283253
+1053,18,Some College,Republican,Over $100k,South,53.849335598168445
+1054,25,Some College,Republican,$60k-$100k,South,30.628700182933326
+1055,80,High School,Democrat,$60k-$100k,South,37.51874634278708
+1056,45,Some College,Republican,Under $30k,West,18.03020780890362
+1057,21,Bachelor's,Independent,$60k-$100k,South,17.92730889314223
+1058,26,Some College,Republican,$30k-$60k,South,8.603578931403463
+1059,37,High School,Republican,Over $100k,South,27.307618430107865
+1060,48,Some College,Independent,Over $100k,West,26.842686991506504
+1061,66,Graduate,Independent,Over $100k,West,21.42228336757958
+1062,25,Some College,Republican,$30k-$60k,Northeast,9.488747000936714
+1063,55,Graduate,Independent,$30k-$60k,Midwest,17.985774886893445
+1064,67,High School,Independent,Under $30k,Northeast,9.630857934872065
+1065,46,Some College,Republican,Under $30k,Midwest,19.00861016185859
+1066,68,Some College,Independent,Under $30k,Midwest,32.212178599877284
+1067,78,High School,Democrat,$60k-$100k,South,66.39394879931923
+1068,33,Graduate,Independent,Under $30k,West,25.978752301206
+1069,63,Graduate,Republican,Over $100k,West,26.155750768128726
+1070,29,Bachelor's,Republican,$30k-$60k,South,6.816431801443279
+1071,18,Some College,Republican,$30k-$60k,South,47.126791572760304
+1072,79,Some College,Independent,$60k-$100k,Northeast,26.918109395564535
+1073,51,High School,Democrat,$30k-$60k,Northeast,45.986014109974505
+1074,68,Graduate,Democrat,$30k-$60k,Midwest,59.662018481912796
+1075,32,High School,Republican,$60k-$100k,South,33.23279138103875
+1076,64,High School,Democrat,$30k-$60k,South,44.315860024206124
+1077,29,Bachelor's,Democrat,$30k-$60k,West,38.165725334210926
+1078,40,Some College,Independent,$30k-$60k,South,15.605141943295367
+1079,64,High School,Democrat,Under $30k,Midwest,59.902739725607645
+1080,37,Bachelor's,Democrat,Over $100k,West,43.78870030287186
+1081,62,Some College,Democrat,$30k-$60k,West,29.087538915185185
+1082,77,High School,Republican,$30k-$60k,Midwest,39.60139921325175
+1083,28,Some College,Republican,$60k-$100k,West,25.293296006668918
+1084,63,Graduate,Republican,$30k-$60k,Midwest,40.11742348259453
+1085,45,Graduate,Republican,Under $30k,Northeast,12.172022133489751
+1086,55,Some College,Republican,$60k-$100k,South,39.38631599133136
+1087,73,Bachelor's,Independent,Over $100k,West,12.337419430729355
+1088,22,Bachelor's,Republican,$60k-$100k,Midwest,16.824420773505615
+1089,71,Some College,Independent,$30k-$60k,Midwest,24.351174737574695
+1090,63,Bachelor's,Democrat,Over $100k,Midwest,29.57116147300063
+1091,77,High School,Independent,$30k-$60k,South,21.54261817009017
+1092,66,Graduate,Democrat,$60k-$100k,Midwest,64.31985076434344
+1093,22,Bachelor's,Republican,$60k-$100k,Northeast,57.96179082039058
+1094,52,High School,Democrat,$30k-$60k,Midwest,29.592242325294695
+1095,47,Graduate,Independent,$30k-$60k,South,15.135753882684519
+1096,36,Bachelor's,Democrat,$30k-$60k,West,43.16508263418683
+1097,60,High School,Independent,$30k-$60k,South,35.58707794019128
+1098,34,Some College,Independent,Under $30k,West,16.82852165332988
+1099,24,Bachelor's,Independent,$60k-$100k,West,13.021160419163134
+1100,61,Some College,Republican,Under $30k,Northeast,13.312491286898279
+1101,75,High School,Republican,$30k-$60k,South,20.376453720864212
+1102,66,Bachelor's,Democrat,$60k-$100k,Northeast,42.11287166592773
+1103,28,Bachelor's,Republican,$30k-$60k,Midwest,44.594164966541044
+1104,63,Bachelor's,Republican,Over $100k,West,17.15245925508009
+1105,76,High School,Democrat,$30k-$60k,Midwest,45.854032753618654
+1106,61,Some College,Democrat,$60k-$100k,South,31.780188492910284
+1107,65,Some College,Democrat,$60k-$100k,South,28.050022233306937
+1108,35,Bachelor's,Independent,$30k-$60k,West,20.52944005680244
+1109,44,High School,Republican,$60k-$100k,West,24.59907484944348
+1110,43,Graduate,Independent,Over $100k,South,32.61864466219392
+1111,23,High School,Republican,$30k-$60k,South,18.941930018452922
+1112,25,High School,Republican,$60k-$100k,South,20.34937957148127
+1113,55,High School,Independent,$30k-$60k,Northeast,0
+1114,82,High School,Democrat,Over $100k,South,35.57205142729329
+1115,63,Some College,Independent,$30k-$60k,Midwest,16.6934264793386
+1116,42,Some College,Republican,$30k-$60k,West,44.527453912064516
+1117,30,Some College,Independent,$60k-$100k,Northeast,6.530372800637814
+1118,73,Graduate,Independent,$30k-$60k,South,17.431962340229912
+1119,76,Bachelor's,Independent,$60k-$100k,West,5.355728543883817
+1120,65,Some College,Republican,$60k-$100k,South,16.258991975285873
+1121,31,High School,Republican,Under $30k,Northeast,23.043368816425566
+1122,58,High School,Republican,Over $100k,West,29.705624073250775
+1123,81,Some College,Democrat,$30k-$60k,South,26.697399087391535
+1124,44,Bachelor's,Republican,$60k-$100k,Midwest,11.802829623138031
+1125,21,Some College,Democrat,$30k-$60k,South,44.73290359273358
+1126,42,Bachelor's,Independent,$30k-$60k,Northeast,12.162274585867086
+1127,69,Some College,Independent,$30k-$60k,West,0.9693016050170655
+1128,53,Graduate,Democrat,$60k-$100k,South,37.35913860333783
+1129,25,Bachelor's,Independent,$60k-$100k,South,24.03593773132178
+1130,53,High School,Republican,Under $30k,South,25.77152899886512
+1131,34,High School,Democrat,$30k-$60k,South,51.67630831429726
+1132,25,Some College,Independent,$30k-$60k,Northeast,0
+1133,60,High School,Democrat,$30k-$60k,South,57.673738853092146
+1134,71,Bachelor's,Democrat,Over $100k,Midwest,23.442886441529165
+1135,40,Some College,Republican,$30k-$60k,Northeast,7.090144531368928
+1136,53,High School,Republican,$30k-$60k,South,9.42702685727453
+1137,52,High School,Republican,$30k-$60k,South,22.20949038849049
+1138,34,Graduate,Republican,$30k-$60k,Midwest,26.21346141265683
+1139,33,Some College,Independent,Under $30k,Northeast,9.298768846054955
+1140,45,High School,Republican,Over $100k,West,29.143302865742584
+1141,72,Some College,Independent,$30k-$60k,South,46.79495199333066
+1142,72,Bachelor's,Independent,$60k-$100k,South,39.777810821728494
+1143,46,High School,Democrat,Under $30k,South,34.470409753297034
+1144,55,Bachelor's,Independent,Over $100k,South,22.192909370033117
+1145,62,High School,Republican,Under $30k,West,13.61789771536956
+1146,69,Graduate,Republican,$30k-$60k,West,43.33982491112988
+1147,29,Bachelor's,Democrat,Over $100k,Northeast,23.347045854954406
+1148,31,Some College,Independent,$30k-$60k,South,25.428640292211398
+1149,39,Bachelor's,Independent,$30k-$60k,Midwest,37.052712612889984
+1150,66,Some College,Democrat,$30k-$60k,Northeast,45.067657944360136
+1151,80,High School,Independent,Over $100k,South,41.3826690374696
+1152,45,Graduate,Republican,$60k-$100k,West,51.85855034820792
+1153,67,Bachelor's,Democrat,$60k-$100k,Northeast,31.534166039303614
+1154,58,Bachelor's,Independent,Under $30k,West,31.838708908110323
+1155,46,High School,Democrat,$60k-$100k,South,54.7033925931692
+1156,28,Bachelor's,Democrat,Under $30k,South,39.33581894711807
+1157,79,Bachelor's,Republican,Over $100k,South,58.10096894399841
+1158,31,Some College,Republican,Over $100k,South,22.945444805138656
+1159,66,High School,Democrat,$60k-$100k,South,18.96146653848601
+1160,52,Bachelor's,Democrat,$60k-$100k,West,42.106054404901
+1161,71,Some College,Republican,$30k-$60k,Midwest,29.40477172515185
+1162,26,Bachelor's,Republican,$60k-$100k,Northeast,24.558051509611012
+1163,85,Bachelor's,Democrat,$30k-$60k,Northeast,34.12779438971994
+1164,53,High School,Republican,$60k-$100k,South,25.255528164565266
+1165,20,Some College,Republican,Over $100k,Northeast,28.08994307785778
+1166,35,High School,Democrat,$60k-$100k,West,47.74164734322635
+1167,84,Graduate,Republican,$30k-$60k,Northeast,22.386453118999295
+1168,69,Bachelor's,Democrat,$30k-$60k,South,38.28569905264377
+1169,46,High School,Independent,$30k-$60k,South,16.561081522643992
+1170,65,Some College,Republican,Under $30k,South,49.77863019541517
+1171,52,Graduate,Republican,$60k-$100k,South,33.53850621554561
+1172,58,Some College,Independent,$60k-$100k,West,16.135759736804236
+1173,66,Some College,Democrat,Under $30k,West,33.23947133733745
+1174,63,Some College,Independent,$30k-$60k,Northeast,22.548962476078874
+1175,51,High School,Independent,Under $30k,South,4.781984508705225
+1176,29,High School,Democrat,Over $100k,South,26.129379186278005
+1177,30,Bachelor's,Republican,Over $100k,South,21.94493842905685
+1178,64,Bachelor's,Independent,Under $30k,Northeast,31.34934730191989
+1179,72,High School,Independent,$60k-$100k,Midwest,16.31542172440849
+1180,37,High School,Democrat,$30k-$60k,Northeast,35.990008688228045
+1181,23,High School,Democrat,Over $100k,West,24.530376554469058
+1182,41,Some College,Republican,$30k-$60k,Northeast,13.906082907756513
+1183,47,Bachelor's,Independent,$60k-$100k,Midwest,28.75014086025591
+1184,67,Some College,Democrat,Under $30k,South,45.847634183160814
+1185,49,Bachelor's,Independent,Over $100k,Midwest,17.40041110349286
+1186,35,High School,Republican,Under $30k,South,41.11092588144517
+1187,79,High School,Independent,$60k-$100k,South,29.547243822603534
+1188,68,Graduate,Democrat,Under $30k,South,32.39300052574885
+1189,71,Some College,Independent,Under $30k,West,31.814824015744207
+1190,68,Bachelor's,Democrat,$30k-$60k,South,23.352412679393275
+1191,79,Graduate,Independent,Under $30k,West,23.225194350876126
+1192,45,Some College,Independent,Under $30k,Midwest,21.557114001753106
+1193,68,High School,Democrat,$30k-$60k,West,39.55701366966456
+1194,43,Some College,Republican,$30k-$60k,Northeast,19.327000560541684
+1195,39,Bachelor's,Democrat,$60k-$100k,Northeast,35.67294660528539
+1196,84,Bachelor's,Republican,$60k-$100k,South,39.57095184007497
+1197,55,High School,Democrat,$30k-$60k,South,32.025617495980896
+1198,32,Some College,Democrat,$30k-$60k,West,42.4687537798347
+1199,61,High School,Republican,Under $30k,Northeast,21.30165910389179
+1200,53,Graduate,Democrat,$30k-$60k,Midwest,43.26006833040464
+1201,60,Bachelor's,Independent,Over $100k,South,34.68860806772729
+1202,38,Bachelor's,Democrat,$60k-$100k,South,44.11166347282317
+1203,46,Some College,Democrat,Under $30k,South,44.61545935426976
+1204,35,Bachelor's,Independent,Over $100k,Northeast,11.439915589531518
+1205,52,High School,Republican,$30k-$60k,South,21.501669170119715
+1206,64,Some College,Independent,$60k-$100k,South,22.876697387377817
+1207,19,High School,Independent,$60k-$100k,West,25.721180912741612
+1208,84,Some College,Democrat,$60k-$100k,West,23.81517027343247
+1209,42,Graduate,Democrat,$30k-$60k,South,40.87170840785047
+1210,76,High School,Republican,$60k-$100k,Midwest,21.435441422502393
+1211,24,Some College,Republican,Over $100k,Northeast,32.948606608104754
+1212,52,High School,Independent,Under $30k,South,13.13111079152592
+1213,76,High School,Democrat,$30k-$60k,South,42.999641248840845
+1214,71,Some College,Republican,$30k-$60k,West,59.398925898492564
+1215,23,High School,Republican,$30k-$60k,South,27.54167930206146
+1216,27,Bachelor's,Republican,Under $30k,South,31.053535197377037
+1217,67,Some College,Democrat,$60k-$100k,Northeast,21.913176812611816
+1218,63,Some College,Republican,$60k-$100k,South,38.00626396007951
+1219,21,Some College,Democrat,$30k-$60k,West,45.73124988036858
+1220,33,Some College,Independent,Over $100k,Midwest,31.13675477790451
+1221,34,High School,Democrat,$30k-$60k,South,20.02174639487717
+1222,31,Some College,Independent,Under $30k,Northeast,21.213580650928332
+1223,25,Some College,Democrat,$60k-$100k,West,33.94352006761282
+1224,81,High School,Republican,$60k-$100k,Northeast,47.92549578373876
+1225,76,Some College,Democrat,$60k-$100k,Midwest,37.347443516953604
+1226,63,Some College,Democrat,$60k-$100k,South,19.987370983258906
+1227,24,Some College,Democrat,Over $100k,South,43.56847049027779
+1228,66,Some College,Republican,$30k-$60k,Midwest,19.91659873102276
+1229,47,Bachelor's,Independent,Over $100k,Midwest,44.778742540049464
+1230,34,High School,Independent,$60k-$100k,Northeast,33.064160718565816
+1231,48,High School,Republican,Over $100k,South,25.821078017266174
+1232,18,Bachelor's,Independent,Under $30k,South,6.618702997162419
+1233,59,High School,Independent,$30k-$60k,Northeast,24.381609888580517
+1234,60,Some College,Republican,$30k-$60k,South,10.428597581702501
+1235,26,High School,Democrat,Over $100k,Northeast,27.214013027030187
+1236,44,Some College,Democrat,$30k-$60k,Midwest,21.425545121767154
+1237,36,Bachelor's,Independent,$60k-$100k,South,25.89372582371018
+1238,34,Some College,Republican,Over $100k,Northeast,27.939258536466394
+1239,54,Some College,Republican,$30k-$60k,South,47.21124328511996
+1240,75,Some College,Democrat,Over $100k,West,37.6306687036122
+1241,43,High School,Independent,$60k-$100k,South,18.395518958095817
+1242,32,Bachelor's,Democrat,$60k-$100k,Northeast,36.11288841612867
+1243,80,Graduate,Independent,Under $30k,West,17.373134097808276
+1244,37,High School,Republican,Over $100k,Northeast,30.090815969778546
+1245,35,Graduate,Republican,$30k-$60k,Northeast,75.88069084820333
+1246,27,Bachelor's,Democrat,Under $30k,South,33.69399425662036
+1247,29,Some College,Independent,$30k-$60k,West,1.3179487188556287
+1248,21,High School,Republican,Under $30k,South,36.24031653323336
+1249,40,High School,Democrat,Over $100k,West,34.35937988467838
+1250,72,Bachelor's,Democrat,$30k-$60k,Midwest,49.29927212846567
+1251,26,High School,Democrat,$30k-$60k,South,20.417900697053454
+1252,42,Some College,Democrat,Over $100k,West,47.856679395264024
+1253,59,Bachelor's,Independent,$30k-$60k,West,22.091271157052702
+1254,26,High School,Independent,$30k-$60k,Northeast,28.848820063623965
+1255,81,Bachelor's,Republican,Over $100k,West,42.643104038148564
+1256,73,High School,Independent,Under $30k,Midwest,5.516468046160259
+1257,59,Some College,Republican,$30k-$60k,West,21.01354689492601
+1258,38,Bachelor's,Republican,Under $30k,South,29.030847192581568
+1259,22,Some College,Independent,Under $30k,Northeast,1.577699018767003
+1260,40,Some College,Democrat,$30k-$60k,Midwest,43.465047381636
+1261,29,Graduate,Independent,Over $100k,West,28.497296027395514
+1262,30,Some College,Republican,Over $100k,West,19.019850029620095
+1263,59,Some College,Independent,Over $100k,West,3.7058770373345027
+1264,77,High School,Independent,$60k-$100k,Midwest,16.254504707643136
+1265,18,Bachelor's,Republican,Under $30k,West,34.943682587302675
+1266,44,Bachelor's,Democrat,$30k-$60k,West,37.73451548472403
+1267,35,High School,Independent,$30k-$60k,South,23.243522104687106
+1268,25,High School,Republican,$30k-$60k,West,27.90312988527794
+1269,61,Some College,Independent,Under $30k,Midwest,25.012265554626616
+1270,38,High School,Democrat,$60k-$100k,Northeast,51.01658211124347
+1271,47,Some College,Independent,$30k-$60k,Northeast,17.58193866817168
+1272,65,Some College,Democrat,Under $30k,South,37.82889862740953
+1273,25,High School,Democrat,$60k-$100k,West,39.83322435652361
+1274,24,High School,Republican,Over $100k,Midwest,15.174343166146603
+1275,76,High School,Democrat,Under $30k,Midwest,33.065883737797385
+1276,61,Some College,Independent,Over $100k,South,30.820993974230298
+1277,59,Bachelor's,Democrat,$30k-$60k,South,34.44872433081153
+1278,69,Some College,Republican,$60k-$100k,West,27.759104794129357
+1279,29,Graduate,Democrat,$30k-$60k,Midwest,41.809085869954544
+1280,62,High School,Republican,$30k-$60k,South,33.082555459604365
+1281,18,High School,Independent,$30k-$60k,Midwest,17.441495547769776
+1282,23,High School,Democrat,Over $100k,West,43.04891777072067
+1283,66,High School,Republican,Over $100k,South,52.22757902818116
+1284,62,Some College,Independent,Under $30k,Midwest,33.73177681286796
+1285,58,Some College,Republican,$30k-$60k,South,18.93396740353292
+1286,82,Graduate,Democrat,$30k-$60k,South,43.268724504833884
+1287,54,Some College,Independent,$30k-$60k,West,12.574571077122293
+1288,72,Bachelor's,Independent,$30k-$60k,South,6.958299591540634
+1289,50,Bachelor's,Democrat,Under $30k,West,38.351767903400784
+1290,49,Bachelor's,Republican,$30k-$60k,Northeast,17.623083006595703
+1291,18,Bachelor's,Republican,Under $30k,South,10.611056074829058
+1292,67,High School,Democrat,$60k-$100k,South,52.61088230070597
+1293,51,Graduate,Republican,$60k-$100k,South,13.253573664614493
+1294,29,Bachelor's,Republican,$30k-$60k,South,10.131239317862548
+1295,23,Some College,Republican,Over $100k,Midwest,38.1435216872476
+1296,32,Bachelor's,Independent,Over $100k,South,18.843140494355133
+1297,85,Some College,Independent,$60k-$100k,South,37.86809151010701
+1298,48,Graduate,Independent,$30k-$60k,Midwest,15.52605202386375
+1299,66,High School,Republican,Under $30k,West,34.465310939437636
+1300,29,Graduate,Republican,$30k-$60k,Northeast,17.72100112060091
+1301,72,High School,Democrat,$60k-$100k,Northeast,37.96250420359828
+1302,32,Bachelor's,Republican,Under $30k,Northeast,23.079061498630093
+1303,41,Graduate,Independent,Over $100k,South,20.256240732695993
+1304,55,High School,Democrat,$60k-$100k,South,52.46685007731052
+1305,82,Some College,Democrat,Over $100k,South,57.367276261926946
+1306,70,Some College,Democrat,$60k-$100k,West,40.92929978736898
+1307,79,High School,Democrat,$60k-$100k,Midwest,34.32448183354891
+1308,46,Bachelor's,Democrat,$60k-$100k,West,42.04455665008895
+1309,81,Some College,Republican,$30k-$60k,South,21.419352703817918
+1310,18,Bachelor's,Independent,$60k-$100k,South,5.605621581579051
+1311,36,High School,Independent,Over $100k,South,20.466312709398903
+1312,47,High School,Republican,Over $100k,South,41.11854396481601
+1313,55,Some College,Republican,$30k-$60k,South,17.460859898808792
+1314,62,Some College,Independent,$60k-$100k,West,25.35715748617092
+1315,40,Graduate,Democrat,$60k-$100k,South,40.24570862557354
+1316,31,Graduate,Republican,Over $100k,West,7.015321385688587
+1317,60,Graduate,Republican,$30k-$60k,West,32.924734234085925
+1318,49,Some College,Democrat,Over $100k,South,36.86642787029341
+1319,66,Some College,Independent,$30k-$60k,West,14.720062112839884
+1320,82,Bachelor's,Democrat,Under $30k,West,30.990570166076253
+1321,63,High School,Independent,Under $30k,South,32.902019724677636
+1322,66,Some College,Democrat,Over $100k,Midwest,33.58522988121345
+1323,82,Graduate,Independent,Under $30k,West,51.25707687613933
+1324,67,High School,Independent,Over $100k,Northeast,31.293395049846175
+1325,76,Bachelor's,Republican,$30k-$60k,Midwest,28.518217014535068
+1326,48,Bachelor's,Democrat,$30k-$60k,West,34.10424191240249
+1327,39,Bachelor's,Republican,$60k-$100k,Northeast,28.131340197352678
+1328,20,Bachelor's,Democrat,$60k-$100k,West,34.24135901405115
+1329,31,Graduate,Democrat,$30k-$60k,Northeast,41.283316466593604
+1330,41,Some College,Democrat,Under $30k,Midwest,31.971366149197063
+1331,42,High School,Independent,Under $30k,West,11.667888861378076
+1332,34,Some College,Republican,Under $30k,South,15.757554094583323
+1333,63,Bachelor's,Democrat,$60k-$100k,South,38.95771080985056
+1334,42,Graduate,Independent,Under $30k,West,7.398219320700594
+1335,33,High School,Independent,Under $30k,South,22.75625666470607
+1336,18,Some College,Democrat,$30k-$60k,South,30.346815389020254
+1337,38,High School,Democrat,$60k-$100k,South,26.748982043491758
+1338,77,Bachelor's,Democrat,Under $30k,South,38.60349108909972
+1339,26,High School,Republican,$60k-$100k,South,14.170008272882924
+1340,38,Graduate,Republican,$30k-$60k,Midwest,24.216232821985706
+1341,75,High School,Independent,$30k-$60k,South,35.630034889786394
+1342,44,Some College,Republican,Under $30k,Midwest,33.399150794368424
+1343,57,Graduate,Independent,$30k-$60k,West,25.18670216862818
+1344,54,Graduate,Republican,$30k-$60k,South,21.40706988167863
+1345,33,Bachelor's,Republican,Under $30k,West,32.34708186328669
+1346,51,Some College,Democrat,Over $100k,West,38.207934633195606
+1347,84,High School,Democrat,$30k-$60k,South,28.493148862728603
+1348,63,High School,Independent,Over $100k,South,26.201914879988458
+1349,45,Graduate,Republican,$60k-$100k,West,16.24987197546934
+1350,39,Graduate,Independent,$60k-$100k,Midwest,6.934053417802716
+1351,83,Bachelor's,Independent,$30k-$60k,Midwest,10.10748187412701
+1352,62,High School,Republican,$30k-$60k,West,9.533730323861196
+1353,82,Bachelor's,Republican,Over $100k,West,28.995743770767085
+1354,77,Bachelor's,Independent,$30k-$60k,West,28.97941754291911
+1355,20,Bachelor's,Independent,$60k-$100k,Midwest,5.910721586063305
+1356,83,Graduate,Democrat,$60k-$100k,Northeast,32.40097791088775
+1357,32,Graduate,Independent,$60k-$100k,South,14.771020168930328
+1358,74,Some College,Independent,Under $30k,West,17.337587576350614
+1359,67,High School,Democrat,Under $30k,South,24.563914355216987
+1360,82,Some College,Democrat,Under $30k,Northeast,32.89367461588163
+1361,58,Some College,Democrat,Under $30k,Northeast,27.060944573772254
+1362,74,Some College,Republican,Over $100k,West,8.026714512535204
+1363,18,High School,Republican,Under $30k,South,11.40876654133121
+1364,33,Some College,Republican,Over $100k,Midwest,20.056663587232176
+1365,32,Bachelor's,Independent,Over $100k,Northeast,24.40990021495348
+1366,50,Some College,Independent,Over $100k,West,11.122479443207727
+1367,48,Some College,Democrat,$30k-$60k,South,26.833982760775953
+1368,37,Graduate,Republican,$30k-$60k,West,34.833283782262896
+1369,34,Some College,Republican,$60k-$100k,South,9.260195356049408
+1370,26,Graduate,Republican,$30k-$60k,South,44.956096776143774
+1371,64,High School,Democrat,$30k-$60k,West,24.10037775792163
+1372,72,Some College,Independent,$60k-$100k,South,18.953283691699873
+1373,22,High School,Independent,$30k-$60k,South,4.491469527146233
+1374,47,Graduate,Democrat,$30k-$60k,South,50.741308774576474
+1375,69,Some College,Independent,$60k-$100k,Midwest,35.69087573856673
+1376,70,Graduate,Independent,$30k-$60k,South,42.06093581991539
+1377,46,High School,Independent,Over $100k,Northeast,0
+1378,59,High School,Republican,Under $30k,Northeast,40.41349791494491
+1379,33,High School,Independent,$30k-$60k,South,22.39027067169855
+1380,61,High School,Independent,$30k-$60k,Midwest,34.79744529713267
+1381,72,High School,Republican,$60k-$100k,Northeast,19.859587859486943
+1382,71,Some College,Independent,Under $30k,South,23.411616324634483
+1383,64,Some College,Republican,Under $30k,Northeast,25.845129074582243
+1384,60,High School,Republican,$60k-$100k,Northeast,16.379491698462328
+1385,70,Bachelor's,Democrat,$30k-$60k,Midwest,49.46851004064327
+1386,76,Graduate,Democrat,Over $100k,West,44.08373981963453
+1387,64,Some College,Independent,$60k-$100k,Midwest,40.07304822113047
+1388,53,Some College,Republican,$60k-$100k,West,6.30945994441511
+1389,64,High School,Republican,$30k-$60k,South,11.86340392543725
+1390,25,Bachelor's,Republican,$30k-$60k,Northeast,11.705456454828708
+1391,58,Some College,Republican,$30k-$60k,West,22.73460820835528
+1392,74,High School,Democrat,$30k-$60k,Northeast,24.938957153189357
+1393,42,Graduate,Republican,$30k-$60k,South,37.98047382985538
+1394,40,Bachelor's,Independent,$30k-$60k,West,0
+1395,33,Some College,Independent,$30k-$60k,South,27.926502646055457
+1396,34,Graduate,Democrat,Over $100k,South,50.1210679318958
+1397,55,High School,Independent,Over $100k,West,21.02215794133541
+1398,82,High School,Republican,$30k-$60k,South,31.440716540077336
+1399,45,High School,Independent,$60k-$100k,West,23.30411777044696
+1400,45,High School,Democrat,Under $30k,South,43.66530602650474
+1401,51,Bachelor's,Democrat,Under $30k,South,45.24716516375781
+1402,56,Some College,Republican,$60k-$100k,Midwest,24.87634911649512
+1403,33,Some College,Democrat,$60k-$100k,West,31.48060823893766
+1404,43,Bachelor's,Democrat,Over $100k,West,28.61428819387737
+1405,59,Some College,Independent,Under $30k,West,0
+1406,71,Some College,Democrat,Under $30k,Northeast,22.918345365918594
+1407,22,High School,Republican,$30k-$60k,Northeast,39.57790990367941
+1408,40,High School,Democrat,$30k-$60k,South,26.921410038003273
+1409,62,Some College,Republican,$60k-$100k,Northeast,0
+1410,21,Graduate,Republican,$60k-$100k,West,19.612037268437966
+1411,58,Bachelor's,Republican,$30k-$60k,West,18.599160849196394
+1412,36,Some College,Democrat,$30k-$60k,Midwest,26.359075360080997
+1413,47,Some College,Independent,$60k-$100k,South,30.392670976616863
+1414,24,High School,Independent,Under $30k,South,22.97667185288094
+1415,60,Bachelor's,Republican,$30k-$60k,South,54.08585812525241
+1416,82,Bachelor's,Republican,$60k-$100k,Midwest,22.80666132724575
+1417,69,Bachelor's,Democrat,$30k-$60k,South,10.707292824978143
+1418,85,Graduate,Democrat,Over $100k,Midwest,30.76785667603716
+1419,27,Some College,Republican,Over $100k,South,15.228997280822712
+1420,46,Bachelor's,Democrat,Over $100k,South,52.20191412918538
+1421,74,Some College,Democrat,$30k-$60k,South,27.97199492754886
+1422,61,Bachelor's,Independent,$60k-$100k,South,28.836107374184202
+1423,21,Bachelor's,Republican,$30k-$60k,Midwest,16.20912455269513
+1424,42,Graduate,Independent,$60k-$100k,South,21.169081547869286
+1425,77,Graduate,Republican,Under $30k,Northeast,44.52244956234789
+1426,85,Bachelor's,Independent,$30k-$60k,South,11.84816089669514
+1427,33,Bachelor's,Independent,$30k-$60k,Midwest,9.209565803151945
+1428,81,Bachelor's,Democrat,Over $100k,South,35.54730567668207
+1429,80,Some College,Independent,Under $30k,South,34.413664567272285
+1430,57,Graduate,Democrat,Over $100k,South,61.141127221065496
+1431,26,Some College,Republican,Under $30k,Midwest,15.781814875004972
+1432,65,Bachelor's,Democrat,Under $30k,Northeast,23.562856360848563
+1433,44,High School,Republican,$30k-$60k,South,35.99081955179933
+1434,66,High School,Republican,$60k-$100k,Midwest,29.73792986084847
+1435,24,Some College,Republican,$30k-$60k,Midwest,19.605314808260346
+1436,59,Bachelor's,Democrat,Under $30k,South,41.19426831892167
+1437,77,Graduate,Democrat,Under $30k,Midwest,40.70595918628668
+1438,33,High School,Independent,Over $100k,West,10.163639034718324
+1439,20,Bachelor's,Republican,$60k-$100k,Midwest,24.392541309655687
+1440,35,High School,Republican,$30k-$60k,West,40.12304190831117
+1441,30,Bachelor's,Republican,Over $100k,West,19.073774035527748
+1442,80,Bachelor's,Republican,Over $100k,South,0
+1443,47,Some College,Independent,$60k-$100k,Midwest,27.683912038731528
+1444,31,Some College,Republican,Over $100k,South,27.70872107763676
+1445,62,Bachelor's,Independent,$30k-$60k,Midwest,35.57766017376416
+1446,39,Graduate,Democrat,$60k-$100k,West,34.066173359718135
+1447,81,Some College,Democrat,$30k-$60k,Northeast,41.687995366793935
+1448,72,Bachelor's,Republican,$30k-$60k,Midwest,38.0559020838963
+1449,24,Bachelor's,Democrat,$30k-$60k,South,23.194186368229598
+1450,19,Some College,Republican,Under $30k,West,19.82786517406453
+1451,60,Bachelor's,Democrat,Over $100k,Midwest,37.622888303818776
+1452,43,Some College,Independent,$30k-$60k,Northeast,20.752117634283973
+1453,61,Graduate,Independent,$60k-$100k,South,39.59012084108008
+1454,49,Some College,Independent,$30k-$60k,Midwest,16.834990910701396
+1455,63,High School,Independent,Under $30k,Midwest,48.503605862149804
+1456,72,Some College,Independent,Over $100k,Northeast,24.454780972245004
+1457,27,High School,Republican,$60k-$100k,South,26.386206339280363
+1458,20,Some College,Independent,$30k-$60k,West,19.913634392757476
+1459,84,Graduate,Republican,Under $30k,Northeast,9.347075726872934
+1460,36,Graduate,Republican,Under $30k,Northeast,18.54137266804103
+1461,55,High School,Democrat,Under $30k,Midwest,26.76407291437939
+1462,60,Some College,Republican,$60k-$100k,West,35.33055116728709
+1463,83,Bachelor's,Independent,$30k-$60k,West,18.455612534445176
+1464,85,Graduate,Independent,$60k-$100k,Midwest,17.062909005587517
+1465,46,Bachelor's,Democrat,$30k-$60k,Midwest,30.432307312336714
+1466,30,Some College,Republican,Under $30k,West,34.888269756398245
+1467,45,High School,Independent,$30k-$60k,Midwest,36.96961023639555
+1468,74,Some College,Democrat,Over $100k,Northeast,33.658811037087794
+1469,22,Some College,Independent,Under $30k,West,31.690781799838206
+1470,62,Graduate,Democrat,$60k-$100k,South,56.269090340520926
+1471,75,Some College,Republican,Under $30k,Midwest,57.14814845272656
+1472,63,High School,Independent,$30k-$60k,South,45.5972876373774
+1473,22,Graduate,Independent,$30k-$60k,Midwest,2.4664263555351624
+1474,85,High School,Democrat,$30k-$60k,South,49.63769300229395
+1475,77,Bachelor's,Independent,Over $100k,South,13.834284941206036
+1476,48,Graduate,Republican,$60k-$100k,Midwest,48.57419509748725
+1477,44,Some College,Democrat,Under $30k,Midwest,21.940069016157757
+1478,77,High School,Democrat,Over $100k,Northeast,37.371003822017045
+1479,77,Bachelor's,Democrat,Over $100k,South,39.60223484455547
+1480,78,Some College,Independent,Under $30k,South,37.663859322373746
+1481,73,Bachelor's,Independent,$60k-$100k,Northeast,30.1834938456314
+1482,61,Some College,Democrat,$60k-$100k,Northeast,30.041576970335935
+1483,27,Bachelor's,Democrat,Under $30k,South,52.520796572824494
+1484,24,High School,Democrat,$30k-$60k,South,50.96140391191619
+1485,21,High School,Independent,$60k-$100k,West,17.05306717124428
+1486,27,Some College,Independent,Over $100k,South,9.577967758968049
+1487,74,Graduate,Independent,$30k-$60k,West,27.911932944552106
+1488,62,High School,Democrat,$60k-$100k,Midwest,33.61480252152021
+1489,32,High School,Republican,Under $30k,Midwest,13.624139375849854
+1490,63,Graduate,Democrat,$30k-$60k,South,32.45563107728144
+1491,85,High School,Republican,Under $30k,West,21.520893895184823
+1492,52,Bachelor's,Republican,$30k-$60k,West,15.408674670123064
+1493,32,Some College,Democrat,Under $30k,South,50.14660305366223
+1494,52,High School,Independent,$60k-$100k,Midwest,14.235433629148716
+1495,40,Bachelor's,Republican,$60k-$100k,West,38.37123691780428
+1496,22,Bachelor's,Republican,Under $30k,West,17.025826480320756
+1497,71,Some College,Republican,$60k-$100k,South,35.40958367813235
+1498,59,Bachelor's,Independent,Under $30k,Midwest,36.69783809892414
+1499,44,High School,Democrat,$30k-$60k,South,21.08763143732679
+1500,44,High School,Democrat,$30k-$60k,South,35.62243109935172
+1501,60,High School,Democrat,$60k-$100k,South,21.067029429799767
+1502,81,Bachelor's,Independent,$30k-$60k,South,43.11873163873452
+1503,19,Some College,Independent,$30k-$60k,West,10.012185327349416
+1504,19,High School,Democrat,$30k-$60k,South,30.82301671457647
+1505,63,Some College,Democrat,$30k-$60k,Midwest,43.15078923707171
+1506,39,High School,Democrat,Under $30k,West,31.498808897658858
+1507,74,High School,Democrat,$60k-$100k,South,45.96674124675971
+1508,36,Graduate,Independent,$30k-$60k,South,19.74792229659964
+1509,63,Bachelor's,Democrat,Under $30k,South,22.58136603906696
+1510,51,Some College,Republican,Under $30k,South,24.384237254561242
+1511,82,Bachelor's,Republican,$30k-$60k,West,22.963856435491792
+1512,71,Bachelor's,Independent,Over $100k,Northeast,35.223444254395815
+1513,39,Bachelor's,Independent,Under $30k,South,23.28323469582152
+1514,62,Graduate,Independent,$60k-$100k,South,15.697558785621869
+1515,74,Bachelor's,Independent,$60k-$100k,South,8.230412456997854
+1516,41,High School,Independent,Over $100k,West,28.768196265328264
+1517,46,Some College,Independent,$30k-$60k,South,0
+1518,60,Bachelor's,Republican,$60k-$100k,South,12.304993406232814
+1519,62,Bachelor's,Independent,$30k-$60k,Midwest,26.521571134945077
+1520,75,High School,Democrat,$30k-$60k,West,38.643312022622496
+1521,43,Bachelor's,Democrat,$30k-$60k,Northeast,40.92193049380169
+1522,21,Some College,Independent,$30k-$60k,South,11.661510863673689
+1523,40,High School,Republican,$60k-$100k,South,16.148254321934303
+1524,74,High School,Independent,$60k-$100k,Midwest,32.684097516680005
+1525,39,Bachelor's,Democrat,$30k-$60k,South,38.06395128586168
+1526,63,Some College,Republican,Under $30k,South,17.99159008714902
+1527,47,High School,Republican,$30k-$60k,South,35.652508468269914
+1528,31,Some College,Democrat,Under $30k,Midwest,53.95806566993407
+1529,50,Some College,Democrat,Over $100k,South,10.869889922052323
+1530,73,Some College,Republican,$60k-$100k,South,10.917524087055128
+1531,62,Some College,Independent,Under $30k,Northeast,26.42224150073257
+1532,18,High School,Democrat,$30k-$60k,South,45.912671295711824
+1533,51,Graduate,Republican,$30k-$60k,Midwest,34.58612455708405
+1534,60,High School,Republican,$30k-$60k,South,35.55196509874637
+1535,61,Some College,Independent,Over $100k,West,23.497897330918548
+1536,23,High School,Republican,$30k-$60k,South,14.528533491286694
+1537,22,High School,Republican,Over $100k,West,28.49286212630855
+1538,65,Some College,Independent,Under $30k,South,20.103615010279313
+1539,75,High School,Republican,$30k-$60k,South,33.41870838137201
+1540,71,Bachelor's,Democrat,$30k-$60k,South,29.759816712996702
+1541,44,Bachelor's,Independent,$30k-$60k,Northeast,17.179440912711613
+1542,71,High School,Democrat,Over $100k,South,29.787579698643427
+1543,76,Some College,Democrat,$30k-$60k,South,23.31848194982531
+1544,30,Bachelor's,Republican,Over $100k,West,2.7972895703328824
+1545,72,Bachelor's,Independent,Under $30k,Northeast,14.709667911393181
+1546,83,High School,Democrat,$30k-$60k,Midwest,50.35185312718731
+1547,73,Some College,Republican,$30k-$60k,Northeast,35.32023069285746
+1548,48,Some College,Republican,$30k-$60k,South,1.7737281523410822
+1549,73,Bachelor's,Independent,$30k-$60k,South,27.502392466451425
+1550,52,Bachelor's,Democrat,$30k-$60k,West,29.8027041366888
+1551,37,Some College,Independent,$60k-$100k,West,28.778693002722775
+1552,46,Bachelor's,Republican,Under $30k,Northeast,33.77572047640818
+1553,72,High School,Independent,$30k-$60k,South,1.781605015089923
+1554,50,Some College,Republican,Over $100k,South,36.13552202236173
+1555,71,Some College,Republican,$30k-$60k,South,13.294085721985374
+1556,79,High School,Independent,$60k-$100k,Midwest,23.25596161644579
+1557,75,Bachelor's,Independent,Under $30k,Midwest,10.910264007403445
+1558,20,High School,Independent,$60k-$100k,South,3.329479539796024
+1559,55,Graduate,Independent,$30k-$60k,Midwest,11.499570185393548
+1560,22,Graduate,Independent,Under $30k,South,18.693404284724235
+1561,65,Bachelor's,Democrat,Under $30k,South,25.667036614962765
+1562,74,High School,Independent,Over $100k,Midwest,18.181073223972753
+1563,19,Some College,Democrat,$30k-$60k,South,34.95097475128369
+1564,27,Bachelor's,Independent,Over $100k,Northeast,4.683489433807612
+1565,50,Some College,Democrat,$60k-$100k,Northeast,52.568929339225114
+1566,45,Graduate,Republican,$30k-$60k,South,32.10239898796759
+1567,78,Graduate,Republican,Over $100k,South,45.096869220756304
+1568,22,High School,Democrat,Under $30k,South,11.9855522233299
+1569,43,Graduate,Republican,$30k-$60k,South,28.53813045064173
+1570,74,Graduate,Independent,$30k-$60k,West,23.538866069317447
+1571,71,Some College,Democrat,$60k-$100k,South,29.312804273110057
+1572,27,Some College,Republican,Over $100k,South,33.52459695886617
+1573,77,Bachelor's,Independent,Under $30k,Midwest,26.3057025878538
+1574,25,Some College,Independent,$30k-$60k,Northeast,0.8084973178295982
+1575,74,Some College,Independent,Over $100k,West,22.771556142408084
+1576,84,High School,Republican,$60k-$100k,Northeast,24.044469162792495
+1577,38,Bachelor's,Independent,$60k-$100k,West,12.543502072498866
+1578,39,Some College,Republican,$60k-$100k,South,9.834107374420519
+1579,83,Bachelor's,Republican,Under $30k,Northeast,33.385311179150506
+1580,48,Some College,Republican,Over $100k,South,9.432049263209464
+1581,28,Bachelor's,Democrat,$30k-$60k,West,35.9083516849828
+1582,34,High School,Republican,$60k-$100k,South,30.293585783158036
+1583,85,Bachelor's,Republican,Under $30k,Northeast,55.11149704715723
+1584,51,Some College,Democrat,$60k-$100k,Northeast,44.72863683928307
+1585,80,Some College,Independent,$30k-$60k,Midwest,17.521499623034046
+1586,52,Some College,Democrat,Under $30k,South,49.42741582951006
+1587,37,Graduate,Independent,$30k-$60k,Northeast,28.574647292083142
+1588,62,Bachelor's,Democrat,Under $30k,South,40.040465210032934
+1589,30,Bachelor's,Independent,$30k-$60k,Northeast,28.69353044696005
+1590,48,Bachelor's,Democrat,$30k-$60k,South,32.50713500101814
+1591,36,High School,Independent,Under $30k,South,9.013555281300402
+1592,55,High School,Republican,Over $100k,Northeast,23.747856201594928
+1593,53,Bachelor's,Democrat,$30k-$60k,South,53.812768147755285
+1594,49,Some College,Independent,$60k-$100k,South,43.78779505299291
+1595,67,Some College,Independent,Under $30k,West,33.120028701062985
+1596,65,High School,Independent,$60k-$100k,South,30.979207354386062
+1597,64,Some College,Republican,Over $100k,Midwest,23.677613857112043
+1598,83,Some College,Republican,$60k-$100k,Midwest,36.60855677695208
+1599,77,Bachelor's,Independent,$30k-$60k,South,15.31258567853615
+1600,48,Graduate,Independent,$30k-$60k,Midwest,18.37958774821825
+1601,65,High School,Republican,Under $30k,West,6.099583869623782
+1602,39,Bachelor's,Independent,$30k-$60k,South,0
+1603,81,Bachelor's,Democrat,$60k-$100k,South,42.987597000348
+1604,76,Some College,Independent,$60k-$100k,West,9.13950753774442
+1605,32,Graduate,Republican,Under $30k,Midwest,31.128928330945467
+1606,70,High School,Independent,$60k-$100k,Midwest,24.455183246261168
+1607,51,Bachelor's,Independent,$60k-$100k,West,25.297309829268066
+1608,67,Graduate,Republican,$30k-$60k,Midwest,59.391969555439836
+1609,32,Some College,Democrat,$30k-$60k,South,21.317263146259414
+1610,28,Some College,Independent,Over $100k,South,35.01991196894208
+1611,34,High School,Democrat,Under $30k,Northeast,30.495183948215356
+1612,45,Bachelor's,Democrat,$60k-$100k,West,28.788231612461637
+1613,83,High School,Independent,Over $100k,South,25.08775563277729
+1614,64,Some College,Democrat,$60k-$100k,Northeast,31.570810264164805
+1615,49,High School,Republican,Under $30k,Midwest,15.519272280923847
+1616,50,Graduate,Democrat,Under $30k,South,24.886766169987993
+1617,65,High School,Democrat,$60k-$100k,Northeast,35.396338342665395
+1618,43,High School,Democrat,Under $30k,Midwest,26.91689683328746
+1619,37,High School,Democrat,Over $100k,South,42.13266247706
+1620,61,Some College,Democrat,$60k-$100k,Northeast,40.99143997969499
+1621,44,High School,Independent,Over $100k,Midwest,20.673429296593074
+1622,66,Bachelor's,Republican,$60k-$100k,South,17.42364085289062
+1623,67,Some College,Republican,$30k-$60k,South,50.230029227969716
+1624,68,Some College,Independent,Over $100k,Midwest,19.163544729586263
+1625,36,Some College,Republican,$30k-$60k,South,23.91871835921163
+1626,68,High School,Independent,Over $100k,South,8.673587694547434
+1627,74,Bachelor's,Republican,$60k-$100k,South,16.65970962732514
+1628,27,High School,Republican,$30k-$60k,West,34.90567078095514
+1629,53,Some College,Republican,Under $30k,West,44.10499576660844
+1630,55,High School,Democrat,$60k-$100k,West,44.587613603845696
+1631,58,Bachelor's,Democrat,$60k-$100k,Midwest,47.066057555797244
+1632,31,Bachelor's,Republican,Over $100k,Midwest,22.80709922137821
+1633,53,Bachelor's,Independent,Over $100k,West,59.311253024333034
+1634,25,Graduate,Democrat,$60k-$100k,West,23.46689789302456
+1635,39,Graduate,Independent,$60k-$100k,Midwest,18.951230185949363
+1636,31,Some College,Republican,$30k-$60k,Northeast,25.112600632306023
+1637,41,Bachelor's,Republican,$60k-$100k,West,22.189555315827207
+1638,65,Graduate,Republican,$60k-$100k,West,19.248870335309242
+1639,42,Some College,Democrat,$30k-$60k,Northeast,22.131904526646636
+1640,38,High School,Independent,Under $30k,South,0
+1641,51,High School,Independent,$30k-$60k,Midwest,35.121993178681294
+1642,82,Some College,Independent,$30k-$60k,South,40.33301747074859
+1643,32,Some College,Republican,$60k-$100k,South,19.365835533996425
+1644,36,Graduate,Republican,$30k-$60k,South,27.098935009594165
+1645,38,Graduate,Republican,$30k-$60k,South,39.21348826751962
+1646,54,High School,Democrat,$60k-$100k,South,34.47962631863197
+1647,63,High School,Democrat,$30k-$60k,Midwest,38.31642506792266
+1648,32,Graduate,Democrat,$60k-$100k,South,46.160855965691376
+1649,41,Graduate,Republican,$30k-$60k,Midwest,23.09421710980316
+1650,82,Some College,Democrat,$30k-$60k,Northeast,50.125824858682975
+1651,70,Some College,Republican,$60k-$100k,West,21.833342868630957
+1652,20,Some College,Democrat,$30k-$60k,Midwest,24.268489686801455
+1653,82,Some College,Republican,Under $30k,Northeast,24.786754133652863
+1654,33,Bachelor's,Republican,Under $30k,South,25.40112313156466
+1655,70,Bachelor's,Democrat,$60k-$100k,West,26.64955987157799
+1656,38,High School,Republican,Under $30k,Northeast,32.3453215880376
+1657,28,High School,Independent,Under $30k,Midwest,12.15121884229845
+1658,24,Graduate,Independent,$30k-$60k,West,21.540774767149426
+1659,34,Some College,Democrat,Over $100k,Northeast,23.21235886696024
+1660,84,High School,Democrat,Under $30k,South,28.841267103086558
+1661,36,Graduate,Democrat,$30k-$60k,Northeast,39.8132159626106
+1662,52,Bachelor's,Independent,Under $30k,Northeast,37.699752474909644
+1663,26,Some College,Republican,$60k-$100k,South,11.456771851660548
+1664,73,Graduate,Democrat,$60k-$100k,South,29.299374998349222
+1665,84,Graduate,Democrat,$30k-$60k,South,38.91038820122417
+1666,82,High School,Independent,$60k-$100k,Midwest,0
+1667,80,Bachelor's,Democrat,$60k-$100k,Midwest,42.371176050411236
+1668,46,Some College,Republican,$60k-$100k,Midwest,22.623774543229686
+1669,46,Bachelor's,Democrat,$30k-$60k,Midwest,28.406160991507484
+1670,53,Bachelor's,Independent,Under $30k,South,0
+1671,36,Bachelor's,Independent,Under $30k,West,20.426779713631007
+1672,78,Some College,Independent,$60k-$100k,South,16.975350644913807
+1673,37,Some College,Independent,$30k-$60k,Midwest,64.58312424178018
+1674,53,High School,Independent,Over $100k,Midwest,16.228657634074008
+1675,35,High School,Republican,$60k-$100k,West,1.9939715397648499
+1676,32,Bachelor's,Independent,$60k-$100k,West,10.69882282082525
+1677,61,Some College,Democrat,$60k-$100k,West,16.87356056877091
+1678,25,Graduate,Republican,Over $100k,West,44.90849600569081
+1679,29,Bachelor's,Republican,$30k-$60k,Northeast,24.866371301774993
+1680,42,High School,Republican,$60k-$100k,Northeast,0
+1681,80,High School,Independent,Over $100k,Midwest,24.40220954074777
+1682,51,Some College,Independent,Under $30k,South,30.856477835787615
+1683,50,Bachelor's,Independent,Over $100k,South,11.925967288254213
+1684,21,Bachelor's,Republican,Under $30k,South,28.341542865552327
+1685,57,High School,Independent,Over $100k,South,19.670175852327013
+1686,33,Bachelor's,Democrat,$30k-$60k,South,39.76820359106428
+1687,63,Some College,Independent,Under $30k,South,17.937176499013542
+1688,56,High School,Republican,Under $30k,South,27.922466725300687
+1689,54,Bachelor's,Republican,$30k-$60k,South,22.31992286214117
+1690,45,Some College,Democrat,Over $100k,South,26.198316857993923
+1691,51,High School,Republican,Under $30k,West,38.95332726036451
+1692,44,High School,Republican,$30k-$60k,Northeast,9.799736008332502
+1693,18,Bachelor's,Republican,$30k-$60k,South,27.808743276555234
+1694,67,Graduate,Republican,$30k-$60k,Northeast,21.875286343594688
+1695,80,Some College,Republican,$30k-$60k,West,28.833839605240357
+1696,78,Bachelor's,Republican,$30k-$60k,South,25.27675770690744
+1697,29,Graduate,Republican,Over $100k,West,28.567798709530464
+1698,52,High School,Democrat,$60k-$100k,South,28.246567399535667
+1699,48,Some College,Republican,$30k-$60k,West,31.22683428061421
+1700,35,Some College,Independent,Under $30k,Midwest,6.496124402893479
+1701,75,Some College,Republican,$60k-$100k,South,52.10782163178587
+1702,72,Graduate,Republican,$30k-$60k,Northeast,24.14092149192402
+1703,72,Bachelor's,Republican,Over $100k,Northeast,20.3119966801129
+1704,18,Some College,Democrat,$30k-$60k,West,22.593697571491184
+1705,61,Graduate,Republican,Under $30k,South,9.843733436991808
+1706,22,High School,Democrat,Under $30k,Northeast,22.931836702055776
+1707,58,High School,Independent,$30k-$60k,Midwest,23.89757647952924
+1708,37,High School,Independent,$30k-$60k,Midwest,17.396270346375452
+1709,34,Graduate,Independent,$60k-$100k,West,35.572271470679624
+1710,68,High School,Republican,$60k-$100k,West,19.739059679915716
+1711,55,Some College,Republican,Under $30k,West,23.037308507271977
+1712,47,High School,Republican,$30k-$60k,West,40.46558413014367
+1713,78,High School,Democrat,Under $30k,Midwest,43.137031837255314
+1714,82,Graduate,Independent,$30k-$60k,Midwest,17.12599440937287
+1715,60,Some College,Republican,Under $30k,Midwest,43.161987444043405
+1716,82,High School,Independent,$30k-$60k,South,27.275802583199983
+1717,73,Bachelor's,Republican,$30k-$60k,South,44.95755422695533
+1718,28,Graduate,Independent,Under $30k,South,14.619943568948079
+1719,33,Some College,Republican,Under $30k,South,36.143734460535654
+1720,50,Bachelor's,Republican,$30k-$60k,West,31.54114321958901
+1721,52,High School,Democrat,$60k-$100k,West,31.338278932814777
+1722,25,Some College,Republican,Under $30k,West,31.231344012443678
+1723,33,Bachelor's,Republican,$60k-$100k,South,2.3919641059367223
+1724,82,High School,Democrat,$60k-$100k,Midwest,36.74816561189102
+1725,45,High School,Republican,Over $100k,South,45.82834119026926
+1726,30,High School,Republican,Under $30k,Midwest,14.239354120451537
+1727,22,Some College,Republican,$30k-$60k,Midwest,34.51624380344746
+1728,70,High School,Independent,Under $30k,Northeast,22.93088254918664
+1729,21,Bachelor's,Republican,Over $100k,South,34.37879044809378
+1730,19,Bachelor's,Republican,Under $30k,Midwest,11.658111199573941
+1731,19,Bachelor's,Independent,Under $30k,West,26.871777327763326
+1732,40,Bachelor's,Independent,$60k-$100k,West,17.464274580285448
+1733,36,Graduate,Democrat,$30k-$60k,Northeast,36.82321016051473
+1734,39,Bachelor's,Republican,Under $30k,West,19.479232146393603
+1735,82,High School,Independent,Under $30k,South,24.39375471614902
+1736,19,Some College,Independent,$60k-$100k,Northeast,10.501436360746208
+1737,84,Bachelor's,Independent,$60k-$100k,Northeast,41.243678902228524
+1738,73,High School,Republican,$60k-$100k,South,33.721978762605175
+1739,61,Bachelor's,Democrat,$60k-$100k,Midwest,19.57789758165395
+1740,68,High School,Democrat,Under $30k,South,23.269905352440926
+1741,36,High School,Republican,$60k-$100k,West,16.710109593161082
+1742,84,Some College,Independent,$60k-$100k,West,24.35352574666681
+1743,76,Graduate,Independent,Over $100k,South,15.78596576251999
+1744,82,Graduate,Democrat,$30k-$60k,Northeast,39.448514587609864
+1745,74,Some College,Democrat,$60k-$100k,South,37.963430094763766
+1746,48,Some College,Republican,$60k-$100k,West,42.01021791367828
+1747,76,Some College,Democrat,$30k-$60k,Northeast,21.716600727345124
+1748,48,Bachelor's,Democrat,$30k-$60k,Northeast,32.50326919673619
+1749,59,Some College,Republican,$30k-$60k,South,35.72695714626951
+1750,31,Some College,Democrat,Over $100k,South,32.572242539647654
+1751,37,Some College,Republican,$60k-$100k,Midwest,29.643221034849944
+1752,42,Bachelor's,Independent,Over $100k,South,47.83741620959083
+1753,63,Some College,Democrat,$30k-$60k,Midwest,23.43396209543778
+1754,23,High School,Republican,$30k-$60k,Midwest,32.34585916861167
+1755,41,Some College,Democrat,$30k-$60k,West,48.273712060729125
+1756,64,Graduate,Independent,$30k-$60k,Midwest,33.62800945591634
+1757,34,High School,Democrat,Under $30k,South,47.20932751201273
+1758,54,Some College,Republican,Over $100k,Midwest,28.905490962535435
+1759,67,Bachelor's,Democrat,Under $30k,South,32.79839289843079
+1760,46,High School,Independent,Under $30k,West,10.365788007192851
+1761,67,High School,Republican,Under $30k,Midwest,11.245948848491821
+1762,40,Some College,Republican,$30k-$60k,Northeast,42.61625501778409
+1763,79,Graduate,Republican,$30k-$60k,West,43.54443886145714
+1764,36,Some College,Independent,Under $30k,West,1.5679819686734184
+1765,47,Bachelor's,Republican,$30k-$60k,West,53.843141317181065
+1766,33,High School,Democrat,$30k-$60k,South,37.615010025299405
+1767,58,High School,Independent,$60k-$100k,West,18.644530838204656
+1768,57,High School,Republican,$30k-$60k,South,34.42964176934139
+1769,46,Some College,Independent,Under $30k,South,2.78527993529708
+1770,42,Some College,Republican,Under $30k,Midwest,24.08746406670236
+1771,28,Graduate,Republican,$60k-$100k,Midwest,38.33908145472597
+1772,73,High School,Democrat,$30k-$60k,South,51.07801068962442
+1773,62,Some College,Democrat,$30k-$60k,South,24.7915934998585
+1774,44,Bachelor's,Republican,Over $100k,South,32.432544648894186
+1775,54,Some College,Republican,$30k-$60k,West,36.02001472288439
+1776,58,Some College,Democrat,$30k-$60k,West,45.666072233503236
+1777,56,Bachelor's,Democrat,Under $30k,Midwest,33.78671884080113
+1778,46,Graduate,Independent,$60k-$100k,Northeast,25.479954766151586
+1779,44,Some College,Independent,$30k-$60k,South,11.181795226674993
+1780,33,High School,Republican,$60k-$100k,West,14.313912075311926
+1781,28,Bachelor's,Democrat,Under $30k,South,20.997713035222056
+1782,55,Some College,Republican,Under $30k,West,36.65144887378569
+1783,73,Some College,Democrat,Under $30k,West,43.73953618291924
+1784,19,Graduate,Democrat,$30k-$60k,South,28.803430212148918
+1785,71,Some College,Republican,Over $100k,Midwest,33.36286831004589
+1786,45,High School,Independent,$30k-$60k,Midwest,21.15195795476265
+1787,46,Bachelor's,Independent,$60k-$100k,Midwest,33.665037936827204
+1788,67,Some College,Independent,$60k-$100k,South,39.96009155631557
+1789,34,Some College,Democrat,$60k-$100k,West,15.82771890172932
+1790,51,Some College,Republican,$30k-$60k,South,21.5905609762347
+1791,84,Some College,Independent,Under $30k,South,34.010637149556835
+1792,33,Some College,Independent,$60k-$100k,South,56.44535244206588
+1793,39,High School,Democrat,$30k-$60k,West,66.59444760361568
+1794,76,Bachelor's,Republican,Over $100k,Midwest,7.570664900020034
+1795,58,Graduate,Republican,Under $30k,South,41.36528454130667
+1796,50,Bachelor's,Independent,$30k-$60k,South,9.30031253547265
+1797,51,High School,Democrat,Under $30k,West,30.026975380560447
+1798,67,Bachelor's,Independent,$60k-$100k,West,5.091601862138052
+1799,57,Bachelor's,Independent,Under $30k,Northeast,19.232839919851276
+1800,19,High School,Independent,Under $30k,South,10.297528618970945
+1801,45,Some College,Independent,$30k-$60k,West,40.597300496577546
+1802,44,Bachelor's,Republican,$60k-$100k,South,18.632237347875495
+1803,37,Some College,Democrat,$30k-$60k,West,14.672384987290243
+1804,63,Graduate,Republican,Under $30k,South,4.126559135958821
+1805,77,High School,Democrat,Over $100k,South,48.73868810433227
+1806,33,Bachelor's,Republican,$30k-$60k,South,29.757576159114016
+1807,28,Some College,Republican,$30k-$60k,Northeast,10.232544418026816
+1808,49,Some College,Democrat,$60k-$100k,West,34.898775097435646
+1809,38,High School,Republican,Over $100k,South,25.34498414278658
+1810,66,Bachelor's,Independent,$60k-$100k,West,31.792596054113325
+1811,75,Some College,Democrat,Over $100k,Midwest,41.82294648517661
+1812,52,Some College,Republican,Under $30k,Midwest,60.03172562473401
+1813,39,Some College,Republican,$30k-$60k,Midwest,22.956657388101046
+1814,51,Some College,Republican,$60k-$100k,West,21.65698608086534
+1815,45,Bachelor's,Democrat,$30k-$60k,Northeast,18.19938329428885
+1816,39,Bachelor's,Republican,Over $100k,Midwest,32.565169286163105
+1817,19,High School,Democrat,Under $30k,Midwest,18.620069884412572
+1818,40,High School,Independent,$30k-$60k,Northeast,0
+1819,57,Graduate,Republican,$30k-$60k,South,45.77330194838264
+1820,71,Bachelor's,Independent,Under $30k,South,16.66498365263847
+1821,77,Bachelor's,Republican,Under $30k,South,13.508707575590083
+1822,34,Bachelor's,Democrat,$30k-$60k,South,40.14431346389554
+1823,27,Graduate,Republican,Over $100k,South,37.10527989293565
+1824,82,High School,Independent,$60k-$100k,Midwest,32.81501886054605
+1825,50,Graduate,Democrat,Under $30k,Midwest,48.45504115018694
+1826,82,Graduate,Republican,$30k-$60k,West,33.72803809685528
+1827,18,Some College,Democrat,Over $100k,West,39.83214764409878
+1828,80,Some College,Republican,$30k-$60k,Midwest,8.045173130165235
+1829,32,High School,Democrat,Under $30k,Northeast,41.875393000287616
+1830,72,High School,Democrat,Over $100k,South,43.71323118685346
+1831,40,Some College,Independent,Under $30k,South,16.509065672229866
+1832,85,Some College,Democrat,$60k-$100k,West,21.69708508741897
+1833,84,High School,Democrat,$30k-$60k,Midwest,61.74133140672186
+1834,64,Some College,Independent,Over $100k,Northeast,6.289353579649392
+1835,39,High School,Republican,Under $30k,Midwest,18.751384075761585
+1836,48,Bachelor's,Independent,$30k-$60k,Northeast,13.996209250539575
+1837,73,Some College,Independent,Under $30k,South,20.603815383400967
+1838,28,Bachelor's,Republican,Over $100k,West,0.52629143661125255
+1839,79,Some College,Republican,$30k-$60k,Midwest,36.591315742190204
+1840,52,Bachelor's,Republican,$60k-$100k,Northeast,41.42459573685133
+1841,46,Graduate,Democrat,Over $100k,South,53.26131673235118
+1842,40,Some College,Independent,Under $30k,Northeast,48.830345932023356
+1843,67,Bachelor's,Republican,$30k-$60k,South,40.979560427905675
+1844,69,Graduate,Independent,Under $30k,West,34.06303035699579
+1845,18,Graduate,Independent,$60k-$100k,Midwest,18.947634120824993
+1846,76,High School,Independent,Over $100k,West,7.041167433455042
+1847,40,Some College,Democrat,$30k-$60k,South,19.519811555639443
+1848,45,Bachelor's,Republican,$30k-$60k,Midwest,20.728196049789737
+1849,57,High School,Democrat,$30k-$60k,South,44.760320962226146
+1850,82,Bachelor's,Republican,Under $30k,South,37.96857756645239
+1851,57,Some College,Independent,Over $100k,Northeast,25.2827823620657
+1852,76,Some College,Republican,$30k-$60k,Midwest,16.713662917229954
+1853,71,Bachelor's,Independent,Under $30k,West,27.662500547074686
+1854,20,Graduate,Republican,Under $30k,West,40.44556574078666
+1855,69,Graduate,Independent,$60k-$100k,South,19.72573377177566
+1856,67,Some College,Republican,Under $30k,South,40.89999520910982
+1857,79,Some College,Independent,$60k-$100k,South,11.650800655274665
+1858,26,High School,Democrat,$30k-$60k,Northeast,31.57264328242747
+1859,56,Bachelor's,Independent,Under $30k,West,37.57566661442208
+1860,76,Graduate,Independent,$30k-$60k,Northeast,21.336600151944715
+1861,50,High School,Democrat,Over $100k,South,48.75052955391267
+1862,20,Some College,Republican,Over $100k,South,24.875523470439155
+1863,26,High School,Independent,Under $30k,Midwest,13.07814089100321
+1864,18,Some College,Republican,Under $30k,South,22.455568182798686
+1865,83,High School,Republican,Over $100k,South,31.80768390642362
+1866,45,Graduate,Republican,$30k-$60k,South,23.841230351935778
+1867,66,High School,Democrat,Over $100k,South,55.198367834811975
+1868,27,High School,Republican,Over $100k,Midwest,6.024346410781167
+1869,54,High School,Independent,Under $30k,South,21.546994718323635
+1870,45,Bachelor's,Republican,Under $30k,South,39.94765157570932
+1871,68,Bachelor's,Republican,$30k-$60k,South,21.714209150726163
+1872,53,High School,Republican,$60k-$100k,South,19.13481989049722
+1873,49,High School,Independent,$30k-$60k,Midwest,29.514171571680585
+1874,42,Bachelor's,Independent,$30k-$60k,South,19.44279498486224
+1875,32,Some College,Republican,$30k-$60k,South,26.3856207627626
+1876,80,High School,Independent,Under $30k,West,20.97793346098412
+1877,44,Some College,Independent,$60k-$100k,West,0
+1878,37,Some College,Independent,Under $30k,Northeast,0
+1879,57,High School,Republican,$30k-$60k,South,10.55452526367991
+1880,84,Bachelor's,Democrat,Under $30k,Northeast,34.89754556430857
+1881,49,Graduate,Republican,$60k-$100k,Midwest,47.370544752573544
+1882,69,Bachelor's,Democrat,Over $100k,West,23.767009542917318
+1883,31,Some College,Democrat,Over $100k,South,66.33663960338944
+1884,40,Graduate,Democrat,Under $30k,Northeast,44.96580401432847
+1885,70,Bachelor's,Republican,Over $100k,South,25.49317289032244
+1886,77,Some College,Democrat,Under $30k,Midwest,10.268047331543919
+1887,27,Bachelor's,Democrat,Under $30k,Midwest,53.18912847497752
+1888,80,High School,Independent,$30k-$60k,West,34.04293000067038
+1889,58,Some College,Democrat,Under $30k,Northeast,37.00604315693599
+1890,30,Bachelor's,Republican,$60k-$100k,Midwest,38.25935351411742
+1891,76,Bachelor's,Democrat,$60k-$100k,West,23.574234894102947
+1892,54,Some College,Democrat,$30k-$60k,Midwest,42.358181440828105
+1893,49,Bachelor's,Republican,Over $100k,Midwest,25.554263461334834
+1894,55,High School,Republican,$30k-$60k,Northeast,4.649592213131449
+1895,31,Bachelor's,Democrat,$30k-$60k,South,44.33544765108891
+1896,47,Graduate,Republican,$60k-$100k,West,33.221540867141506
+1897,40,Some College,Independent,Under $30k,Northeast,14.05021527481773
+1898,35,Bachelor's,Independent,Under $30k,Northeast,15.00040237524499
+1899,33,High School,Democrat,$60k-$100k,South,43.940817817267074
+1900,69,Some College,Republican,Under $30k,Northeast,21.176284002531307
+1901,66,High School,Republican,$30k-$60k,West,54.9013778189173
+1902,45,Bachelor's,Democrat,$30k-$60k,South,45.78789672108134
+1903,32,Bachelor's,Republican,$30k-$60k,Midwest,31.254583383417607
+1904,62,Bachelor's,Republican,Over $100k,West,33.63590452996472
+1905,71,Bachelor's,Republican,$30k-$60k,South,36.633975580844705
+1906,67,Graduate,Republican,$30k-$60k,Midwest,34.97294825040089
+1907,50,Some College,Independent,$60k-$100k,West,32.19277358343281
+1908,48,Some College,Republican,$30k-$60k,Northeast,26.947139349486072
+1909,78,Bachelor's,Republican,$30k-$60k,South,27.292841691922767
+1910,43,Some College,Republican,$30k-$60k,South,36.60963492155377
+1911,76,Some College,Republican,Under $30k,South,31.5609318088499
+1912,55,High School,Democrat,$60k-$100k,West,35.65202826170413
+1913,61,Some College,Independent,Over $100k,South,45.410330715913034
+1914,62,High School,Democrat,Over $100k,South,39.66601608917531
+1915,24,Some College,Independent,Under $30k,Northeast,0
+1916,59,High School,Republican,$60k-$100k,Midwest,31.565748790899463
+1917,49,Some College,Democrat,Over $100k,South,33.1567824819438
+1918,24,High School,Republican,Under $30k,West,24.06239276355537
+1919,61,High School,Republican,Under $30k,Midwest,36.80775425689379
+1920,72,Some College,Independent,Over $100k,Midwest,25.367906348465496
+1921,77,High School,Republican,$60k-$100k,South,39.18496058586524
+1922,78,Bachelor's,Democrat,Over $100k,Northeast,58.86029996561921
+1923,68,High School,Independent,Under $30k,Midwest,37.344919905313105
+1924,49,High School,Republican,$30k-$60k,South,8.68116452900178
+1925,81,High School,Democrat,$30k-$60k,West,46.082387666724
+1926,79,Some College,Democrat,Under $30k,Northeast,37.85617261200435
+1927,76,Some College,Republican,Over $100k,South,23.691337170449167
+1928,73,High School,Independent,Under $30k,Northeast,30.36661261134961
+1929,55,Bachelor's,Republican,$30k-$60k,West,35.80293825386274
+1930,65,Some College,Republican,$30k-$60k,South,0
+1931,82,Some College,Republican,$60k-$100k,Northeast,22.85057047168692
+1932,40,High School,Democrat,$60k-$100k,Midwest,37.03369252674965
+1933,83,High School,Democrat,$30k-$60k,Northeast,50.92994148348811
+1934,72,Bachelor's,Republican,$60k-$100k,Midwest,29.85848248336391
+1935,74,Bachelor's,Republican,$60k-$100k,West,27.600860766560892
+1936,23,High School,Democrat,Under $30k,South,15.786156066955627
+1937,57,Some College,Independent,Under $30k,Northeast,17.417064744755784
+1938,65,High School,Democrat,$60k-$100k,Midwest,41.65996538197423
+1939,40,Bachelor's,Independent,$30k-$60k,Midwest,31.682947877145736
+1940,74,High School,Democrat,$30k-$60k,West,38.230193918239706
+1941,32,Bachelor's,Republican,Over $100k,Northeast,44.08842874996624
+1942,54,Bachelor's,Democrat,$30k-$60k,Midwest,45.14207844499871
+1943,25,Bachelor's,Democrat,$30k-$60k,South,17.985814350624125
+1944,22,Some College,Independent,$30k-$60k,Midwest,14.733914015121979
+1945,71,Bachelor's,Republican,Under $30k,Northeast,36.1511073775866
+1946,55,High School,Democrat,Under $30k,South,31.90393761974869
+1947,69,High School,Democrat,Under $30k,South,58.85607189941687
+1948,39,Graduate,Independent,$30k-$60k,South,14.661577034699702
+1949,80,Some College,Republican,$30k-$60k,South,1.4904457714044632
+1950,49,Bachelor's,Independent,$60k-$100k,Northeast,29.59609372442138
+1951,59,Bachelor's,Independent,$60k-$100k,Midwest,16.64514969987971
+1952,85,Some College,Republican,$30k-$60k,South,28.149821461942906
+1953,42,High School,Republican,Over $100k,West,41.295026283699144
+1954,43,Bachelor's,Democrat,Under $30k,West,59.92386961091212
+1955,22,Bachelor's,Independent,$30k-$60k,West,13.62726465238208
+1956,52,Graduate,Democrat,$60k-$100k,Northeast,23.710028354577
+1957,22,Some College,Independent,$30k-$60k,Midwest,33.49281129590636
+1958,55,High School,Democrat,$60k-$100k,South,61.89376966706473
+1959,77,Bachelor's,Republican,$30k-$60k,West,18.774284150425395
+1960,32,Some College,Democrat,Under $30k,South,32.35242477095137
+1961,80,Some College,Republican,$30k-$60k,West,14.069805435188915
+1962,18,High School,Independent,Under $30k,Northeast,23.267792565939526
+1963,79,Some College,Republican,$30k-$60k,West,31.899019633757657
+1964,37,Some College,Republican,$30k-$60k,Midwest,29.798999808997124
+1965,50,High School,Independent,$60k-$100k,Midwest,0
+1966,46,Some College,Independent,Over $100k,West,11.720619336203317
+1967,77,Bachelor's,Republican,Over $100k,West,20.39294154230578
+1968,48,Bachelor's,Republican,Under $30k,Northeast,28.41089118927275
+1969,70,Some College,Independent,$60k-$100k,West,12.463221062012146
+1970,70,High School,Republican,Under $30k,West,5.363238755366758
+1971,74,High School,Republican,Under $30k,South,28.66368830422976
+1972,76,High School,Republican,Over $100k,Midwest,31.19714644802263
+1973,56,Bachelor's,Republican,$30k-$60k,South,30.069602109090194
+1974,38,Graduate,Republican,$60k-$100k,Midwest,5.801802071323696
+1975,80,Graduate,Republican,Over $100k,West,9.499964968209262
+1976,28,Graduate,Democrat,$60k-$100k,West,51.71847272389601
+1977,76,Graduate,Democrat,Over $100k,West,39.73919258748327
+1978,80,High School,Democrat,$30k-$60k,Northeast,42.96811403892321
+1979,60,Bachelor's,Democrat,$30k-$60k,South,17.634704232815793
+1980,49,Some College,Independent,$30k-$60k,South,4.909408776838305
+1981,75,Bachelor's,Independent,$60k-$100k,South,14.734844902075487
+1982,24,Some College,Democrat,$30k-$60k,South,23.11405278738243
+1983,51,High School,Democrat,$30k-$60k,Midwest,32.62546415269302
+1984,28,Some College,Republican,Under $30k,South,34.69884194129352
+1985,58,Bachelor's,Republican,Under $30k,South,35.011613329063756
+1986,26,Bachelor's,Republican,$30k-$60k,Northeast,39.92169319459989
+1987,34,Graduate,Democrat,$30k-$60k,South,25.010381693445286
+1988,26,Bachelor's,Republican,Under $30k,Northeast,13.366682868061963
+1989,56,High School,Republican,Under $30k,West,24.584663571436277
+1990,71,High School,Republican,Under $30k,South,25.30250906161736
+1991,54,Graduate,Independent,$30k-$60k,Midwest,27.750499053391017
+1992,29,Some College,Democrat,Under $30k,Midwest,44.67945424628304
+1993,24,Some College,Republican,$30k-$60k,South,23.785127746814418
+1994,34,High School,Democrat,Under $30k,West,30.020830997170663
+1995,51,Bachelor's,Independent,$60k-$100k,Northeast,16.970067345266095
+1996,63,Graduate,Independent,Over $100k,West,16.103423646517015
+1997,41,High School,Democrat,$60k-$100k,Northeast,17.019076754273716
+1998,70,Some College,Independent,$60k-$100k,Midwest,36.989118509668444
+1999,55,Some College,Democrat,Under $30k,Midwest,39.697901197892044
+2000,38,Bachelor's,Democrat,$60k-$100k,Northeast,24.483121809918593

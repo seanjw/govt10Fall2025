@@ -25,9 +25,9 @@ opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 
 ### 1.1 Code Detective
 
-Explain what each line of this code does:
+Explain what each line of this code does: anything 
 
-``` r
+```{r}
 electoral_votes <- 270
 winner <- "Biden"
 margin <- 81283501 - 74223975
