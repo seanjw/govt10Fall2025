@@ -41,7 +41,7 @@ Answers: a = _____, b = _____, c = _____, d = _____
 Complete this code to create a vector of battleground states:
 
 ```r
-battleground_states <- __("Texas", _____, "Pennsylvania", _____, _____)
+battleground_states <- c("Texas", "Florida", "Pennsylvania", "Ohio", "Michigan")
 ```
 
 Missing states: Florida, Ohio, Michigan
@@ -197,7 +197,7 @@ For each AI exercise:
 ```{r}
 # Load the dataset
 library(tidyverse)
-leaders <- read_csv("congressional_leaders.csv")
+leaders <- read_csv("Week 1/Class 2/congressional_leaders.csv")
 
 # Explore the data
 glimpse(leaders)
@@ -214,15 +214,32 @@ Ask Claude to help you find:
 - Which chamber has older members on average
 - How many committee chairs there are
 
-Prompt:
+Prompt: 
 
 Response:
 
 ```{r}
+# Load the tidyverse package
+library(tidyverse)
 
+# Calculate summary statistics for years_served by party only
+summary_stats <- leaders %>%
+  group_by(party) %>%
+  summarise(
+    count = n(),                           # Number of leaders in each party
+    mean_years = mean(years_served),       # Average years served
+    median_years = median(years_served),   # Median years served
+    min_years = min(years_served),         # Minimum years served
+    max_years = max(years_served),         # Maximum years served
+    sd_years = sd(years_served),           # Standard deviation
+    .groups = 'drop'                       # Remove grouping after summarise
+  )
+
+# View the results
+summary_stats
 ```
 
-Interpretation:
+Interpretation: 
 
 ### 5.3 Creating Summaries
 

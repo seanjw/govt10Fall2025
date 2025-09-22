@@ -1,0 +1,707 @@
+---
+title: "Week 2, Class 3"
+subtitle: "Working with Real Data"
+author: "Sean Westwood"
+format:
+  revealjs:
+    theme: black
+    slide-number: true
+    preview-links: auto
+    html-math-method: katex
+    css: ../../styles/slides.css
+    print-background: true
+    self-contained: true
+---
+
+# Today
+
+- Load and explore real political datasets using tidyverse
+- Master essential data manipulation: `filter()`, `select()`, `arrange()`
+- Handle missing values (NA) properly
+- Write effective prompts for AI assistance with data analysis
+
+# Loading Real Political Data
+
+## The DW-NOMINATE Dataset
+
+**What is DW-NOMINATE?**
+
+- **Dynamic Weighted NOMINATE**: Measures of ideological positions
+- **Created by**: Keith Poole and Howard Rosenthal
+- **Covers**: Every member of Congress from 1789 to present
+- **Scale**: -1 (liberal) to +1 (conservative)
+
+![](../../images/walz.jpeg)
+
+
+## Loading the Data
+
+```{r}
+#| echo: true
+#| eval: true
+library(tidyverse)
+
+# Load DW-NOMINATE data for all members of Congress
+congress <- read_csv("../../data/HSall_members.csv")
+
+# Quick look at the structure
+glimpse(congress)
+```
+
+# Data Manipulation with Tidyverse
+
+## What is Tidyverse (again)?
+
+**The tidyverse** is a collection of R packages designed for data science that share a common philosophy and grammar.
+
+**Why use tidyverse over base R?**
+
+- **Human-readable code** that reads like sentences
+- **Better error messages**: More helpful when things go wrong
+
+
+## Tidyverse Philosophy: Verbs
+
+**Tidyverse uses "verbs" - functions that describe what they do:**
+
+- `filter()` - **keep** rows that match conditions
+- `select()` - **choose** specific columns  
+- `arrange()` - **sort** rows by values
+
+**Think of it like giving instructions to a research assistant:**
+
+"Filter the data to show only Democrats, then select their names and ideology scores, then arrange by most liberal first"
+
+**Why this matters**: Instead of remembering complex syntax, you can think in terms of what you want to accomplish.
+
+
+## The `filter()` Function
+
+**Purpose**: Select specific rows based on conditions
+
+**Think of `filter()` as asking**: "Which observations meet my criteria?"
+
+**Example**: Filter for Democrats only
+
+```{r}
+#| echo: true
+#| eval: true
+# Filter for Democrats only
+democrats <- congress %>% 
+  filter(party_code == "Democrat")
+
+# How many Democrats?
+nrow(democrats)
+```
+
+**What happened here:**
+
+1. We took the `congress` data frame
+2. We kept only rows where `party_code` equals "Democrat"
+3. We saved the result as `democrats`
+4. We counted how many rows remain using `nrow()`
+
+## Multiple Conditions in filter()
+
+::: {.columns}
+
+::: {.column width="60%"}
+**Representatives from the 110th Congress and later:**
+
+```{r}
+#| echo: true
+#| eval: true
+# Multiple conditions - focus on modern Congress members
+modern_house <- congress %>% 
+  filter(chamber == "House", 
+         congress >= 110,
+         party_code %in% c("Democrat", "Republican"))
+
+head(modern_house)
+```
+:::
+
+::: {.column width="40%"}
+**Understanding multiple conditions:**
+
+- **Commas mean "AND"**: All conditions must be true
+- `chamber == "House"` - Must be House member
+- `congress >= 110` - Must be from 110th Congress or later
+- `party_code %in% c("Democrat", "Republican")` - Must be major party
+
+**The `%in%` operator**: Checks if a value appears in a list of options
+:::
+
+:::
+
+## Advanced Filtering
+
+**Senators from Large States in the 118th Congress:**
+
+```{r}
+#| echo: true
+#| eval: true
+# Filter for senators from CA, TX, or FL in the 110th Congress
+big_state_senators <- congress %>% 
+  filter(chamber == "Senate",
+         state_abbrev %in% c("CA", "TX", "FL"),
+         congress == 118) 
+
+head(big_state_senators)
+```
+
+## The `select()` Function
+
+**Purpose**: Choose specific columns you want to work with
+
+**Think of `select()` as asking**: "Which variables do I need for my analysis?"
+
+::: {.columns}
+
+::: {.column width="60%"}
+**Basic selection:**
+
+```{r}
+#| echo: true
+#| eval: true
+# Select key variables for analysis
+key_vars <- congress %>% 
+  select(bioname, party_code, state_abbrev, chamber, nominate_dim1)
+
+head(key_vars)
+```
+:::
+
+::: {.column width="40%"}
+**Why select specific columns:**
+
+- **Focus**: Work with only the variables you need
+- **Clarity**: Easier to see what you're working with
+- **Performance**: Smaller datasets work faster
+- **Organization**: Keeps your analysis clean and focused
+:::
+
+:::
+
+## Advanced `select()` Options
+
+::: {.columns}
+
+::: {.column width="60%"}
+**Helper functions make selection easier:**
+
+```{r}
+#| echo: true
+#| eval: true
+# Select multiple columns at once
+congress %>% 
+  select(bioname, party_code, chamber, everything()) %>% 
+  head()
+```
+:::
+
+::: {.column width="40%"}
+**Useful `select()` helpers:**
+
+- `everything()` - All remaining columns
+- `starts_with("nom")` - Columns starting with "nom"
+- `ends_with("_code")` - Columns ending with "_code"
+- `contains("state")` - Columns containing "state"
+
+**Pro tip**: You can also use `select()` to reorder columns by listing them in your preferred order.
+:::
+
+:::
+
+## The `arrange()` Function
+
+**Purpose**: Sort data by one or more variables
+
+**Think of `arrange()` as asking**: "In what order should I view these observations?"
+
+**Example**: Sort by ideology (most liberal to most conservative)
+
+```{r}
+#| echo: true
+#| eval: true
+# Sort by DW-NOMINATE score (most liberal to most conservative)
+congress %>% 
+  arrange(nominate_dim1) %>% 
+  head()
+```
+
+
+## Arranging in Descending Order
+
+::: {.columns}
+
+::: {.column width="60%"}
+**Use `desc()` to sort from highest to lowest:**
+
+```{r}
+#| echo: true
+#| eval: true
+# Sort highest to lowest using desc() - most conservative first
+congress %>% 
+  arrange(desc(nominate_dim1)) %>% 
+  head()
+```
+:::
+
+::: {.column width="40%"}
+**Understanding `desc()`:**
+
+- **Default**: `arrange()` sorts from low to high (ascending)
+- **With `desc()`**: Sorts from high to low (descending)
+- **Remember**: `desc(nominate_dim1)` shows most conservative first
+
+**Multiple sorting variables**: You can sort by multiple columns:
+```r
+arrange(state_abbrev, desc(nominate_dim1))  # By state, then by ideology
+```
+:::
+
+:::
+
+## The Pipe Operator: %>%
+
+**The pipe (`%>%`) connects verbs together and makes code more readable.**
+
+**How to read pipes**: Read `%>%` as "then"
+
+"Filter the data to show only Democrats, then select their names and ideology scores, then arrange by most liberal first"
+
+**This task in Tidyverse:**
+
+```{r}
+#| echo: true
+#| eval: false
+
+# Use pipes (reads left to right):
+data %>% 
+  filter(condition) %>%    # Step 1: Filter the data, THEN
+  select(columns) %>%      # Step 2: Select columns, THEN  
+  arrange(variable) %>%    # Step 3: Arrange rows, THEN
+  head()                   # Step 4: Show the first few
+```
+
+**Why pipes are helpful:**
+
+- **Sequential logic**: Operations flow from left to right
+- **No intermediate objects**: Don't need to save results at each step
+- **Readable**: Code reads like instructions in English
+
+## Why This Matters for Political Science
+
+- **Reproducible research**: Other scholars can easily understand and verify your analysis
+- **Collaborative work**: Team members can read and modify each other's code
+- **Teaching and learning**: Students can follow the logical flow of analysis
+- **AI assistance**: Clear, well-structured code is easier for AI to help debug and extend
+
+
+**Example**: "Show me the most conservative Republicans from Texas in recent Congresses"
+becomes a clear sequence of filter → select → arrange operations
+
+
+# Handling Missing Data
+
+## Why Missing Data Is Problematic
+
+**R cannot perform calculations when data contains missing values.**
+
+**Let's see what happens:**
+
+```{r}
+#| echo: true
+#| eval: true
+# This will return NA!
+example_data <- c(10, 5, NA)
+mean(example_data)
+```
+
+**The problem**: R doesn't know what to do with missing values. Should it:
+
+- Ignore the missing value?
+- Treat it as zero?
+- Stop the calculation entirely?
+
+**R's solution**: Return `NA` to force you to make an explicit decision about how to handle missing data.
+
+
+## Understanding NA Values
+
+**NA** means "Not Available" - missing data that we need to handle carefully.
+
+**Three ways to handle missing data:**
+
+**Option 1: Use `na.rm = TRUE` in calculations**
+
+```{r}
+#| echo: true
+#| eval: true
+# Create a data frame with missing values
+example_df <- tibble(values = c(10, 5, NA, 8, NA, 12))
+
+# Option 1: Use na.rm in summarise
+example_df %>% 
+  summarise(mean_with_na_rm = mean(values, na.rm = TRUE))
+```
+
+**What `na.rm = TRUE` does**: "Remove NAs before calculating"
+
+## Why this matters
+
+**Why this matters**: In political science, missing data is common and important:
+
+- **Survey non-response**: When people don't answer certain questions in polls or surveys
+- **Incomplete voting records**: When a legislator doesn't vote on a particular bill
+- **Historical data gaps**: When data is missing for certain time periods
+- **Measurement challenges**: When a variable is not measured for some observations
+
+## The `is.na()` Function
+
+We need to be able to check for missing values and handle them appropriately.
+
+**These approaches DON'T work:**
+
+```{r}
+#| echo: true
+#| eval: false
+example_df %>% 
+  mutate(
+    wrong_1 = (values == NA),      # Returns NA, not TRUE/FALSE!
+    wrong_2 = (values == "NA")     # Checks for text "NA", not missing values
+  )
+```
+
+**Why they fail:**
+
+- `== NA` returns `NA` because "is unknown equal to unknown?" is unknown
+- `== "NA"` looks for the text string "NA", not actual missing values
+
+**Key principle**: You cannot use `==` to check for missing values because `NA` is not equal to anything, not even itself!
+
+## The `is.na()` Function: Correct Approach
+
+**`is.na()` is designed specifically to detect missing values:**
+
+```{r}
+#| echo: true
+#| eval: true
+# This is the correct way to check for missing values
+is.na(example_df$values)
+```
+
+**What `is.na()` returns:**
+
+- `TRUE` if the value is missing (NA)
+- `FALSE` if the value is not missing
+
+## Using `is.na()`
+
+- `filter(is.na(variable))` - Keep only missing values
+- `filter(!is.na(variable))` - Remove missing values
+- `sum(is.na(variable))` - Count missing values
+
+## The "NOT" Operator: !
+
+**The `!` operator means "NOT" - it flips TRUE/FALSE values:**
+
+::: {.columns}
+::: {.column width="50%"}
+**Code**:
+```{r}
+#| echo: true
+#| eval: false
+# Check which values are missing
+example_df %>% 
+  filter(is.na(values))
+```
+:::
+::: {.column width="50%"}
+**Results**:
+```{r}
+#| echo: false
+#| eval: true
+# Check which values are missing
+example_df %>% 
+  filter(is.na(values))
+```
+:::
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+```{r}
+#| echo: true
+#| eval: false
+# Use ! to flip the result - which values are NOT missing
+example_df %>% 
+  filter(!is.na(values))
+```
+:::
+::: {.column width="50%"}
+```{r}
+#| echo: false
+#| eval: true
+# Use ! to flip the result - which values are NOT missing
+example_df %>% 
+  filter(!is.na(values))
+```
+:::
+:::
+
+- `!TRUE` becomes `FALSE`
+- `!FALSE` becomes `TRUE`
+- `!is.na(values)` means "values that are NOT missing"
+
+**Key concept**: `!is.na(values)` means "keep rows where values are NOT missing"
+
+## Another Way to Handle Missing Values
+
+**Remove missing values first, then calculate the mean**
+
+```{r}
+#| echo: true
+#| eval: true
+
+example_df %>% 
+  filter(!is.na(values)) %>%
+  summarise(mean_clean = mean(values))
+```
+
+**What this approach does:**
+
+1. `filter(!is.na(values))` - Remove all rows with missing values
+2. `mean(values)` - Calculate mean on clean data (no `na.rm` needed)
+
+**When to use this**: When you want to work only with complete observations
+
+## Understand How Many Missing Values Are in the Data
+
+**We need to know how much data is missing before we can decide how to handle it.**
+
+- If we have a lot of missing values, we may need to reconsider our analysis.
+- If we have a just a few missing values, we can just remove them.
+
+```{r}
+#| echo: true
+#| eval: true
+example_df %>% 
+  summarise(
+    total_values = n(),
+    missing_count = sum(is.na(values)),
+    complete_count = sum(!is.na(values))
+  )
+```
+
+**Understanding the counting:**
+
+- `n()` - Total number of rows
+- `sum(is.na(values))` - Count TRUE values (missing)
+- `sum(!is.na(values))` - Count TRUE values (not missing)
+
+## An AI Prompt
+
+
+> "I have a dataset called `congress` and I want to understand how much missing data there is in the `nominate_dim1` variable. Please write R code that will count the total number of observations, count how many values are missing in the `nominate_dim1` column, calculate the percentage of missing data, and show me summary statistics for both the complete and missing cases. Use tidyverse. Explain each step."
+
+
+## Using `na.rm = TRUE` in Calculations
+
+We need to be able to handle missing values in calculations, and we need to explicitly tell R how to handle them.
+
+**For calculations like `mean()`, `sum()`, and `sd()`, use `na.rm = TRUE` to ignore missing values:**
+
+**Without `na.rm = TRUE`:**
+
+```{r}
+#| echo: true
+#| eval: true
+# This will return NA because of missing values
+mean(congress$nominate_dim1)
+```
+
+**With `na.rm = TRUE`:**
+
+```{r}
+#| echo: true
+#| eval: true
+# Use na.rm = TRUE to ignore missing values
+mean(congress$nominate_dim1, na.rm = TRUE)
+```
+
+**`na.rm = TRUE` means**: "Remove NA values before calculating"
+
+**Important**: This doesn't change your original data - it only affects the calculation
+
+## Other Functions That Support `na.rm`
+
+**Many statistical functions support `na.rm = TRUE`:**
+
+```{r}
+#| echo: true
+#| eval: true
+median(congress$nominate_dim1, na.rm = TRUE)  # Middle value
+min(congress$nominate_dim1, na.rm = TRUE)     # Minimum value
+```
+
+**Remember**: Without `na.rm = TRUE`, all of these would return `NA` if any values are missing.
+
+**Best practice**: Always check for missing values before doing analysis, then decide how to handle them.
+
+# AI Integration for Data Analysis
+
+## Effective Prompts for Data Manipulation
+
+**For exploring new data:**
+
+> "I have a dataset with congressional election results using tidyverse in R. Help me write R code to: 1) Check the number of rows and columns, 2) See the first few observations, 3) Identify any missing values. I'm learning R so please explain each step."
+
+**Why this prompt works:**
+
+- **Specific about tools**: Mentions R and tidyverse
+- **Clear tasks**: Lists exactly what you want
+- **Asks for explanation**: Helps you learn, not just copy code
+- **Context**: Mentions you're learning
+
+## Prompts for Specific Operations
+
+**A limited example:**
+
+> "I want to filter a congressional_data dataframe to show only close races and arrange them by state using tidyverse. "
+
+**Better version with data context:**
+
+> "I have a dataframe called congressional_data with columns: candidate_name, state_abbrev, party, vote_share, and total_votes. I want to filter for close races (vote share between 48% and 52%) and arrange by state using tidyverse.  Please provide code and explain each step. I am using tidyverse in R."
+
+**Why the second version is better:**
+
+- **Includes actual column names**: AI can write exact code
+- **Specific filtering criteria**: Clear what "close races" means
+
+## Debugging with AI
+
+**When you get an error, provide specific details:**
+
+> "I got this error: "Error: object 'nominate_dim1' not found" when running the code "congress %>% filter(nominate_dim1 > 0.5)". What does this mean and how do I fix it? I'm using tidyverse in R."
+
+**What good AI help looks like:**
+
+- **Diagnose the problem**: "The error means R can't find a column called 'nominate_dim1'"
+- **Suggest solutions**: "Check column names with `names(congress)`"
+
+# Exercise: Political Data Analysis
+
+
+# Best Practices for Data Analysis
+
+## Start Simple, Build Complexity
+
+**Build your analysis step by step:**
+
+**Step 1: Basic filter**
+```{r}
+#| echo: true
+#| eval: true
+# Step 1: Basic filter
+result <- congress %>% filter(party_code == "Democrat")
+nrow(result)  # Check how many rows we kept
+```
+
+**Step 2: Add selection**
+```{r}
+#| echo: true
+#| eval: true
+# Step 2: Add selection
+result <- congress %>% filter(party_code == "Democrat") %>% select(bioname, state_abbrev, nominate_dim1)
+head(result)  # Check what our data looks like
+```
+
+## Start Simple, Build Complexity 2
+
+**Step 3: Add sorting**
+```{r}
+#| echo: true
+#| eval: true
+# Step 3: Add sorting
+final <- result %>% arrange(desc(nominate_dim1))
+head(final)
+```
+
+**Why build step by step:**
+
+- **Easier to debug**: If something breaks, you know where
+- **Better understanding**: See what each step does
+- **Confidence building**: Each step works before adding complexity
+
+## Always Explore First
+
+**Before doing complex analysis, understand your data:**
+
+**Check party distribution:**
+```{r}
+#| echo: true
+#| eval: true
+# Before complex analysis, understand your data
+congress %>% 
+  count(party_code, sort = TRUE)
+```
+
+# Summarize Your Data So You Understand It
+
+**Check data ranges:**
+```{r}
+#| echo: true
+#| eval: true
+# Check data ranges
+congress %>% 
+  summarise(
+    min_nominate = min(nominate_dim1, na.rm = TRUE),
+    max_nominate = max(nominate_dim1, na.rm = TRUE),
+    mean_nominate = mean(nominate_dim1, na.rm = TRUE)
+  )
+```
+
+**Why exploration matters:**
+
+- **Catch errors**: Spot impossible values 
+- **Plan analysis**: Understand the range and distribution
+- **Build intuition**: Get a feel for the data patterns
+
+# Looking Ahead
+
+## Next Class Preview
+
+**Summary Statistics**:
+
+- Mean, median, mode - when to use each
+- Measuring spread in data
+- Historical perspective: Adolphe Quetelet's "average man"
+- Grouping and summarizing with `group_by()` and `summarise()`
+
+## Key Concepts to Remember
+
+**Core Functions:**
+
+- **filter()** selects rows, **select()** chooses columns, **arrange()** sorts data
+- **Pipes (%>%)** chain operations together elegantly
+- **Missing data (NA)** requires careful handling with `is.na()` and `na.rm = TRUE`
+
+**Best Practices:**
+
+- **Always explore first**: Use `glimpse()`, `summary()`, and `count()` before analysis
+- **Build step by step**: Start simple, add complexity gradually
+- **Handle missing data explicitly**: Decide how to deal with NAs
+
+**Working with AI:**
+
+- **AI helps with syntax**; you provide the critical thinking
+- **Provide context**: Share your data structure and goals
+- **Ask for explanations**: Don't just copy code, understand it
+
+# Questions?
+
+**Key takeaway**: Real data analysis is about asking good questions and thinking critically about what the patterns mean, not just executing code.
+
+Next class: We'll learn how to summarize and describe data using statistical measures.

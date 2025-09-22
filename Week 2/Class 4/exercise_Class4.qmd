@@ -1,0 +1,315 @@
+---
+title: "Week 2, Class 4: Practice Exercises"
+subtitle: "Summary Statistics"
+date: "2025"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(formatR)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# Non-AI Exercises
+
+## 1. Understanding Measures of Central Tendency
+
+### 1.1 Multiple Choice: Mean vs Median
+
+When should you use the median instead of the mean?
+
+a) When you want the most precise calculation
+b) When the data has extreme outliers or is skewed
+c) When all values are the same
+d) When you have categorical data
+
+Answer: _____
+
+### 1.2 Fill in the Blanks: Central Tendency
+
+Complete these statements about measures of center:
+
+1. The _____ is the sum of all values divided by the count
+2. The _____ is the middle value when data is ordered
+3. The _____ is the most frequently occurring value
+4. When data is skewed right, the mean is typically _____ than the median
+5. The _____ is most affected by outliers
+
+Word bank: mean, median, mode, greater, less
+
+### 1.3 Code Detective: Grouped Summaries
+
+What does this code calculate?
+
+```r
+approval %>%
+  group_by(party_id) %>%
+  summarise(
+    avg_approval = mean(congress_approval, na.rm = TRUE),
+    n = n()
+  )
+```
+
+This code calculates: _____
+
+## 2. Measures of Spread
+
+### 2.1 Match: Measures of Spread
+
+Match each measure with its definition:
+
+**Measures:**
+a) Range
+b) Variance
+c) Standard deviation
+d) Interquartile range (IQR)
+
+**Definitions:**
+1. Square root of the variance
+2. Maximum value minus minimum value
+3. Average squared deviation from the mean
+4. Distance between 25th and 75th percentiles
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+### 2.2 Multiple Choice: Standard Deviation
+
+If approval ratings have a mean of 45% and standard deviation of 10%, approximately what percentage of responses fall between 35% and 55%?
+
+a) 50%
+b) 68%
+c) 95%
+d) 99%
+
+Answer: _____ (Hint: Think about the empirical rule)
+
+### 2.3 True or False: Spread
+
+Mark each statement as True (T) or False (F):
+
+_____ Variance is always positive or zero
+_____ Standard deviation has the same units as the original data
+_____ A larger standard deviation means data is more spread out
+_____ The range is affected by outliers
+_____ IQR is more robust to outliers than standard deviation
+
+## 3. The `summarise()` Function
+
+### 3.1 Fill in the Code: summarise()
+
+Complete this code to calculate mean, median, and standard deviation:
+
+```r
+approval %>%
+  summarise(
+    mean_approval = _____(congress_approval, na.rm = TRUE),
+    median_approval = _____(congress_approval, na.rm = TRUE),
+    sd_approval = _____(congress_approval, na.rm = TRUE)
+  )
+```
+
+Functions needed: mean, median, sd
+
+### 3.2 Multiple Choice: NA Values
+
+What happens when you run `mean(c(1, 2, NA, 4))`?
+
+a) Returns 2.33 (ignores the NA)
+b) Returns NA
+c) Gives an error
+d) Returns 2 (treats NA as 0)
+
+Answer: _____
+
+## 4. Real-World Applications
+
+### 4.1 Match: Statistical Concepts
+
+Match polling concepts with statistical terms:
+
+**Polling Terms:**
+a) Margin of error
+b) Sample size
+c) Confidence level
+d) Poll average
+
+**Statistical Terms:**
+1. Mean of multiple measurements
+2. Number of observations (n)
+3. Related to standard error
+4. Probability of capturing true value
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+### 4.2 Code Detective: Real Analysis
+
+What question does this code answer?
+
+```r
+approval %>%
+  group_by(party_id, region) %>%
+  summarise(
+    mean_approval = mean(congress_approval, na.rm = TRUE),
+    sd_approval = sd(congress_approval, na.rm = TRUE),
+    count = n()
+  )
+```
+
+This analysis shows: _____
+
+# AI Exercises
+
+For each AI exercise:
+- Work with Claude to analyze the data
+- Record your prompts and key findings
+
+## 5. Congressional Approval Analysis
+
+**Dataset: congressional_approval.csv**
+
+**Description**: Survey data on congressional approval ratings with demographics.
+
+**Variables**:
+- `respondent_id`: Unique identifier (int)
+- `age`: Respondent's age (int)
+- `education`: Education level (chr)
+- `party_id`: Democrat, Republican, Independent (chr)
+- `income_category`: Income bracket (chr)
+- `region`: Geographic region (chr)
+- `congress_approval`: Approval rating for Congress, 0-100 scale (dbl)
+
+### 5.1 Initial Data Exploration
+
+```{r}
+# Load the dataset
+library(tidyverse)
+approval <- read_csv("Week 2/Class 4/congressional_approval.csv")
+
+# Examine the data
+glimpse(approval)
+summary(approval$congress_approval)
+```
+
+Use Claude to calculate and interpret basic summary statistics for congressional approval ratings.
+
+### 5.2 Approval by Party
+
+Work with Claude to calculate mean and median approval ratings by party affiliation. What patterns do you observe? Are there differences in how spread out opinions are within each party?
+
+### 5.3 Regional Variations
+
+Ask Claude to help you explore how congressional approval varies by region. Which regions show the highest and lowest approval? Which have the most consensus (lowest standard deviation)?
+
+### 5.4 Creating a Summary Report
+
+Work with Claude to create a comprehensive summary table that shows approval statistics by both party and region. What insights emerge from this analysis?
+
+## 6. Income and Wealth Distribution
+
+**Dataset: household_panel.csv**
+
+**Description**: Panel data tracking household economic conditions over time.
+
+**Variables**:
+- `hh_id`: Unique household identifier (int)
+- `year`: Year of observation (int)
+- `head_age`: Age of household head (int)
+- `education_head`: Education of household head (chr)
+- `num_children`: Number of children (int)
+- `income`: Annual household income (dbl)
+- `has_employer_insurance`: Has employer insurance (lgl)
+- `self_reported_health`: Health status (chr)
+- `unexpected_expense`: Can handle $400 expense (lgl)
+
+### 6.1 Loading and Understanding the Data
+
+```{r}
+# Load the dataset
+household <- read_csv("Week 2/Class 4/household_panel.csv")
+
+# Check the structure
+glimpse(household)
+```
+
+This is panel data (same households observed over multiple years). Ask Claude to help you understand the income and wealth distributions.
+
+### 6.2 Income and Health
+
+Work with Claude to explore the relationship between household income and self-reported health status. Do higher-income households report better health? Calculate appropriate summary statistics.
+
+### 6.3 Financial Security
+
+Ask Claude to help you analyze financial security using the unexpected_expense variable. What percentage of households can handle a $400 emergency expense? How does this vary by income and education?
+
+## 7. Voter Turnout Patterns
+
+**Dataset: voter_turnout_simple.csv**
+
+**Description**: State-level voter turnout data from recent elections.
+
+**Variables**:
+- `state`: State name (chr)
+- `turnout_2020`: Turnout percentage in 2020 (dbl)
+- `turnout_2016`: Turnout percentage in 2016 (dbl)
+- `population_millions`: State population in millions (dbl)
+
+### 7.1 Turnout Overview
+
+```{r}
+# Load the dataset
+turnout <- read_csv("Week 2/Class 4/voter_turnout_simple.csv")
+
+# Explore the data
+glimpse(turnout)
+```
+
+Work with Claude to calculate summary statistics for voter turnout in both 2016 and 2020. What changed between elections?
+
+### 7.2 State-Level Patterns
+
+Ask Claude to help you identify which states had the highest and lowest turnout in both elections. How consistent are state rankings between 2016 and 2020?
+
+### 7.3 Turnout Changes
+
+Work with Claude to calculate how turnout changed from 2016 to 2020 for each state. Which states saw the biggest increases or decreases?
+
+## 8. Legislative Productivity
+
+**Dataset: rollcalls.csv**
+
+**Description**: Individual member votes on congressional bills.
+
+**Variables**:
+- `congress`: Congress number (int)
+- `bill_id`: Unique bill identifier (int)
+- `member_id`: Member identifier (int)
+- `party`: Political party (chr)
+- `ideology`: Member ideology score (dbl)
+- `bill_ideology`: Bill ideology score (dbl)
+- `vote`: Vote choice (chr)
+- `district_partisanship`: District lean (dbl)
+
+### 8.1 Understanding Voting Patterns
+
+```{r}
+# Load the dataset
+rollcalls <- read_csv("rollcalls.csv")
+
+# Look at the data
+glimpse(rollcalls)
+```
+
+Use Claude to calculate basic statistics about congressional voting patterns, including passage rates and participation.
+
+### 8.2 Party Voting Patterns
+
+Work with Claude to analyze how members vote based on their party affiliation. Do Democrats and Republicans vote differently on bills?
+
+### 8.3 Ideology and Voting
+
+Ask Claude to help you explore how member ideology relates to voting patterns. Do more extreme members vote differently than moderates?

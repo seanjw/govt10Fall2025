@@ -1,0 +1,289 @@
+---
+title: "Week 2, Class 3: Practice Exercises"
+subtitle: "Working with Real Data"
+date: "2025"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(formatR)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# Non-AI Exercises
+
+## 1. Working with Missing Data
+
+### 1.1 The Challenge of Missing Data
+
+Why can't we use `== NA` to check for missing values in R? What does this tell us about how R thinks about missing data?
+
+Answer:
+
+### 1.2 Code Detective: Missing Data
+
+Explain what's wrong with this code and how to fix it:
+
+```r
+data %>%
+  filter(age == NA)
+```
+
+Problem: _____
+Solution: _____
+
+
+
+## 2. The Pipe Operator
+
+### 2.1 Pipe vs No Pipe
+
+These two pieces of code do the same thing. Which is easier to read and why?
+
+```r
+# Version A
+arrange(select(filter(congress, party_code == "Republican"), bioname, nominate_dim1), nominate_dim1)
+
+# Version B  
+congress %>%
+  filter(party_code == "Republican") %>%
+  select(bioname, nominate_dim1) %>%
+  arrange(nominate_dim1)
+```
+
+Answer: _____
+
+## 3. Understanding DW-NOMINATE Scores
+
+### 3.1 The Scale
+
+DW-NOMINATE scores range from -1 to +1. What do these values represent in terms of political ideology? If a member of Congress has a score of -0.8, what does this tell you about their political positions?
+
+Answer:
+
+### 3.2 Interpreting Changes
+
+If the average DW-NOMINATE score for Democrats has moved from -0.3 in 1980 to -0.4 in 2020, what does this suggest about the party? What about if Republicans moved from +0.3 to +0.5?
+
+Answer:
+
+## 4. Advanced Tidyverse Operations
+
+### 4.1 The %in% Operator
+
+Explain what this code does and when you would use the `%in%` operator instead of `==`:
+
+```r
+congress %>%
+  filter(state_abbrev %in% c("CA", "TX", "NY", "FL"))
+```
+
+Answer:
+
+### 4.2 Select Helpers
+
+Match each `select()` helper function with what it does:
+
+a) `starts_with("vote")`     1. Selects columns containing "district" anywhere
+b) `ends_with("_id")`        2. Selects all remaining columns
+c) `contains("district")`     3. Selects columns starting with "vote"
+d) `everything()`            4. Selects columns ending with "_id"
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+## 5. Building Complex Analyses
+
+### 5.1 Step-by-Step Approach
+
+Why is it important to build your analysis step by step rather than writing complex chains all at once? Give two specific benefits.
+
+Answer:
+
+## 6. Data Exploration Best Practices
+
+### 6.1 Understanding Your Data
+
+Why is it important to use functions like `count()`, `summary()`, and `glimpse()` before doing complex analysis? What might happen if you skip this step?
+
+Answer:
+
+## 7. The NOT Operator
+
+### 7.1 Using the NOT Operator
+
+What will each of these expressions return if `x = 5` and `y = NA`:
+
+a) `!TRUE` = _____
+b) `!(x > 3)` = _____
+c) `!is.na(x)` = _____
+d) `!is.na(y)` = _____
+
+### 7.2 Practical Application
+
+Write the filter condition to keep only rows where the `vote_share` column is NOT missing:
+
+Answer: `filter(_____)`
+
+## 8. Multiple Sorting
+
+### 8.1 Understanding arrange() with Multiple Variables
+
+What does this code do, and in what order will the results appear?
+
+```r
+congress %>%
+  arrange(state_abbrev, desc(nominate_dim1))
+```
+
+Answer:
+
+# AI Exercises
+
+For each AI exercise:
+- Write your prompt in the designated space
+- Record Claude's response
+- Run the code and document the results
+
+## 9. Congressional Ideology Analysis
+
+**Dataset: HSall_members.csv**
+
+**Description**: DW-NOMINATE scores for all members of Congress throughout history.
+
+**Variables**:
+- `congress`: Congress number (int)
+- `chamber`: House or Senate (chr)
+- `state_abbrev`: State abbreviation (chr)
+- `party_code`: Political party (chr)
+- `bioname`: Member name (chr)
+- `nominate_dim1`: Liberal-conservative score, -1 to 1 (dbl)
+- `nominate_dim2`: Second dimension score (dbl)
+- `nominate_geo_mean_probability`: Prediction accuracy (dbl)
+
+### 9.1 Loading and Initial Exploration
+
+```{r}
+# Load the dataset
+congress <- read_csv("Week 2/Class 3/HSall_members.csv")
+
+# Explore the DW-NOMINATE data
+glimpse(congress)
+```
+
+This dataset contains ideological scores for all members of Congress. Work with Claude to understand what the nominate_dim1 variable represents.
+
+### 9.2 Party Polarization Over Time
+
+Ask Claude to help you analyze how the ideological distance between Democrats and Republicans in the most recent Congress.
+
+**Your Prompt to Claude:**
+
+```{r}
+
+```
+
+### 9.3 State-Level Analysis
+
+Work with Claude to find which state has the most ideologically diverse congressional delegation in the current Congress.
+
+**Your Prompt to Claude:**
+
+```{r}
+
+```
+
+## 10. School Climate and Outcomes
+
+**Dataset: school_climate.csv**
+
+**Description**: Student-level data nested in 500 schools measuring climate, discipline, academics.
+
+**Variables**:
+- `student_id`: Unique student identifier (int)
+- `school_id`: School identifier (int)
+- `grade_level`: 9-12 (int)
+- `gender`: male, female, nonbinary (factor)
+- `race_ethnicity`: Standard categories (factor)
+- `suspensions`: Annual suspension count (int)
+- `gpa`: 0-4 scale (num)
+- `school_safety`: 0-10 student perception (int)
+- `teacher_support`: 0-10 (int)
+- `parent_involvement`: 0-10 (int)
+- `school_poverty_rate`: % eligible for free lunch (num)
+
+### 10.1 Data Loading and Quality Check
+
+```{r}
+# Load the dataset
+school <- read_csv("Week 2/Class 3/school_climate.csv")
+
+# Check the structure
+glimpse(school)
+```
+
+This dataset contains student-level data nested within schools. 
+
+### 10.2 Analyzing Discipline Disparities
+
+Ask Claude to help you look for misssing data.
+
+**Your Prompt to Claude:**
+
+```{r}
+
+```
+
+### 10.3 School Climate and Academic Performance
+
+Work with Claude to mind mean safety perceptions and school poverty rate.
+
+**Your Prompt to Claude:**
+
+```{r}
+
+```
+
+## 11. Protest Participation Patterns
+
+**Dataset: protest_panel.csv**
+
+**Description**: Three-wave panel survey on protest activity & engagement.
+
+**Variables**:
+- `respondent_id`: Panel respondent ID (int)
+- `wave`: 1, 2, 3 (int)
+- `age`: Baseline age (int)
+- `education`: Highest degree (factor)
+- `political_interest`: 0-10, time-varying (int)
+- `ideology`: 1-7 scale (int)
+- `participated_protest`: Protested in past 12 months (binary)
+- `protest_issue`: Racial Justice, Climate, Abortion, Economy, NA (factor)
+- `social_media_use`: 0-5 daily usage index (int)
+- `voted_last_election`: Turnout indicator (binary)
+
+### 11.1 Understanding Panel Data
+
+```{r}
+# Load the dataset
+protest <- read_csv("Week 2/Class 3/protest_panel.csv")
+
+# Examine panel structure
+glimpse(protest)
+```
+
+Panel data follows the same individuals over time. 
+
+### 11.2 Who Protests?
+
+Ask Claude to help you create a profile of protesters vs non-protesters. Which group has more males? Which group is older on average?
+
+**Your Prompt to Claude:**
+
+```{r}
+
+```

@@ -1,0 +1,670 @@
+---
+title: "Week 2, Class 4"
+subtitle: "Summary Statistics"
+author: "Sean Westwood"
+format:
+  revealjs:
+    theme: black
+    slide-number: true
+    preview-links: auto
+    html-math-method: katex
+    css: ../../styles/slides.css
+    transition: 'fade'
+    print-background: true
+    self-contained: true
+---
+
+# Today's Learning Objectives
+
+## By the End of Class You Will:
+
+- Understand central tendency: mean, median, mode
+- Know when to use each measure of center
+- Calculate measures of spread: range, variance, standard deviation
+- Use `group_by()` and `summarise()` for data analysis
+
+
+# Summary Statistics
+
+## Why Do We Need Summary Statistics?
+
+
+**The Problem**: Raw data with thousands of observations is overwhelming
+
+::: {.highlight-box}
+**The Solution**: Summary statistics reduce complexity while preserving key information
+
+**Goal**: Describe the "typical" or "central" value in our data
+:::
+
+## Congressional Approval Example
+
+Congressional approval helps us understand public trust in political institutions
+
+**Dataset Description**:
+
+  - `congress_approval`: Approval rating for Congress (0-100 scale)
+  - `party_id`: Respondent's party affiliation (Democrat, Republican, Independent)
+  - `age`: Respondent's age
+  - `education`: Education level (High School, Some College, Bachelor's, etc.)
+  - `income_category`: Income bracket ($30k-$60k, etc.)
+  - `region`: Geographic region (Midwest, South, etc.)
+
+
+```{r}
+#| echo: false
+#| eval: true
+library(tidyverse)
+
+# Load approval data
+approval <- read_csv("../../data/congressional_approval.csv")
+
+# Look at raw approval ratings
+head(approval, 10)
+```
+
+## The Mean (Average)
+$$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$$
+
+**What this notation means**:
+
+- $\bar{x}$ (x-bar): The sample mean
+- $\sum_{i=1}^{n}$: Sum from the first observation (i=1) to the last (i=n)
+- $x_i$: Each individual value in our dataset
+- $n$: Total number of observations
+
+```{r}
+#| echo: true
+#| eval: true
+# Calculate mean approval rating
+mean_approval <- mean(approval$congress_approval, na.rm = TRUE)
+mean_approval
+```
+
+**Interpretation**: On average, presidential approval was `r round(mean_approval, 1)`%
+
+
+## The Median (Middle Value)
+
+**Definition**: The value that splits the data in half
+
+```{r}
+#| echo: true
+#| eval: true
+# Calculate median approval rating
+median_approval <- median(approval$congress_approval, na.rm = TRUE)
+median_approval
+```
+
+
+## The Mode (Most Common Value)
+
+**Definition**: The value that appears most frequently
+
+```{r}
+#| echo: true
+#| eval: true
+# Find mode using count
+approval %>% 
+  count(congress_approval, sort = TRUE) %>% 
+  head(5)
+```
+
+
+# Central Tendency
+
+## What is Central Tendency?
+
+**Definition**: Central tendency describes where the "center" or "typical" value of a dataset lies.
+
+**Three main measures**:
+
+1. **Mean** (average): Mathematical center
+2. **Median** (middle): Positional center  
+3. **Mode** (most common): Most frequent value
+
+::: {.highlight-box}
+**Key Insight**: Different measures of central tendency can tell different stories about the same data, especially when distributions are skewed or have outliers
+:::
+
+## When Distributions Aren't Symmetric
+
+**Real data often has:**
+
+- **Outliers**: Extreme values that don't fit the typical pattern
+- **Skewness**: Data stretched more in one direction than the other
+- **Multiple modes**: More than one common value
+
+**Why this matters**: Different shapes require different approaches to finding the "typical" value
+
+## Understanding Outliers
+
+**Definition**: Data points that are unusually far from other observations
+
+**Examples in political data**:
+
+- A presidential approval rating of 90% during a crisis
+- A candidate spending $500 million in a typical House race
+- A voter turnout of 95% in a large precinct
+
+**Impact on measures**:
+
+- **Mean**: Very sensitive to outliers (gets "pulled" toward them)
+- **Median**: Resistant to outliers (stays stable)
+- **Mode**: Usually unaffected by outliers
+
+## Understanding Skewness
+
+**Left-skewed (negative skew)**:
+
+- Long tail extends toward lower values
+- Mean < Median
+- Example: Test scores when most students do well
+
+**Right-skewed (positive skew)**:
+
+- Long tail extends toward higher values  
+- Mean > Median
+- Example: Income data (few very wealthy people)
+
+
+Campaign spending, wealth, and many political variables are typically right-skewed
+
+
+## Symmetric Distribution
+
+```{r dev="png", bg="transparent", dev.args=list(bg="transparent")}
+#| echo: false
+#| eval: true
+#| fig-width: 8
+#| fig-height: 5
+set.seed(123)
+symmetric_data <- rnorm(1500, mean = 50, sd = 10)
+
+symmetric_df <- tibble(values = symmetric_data)
+
+# Calculate measures
+sym_mean <- mean(symmetric_data)
+sym_median <- median(symmetric_data)
+sym_mode <- as.numeric(names(sort(table(round(symmetric_data)), decreasing = TRUE)[1]))
+
+ggplot(symmetric_df, aes(x = values)) +
+  geom_histogram(aes(y = after_stat(density)), bins = 30, alpha = 0.7, fill = "#5ba300", color = "white", linewidth = 0.5) +
+  geom_density(color = "#0073e6", linewidth = 2) +
+  geom_vline(aes(xintercept = sym_mean), color = "#e6308a", linewidth = 2, linetype = "dashed") +
+  geom_vline(aes(xintercept = sym_median), color = "#89ce00", linewidth = 2, linetype = "dotted") +
+  labs(title = "Mean ≈ Median",
+       subtitle = paste("Mean:", round(sym_mean, 1), "| Median:", round(sym_median, 1)),
+       x = "Values", y = "Density") +
+  theme_void() +
+  theme(plot.title = element_text(size = 18, color = "white", hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(size = 14, color = "white", hjust = 0.5),
+        axis.text = element_text(color = "white", size = 12),
+        axis.title = element_text(color = "white", size = 14),
+        plot.background = element_rect(fill = "transparent", color = NA),
+        panel.background = element_rect(fill = "transparent", color = NA))
+```
+
+**All three measures are similar**
+
+## Right-Skewed Distribution
+
+```{r dev="png", bg="transparent", dev.args=list(bg="transparent")}
+#| echo: false
+#| eval: true
+#| fig-width: 8
+#| fig-height: 5
+set.seed(123)
+right_skewed_data <- c(rexp(1200, rate = 0.5), rexp(300, rate = 0.1) + 10)
+
+skewed_df <- tibble(values = right_skewed_data)
+
+# Calculate measures
+skew_mean <- mean(right_skewed_data)
+skew_median <- median(right_skewed_data)
+
+ggplot(skewed_df, aes(x = values)) +
+  geom_histogram(aes(y = after_stat(density)), bins = 30, alpha = 0.7, fill = "#89ce00", color = "white", linewidth = 0.5) +
+  geom_density(color = "#0073e6", linewidth = 2) +
+  geom_vline(aes(xintercept = skew_mean), color = "#e6308a", linewidth = 2, linetype = "dashed") +
+  geom_vline(aes(xintercept = skew_median), color = "#b51963", linewidth = 2, linetype = "dotted") +
+  labs(title = "Median < Mean",
+       subtitle = paste("Median:", round(skew_median, 1), "| Mean:", round(skew_mean, 1)),
+       x = "Values", y = "Density") +
+  theme_void() +
+  theme(plot.title = element_text(size = 18, color = "white", hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(size = 14, color = "white", hjust = 0.5),
+        axis.text = element_text(color = "white", size = 12),
+        axis.title = element_text(color = "white", size = 14),
+        plot.background = element_rect(fill = "transparent", color = NA),
+        panel.background = element_rect(fill = "transparent", color = NA))
+```
+
+**Mean pulled toward high values**
+
+## Left-Skewed Distribution
+
+
+```{r dev="png", bg="transparent", dev.args=list(bg="transparent")}
+#| echo: false
+#| eval: true
+#| fig-width: 8
+#| fig-height: 5
+set.seed(123)
+# Create left-skewed data by reflecting right-skewed data
+temp_data <- rexp(1500, rate = 0.3)
+left_skewed_data <- max(temp_data) - temp_data + min(temp_data)
+
+left_df <- tibble(values = left_skewed_data)
+
+# Calculate measures
+left_mean <- mean(left_skewed_data)
+left_median <- median(left_skewed_data)
+
+ggplot(left_df, aes(x = values)) +
+  geom_histogram(aes(y = after_stat(density)), bins = 30, alpha = 0.7, fill = "#0073e6", color = "white", linewidth = 0.5) +
+  geom_density(color = "#5ba300", linewidth = 2) +
+  geom_vline(aes(xintercept = left_mean), color = "#e6308a", linewidth = 2, linetype = "dashed") +
+  geom_vline(aes(xintercept = left_median), color = "#b51963", linewidth = 2, linetype = "dotted") +
+  labs(title = "Mean < Median",
+       subtitle = paste("Mean:", round(left_mean, 1), "| Median:", round(left_median, 1)),
+       x = "Values", y = "Density") +
+  theme_void() +
+  theme(plot.title = element_text(size = 18, color = "white", hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(size = 14, color = "white", hjust = 0.5),
+        axis.text = element_text(color = "white", size = 12),
+        axis.title = element_text(color = "white", size = 14),
+        plot.background = element_rect(fill = "transparent", color = NA),
+        panel.background = element_rect(fill = "transparent", color = NA))
+```
+
+**Mean pulled toward low values**
+
+# Example: Income Distribution
+
+## Why This Matters
+```{r}
+#| echo: false
+#| eval: true
+# Simulate income data (right-skewed like real income)
+set.seed(123)
+income <- c(
+  rnorm(80, 50000, 15000),  # Most people: middle class
+  rnorm(15, 100000, 20000), # Upper middle class
+  rnorm(5, 500000, 100000)  # Very wealthy
+) %>% 
+  round(0) %>% 
+  pmax(20000)  # Minimum income
+```
+```{r}
+#| echo: true
+#| eval: true
+
+# Calculate all three measures
+mean_income <- mean(income)
+median_income <- median(income)
+mode_income <- income[which.max(tabulate(match(income, unique(income))))]
+
+print(paste("Mean:", round(mean_income, 0)))
+print(paste("Median:", round(median_income, 0)))
+```
+
+::: {.warning-box}
+**Notice**: Mean is much higher than median due to wealthy outliers
+:::
+
+# Historical Context: Adolphe Quetelet
+
+## The "Average Man" (1835)
+
+::: {.columns}
+
+::: {.column width="25%"}
+![](../../images/quetelet.jpg){width=100% fig-alt="Portrait of Adolphe Quetelet, Belgian statistician"}
+:::
+
+::: {.column width="75%"}
+**Adolphe Quetelet**: Belgian statistician who pioneered the use of statistics in social science
+
+Wanted to understand the "average man" (l'homme moyen) and devloped anthropetry and BMI
+
+- **Measured** physical characteristics of soldiers
+- **Calculated** average height, weight, chest measurements, etc.
+- **Identified** Human physical traits follow predictable patterns (distributions)
+
+Unfortuantely, he was a racist and used his work to justify eugenics
+
+
+:::
+
+:::
+
+
+# Measures of Spread
+
+## Why Central Tendency Isn't Enough
+
+
+Consider two datasets with the same mean:
+
+- **Midterm Dataset A**: 48, 49, 50, 51, 52 (mean = 50)
+- **Midterm Dataset B**: 10, 30, 50, 70, 90 (mean = 50)
+
+**Question**: Are these datasets the same?
+
+
+Means are not enough! We need measures of **spread** or **variability**.
+
+## Range
+
+**Definition**: Difference between maximum and minimum values
+
+```{r}
+#| echo: true
+#| eval: true
+# Calculate range for approval ratings
+approval %>% 
+  summarise(
+    min_approval = min(congress_approval, na.rm = TRUE),
+    max_approval = max(congress_approval, na.rm = TRUE),
+    range = max_approval - min_approval
+  )
+```
+
+::: {.warning-box}
+**Limitation**: Sensitive to outliers, ignores distribution shape
+:::
+
+## Variance and Standard Deviation
+
+**Variance**: 
+
+$$s^2 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n-1}$$
+
+**Standard Deviation**: 
+$$s = \sqrt{s^2}$$
+
+**Understanding the notation:**
+
+- $s^2$ = sample variance (s-squared)
+- $s$ = sample standard deviation
+- $x_i$ = each individual observation (i = 1, 2, 3, ... n)
+- $\bar{x}$ = sample mean (x-bar)
+- $n$ = sample size
+
+## Understanding Variance and Standard Deviation
+
+**What do they measure?**
+
+- **Variance**: Average of squared distances from the mean
+- **Standard Deviation**: Typical distance observations are from the mean
+- **Both measure "spread"** - how much data points vary around the center
+
+## Step-by-Step Calculation Example
+
+**Step 1: Find the mean**
+
+**Step 2: Calculate deviations from mean**
+
+| Value | Mean | Deviation $(x_i - \bar{x})$ | Squared Deviation $(x_i - \bar{x})^2$ |
+|-------|------|----------------------------|--------------------------------------|
+| 45    | 50   | -5                        | 25                                   |
+| 48    | 50   | -2                        | 4                                    |
+| 50    | 50   | 0                         | 0                                    |
+| 52    | 50   | 2                         | 4                                    |
+| 55    | 50   | 5                         | 25                                   |
+
+**Step 3: Sum the squared deviations**
+$$\sum(x_i - \bar{x})^2 = 25 + 4 + 0 + 4 + 25 = 58$$
+
+**Step 4: Calculate variance** 
+$$s = \sqrt{\frac{58}{5-1}} = \sqrt{\frac{58}{4}} = 3.81$$
+
+
+## Variance and Standard Deviation: With R
+
+```{r}
+#| echo: true
+#| eval: true
+# Calculate variance and standard deviation
+approval %>% 
+  summarise(
+    variance = var(congress_approval, na.rm = TRUE),
+    std_dev = sd(congress_approval, na.rm = TRUE),
+    mean = mean(congress_approval, na.rm = TRUE)
+  )
+```
+
+
+# Data Analysis with summarise() and group_by()
+
+## The `summarise()` Function
+
+**Purpose**: Create summary statistics from your data
+
+**Components of `summarise()`:**
+
+- **Input**: A data frame
+- **Output**: A single row with your calculated statistics
+- **Functions**: Any function that returns a single value (mean, median, sd, n, etc.)
+
+## Basic `summarise()` Example
+
+```{r}
+#| echo: true
+#| eval: true
+# Load congressional data
+congress <- read_csv("../../data/HSall_members.csv")
+
+# Single summary of the entire dataset
+congress %>% 
+  summarise(
+    total_members = n(),                                    # Count of rows
+    avg_ideology = mean(nominate_dim1, na.rm = TRUE),      # Mean
+    median_ideology = median(nominate_dim1, na.rm = TRUE), # Median
+    spread_ideology = sd(nominate_dim1, na.rm = TRUE),     # Standard deviation
+    min_ideology = min(nominate_dim1, na.rm = TRUE),       # Minimum
+    max_ideology = max(nominate_dim1, na.rm = TRUE)        # Maximum
+  )
+```
+
+::: {.highlight-box}
+**Key insight**: `summarise()` reduces your entire dataset to a single row of summary statistics
+:::
+
+## Adding `group_by()` for Subgroup Analysis
+
+But what if we want to compare the mean ideology of Republicans vs. Democrats?
+
+**`group_by()`**: Apply `summarise()` to subgroups instead of the entire dataset
+
+```{r}
+#| echo: true
+#| eval: true
+# Same summary, but BY party
+congress %>% 
+  group_by(party_code) %>% 
+  summarise(
+    count = n(),
+    avg_nominate_dim1 = mean(nominate_dim1, na.rm = TRUE),
+    median_nominate_dim1 = median(nominate_dim1, na.rm = TRUE),
+    sd_nominate_dim1 = sd(nominate_dim1, na.rm = TRUE)
+  )
+```
+
+
+## Grouping Multiple Variables
+
+**You can group by multiple variables to create more detailed breakdowns:**
+
+```{r}
+#| echo: true
+#| eval: true
+# Summary by party AND chamber
+congress %>% 
+  group_by(party_code, chamber) %>% 
+  summarise(
+    count = n(),
+    avg_nominate_dim1 = mean(nominate_dim1, na.rm = TRUE),
+    .groups = "drop"  # Removes grouping after summarise
+  )
+```
+
+::: {.warning-box}
+**Note**: `.groups = "drop"` removes grouping after `summarise()` to avoid unexpected behavior
+:::
+
+## Comprehensive Statistical Summaries
+
+**Create complete statistical profiles for each group:**
+
+```{r}
+#| echo: true
+#| eval: true
+# Complete statistical summary by party
+congress %>% 
+  group_by(party_code) %>% 
+  summarise(
+    count = n(),                                        # Sample size
+    mean_ideology = mean(nominate_dim1, na.rm = TRUE), # Central tendency
+    median_ideology = median(nominate_dim1, na.rm = TRUE),
+    min_ideology = min(nominate_dim1, na.rm = TRUE),   # Range
+    max_ideology = max(nominate_dim1, na.rm = TRUE),
+    std_dev = sd(nominate_dim1, na.rm = TRUE),         # Spread
+    .groups = "drop"
+  ) %>% 
+  mutate(across(where(is.numeric), round, 3))  # Round for readability
+```
+
+
+
+# The count() Function
+
+## Counting Observations
+
+```{r}
+#| echo: true
+#| eval: true
+# Count with conditions
+congress %>% 
+  filter(nominate_dim1 > 0.6) %>% 
+  count(party_code, sort = TRUE)
+```
+
+
+# AI Integration for Statistical Analysis
+
+## Effective Prompts for Summary Statistics
+
+
+**For choosing the right measure:**
+
+> "I have presidential approval rating data that might have outliers. Should I use mean or median to summarize it? Please explain the difference and provide R code for both."
+
+**For grouping analysis:**
+
+> "Help me write tidyverse code to calculate mean, median, and standard deviation of vote_share, grouped by party_code and state_abbrev. Explain what you did.  My dataframe is called congress and it looks like this: <insert glimpse()>"
+
+
+## Interpreting Results with AI
+
+
+**For understanding patterns:**
+
+> "I calculated that Republican candidates have a mean vote share of 0.52 and Democrats have 0.48, with standard deviations of 0.15 and 0.18 respectively. What does this tell me about voting patterns?"
+
+**AI helps you understand:**
+
+- What the numbers mean in context
+- Whether differences are meaningful
+- What questions to ask next
+
+
+# Common Mistakes and Solutions
+
+## Forgetting to Handle Missing Values
+
+```{r}
+#| echo: true
+#| eval: true
+# This might give NA if there are missing values
+test_data <- c(1, 2, 3, NA, 5)
+mean(test_data)  # Returns NA
+
+# Solution: use na.rm = TRUE
+mean(test_data, na.rm = TRUE)  # Returns 2.75
+```
+
+
+## Choosing the Wrong Measure
+
+**Use Mean When:**
+
+- Data is roughly symmetric
+- You want to include all values
+- Making predictions
+
+**Use Median When:**
+
+- Data has outliers
+- Data is skewed
+- Describing "typical" experience
+
+# Best Practices
+
+## Report Multiple Measures
+
+
+```{r}
+#| echo: true
+#| eval: true
+# Comprehensive summary
+approval %>% 
+  summarise(
+    n = n(),
+    mean = mean(congress_approval, na.rm = TRUE),
+    median = median(congress_approval, na.rm = TRUE),
+    sd = sd(congress_approval, na.rm = TRUE),
+    min = min(congress_approval, na.rm = TRUE),
+    max = max(congress_approval, na.rm = TRUE)
+  ) %>% 
+  mutate(across(where(is.numeric), round, 2))
+```
+
+
+## Think About Context
+
+::: {.warning-box}
+**Numbers without context are meaningless**
+
+- Is a 5-point difference in approval ratings large?
+- What's a typical range for vote shares?
+- How do current values compare to historical patterns?
+:::
+
+# Looking Ahead
+
+## Next Week Preview
+
+**Research Designs**:
+
+- Experimental vs observational studies
+- Natural experiments
+- The fundamental problem of causal inference
+- When can we make causal claims?
+
+## Key Concepts to Remember
+
+::: {.highlight-box}
+- **Mean** includes all values but sensitive to outliers
+- **Median** resistant to outliers, good for skewed data  
+- **Standard deviation** measures spread around the mean
+- **group_by() + summarise()** powerful for comparing groups
+- **Context matters** - interpret statistics in real-world terms
+:::
+
+# Questions?
+
+**Key takeaway**: Summary statistics are tools for understanding data patterns. Choose the right tool for your data and always interpret results in context.
+
+Next class: We'll learn about different research designs and when we can make causal claims from data.
