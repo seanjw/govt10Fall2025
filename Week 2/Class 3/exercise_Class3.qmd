@@ -37,8 +37,6 @@ data %>%
 Problem: _____
 Solution: _____
 
-
-
 ## 2. The Pipe Operator
 
 ### 2.1 Pipe vs No Pipe
@@ -240,7 +238,7 @@ Ask Claude to help you look for misssing data.
 
 ### 10.3 School Climate and Academic Performance
 
-Work with Claude to mind mean safety perceptions and school poverty rate.
+Work with Claude to find mean safety perceptions.
 
 **Your Prompt to Claude:**
 
@@ -280,7 +278,7 @@ Panel data follows the same individuals over time.
 
 ### 11.2 Who Protests?
 
-Ask Claude to help you create a profile of protesters vs non-protesters. Which group has more males? Which group is older on average?
+Ask Claude to help you create a profile of protesters. Which group has more males? Which group is older on average?
 
 **Your Prompt to Claude:**
 
