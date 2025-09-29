@@ -1,0 +1,2001 @@
+contribution_id,candidate,party,office,amount,date,contributor_type,state,employer,occupation
+1,Wilson (I),Independent,House,1000,2024-11-04,PAC,NM,Education,Business Owner
+2,Jones (R),Republican,Governor,50,2024-09-17,Union PAC,NY,Not Employed,Business Owner
+3,Brown (D),Democrat,House,1693.038197633451,2024-08-10,Individual,NM,Education,Engineer
+4,Wilson (I),Independent,Senate,4685.86134723902,2024-10-08,Individual,SC,Tech Corp,Consultant
+5,Smith (D),Democrat,Senate,500,2024-09-13,Individual,MN,Healthcare Inc,Consultant
+6,Miller (D),Democrat,House,500,2024-04-20,Union PAC,ND,Retail Co,Retired
+7,Smith (D),Democrat,Senate,250,2024-05-02,Individual,DE,Not Employed,Engineer
+8,Miller (D),Democrat,Senate,4075.2618724580743,2024-12-24,Super PAC,CO,Finance LLC,Attorney
+9,Brown (D),Democrat,Senate,500,2024-01-09,Super PAC,AR,Tech Corp,Business Owner
+10,Davis (R),Republican,House,100,2024-04-23,Corporate PAC,CT,Not Employed,Sales
+11,Smith (D),Democrat,Governor,1008.7835585047795,2024-05-12,Individual,VT,Tech Corp,Business Owner
+12,Taylor (R),Republican,House,500,2024-04-05,Individual,MN,Not Employed,Retired
+13,Jones (R),Republican,Governor,100,2024-09-24,PAC,ME,Retired,Retired
+14,Miller (D),Democrat,House,1963.9052159521252,2024-12-13,Individual,MN,Retired,Engineer
+15,Taylor (R),Republican,House,25,2024-02-05,Corporate PAC,KY,Retired,Business Owner
+16,Taylor (R),Republican,House,4262.630170363476,2024-05-18,Individual,MN,Retired,Retired
+17,Brown (D),Democrat,Senate,25,2024-09-13,Individual,MI,Education,Teacher
+18,Miller (D),Democrat,House,100,2024-11-08,Individual,WA,Education,Engineer
+19,Davis (R),Republican,Governor,6917.305115238492,2024-10-03,Individual,FL,Education,Engineer
+20,Wilson (I),Independent,House,25,2024-03-25,Individual,NV,Retail Co,Engineer
+21,Taylor (R),Republican,Governor,50,2024-11-01,PAC,CT,Finance LLC,Healthcare
+22,Brown (D),Democrat,Governor,100,2024-04-01,Individual,AK,Self-employed,Engineer
+23,Jones (R),Republican,House,100,2024-09-02,Individual,OR,Self-employed,Business Owner
+24,Wilson (I),Independent,House,2248.1585433029463,2024-06-24,Individual,MN,Healthcare Inc,Retired
+25,Wilson (I),Independent,Senate,250,2024-09-10,Individual,OH,Retail Co,Teacher
+26,Smith (D),Democrat,Senate,500,2024-07-16,Individual,NV,Not Employed,Sales
+27,Taylor (R),Republican,House,250,2024-07-23,Corporate PAC,WI,Not Employed,Attorney
+28,Smith (D),Democrat,House,100,2024-03-30,Corporate PAC,OK,Education,Consultant
+29,Davis (R),Republican,Governor,100,2024-12-26,Super PAC,MA,Healthcare Inc,Teacher
+30,Brown (D),Democrat,Senate,500,2024-06-17,Individual,OH,Healthcare Inc,Retired
+31,Miller (D),Democrat,House,100,2024-10-17,Individual,MI,Finance LLC,Healthcare
+32,Jones (R),Republican,Senate,7954.265614856428,2024-03-19,Individual,NE,Healthcare Inc,Business Owner
+33,Wilson (I),Independent,Governor,50,2024-01-23,PAC,MN,Self-employed,Sales
+34,Smith (D),Democrat,Senate,250,2024-04-27,Individual,GA,Not Employed,Engineer
+35,Jones (R),Republican,House,1000,2024-04-19,Union PAC,MA,Self-employed,Sales
+36,Wilson (I),Independent,House,250,2024-04-01,Individual,ME,Retail Co,Retired
+37,Miller (D),Democrat,Governor,500,2024-05-26,Corporate PAC,MA,Finance LLC,Engineer
+38,Wilson (I),Independent,Governor,100,2024-05-07,PAC,IA,Not Employed,Teacher
+39,Wilson (I),Independent,Senate,250,2024-12-01,Individual,ND,Tech Corp,Teacher
+40,Miller (D),Democrat,House,50,2024-08-29,Union PAC,AL,Retail Co,Healthcare
+41,Davis (R),Republican,Governor,13595.224565163155,2024-05-26,PAC,AK,Healthcare Inc,Healthcare
+42,Jones (R),Republican,Governor,250,2024-08-13,Individual,GA,Retail Co,Business Owner
+43,Taylor (R),Republican,Senate,1765.9095939676074,2024-11-14,Individual,NM,Education,Healthcare
+44,Taylor (R),Republican,Senate,50,2024-07-31,Individual,NY,Tech Corp,Healthcare
+45,Davis (R),Republican,Governor,100,2024-12-30,Individual,DE,Retired,Engineer
+46,Davis (R),Republican,Governor,25,2024-07-02,PAC,AR,Tech Corp,Retired
+47,Miller (D),Democrat,Senate,1000,2024-02-03,Individual,MI,Not Employed,Healthcare
+48,Taylor (R),Republican,House,50,2024-03-07,PAC,ME,Healthcare Inc,Consultant
+49,Smith (D),Democrat,Senate,50,2024-11-09,Individual,PA,Healthcare Inc,Sales
+50,Davis (R),Republican,House,1000,2024-02-12,Corporate PAC,OR,Education,Business Owner
+51,Wilson (I),Independent,House,50,2024-04-11,Union PAC,GA,Retail Co,Attorney
+52,Taylor (R),Republican,House,25,2024-08-02,Individual,ME,Finance LLC,Business Owner
+53,Brown (D),Democrat,House,25,2024-04-29,Individual,VA,Retired,Consultant
+54,Jones (R),Republican,Governor,50,2024-02-17,Individual,IN,Healthcare Inc,Sales
+55,Brown (D),Democrat,Governor,250,2024-11-14,Individual,OK,Finance LLC,Healthcare
+56,Taylor (R),Republican,Governor,2800,2024-10-09,Individual,NJ,Retired,Retired
+57,Brown (D),Democrat,Senate,50,2024-02-20,Individual,CO,Tech Corp,Attorney
+58,Brown (D),Democrat,House,50,2024-01-10,Individual,SC,Retired,Sales
+59,Taylor (R),Republican,Senate,500,2024-05-04,PAC,AR,Healthcare Inc,Retired
+60,Brown (D),Democrat,Governor,3222.762381217501,2024-03-26,PAC,OR,Retired,Sales
+61,Miller (D),Democrat,Senate,500,2024-01-15,PAC,ME,Retail Co,Retired
+62,Miller (D),Democrat,Senate,3439.8117554488035,2024-07-21,Individual,OR,Retired,Healthcare
+63,Smith (D),Democrat,Senate,100,2024-06-29,PAC,NJ,Healthcare Inc,Consultant
+64,Jones (R),Republican,House,250,2024-07-21,PAC,MS,Retired,Engineer
+65,Miller (D),Democrat,Senate,2800,2024-05-22,Individual,NC,Self-employed,Engineer
+66,Jones (R),Republican,House,100,2024-05-19,Individual,SD,Education,Teacher
+67,Jones (R),Republican,House,1790.4378335917233,2024-10-22,Individual,WV,Retail Co,Retired
+68,Brown (D),Democrat,House,1707.4655305533659,2024-10-21,Individual,ND,Self-employed,Engineer
+69,Taylor (R),Republican,Senate,100,2024-05-31,Corporate PAC,AR,Tech Corp,Engineer
+70,Brown (D),Democrat,Senate,2558.6634896815176,2024-07-03,PAC,OR,Self-employed,Sales
+71,Smith (D),Democrat,Governor,100,2024-06-12,Individual,KY,Education,Healthcare
+72,Miller (D),Democrat,Senate,117.71865155210746,2024-09-22,Corporate PAC,MD,Retail Co,Retired
+73,Smith (D),Democrat,Governor,9051.228970158916,2024-05-28,Individual,UT,Tech Corp,Healthcare
+74,Taylor (R),Republican,Governor,500,2024-08-08,Individual,OK,Healthcare Inc,Consultant
+75,Brown (D),Democrat,Senate,25,2024-11-04,Individual,HI,Retired,Retired
+76,Davis (R),Republican,House,250,2024-02-19,Individual,VA,Healthcare Inc,Consultant
+77,Miller (D),Democrat,House,500,2024-09-25,Individual,CT,Not Employed,Retired
+78,Jones (R),Republican,Senate,100,2024-01-29,Individual,NH,Finance LLC,Consultant
+79,Taylor (R),Republican,House,25,2024-04-06,PAC,SD,Finance LLC,Attorney
+80,Miller (D),Democrat,Senate,250,2024-09-04,Individual,CO,Finance LLC,Sales
+81,Smith (D),Democrat,Senate,250,2024-07-29,Individual,NC,Finance LLC,Consultant
+82,Davis (R),Republican,Governor,25,2024-06-28,Individual,MD,Finance LLC,Consultant
+83,Miller (D),Democrat,House,3820.2288797820356,2024-04-23,PAC,WI,Healthcare Inc,Attorney
+84,Brown (D),Democrat,House,6621.48118240949,2024-12-20,Individual,TN,Tech Corp,Business Owner
+85,Taylor (R),Republican,House,250,2024-06-30,Individual,GA,Retail Co,Engineer
+86,Davis (R),Republican,Governor,1279.6898129131223,2024-10-21,PAC,WY,Self-employed,Business Owner
+87,Brown (D),Democrat,Senate,2623.8574266037876,2024-09-15,Corporate PAC,NE,Tech Corp,Business Owner
+88,Miller (D),Democrat,House,100,2024-01-02,PAC,MS,Education,Consultant
+89,Smith (D),Democrat,House,50,2024-01-06,Individual,CO,Retired,Retired
+90,Jones (R),Republican,House,25,2024-04-23,PAC,NM,Retail Co,Sales
+91,Brown (D),Democrat,Senate,2505.8886039790214,2024-03-26,Individual,NV,Education,Consultant
+92,Brown (D),Democrat,Governor,4993.642641333353,2024-12-13,Individual,AR,Not Employed,Engineer
+93,Jones (R),Republican,Senate,25,2024-12-02,Individual,ND,Self-employed,Healthcare
+94,Davis (R),Republican,Senate,2800,2024-02-24,PAC,WI,Self-employed,Consultant
+95,Taylor (R),Republican,Senate,50,2024-12-12,PAC,TN,Retail Co,Engineer
+96,Jones (R),Republican,House,100,2024-07-17,Individual,NH,Healthcare Inc,Business Owner
+97,Jones (R),Republican,House,250,2024-07-26,Individual,OH,Self-employed,Teacher
+98,Taylor (R),Republican,Senate,5757.834128027527,2024-03-26,Individual,MS,Education,Sales
+99,Brown (D),Democrat,Governor,2800,2024-12-08,Union PAC,KY,Not Employed,Healthcare
+100,Smith (D),Democrat,Governor,50,2024-01-13,Individual,NM,Tech Corp,Sales
+101,Smith (D),Democrat,House,1000,2024-02-06,Individual,KS,Retired,Teacher
+102,Miller (D),Democrat,Senate,1065.2432199734521,2024-12-14,Individual,ND,Not Employed,Retired
+103,Davis (R),Republican,Governor,25,2024-06-29,Individual,CO,Self-employed,Sales
+104,Wilson (I),Independent,House,250,2024-10-10,Individual,KS,Education,Retired
+105,Jones (R),Republican,House,10506.938986720927,2024-10-07,PAC,AL,Retail Co,Teacher
+106,Brown (D),Democrat,House,50,2024-04-07,Union PAC,HI,Retail Co,Healthcare
+107,Smith (D),Democrat,House,250,2024-01-11,Individual,MT,Self-employed,Engineer
+108,Davis (R),Republican,House,50,2024-03-10,Individual,AK,Healthcare Inc,Sales
+109,Smith (D),Democrat,House,930.7514518131638,2024-11-29,Individual,WI,Tech Corp,Business Owner
+110,Miller (D),Democrat,House,500,2024-07-11,Individual,NE,Retail Co,Retired
+111,Miller (D),Democrat,Senate,25,2024-08-03,PAC,NC,Finance LLC,Business Owner
+112,Brown (D),Democrat,House,100,2024-04-05,Individual,IN,Education,Teacher
+113,Taylor (R),Republican,House,100,2024-05-05,Individual,NJ,Not Employed,Retired
+114,Miller (D),Democrat,Senate,2800,2024-05-09,Individual,UT,Retail Co,Healthcare
+115,Jones (R),Republican,Senate,1192.5948680653519,2024-05-26,Individual,SC,Retail Co,Retired
+116,Miller (D),Democrat,Governor,25,2024-12-14,Individual,WA,Healthcare Inc,Healthcare
+117,Taylor (R),Republican,House,100,2024-09-22,Individual,AL,Finance LLC,Consultant
+118,Jones (R),Republican,House,2800,2024-07-07,Individual,NC,Self-employed,Engineer
+119,Smith (D),Democrat,House,250,2024-12-29,Individual,OR,Tech Corp,Attorney
+120,Wilson (I),Independent,House,25,2024-08-13,Individual,RI,Retired,Teacher
+121,Smith (D),Democrat,Governor,250,2024-09-10,Individual,DE,Healthcare Inc,Business Owner
+122,Davis (R),Republican,House,50,2024-01-18,Corporate PAC,OR,Retired,Healthcare
+123,Davis (R),Republican,House,4007.0662354113288,2024-06-21,Individual,NJ,Education,Sales
+124,Jones (R),Republican,House,500,2024-05-21,Super PAC,IN,Finance LLC,Engineer
+125,Miller (D),Democrat,Governor,100,2024-11-29,PAC,AK,Education,Business Owner
+126,Miller (D),Democrat,Senate,250,2024-03-09,Individual,UT,Healthcare Inc,Retired
+127,Taylor (R),Republican,House,100,2024-09-03,Union PAC,MN,Self-employed,Retired
+128,Taylor (R),Republican,Governor,1000,2024-09-15,Individual,NC,Healthcare Inc,Sales
+129,Smith (D),Democrat,Governor,250,2024-06-28,Individual,SC,Retail Co,Teacher
+130,Smith (D),Democrat,House,500,2024-09-13,Individual,MO,Retail Co,Engineer
+131,Taylor (R),Republican,Senate,250,2024-09-11,PAC,MS,Self-employed,Attorney
+132,Miller (D),Democrat,Governor,100,2024-07-08,Individual,MN,Education,Sales
+133,Taylor (R),Republican,House,25,2024-02-13,Individual,MT,Education,Sales
+134,Smith (D),Democrat,House,250,2024-02-14,Corporate PAC,MD,Self-employed,Healthcare
+135,Davis (R),Republican,Governor,25,2024-06-28,Individual,IL,Not Employed,Retired
+136,Smith (D),Democrat,Governor,100,2024-08-28,Individual,IN,Healthcare Inc,Healthcare
+137,Jones (R),Republican,House,100,2024-04-17,Individual,CT,Healthcare Inc,Consultant
+138,Jones (R),Republican,Governor,100,2024-06-09,Individual,KS,Self-employed,Retired
+139,Brown (D),Democrat,Governor,25,2024-06-05,Individual,MS,Education,Consultant
+140,Taylor (R),Republican,Senate,7166.319014467665,2024-04-06,Corporate PAC,ND,Not Employed,Sales
+141,Miller (D),Democrat,House,100,2024-10-09,PAC,OK,Retail Co,Business Owner
+142,Brown (D),Democrat,House,100,2024-12-25,Individual,KY,Tech Corp,Business Owner
+143,Miller (D),Democrat,House,250,2024-07-25,Super PAC,NM,Retired,Consultant
+144,Smith (D),Democrat,House,50,2024-12-26,Individual,VA,Finance LLC,Attorney
+145,Davis (R),Republican,House,25,2024-10-02,Individual,MI,Tech Corp,Consultant
+146,Taylor (R),Republican,House,250,2024-02-11,Individual,PA,Self-employed,Retired
+147,Wilson (I),Independent,Senate,9508.309513152753,2024-11-15,Union PAC,NH,Self-employed,Engineer
+148,Smith (D),Democrat,House,50,2024-10-03,Individual,IN,Not Employed,Consultant
+149,Brown (D),Democrat,House,25,2024-04-25,Individual,CT,Finance LLC,Attorney
+150,Brown (D),Democrat,House,250,2024-08-11,Individual,AR,Tech Corp,Attorney
+151,Miller (D),Democrat,Senate,50,2024-06-10,Individual,SD,Not Employed,Retired
+152,Smith (D),Democrat,House,100,2024-02-28,PAC,HI,Retail Co,Engineer
+153,Miller (D),Democrat,Senate,7413.4025706091215,2024-06-05,PAC,IA,Tech Corp,Healthcare
+154,Smith (D),Democrat,Governor,19698.996623629922,2024-04-30,Union PAC,SC,Not Employed,Teacher
+155,Miller (D),Democrat,House,500,2024-12-03,Super PAC,TN,Finance LLC,Engineer
+156,Wilson (I),Independent,Senate,25,2024-05-24,Individual,LA,Finance LLC,Teacher
+157,Taylor (R),Republican,House,22958.110136737207,2024-02-22,Individual,LA,Education,Business Owner
+158,Wilson (I),Independent,Senate,1000,2024-08-30,PAC,MO,Not Employed,Retired
+159,Brown (D),Democrat,House,50,2024-05-19,Union PAC,FL,Education,Business Owner
+160,Taylor (R),Republican,House,250,2024-10-06,Individual,NJ,Finance LLC,Engineer
+161,Davis (R),Republican,Senate,2800,2024-04-10,Individual,FL,Education,Business Owner
+162,Jones (R),Republican,Senate,100,2024-04-12,Individual,KY,Self-employed,Sales
+163,Smith (D),Democrat,House,50,2024-04-16,Individual,AZ,Finance LLC,Engineer
+164,Wilson (I),Independent,House,100,2024-06-06,Union PAC,NM,Finance LLC,Business Owner
+165,Jones (R),Republican,House,250,2024-05-21,PAC,WY,Education,Consultant
+166,Davis (R),Republican,Senate,50,2024-06-15,Individual,AK,Retired,Consultant
+167,Smith (D),Democrat,Governor,20118.922292271953,2024-02-21,Individual,VT,Retail Co,Business Owner
+168,Davis (R),Republican,House,100,2024-10-15,PAC,GA,Healthcare Inc,Retired
+169,Smith (D),Democrat,House,100,2024-03-03,Individual,WV,Self-employed,Healthcare
+170,Davis (R),Republican,House,16091.232182941367,2024-03-25,PAC,CA,Retail Co,Retired
+171,Wilson (I),Independent,Senate,100,2024-05-21,Corporate PAC,VT,Education,Consultant
+172,Taylor (R),Republican,Governor,25,2024-03-09,Individual,SD,Healthcare Inc,Consultant
+173,Miller (D),Democrat,House,50,2024-03-27,Individual,NE,Education,Teacher
+174,Wilson (I),Independent,House,100,2024-04-19,Super PAC,MO,Finance LLC,Retired
+175,Wilson (I),Independent,Senate,25,2024-04-29,Individual,NY,Tech Corp,Sales
+176,Jones (R),Republican,House,15153.086553533678,2024-03-29,PAC,MD,Tech Corp,Healthcare
+177,Smith (D),Democrat,House,500,2024-09-10,Individual,OH,Not Employed,Business Owner
+178,Jones (R),Republican,House,250,2024-11-08,Individual,WI,Not Employed,Business Owner
+179,Jones (R),Republican,Governor,250,2024-12-03,Individual,FL,Finance LLC,Teacher
+180,Davis (R),Republican,House,500,2024-10-16,Individual,FL,Healthcare Inc,Sales
+181,Wilson (I),Independent,Senate,15624.168646623904,2024-07-14,Individual,SD,Self-employed,Consultant
+182,Taylor (R),Republican,Governor,7300.594850894146,2024-07-09,Individual,OK,Finance LLC,Engineer
+183,Smith (D),Democrat,Senate,100,2024-04-10,Corporate PAC,MT,Self-employed,Business Owner
+184,Davis (R),Republican,Senate,3601.5025109110384,2024-10-11,Individual,MI,Retired,Consultant
+185,Taylor (R),Republican,Senate,8705.883532613112,2024-10-27,Individual,NE,Self-employed,Engineer
+186,Miller (D),Democrat,House,25,2024-12-17,Individual,NC,Healthcare Inc,Business Owner
+187,Wilson (I),Independent,House,25,2024-07-12,Individual,TN,Retail Co,Consultant
+188,Jones (R),Republican,House,500,2024-06-25,Individual,KS,Healthcare Inc,Retired
+189,Brown (D),Democrat,Senate,100,2024-04-30,Individual,AR,Healthcare Inc,Consultant
+190,Davis (R),Republican,Senate,2364.3414665551604,2024-01-18,PAC,NM,Retired,Consultant
+191,Brown (D),Democrat,Senate,3183.833060533312,2024-05-18,PAC,ME,Retired,Sales
+192,Taylor (R),Republican,House,250,2024-04-04,Individual,NJ,Finance LLC,Teacher
+193,Brown (D),Democrat,House,1376.4214212028287,2024-05-10,Individual,NC,Not Employed,Attorney
+194,Wilson (I),Independent,Senate,500,2024-09-12,PAC,AL,Retired,Retired
+195,Jones (R),Republican,House,500,2024-08-18,Union PAC,CA,Not Employed,Retired
+196,Miller (D),Democrat,Governor,500,2024-12-07,Individual,GA,Education,Retired
+197,Taylor (R),Republican,Senate,7535.185511427942,2024-01-04,Individual,IL,Self-employed,Retired
+198,Miller (D),Democrat,House,1000,2024-11-05,Individual,WY,Healthcare Inc,Consultant
+199,Davis (R),Republican,House,100,2024-09-09,Individual,WA,Retail Co,Retired
+200,Miller (D),Democrat,House,3719.953923028853,2024-02-20,Individual,MT,Healthcare Inc,Sales
+201,Brown (D),Democrat,House,50,2024-09-13,Corporate PAC,TN,Retired,Engineer
+202,Smith (D),Democrat,Senate,50,2024-10-20,Super PAC,OR,Not Employed,Sales
+203,Davis (R),Republican,House,100,2024-03-14,Individual,MO,Retired,Business Owner
+204,Brown (D),Democrat,House,6215.838437285578,2024-08-18,PAC,FL,Not Employed,Business Owner
+205,Taylor (R),Republican,Senate,50,2024-03-22,Individual,WV,Self-employed,Retired
+206,Taylor (R),Republican,Governor,11408.566827742328,2024-08-25,Individual,WA,Finance LLC,Healthcare
+207,Wilson (I),Independent,House,500,2024-12-05,Corporate PAC,MO,Not Employed,Sales
+208,Jones (R),Republican,Senate,250,2024-11-07,Individual,WI,Finance LLC,Healthcare
+209,Taylor (R),Republican,Senate,2770.74879198355,2024-05-20,Individual,ID,Education,Engineer
+210,Wilson (I),Independent,House,50,2024-06-25,PAC,OH,Not Employed,Healthcare
+211,Miller (D),Democrat,House,19125.57411225489,2024-02-04,Super PAC,CO,Tech Corp,Business Owner
+212,Smith (D),Democrat,House,13854.02820374654,2024-12-02,Individual,TN,Not Employed,Attorney
+213,Wilson (I),Independent,Senate,500,2024-08-10,Individual,CA,Finance LLC,Retired
+214,Wilson (I),Independent,House,2800,2024-02-07,Individual,ME,Retired,Engineer
+215,Wilson (I),Independent,Senate,2342.7300175345904,2024-06-01,PAC,IA,Retail Co,Consultant
+216,Taylor (R),Republican,House,500,2024-09-03,Individual,IA,Retired,Retired
+217,Taylor (R),Republican,Governor,25,2024-04-12,Individual,MA,Not Employed,Engineer
+218,Wilson (I),Independent,House,100,2024-12-17,PAC,KS,Healthcare Inc,Business Owner
+219,Jones (R),Republican,Senate,500,2024-04-08,Individual,VA,Tech Corp,Engineer
+220,Brown (D),Democrat,House,50,2024-02-06,Individual,NH,Finance LLC,Attorney
+221,Davis (R),Republican,House,250,2024-08-07,Corporate PAC,DE,Healthcare Inc,Sales
+222,Brown (D),Democrat,Governor,100,2024-11-11,Union PAC,ND,Education,Healthcare
+223,Brown (D),Democrat,Governor,4836.067457250992,2024-02-14,Union PAC,MA,Retired,Sales
+224,Taylor (R),Republican,Senate,250,2024-12-12,PAC,AL,Education,Business Owner
+225,Smith (D),Democrat,Senate,4819.0814258845285,2024-06-27,Individual,AL,Retail Co,Teacher
+226,Brown (D),Democrat,Governor,500,2024-11-27,Individual,WI,Healthcare Inc,Engineer
+227,Smith (D),Democrat,Senate,100,2024-01-28,PAC,NJ,Education,Engineer
+228,Brown (D),Democrat,House,25,2024-12-17,Super PAC,NC,Retail Co,Sales
+229,Davis (R),Republican,Governor,17976.036418915635,2024-04-22,Individual,SC,Retail Co,Healthcare
+230,Smith (D),Democrat,House,2800,2024-07-19,Individual,NY,Retired,Retired
+231,Miller (D),Democrat,House,500,2024-12-01,Corporate PAC,IA,Self-employed,Teacher
+232,Brown (D),Democrat,Senate,1357.2285508086277,2024-05-04,Individual,MT,Retail Co,Business Owner
+233,Smith (D),Democrat,Governor,250,2024-04-21,PAC,MS,Tech Corp,Attorney
+234,Wilson (I),Independent,Senate,500,2024-03-31,PAC,AR,Education,Retired
+235,Smith (D),Democrat,House,2578.7449328200105,2024-08-04,Individual,AZ,Self-employed,Retired
+236,Davis (R),Republican,Senate,26504.78062083744,2024-07-22,Individual,MN,Education,Engineer
+237,Taylor (R),Republican,House,2800,2024-01-12,Individual,AZ,Tech Corp,Attorney
+238,Taylor (R),Republican,Senate,250,2024-02-15,Union PAC,MI,Education,Retired
+239,Wilson (I),Independent,Governor,12985.898082213183,2024-04-26,Individual,PA,Retired,Teacher
+240,Wilson (I),Independent,House,50,2024-03-21,Individual,CA,Not Employed,Retired
+241,Miller (D),Democrat,House,1000,2024-08-05,Super PAC,GA,Healthcare Inc,Teacher
+242,Brown (D),Democrat,House,500,2024-01-25,PAC,MO,Retail Co,Consultant
+243,Brown (D),Democrat,House,250,2024-06-25,Individual,SD,Not Employed,Sales
+244,Jones (R),Republican,Senate,25,2024-06-20,PAC,VT,Finance LLC,Attorney
+245,Smith (D),Democrat,Senate,2800,2024-02-14,Individual,GA,Tech Corp,Healthcare
+246,Davis (R),Republican,House,250,2024-03-02,Individual,SD,Tech Corp,Consultant
+247,Miller (D),Democrat,Senate,5913.366682307926,2024-08-29,Individual,RI,Healthcare Inc,Teacher
+248,Jones (R),Republican,Senate,50,2024-06-23,Individual,MI,Self-employed,Sales
+249,Wilson (I),Independent,House,8768.884291914816,2024-10-31,Individual,RI,Retail Co,Attorney
+250,Davis (R),Republican,House,50,2024-12-11,Corporate PAC,HI,Not Employed,Retired
+251,Brown (D),Democrat,Governor,250,2024-01-20,Super PAC,VA,Tech Corp,Healthcare
+252,Smith (D),Democrat,House,25,2024-11-02,Corporate PAC,NY,Tech Corp,Business Owner
+253,Wilson (I),Independent,Senate,250,2024-02-19,PAC,AR,Healthcare Inc,Business Owner
+254,Wilson (I),Independent,Senate,25,2024-03-10,PAC,MN,Tech Corp,Healthcare
+255,Davis (R),Republican,House,250,2024-03-08,Corporate PAC,MO,Not Employed,Attorney
+256,Taylor (R),Republican,House,500,2024-03-07,Individual,SD,Retired,Engineer
+257,Wilson (I),Independent,Governor,25,2024-04-20,Super PAC,KS,Self-employed,Sales
+258,Brown (D),Democrat,Senate,25,2024-03-21,Individual,RI,Education,Healthcare
+259,Smith (D),Democrat,Governor,4053.234650373501,2024-12-14,Individual,NJ,Retired,Teacher
+260,Smith (D),Democrat,Governor,100,2024-09-03,PAC,NY,Healthcare Inc,Business Owner
+261,Jones (R),Republican,House,100,2024-01-28,Individual,PA,Retail Co,Consultant
+262,Jones (R),Republican,Governor,1000,2024-08-08,Individual,AL,Retired,Sales
+263,Wilson (I),Independent,House,250,2024-03-23,PAC,OR,Finance LLC,Retired
+264,Wilson (I),Independent,House,7658.350891443642,2024-06-16,Individual,FL,Tech Corp,Teacher
+265,Davis (R),Republican,House,100,2024-07-19,Individual,MD,Retail Co,Healthcare
+266,Smith (D),Democrat,House,50,2024-04-04,Individual,GA,Not Employed,Engineer
+267,Wilson (I),Independent,House,1000,2024-10-16,PAC,HI,Self-employed,Engineer
+268,Davis (R),Republican,House,250,2024-07-25,Individual,VA,Finance LLC,Sales
+269,Wilson (I),Independent,Senate,25,2024-06-12,Individual,MD,Retail Co,Engineer
+270,Wilson (I),Independent,House,25,2024-10-05,PAC,GA,Tech Corp,Business Owner
+271,Brown (D),Democrat,House,25,2024-12-30,Individual,TX,Education,Sales
+272,Brown (D),Democrat,Senate,25,2024-07-09,PAC,NE,Healthcare Inc,Business Owner
+273,Davis (R),Republican,House,8564.501133248394,2024-07-16,Union PAC,TN,Education,Healthcare
+274,Jones (R),Republican,Senate,250,2024-10-27,Individual,IL,Retail Co,Sales
+275,Taylor (R),Republican,House,1000,2024-11-10,PAC,AZ,Retired,Business Owner
+276,Davis (R),Republican,House,250,2024-12-04,Individual,HI,Self-employed,Retired
+277,Miller (D),Democrat,Governor,250,2024-03-09,Individual,GA,Not Employed,Sales
+278,Miller (D),Democrat,House,100,2024-05-10,Individual,TX,Tech Corp,Engineer
+279,Brown (D),Democrat,Senate,2800,2024-11-30,Individual,ME,Finance LLC,Sales
+280,Jones (R),Republican,Senate,25,2024-05-06,Individual,NE,Healthcare Inc,Attorney
+281,Wilson (I),Independent,Governor,1000,2024-06-11,Individual,NV,Self-employed,Teacher
+282,Brown (D),Democrat,House,14129.28808666669,2024-10-11,Union PAC,ME,Not Employed,Healthcare
+283,Smith (D),Democrat,House,1448.048630694454,2024-03-02,PAC,MN,Finance LLC,Consultant
+284,Brown (D),Democrat,House,100,2024-10-19,Individual,KY,Not Employed,Sales
+285,Wilson (I),Independent,House,6777.532961399389,2024-12-30,Individual,SC,Self-employed,Consultant
+286,Smith (D),Democrat,House,500,2024-09-22,PAC,OR,Education,Business Owner
+287,Smith (D),Democrat,Senate,100,2024-05-17,Individual,WA,Education,Teacher
+288,Davis (R),Republican,House,100,2024-03-13,Union PAC,DE,Finance LLC,Engineer
+289,Smith (D),Democrat,Senate,250,2024-12-12,Super PAC,NH,Finance LLC,Healthcare
+290,Taylor (R),Republican,House,250,2024-12-29,Individual,IN,Not Employed,Attorney
+291,Davis (R),Republican,Governor,25,2024-01-24,Individual,MO,Education,Consultant
+292,Davis (R),Republican,House,100,2024-09-24,Corporate PAC,NY,Retired,Business Owner
+293,Brown (D),Democrat,Governor,2800,2024-05-19,Individual,FL,Finance LLC,Consultant
+294,Smith (D),Democrat,House,64269.8406221396,2024-10-31,Super PAC,OK,Finance LLC,Healthcare
+295,Smith (D),Democrat,Senate,1000,2024-12-06,PAC,NE,Not Employed,Engineer
+296,Taylor (R),Republican,House,7083.188433057274,2024-09-10,Union PAC,IA,Healthcare Inc,Business Owner
+297,Smith (D),Democrat,Senate,250,2024-12-25,Individual,OK,Finance LLC,Healthcare
+298,Brown (D),Democrat,House,5365.439717028938,2024-03-27,PAC,MT,Education,Sales
+299,Jones (R),Republican,Senate,4451.959517705153,2024-11-13,Corporate PAC,AZ,Self-employed,Retired
+300,Davis (R),Republican,Senate,1586.9943480291,2024-12-10,Individual,MT,Tech Corp,Sales
+301,Davis (R),Republican,House,50,2024-07-10,Individual,WV,Retired,Teacher
+302,Davis (R),Republican,House,14376.660111945397,2024-09-16,Individual,NJ,Retired,Consultant
+303,Jones (R),Republican,Governor,100,2024-09-22,Individual,WA,Tech Corp,Consultant
+304,Brown (D),Democrat,House,1884.125119621503,2024-05-14,PAC,SD,Self-employed,Consultant
+305,Brown (D),Democrat,Senate,1000,2024-12-31,Individual,NY,Self-employed,Attorney
+306,Davis (R),Republican,House,1000,2024-08-16,Individual,MT,Tech Corp,Teacher
+307,Miller (D),Democrat,Governor,10358.104942270626,2024-03-17,PAC,SD,Self-employed,Business Owner
+308,Brown (D),Democrat,House,50,2024-02-28,PAC,WI,Self-employed,Consultant
+309,Taylor (R),Republican,Senate,500,2024-07-23,Corporate PAC,WV,Not Employed,Business Owner
+310,Jones (R),Republican,Senate,250,2024-04-24,PAC,WY,Education,Consultant
+311,Brown (D),Democrat,House,250,2024-01-15,Individual,VA,Finance LLC,Business Owner
+312,Jones (R),Republican,House,25,2024-08-09,PAC,NM,Education,Attorney
+313,Taylor (R),Republican,House,1000,2024-11-29,Individual,SD,Self-employed,Attorney
+314,Smith (D),Democrat,House,1000,2024-10-16,Individual,HI,Tech Corp,Teacher
+315,Wilson (I),Independent,House,2800,2024-02-26,Individual,WI,Retired,Healthcare
+316,Jones (R),Republican,Senate,250,2024-12-04,Individual,AK,Tech Corp,Consultant
+317,Davis (R),Republican,Governor,5867.993733802838,2024-05-12,Individual,TN,Tech Corp,Engineer
+318,Miller (D),Democrat,House,250,2024-11-13,Corporate PAC,NE,Not Employed,Teacher
+319,Taylor (R),Republican,House,100,2024-03-11,Individual,CA,Healthcare Inc,Attorney
+320,Davis (R),Republican,Governor,14405.801165563247,2024-11-13,Individual,AR,Tech Corp,Engineer
+321,Brown (D),Democrat,Governor,18969.677987922936,2024-02-21,Individual,RI,Self-employed,Engineer
+322,Jones (R),Republican,Governor,1000,2024-08-14,Individual,HI,Healthcare Inc,Teacher
+323,Smith (D),Democrat,House,100,2024-05-17,PAC,OK,Education,Attorney
+324,Jones (R),Republican,Senate,100,2024-01-23,Individual,RI,Tech Corp,Consultant
+325,Brown (D),Democrat,Senate,250,2024-03-08,Individual,UT,Finance LLC,Sales
+326,Jones (R),Republican,Senate,21573.006107723377,2024-10-07,Individual,OR,Retired,Consultant
+327,Davis (R),Republican,House,2800,2024-02-17,Individual,OH,Self-employed,Consultant
+328,Brown (D),Democrat,Senate,50,2024-05-16,Individual,NE,Finance LLC,Business Owner
+329,Miller (D),Democrat,House,3197.2507490974103,2024-09-01,Super PAC,WA,Education,Healthcare
+330,Brown (D),Democrat,House,100,2024-07-02,PAC,NC,Retired,Consultant
+331,Taylor (R),Republican,House,1273.055383794225,2024-09-26,Individual,WY,Not Employed,Business Owner
+332,Taylor (R),Republican,Governor,2800,2024-04-21,Individual,GA,Retired,Business Owner
+333,Jones (R),Republican,Senate,1000,2024-06-05,Union PAC,WV,Retail Co,Attorney
+334,Davis (R),Republican,Senate,25,2024-02-27,Individual,OH,Healthcare Inc,Attorney
+335,Taylor (R),Republican,Senate,250,2024-08-23,Individual,NM,Self-employed,Teacher
+336,Wilson (I),Independent,House,250,2024-07-20,Super PAC,RI,Retired,Engineer
+337,Brown (D),Democrat,House,500,2024-09-25,Individual,IN,Self-employed,Consultant
+338,Wilson (I),Independent,Governor,500,2024-05-24,Union PAC,OR,Healthcare Inc,Sales
+339,Miller (D),Democrat,House,1000,2024-09-26,PAC,NJ,Healthcare Inc,Healthcare
+340,Jones (R),Republican,Senate,2800,2024-09-22,Individual,WY,Retail Co,Consultant
+341,Jones (R),Republican,House,50,2024-04-23,Corporate PAC,WV,Retired,Business Owner
+342,Jones (R),Republican,Senate,50,2024-09-18,Individual,MT,Self-employed,Healthcare
+343,Jones (R),Republican,House,100,2024-07-05,Individual,VA,Not Employed,Engineer
+344,Davis (R),Republican,House,100,2024-02-24,Individual,KS,Retired,Consultant
+345,Davis (R),Republican,House,5401.762270572905,2024-11-21,Individual,NM,Healthcare Inc,Consultant
+346,Brown (D),Democrat,Senate,100,2024-06-04,PAC,OH,Tech Corp,Consultant
+347,Smith (D),Democrat,Senate,1000,2024-12-07,Individual,OH,Not Employed,Consultant
+348,Miller (D),Democrat,Governor,25,2024-07-21,PAC,NM,Education,Healthcare
+349,Davis (R),Republican,House,100,2024-12-12,Individual,MT,Healthcare Inc,Teacher
+350,Davis (R),Republican,House,500,2024-09-01,PAC,FL,Tech Corp,Engineer
+351,Miller (D),Democrat,House,250,2024-10-20,Individual,FL,Healthcare Inc,Consultant
+352,Davis (R),Republican,Governor,100,2024-08-04,Individual,KS,Finance LLC,Attorney
+353,Smith (D),Democrat,House,1000,2024-08-24,PAC,WA,Finance LLC,Sales
+354,Wilson (I),Independent,House,250,2024-07-25,Individual,GA,Retired,Teacher
+355,Wilson (I),Independent,Senate,14691.246537982292,2024-05-10,Super PAC,ME,Not Employed,Healthcare
+356,Jones (R),Republican,Senate,250,2024-09-03,Individual,WA,Self-employed,Consultant
+357,Taylor (R),Republican,Senate,25,2024-04-10,PAC,MN,Education,Sales
+358,Wilson (I),Independent,Senate,250,2024-01-03,Individual,MD,Retail Co,Healthcare
+359,Smith (D),Democrat,House,500,2024-10-30,Individual,TN,Finance LLC,Healthcare
+360,Davis (R),Republican,Senate,250,2024-06-29,Individual,KY,Retail Co,Business Owner
+361,Smith (D),Democrat,House,500,2024-09-10,Individual,PA,Finance LLC,Healthcare
+362,Davis (R),Republican,Governor,7592.075412061841,2024-05-31,Individual,OR,Retail Co,Engineer
+363,Miller (D),Democrat,House,100,2024-03-18,Individual,MD,Retired,Healthcare
+364,Miller (D),Democrat,Senate,4552.899430479811,2024-12-10,Individual,OR,Finance LLC,Healthcare
+365,Jones (R),Republican,House,50,2024-08-07,PAC,AR,Not Employed,Retired
+366,Wilson (I),Independent,Senate,12972.096242940224,2024-10-29,PAC,AZ,Healthcare Inc,Attorney
+367,Jones (R),Republican,House,50,2024-09-01,Individual,AL,Not Employed,Sales
+368,Smith (D),Democrat,Senate,500,2024-03-09,Individual,NH,Retail Co,Teacher
+369,Jones (R),Republican,House,50,2024-09-12,Individual,NE,Healthcare Inc,Consultant
+370,Smith (D),Democrat,House,250,2024-12-26,Individual,IL,Retired,Retired
+371,Taylor (R),Republican,Governor,50,2024-10-24,Individual,NC,Not Employed,Retired
+372,Smith (D),Democrat,House,2681.964972993252,2024-06-03,Individual,MD,Not Employed,Attorney
+373,Smith (D),Democrat,Governor,250,2024-04-30,Individual,MS,Education,Healthcare
+374,Brown (D),Democrat,House,1000,2024-08-10,Individual,TX,Healthcare Inc,Engineer
+375,Davis (R),Republican,Governor,500,2024-09-24,Union PAC,VA,Education,Sales
+376,Wilson (I),Independent,House,1000,2024-08-14,Individual,TX,Retail Co,Business Owner
+377,Wilson (I),Independent,Senate,18242.73912839941,2024-01-29,Individual,MI,Retired,Engineer
+378,Taylor (R),Republican,House,25,2024-08-17,Individual,OK,Self-employed,Teacher
+379,Davis (R),Republican,Senate,6083.60747428879,2024-07-15,PAC,HI,Retail Co,Teacher
+380,Brown (D),Democrat,House,250,2024-05-12,Individual,IA,Retired,Engineer
+381,Davis (R),Republican,House,100,2024-11-18,Individual,NY,Retired,Teacher
+382,Smith (D),Democrat,Senate,25,2024-09-05,Individual,TN,Retail Co,Consultant
+383,Davis (R),Republican,House,1000,2024-04-25,Corporate PAC,TX,Retail Co,Healthcare
+384,Smith (D),Democrat,House,250,2024-09-27,PAC,MS,Education,Attorney
+385,Smith (D),Democrat,Governor,41601.972775427224,2024-06-11,Individual,NC,Not Employed,Teacher
+386,Davis (R),Republican,Senate,250,2024-08-16,Individual,AK,Healthcare Inc,Engineer
+387,Wilson (I),Independent,Senate,100,2024-07-01,PAC,UT,Tech Corp,Consultant
+388,Wilson (I),Independent,Governor,8939.330555861561,2024-12-27,Individual,KY,Not Employed,Business Owner
+389,Brown (D),Democrat,Governor,500,2024-06-23,PAC,WV,Self-employed,Healthcare
+390,Jones (R),Republican,House,3634.88728717722,2024-12-05,Union PAC,ME,Retired,Healthcare
+391,Jones (R),Republican,House,100,2024-06-24,Individual,AK,Self-employed,Engineer
+392,Taylor (R),Republican,Senate,50,2024-05-28,Individual,UT,Self-employed,Consultant
+393,Taylor (R),Republican,House,500,2024-01-25,Individual,CO,Education,Retired
+394,Miller (D),Democrat,Senate,50,2024-10-28,Individual,AZ,Self-employed,Engineer
+395,Brown (D),Democrat,House,500,2024-06-21,Individual,FL,Education,Consultant
+396,Jones (R),Republican,House,25,2024-07-21,PAC,WA,Not Employed,Sales
+397,Smith (D),Democrat,Governor,100,2024-10-14,Individual,AK,Not Employed,Sales
+398,Brown (D),Democrat,House,100,2024-07-18,Individual,UT,Education,Sales
+399,Taylor (R),Republican,House,4627.499448964939,2024-04-10,Individual,SC,Education,Attorney
+400,Miller (D),Democrat,House,50,2024-12-15,PAC,LA,Healthcare Inc,Sales
+401,Brown (D),Democrat,Senate,100,2024-05-21,Individual,AZ,Not Employed,Teacher
+402,Brown (D),Democrat,House,250,2024-08-18,Individual,LA,Retail Co,Retired
+403,Taylor (R),Republican,House,100,2024-12-08,PAC,VT,Tech Corp,Healthcare
+404,Taylor (R),Republican,Senate,11708.350847827782,2024-02-25,PAC,ND,Retired,Business Owner
+405,Miller (D),Democrat,House,100,2024-03-25,Individual,WV,Retail Co,Engineer
+406,Miller (D),Democrat,House,250,2024-08-29,Individual,IN,Education,Healthcare
+407,Brown (D),Democrat,House,100,2024-01-17,Super PAC,WA,Self-employed,Business Owner
+408,Taylor (R),Republican,Senate,50,2024-09-18,Individual,UT,Retail Co,Healthcare
+409,Smith (D),Democrat,House,500,2024-12-27,Super PAC,TN,Healthcare Inc,Business Owner
+410,Smith (D),Democrat,House,50,2024-11-12,Individual,NV,Self-employed,Consultant
+411,Miller (D),Democrat,Senate,6183.712247730943,2024-08-14,Individual,SD,Education,Consultant
+412,Davis (R),Republican,Senate,2800,2024-08-16,Super PAC,MT,Finance LLC,Engineer
+413,Wilson (I),Independent,House,500,2024-07-04,Individual,MD,Not Employed,Sales
+414,Davis (R),Republican,House,3428.0346760204948,2024-10-21,Individual,MN,Retired,Business Owner
+415,Taylor (R),Republican,House,100,2024-06-20,PAC,MA,Retired,Attorney
+416,Taylor (R),Republican,Governor,25,2024-07-11,Individual,PA,Self-employed,Consultant
+417,Smith (D),Democrat,Senate,100,2024-08-07,Individual,NY,Not Employed,Sales
+418,Miller (D),Democrat,House,250,2024-03-25,Super PAC,RI,Retail Co,Retired
+419,Miller (D),Democrat,House,2800,2024-05-10,Union PAC,MA,Retail Co,Healthcare
+420,Miller (D),Democrat,House,4063.9670728138863,2024-08-19,Individual,KY,Not Employed,Healthcare
+421,Taylor (R),Republican,Governor,6197.464094215243,2024-11-21,PAC,HI,Finance LLC,Healthcare
+422,Davis (R),Republican,House,25,2024-11-10,Individual,CT,Education,Engineer
+423,Davis (R),Republican,House,50,2024-05-20,Individual,MT,Self-employed,Consultant
+424,Davis (R),Republican,Governor,250,2024-12-03,PAC,OK,Healthcare Inc,Business Owner
+425,Miller (D),Democrat,House,100,2024-07-09,Individual,MO,Retail Co,Teacher
+426,Wilson (I),Independent,House,250,2024-10-18,Individual,CO,Not Employed,Healthcare
+427,Taylor (R),Republican,Senate,250,2024-01-03,Union PAC,LA,Tech Corp,Engineer
+428,Miller (D),Democrat,House,500,2024-07-05,Individual,NC,Not Employed,Sales
+429,Jones (R),Republican,Senate,100,2024-11-28,Individual,OR,Finance LLC,Engineer
+430,Jones (R),Republican,House,14112.878675755617,2024-04-14,Individual,LA,Retail Co,Business Owner
+431,Jones (R),Republican,House,100,2024-09-20,Individual,IL,Retail Co,Business Owner
+432,Davis (R),Republican,Senate,250,2024-04-15,Individual,AK,Healthcare Inc,Sales
+433,Taylor (R),Republican,Governor,1000,2024-05-26,PAC,MT,Healthcare Inc,Retired
+434,Taylor (R),Republican,House,2800,2024-08-05,Individual,TN,Finance LLC,Engineer
+435,Davis (R),Republican,Senate,25,2024-04-08,Individual,IA,Tech Corp,Healthcare
+436,Smith (D),Democrat,House,7912.522853407863,2024-06-02,Corporate PAC,ID,Finance LLC,Business Owner
+437,Miller (D),Democrat,Senate,1000,2024-09-13,Corporate PAC,WA,Education,Teacher
+438,Jones (R),Republican,Senate,50,2024-03-24,Individual,CO,Finance LLC,Teacher
+439,Taylor (R),Republican,Governor,1000,2024-09-12,Individual,RI,Tech Corp,Engineer
+440,Miller (D),Democrat,Governor,500,2024-10-30,Individual,AZ,Healthcare Inc,Retired
+441,Brown (D),Democrat,Governor,2800,2024-10-27,Corporate PAC,ME,Healthcare Inc,Teacher
+442,Wilson (I),Independent,House,500,2024-01-25,Individual,IA,Healthcare Inc,Retired
+443,Davis (R),Republican,House,250,2024-08-27,Individual,MA,Tech Corp,Sales
+444,Taylor (R),Republican,House,250,2024-01-04,Corporate PAC,IL,Tech Corp,Attorney
+445,Davis (R),Republican,Senate,1000,2024-12-21,Individual,IL,Finance LLC,Teacher
+446,Miller (D),Democrat,Governor,50,2024-11-21,Individual,PA,Retail Co,Teacher
+447,Brown (D),Democrat,House,250,2024-03-14,Super PAC,CA,Self-employed,Consultant
+448,Davis (R),Republican,Senate,25,2024-06-14,Union PAC,RI,Not Employed,Healthcare
+449,Miller (D),Democrat,House,100,2024-10-12,Individual,VT,Healthcare Inc,Engineer
+450,Brown (D),Democrat,Governor,100,2024-09-02,Individual,AZ,Finance LLC,Engineer
+451,Miller (D),Democrat,House,25,2024-06-28,Individual,MA,Tech Corp,Business Owner
+452,Wilson (I),Independent,House,500,2024-04-02,Individual,MO,Not Employed,Engineer
+453,Brown (D),Democrat,House,500,2024-11-22,PAC,MS,Finance LLC,Consultant
+454,Brown (D),Democrat,House,7239.86954506537,2024-09-13,Individual,OK,Tech Corp,Engineer
+455,Jones (R),Republican,House,1000,2024-02-04,PAC,KY,Healthcare Inc,Engineer
+456,Taylor (R),Republican,Senate,100,2024-05-17,Union PAC,IL,Retail Co,Teacher
+457,Brown (D),Democrat,Senate,250,2024-09-14,Super PAC,ME,Not Employed,Business Owner
+458,Jones (R),Republican,House,100,2024-06-18,Individual,NE,Self-employed,Attorney
+459,Davis (R),Republican,House,1000,2024-01-22,Union PAC,WY,Education,Retired
+460,Wilson (I),Independent,House,2731.328741785823,2024-07-25,Individual,WI,Education,Business Owner
+461,Miller (D),Democrat,House,250,2024-08-01,Individual,MI,Retail Co,Sales
+462,Davis (R),Republican,House,500,2024-05-06,Individual,NE,Finance LLC,Retired
+463,Smith (D),Democrat,Governor,250,2024-08-29,PAC,TN,Education,Healthcare
+464,Taylor (R),Republican,House,100,2024-05-06,Individual,AR,Self-employed,Retired
+465,Brown (D),Democrat,House,1897.8233719770124,2024-03-17,Individual,FL,Retired,Business Owner
+466,Davis (R),Republican,House,25,2024-08-01,Individual,MN,Retired,Retired
+467,Smith (D),Democrat,House,25,2024-08-22,Individual,MO,Retired,Business Owner
+468,Smith (D),Democrat,Governor,50,2024-07-11,PAC,SD,Retail Co,Healthcare
+469,Wilson (I),Independent,Governor,250,2024-04-03,Individual,SC,Tech Corp,Engineer
+470,Jones (R),Republican,Senate,100,2024-03-03,Corporate PAC,AR,Education,Healthcare
+471,Taylor (R),Republican,Senate,3988.5497206823948,2024-04-12,Union PAC,KS,Education,Healthcare
+472,Wilson (I),Independent,Senate,250,2024-07-09,Individual,OK,Tech Corp,Sales
+473,Davis (R),Republican,House,25,2024-03-23,Union PAC,ID,Healthcare Inc,Consultant
+474,Brown (D),Democrat,House,100,2024-05-06,PAC,ME,Self-employed,Teacher
+475,Wilson (I),Independent,Senate,1650.1330774547357,2024-12-20,Corporate PAC,IN,Finance LLC,Engineer
+476,Smith (D),Democrat,House,11747.961420394759,2024-11-06,Individual,OK,Not Employed,Retired
+477,Brown (D),Democrat,House,6152.980425964378,2024-04-10,PAC,AR,Education,Engineer
+478,Davis (R),Republican,Senate,250,2024-08-05,Individual,KS,Finance LLC,Retired
+479,Miller (D),Democrat,House,1000,2024-07-08,Individual,LA,Self-employed,Engineer
+480,Jones (R),Republican,Governor,1000,2024-07-01,Individual,OH,Tech Corp,Attorney
+481,Davis (R),Republican,Governor,2274.246745226392,2024-02-17,PAC,AL,Healthcare Inc,Teacher
+482,Smith (D),Democrat,House,1000,2024-12-27,Individual,NV,Finance LLC,Business Owner
+483,Davis (R),Republican,House,50,2024-10-26,Individual,UT,Healthcare Inc,Sales
+484,Jones (R),Republican,House,50,2024-06-25,PAC,OK,Self-employed,Retired
+485,Jones (R),Republican,Governor,1677.0373362878747,2024-02-27,Super PAC,OR,Retired,Retired
+486,Taylor (R),Republican,Senate,2800,2024-12-11,Corporate PAC,OK,Self-employed,Business Owner
+487,Jones (R),Republican,Governor,1000,2024-08-22,PAC,SC,Self-employed,Business Owner
+488,Miller (D),Democrat,House,25,2024-11-21,Individual,MT,Retired,Teacher
+489,Davis (R),Republican,Senate,500,2024-12-27,Corporate PAC,MS,Self-employed,Consultant
+490,Brown (D),Democrat,Senate,50,2024-09-04,Individual,TX,Tech Corp,Retired
+491,Taylor (R),Republican,Senate,14379.977642291553,2024-01-19,Individual,NH,Healthcare Inc,Teacher
+492,Wilson (I),Independent,House,500,2024-10-22,Union PAC,DE,Healthcare Inc,Consultant
+493,Smith (D),Democrat,Senate,1000,2024-08-09,Individual,OR,Self-employed,Attorney
+494,Wilson (I),Independent,Governor,7692.3755766120985,2024-02-20,Individual,KS,Retired,Consultant
+495,Taylor (R),Republican,House,250,2024-11-02,PAC,WI,Finance LLC,Healthcare
+496,Miller (D),Democrat,House,4546.746860245046,2024-07-21,PAC,MA,Retail Co,Consultant
+497,Wilson (I),Independent,House,32878.64802527398,2024-04-03,Individual,AR,Education,Retired
+498,Jones (R),Republican,Governor,500,2024-04-14,PAC,HI,Retired,Consultant
+499,Miller (D),Democrat,Senate,1000,2024-06-12,Individual,MA,Healthcare Inc,Attorney
+500,Jones (R),Republican,Senate,1000,2024-05-19,PAC,NC,Finance LLC,Consultant
+501,Davis (R),Republican,House,50,2024-09-18,PAC,IN,Self-employed,Retired
+502,Wilson (I),Independent,House,500,2024-08-04,Individual,SD,Tech Corp,Business Owner
+503,Brown (D),Democrat,Governor,1000,2024-04-19,PAC,ND,Education,Consultant
+504,Jones (R),Republican,Senate,500,2024-09-15,Union PAC,MO,Retired,Teacher
+505,Jones (R),Republican,Senate,100,2024-02-17,Individual,CA,Tech Corp,Consultant
+506,Davis (R),Republican,Senate,250,2024-05-15,Individual,ND,Tech Corp,Consultant
+507,Davis (R),Republican,Senate,50,2024-02-03,Individual,NC,Retail Co,Attorney
+508,Davis (R),Republican,Governor,100,2024-02-27,Individual,FL,Not Employed,Healthcare
+509,Miller (D),Democrat,Senate,1707.4416834372332,2024-05-27,Individual,ND,Education,Healthcare
+510,Jones (R),Republican,Senate,100,2024-06-05,Individual,WI,Retired,Teacher
+511,Davis (R),Republican,Governor,25,2024-09-11,Individual,NJ,Education,Retired
+512,Brown (D),Democrat,Governor,250,2024-07-04,Individual,ME,Healthcare Inc,Teacher
+513,Jones (R),Republican,Senate,1000,2024-05-16,PAC,WY,Tech Corp,Healthcare
+514,Taylor (R),Republican,House,250,2024-09-02,Individual,WI,Retail Co,Teacher
+515,Wilson (I),Independent,Governor,250,2024-10-08,Individual,OH,Education,Engineer
+516,Miller (D),Democrat,House,2281.576238667213,2024-01-20,Individual,OR,Education,Retired
+517,Miller (D),Democrat,House,500,2024-11-29,Union PAC,AL,Not Employed,Engineer
+518,Wilson (I),Independent,Governor,1423.5875540395618,2024-04-06,Individual,CO,Healthcare Inc,Teacher
+519,Smith (D),Democrat,Senate,4902.5117137447905,2024-03-07,Individual,MT,Retired,Engineer
+520,Brown (D),Democrat,House,1000,2024-10-08,Individual,OH,Retail Co,Business Owner
+521,Wilson (I),Independent,House,100,2024-11-02,Individual,NJ,Self-employed,Sales
+522,Taylor (R),Republican,House,526.4980055208051,2024-08-25,Individual,UT,Retail Co,Attorney
+523,Davis (R),Republican,House,100,2024-07-14,Corporate PAC,LA,Self-employed,Teacher
+524,Taylor (R),Republican,House,500,2024-07-06,Individual,NE,Tech Corp,Consultant
+525,Jones (R),Republican,Governor,50,2024-11-12,Individual,WV,Education,Sales
+526,Wilson (I),Independent,Senate,500,2024-04-03,Individual,DE,Healthcare Inc,Sales
+527,Miller (D),Democrat,House,25,2024-03-23,Individual,PA,Healthcare Inc,Sales
+528,Wilson (I),Independent,Senate,3787.6791919893326,2024-04-02,PAC,MS,Retail Co,Consultant
+529,Davis (R),Republican,House,500,2024-07-03,Individual,CA,Tech Corp,Retired
+530,Wilson (I),Independent,Senate,250,2024-07-15,Individual,RI,Healthcare Inc,Teacher
+531,Brown (D),Democrat,House,500,2024-09-09,PAC,CA,Finance LLC,Teacher
+532,Taylor (R),Republican,Senate,25,2024-01-23,Corporate PAC,SC,Retired,Business Owner
+533,Wilson (I),Independent,House,250,2024-03-31,PAC,IA,Tech Corp,Consultant
+534,Miller (D),Democrat,House,5357.04021361523,2024-03-30,Individual,MT,Finance LLC,Retired
+535,Miller (D),Democrat,House,25,2024-02-06,PAC,ID,Self-employed,Retired
+536,Smith (D),Democrat,House,250,2024-01-23,PAC,AR,Retired,Healthcare
+537,Miller (D),Democrat,House,250,2024-10-12,PAC,AL,Not Employed,Consultant
+538,Smith (D),Democrat,Governor,14663.591303060562,2024-06-22,Individual,RI,Not Employed,Consultant
+539,Wilson (I),Independent,House,25,2024-09-22,Super PAC,NC,Not Employed,Retired
+540,Davis (R),Republican,House,1000,2024-08-03,PAC,IN,Self-employed,Sales
+541,Davis (R),Republican,Senate,901.9444273114653,2024-03-08,PAC,SC,Not Employed,Business Owner
+542,Taylor (R),Republican,Senate,50,2024-07-16,PAC,CT,Education,Healthcare
+543,Smith (D),Democrat,House,250,2024-05-02,Individual,GA,Retired,Sales
+544,Jones (R),Republican,House,500,2024-08-02,Individual,GA,Self-employed,Teacher
+545,Brown (D),Democrat,House,100,2024-08-01,Super PAC,GA,Retired,Teacher
+546,Smith (D),Democrat,Governor,500,2024-05-04,Individual,MS,Education,Retired
+547,Taylor (R),Republican,Governor,1000,2024-01-02,Individual,ND,Tech Corp,Business Owner
+548,Davis (R),Republican,House,1000,2024-11-18,PAC,IL,Finance LLC,Sales
+549,Davis (R),Republican,House,100,2024-08-30,Individual,OH,Self-employed,Healthcare
+550,Davis (R),Republican,House,25,2024-01-11,Individual,FL,Retired,Teacher
+551,Davis (R),Republican,House,250,2024-10-13,Individual,ND,Healthcare Inc,Attorney
+552,Miller (D),Democrat,Senate,500,2024-10-03,Individual,OK,Retail Co,Sales
+553,Wilson (I),Independent,House,500,2024-04-16,Individual,RI,Tech Corp,Sales
+554,Taylor (R),Republican,Senate,18881.175369391898,2024-09-06,Individual,HI,Retired,Healthcare
+555,Miller (D),Democrat,House,25,2024-12-09,Individual,AK,Retail Co,Healthcare
+556,Wilson (I),Independent,House,50,2024-03-30,Individual,VA,Retired,Sales
+557,Taylor (R),Republican,House,100,2024-08-19,Individual,MD,Finance LLC,Business Owner
+558,Davis (R),Republican,Governor,50,2024-11-14,Corporate PAC,IA,Retail Co,Healthcare
+559,Brown (D),Democrat,House,1000,2024-08-10,PAC,CO,Not Employed,Teacher
+560,Smith (D),Democrat,Governor,3548.620666317379,2024-07-02,Corporate PAC,CA,Tech Corp,Attorney
+561,Brown (D),Democrat,Governor,250,2024-08-19,Corporate PAC,UT,Retired,Teacher
+562,Wilson (I),Independent,Senate,500,2024-04-13,Corporate PAC,DE,Tech Corp,Engineer
+563,Taylor (R),Republican,House,100,2024-06-13,PAC,MA,Finance LLC,Business Owner
+564,Jones (R),Republican,Senate,25,2024-03-24,Individual,NE,Self-employed,Engineer
+565,Davis (R),Republican,House,2800,2024-01-02,Individual,RI,Retired,Teacher
+566,Wilson (I),Independent,Governor,100,2024-10-02,Corporate PAC,WA,Tech Corp,Retired
+567,Wilson (I),Independent,House,1000,2024-09-23,PAC,TX,Not Employed,Healthcare
+568,Miller (D),Democrat,House,19686.737293192382,2024-01-21,PAC,MI,Not Employed,Attorney
+569,Smith (D),Democrat,Senate,25,2024-03-30,Individual,IL,Tech Corp,Consultant
+570,Wilson (I),Independent,Governor,50,2024-10-03,Union PAC,AK,Retired,Retired
+571,Smith (D),Democrat,Senate,100,2024-09-30,Individual,TN,Retail Co,Teacher
+572,Jones (R),Republican,House,500,2024-08-25,Individual,LA,Not Employed,Teacher
+573,Jones (R),Republican,House,27903.82920120592,2024-01-27,PAC,IL,Education,Attorney
+574,Brown (D),Democrat,Senate,1000,2024-12-18,Individual,MS,Education,Attorney
+575,Jones (R),Republican,House,4347.95103240514,2024-10-29,Corporate PAC,AR,Tech Corp,Sales
+576,Jones (R),Republican,Senate,20839.233981015484,2024-02-09,Super PAC,KY,Finance LLC,Healthcare
+577,Davis (R),Republican,Governor,100,2024-10-31,PAC,GA,Finance LLC,Sales
+578,Smith (D),Democrat,Senate,50,2024-01-04,Individual,SC,Finance LLC,Consultant
+579,Taylor (R),Republican,House,10007.540193606299,2024-08-26,Individual,CO,Not Employed,Engineer
+580,Wilson (I),Independent,Senate,250,2024-07-19,Corporate PAC,NM,Retail Co,Sales
+581,Davis (R),Republican,House,1000,2024-07-16,Individual,SC,Not Employed,Teacher
+582,Wilson (I),Independent,Senate,100,2024-09-08,Individual,WA,Not Employed,Teacher
+583,Jones (R),Republican,Senate,500,2024-02-23,PAC,MI,Finance LLC,Business Owner
+584,Smith (D),Democrat,Senate,25,2024-09-03,Individual,NC,Finance LLC,Engineer
+585,Miller (D),Democrat,Governor,24166.54782463485,2024-07-12,PAC,IL,Tech Corp,Attorney
+586,Taylor (R),Republican,Senate,100,2024-02-28,Individual,IL,Education,Business Owner
+587,Taylor (R),Republican,House,4047.7473896232027,2024-01-19,Individual,TN,Not Employed,Engineer
+588,Brown (D),Democrat,Senate,25,2024-05-28,PAC,PA,Self-employed,Retired
+589,Miller (D),Democrat,Governor,250,2024-07-23,Union PAC,MN,Self-employed,Healthcare
+590,Miller (D),Democrat,Senate,50,2024-08-23,Super PAC,AK,Self-employed,Retired
+591,Brown (D),Democrat,Governor,1000,2024-01-05,Individual,CA,Retired,Attorney
+592,Davis (R),Republican,Senate,50,2024-02-05,PAC,TN,Retired,Consultant
+593,Taylor (R),Republican,Governor,7196.9954469049935,2024-11-04,Individual,SC,Healthcare Inc,Business Owner
+594,Miller (D),Democrat,House,1000,2024-09-10,Individual,LA,Retail Co,Consultant
+595,Taylor (R),Republican,Senate,100,2024-05-19,Individual,ND,Self-employed,Business Owner
+596,Wilson (I),Independent,Governor,50,2024-12-12,Individual,IA,Tech Corp,Consultant
+597,Davis (R),Republican,House,100,2024-01-10,Individual,NV,Retired,Retired
+598,Davis (R),Republican,House,25,2024-12-14,Super PAC,AR,Self-employed,Business Owner
+599,Taylor (R),Republican,House,1445.362567486265,2024-05-15,Individual,AL,Not Employed,Business Owner
+600,Davis (R),Republican,House,1000,2024-01-20,Individual,NJ,Retail Co,Teacher
+601,Wilson (I),Independent,House,8074.555874769386,2024-10-24,Individual,OH,Retail Co,Teacher
+602,Taylor (R),Republican,House,8185.565213803969,2024-03-23,Individual,MN,Education,Business Owner
+603,Miller (D),Democrat,House,25,2024-12-06,Individual,NY,Finance LLC,Sales
+604,Davis (R),Republican,House,250,2024-11-04,Individual,WA,Healthcare Inc,Engineer
+605,Wilson (I),Independent,Senate,25,2024-08-01,PAC,RI,Healthcare Inc,Attorney
+606,Wilson (I),Independent,Governor,50,2024-06-29,PAC,NE,Retired,Healthcare
+607,Brown (D),Democrat,House,1000,2024-02-07,Individual,WA,Not Employed,Teacher
+608,Jones (R),Republican,House,25,2024-01-27,PAC,MT,Not Employed,Teacher
+609,Smith (D),Democrat,House,2800,2024-12-25,PAC,LA,Healthcare Inc,Teacher
+610,Jones (R),Republican,House,15551.041478053308,2024-11-23,Individual,MA,Not Employed,Retired
+611,Miller (D),Democrat,House,2800,2024-09-17,Corporate PAC,SD,Retail Co,Business Owner
+612,Jones (R),Republican,House,3125.852037778848,2024-08-15,PAC,CO,Not Employed,Attorney
+613,Taylor (R),Republican,Senate,100,2024-07-09,PAC,FL,Retail Co,Consultant
+614,Wilson (I),Independent,Governor,500,2024-12-09,Individual,NM,Tech Corp,Business Owner
+615,Taylor (R),Republican,House,500,2024-04-14,Individual,TN,Not Employed,Engineer
+616,Wilson (I),Independent,House,2800,2024-04-26,Individual,ID,Finance LLC,Teacher
+617,Miller (D),Democrat,Senate,1000,2024-03-24,Individual,CT,Education,Engineer
+618,Smith (D),Democrat,Senate,100,2024-09-19,Individual,OR,Finance LLC,Business Owner
+619,Jones (R),Republican,Senate,38025.56528722804,2024-11-03,Individual,AL,Healthcare Inc,Consultant
+620,Brown (D),Democrat,House,50,2024-08-01,Individual,NC,Healthcare Inc,Consultant
+621,Taylor (R),Republican,Senate,2800,2024-09-19,Super PAC,TN,Not Employed,Attorney
+622,Smith (D),Democrat,Governor,500,2024-03-29,Individual,NJ,Self-employed,Sales
+623,Jones (R),Republican,House,50,2024-02-14,Individual,AL,Finance LLC,Attorney
+624,Miller (D),Democrat,House,100,2024-06-10,Super PAC,NV,Finance LLC,Retired
+625,Jones (R),Republican,House,250,2024-09-15,PAC,ME,Retired,Engineer
+626,Smith (D),Democrat,House,500,2024-12-09,Corporate PAC,UT,Retired,Business Owner
+627,Davis (R),Republican,House,25,2024-05-26,Individual,CO,Education,Healthcare
+628,Taylor (R),Republican,House,25,2024-05-25,Super PAC,SC,Not Employed,Teacher
+629,Davis (R),Republican,Governor,1000,2024-12-14,PAC,AZ,Retail Co,Engineer
+630,Taylor (R),Republican,Governor,8951.489806068228,2024-07-27,PAC,ND,Education,Retired
+631,Wilson (I),Independent,Senate,50,2024-09-19,Individual,NM,Education,Teacher
+632,Smith (D),Democrat,Senate,500,2024-09-06,Individual,CA,Retired,Teacher
+633,Smith (D),Democrat,Senate,100,2024-02-22,Individual,WY,Healthcare Inc,Sales
+634,Taylor (R),Republican,House,100,2024-05-10,Super PAC,UT,Not Employed,Business Owner
+635,Taylor (R),Republican,Senate,50,2024-11-29,Individual,MN,Tech Corp,Attorney
+636,Miller (D),Democrat,Governor,2352.3986067916007,2024-01-16,PAC,OK,Tech Corp,Business Owner
+637,Miller (D),Democrat,House,2800,2024-07-28,PAC,NY,Healthcare Inc,Attorney
+638,Smith (D),Democrat,Senate,250,2024-04-14,PAC,CA,Education,Consultant
+639,Miller (D),Democrat,House,2800,2024-08-25,Individual,WV,Finance LLC,Healthcare
+640,Miller (D),Democrat,House,25,2024-01-11,Individual,AK,Healthcare Inc,Sales
+641,Brown (D),Democrat,Senate,2403.6447369407933,2024-11-17,Union PAC,KY,Tech Corp,Attorney
+642,Smith (D),Democrat,House,1000,2024-02-12,Individual,WI,Not Employed,Engineer
+643,Wilson (I),Independent,Governor,50,2024-09-20,Individual,MS,Retired,Retired
+644,Wilson (I),Independent,Senate,3491.7960836864886,2024-04-29,Individual,AR,Tech Corp,Retired
+645,Miller (D),Democrat,House,3774.9800048518696,2024-05-28,Individual,NE,Finance LLC,Engineer
+646,Taylor (R),Republican,Governor,250,2024-06-26,Individual,KY,Finance LLC,Sales
+647,Smith (D),Democrat,House,25,2024-02-25,Individual,VT,Self-employed,Business Owner
+648,Taylor (R),Republican,House,25,2024-11-30,Corporate PAC,SD,Self-employed,Sales
+649,Smith (D),Democrat,House,25,2024-04-02,PAC,CA,Tech Corp,Teacher
+650,Brown (D),Democrat,House,25,2024-09-29,Corporate PAC,NY,Not Employed,Sales
+651,Taylor (R),Republican,House,1400.5793336149604,2024-06-16,Individual,VA,Finance LLC,Engineer
+652,Wilson (I),Independent,House,250,2024-12-26,Individual,DE,Not Employed,Attorney
+653,Wilson (I),Independent,Senate,25,2024-11-21,PAC,MS,Not Employed,Business Owner
+654,Brown (D),Democrat,House,100,2024-08-13,Individual,ND,Finance LLC,Engineer
+655,Taylor (R),Republican,Senate,1153.8490139775713,2024-07-05,Corporate PAC,UT,Retail Co,Business Owner
+656,Brown (D),Democrat,Governor,1390.3717370432066,2024-02-03,Individual,NE,Tech Corp,Healthcare
+657,Taylor (R),Republican,House,50,2024-10-28,Individual,MS,Finance LLC,Sales
+658,Davis (R),Republican,House,100,2024-07-07,Individual,CO,Retired,Consultant
+659,Brown (D),Democrat,House,50,2024-10-17,Individual,MT,Retired,Business Owner
+660,Brown (D),Democrat,Senate,250,2024-10-01,PAC,IN,Healthcare Inc,Engineer
+661,Miller (D),Democrat,House,279.6140166586992,2024-05-17,Individual,GA,Finance LLC,Engineer
+662,Smith (D),Democrat,House,50,2024-06-28,PAC,MO,Retail Co,Retired
+663,Jones (R),Republican,Senate,250,2024-09-15,Super PAC,PA,Retired,Retired
+664,Jones (R),Republican,House,4910.592863988538,2024-01-17,Super PAC,CO,Finance LLC,Healthcare
+665,Miller (D),Democrat,House,100,2024-12-17,Individual,ND,Retired,Healthcare
+666,Miller (D),Democrat,Governor,250,2024-06-22,Individual,KS,Tech Corp,Healthcare
+667,Smith (D),Democrat,House,250,2024-10-11,Individual,NV,Finance LLC,Consultant
+668,Miller (D),Democrat,Senate,25,2024-06-22,Individual,OR,Education,Teacher
+669,Wilson (I),Independent,House,50,2024-12-10,Corporate PAC,FL,Retail Co,Sales
+670,Davis (R),Republican,Governor,50,2024-04-23,Individual,MI,Tech Corp,Retired
+671,Taylor (R),Republican,House,25,2024-02-02,Individual,ND,Healthcare Inc,Sales
+672,Davis (R),Republican,House,2800,2024-09-11,Individual,IA,Healthcare Inc,Sales
+673,Smith (D),Democrat,Senate,50,2024-09-25,PAC,MA,Retail Co,Sales
+674,Brown (D),Democrat,Senate,500,2024-03-06,Super PAC,DE,Healthcare Inc,Consultant
+675,Smith (D),Democrat,Senate,100,2024-04-29,Individual,OH,Retail Co,Teacher
+676,Wilson (I),Independent,House,250,2024-08-14,Individual,AR,Tech Corp,Engineer
+677,Jones (R),Republican,Governor,500,2024-02-23,PAC,NH,Retired,Teacher
+678,Jones (R),Republican,Senate,50,2024-09-04,Individual,MI,Healthcare Inc,Engineer
+679,Davis (R),Republican,Governor,25,2024-06-12,Individual,FL,Education,Consultant
+680,Brown (D),Democrat,Governor,50,2024-01-13,Individual,WI,Healthcare Inc,Consultant
+681,Wilson (I),Independent,House,5190.167017552858,2024-12-23,Individual,NC,Retail Co,Attorney
+682,Wilson (I),Independent,House,500,2024-07-12,PAC,FL,Finance LLC,Attorney
+683,Brown (D),Democrat,Senate,2388.6737659557757,2024-12-13,Individual,AZ,Retail Co,Sales
+684,Wilson (I),Independent,Governor,4402.065001041283,2024-04-14,Individual,CT,Retired,Attorney
+685,Brown (D),Democrat,House,50,2024-02-27,PAC,NE,Retail Co,Healthcare
+686,Davis (R),Republican,Governor,2543.8629329392093,2024-03-07,PAC,NV,Not Employed,Teacher
+687,Davis (R),Republican,Senate,1000,2024-04-06,Individual,VA,Retired,Engineer
+688,Davis (R),Republican,House,250,2024-12-17,Individual,NM,Retail Co,Teacher
+689,Miller (D),Democrat,Senate,100,2024-01-03,Super PAC,WA,Retail Co,Attorney
+690,Miller (D),Democrat,House,50,2024-09-23,Corporate PAC,OR,Retail Co,Consultant
+691,Wilson (I),Independent,Governor,2307.849437375244,2024-02-06,Individual,WA,Finance LLC,Healthcare
+692,Brown (D),Democrat,Governor,250,2024-11-19,Individual,VA,Self-employed,Teacher
+693,Wilson (I),Independent,Governor,100,2024-07-28,PAC,AR,Healthcare Inc,Teacher
+694,Wilson (I),Independent,House,500,2024-02-03,Super PAC,NC,Retired,Attorney
+695,Wilson (I),Independent,House,12117.15004808901,2024-07-24,Corporate PAC,SC,Not Employed,Teacher
+696,Davis (R),Republican,House,50,2024-06-23,Individual,OK,Retail Co,Sales
+697,Smith (D),Democrat,Governor,50,2024-05-27,Union PAC,CA,Not Employed,Attorney
+698,Smith (D),Democrat,House,50,2024-02-22,Individual,AK,Healthcare Inc,Retired
+699,Miller (D),Democrat,Senate,25,2024-05-16,Individual,TX,Self-employed,Attorney
+700,Miller (D),Democrat,Senate,50,2024-11-24,Individual,IA,Finance LLC,Business Owner
+701,Wilson (I),Independent,Governor,250,2024-02-02,Corporate PAC,HI,Not Employed,Engineer
+702,Jones (R),Republican,House,7161.911386254611,2024-07-18,Corporate PAC,KS,Tech Corp,Engineer
+703,Smith (D),Democrat,Governor,250,2024-07-30,Corporate PAC,AR,Tech Corp,Sales
+704,Brown (D),Democrat,Senate,250,2024-09-09,Individual,RI,Retail Co,Healthcare
+705,Wilson (I),Independent,Senate,3006.568242334778,2024-03-28,Individual,DE,Tech Corp,Healthcare
+706,Smith (D),Democrat,House,25,2024-02-22,Corporate PAC,OK,Retail Co,Retired
+707,Smith (D),Democrat,Senate,3637.258529818753,2024-02-27,Individual,ND,Self-employed,Attorney
+708,Smith (D),Democrat,Governor,100,2024-01-14,Individual,ID,Not Employed,Retired
+709,Brown (D),Democrat,Senate,1000,2024-01-27,PAC,RI,Healthcare Inc,Healthcare
+710,Taylor (R),Republican,House,100,2024-10-08,PAC,IN,Tech Corp,Consultant
+711,Miller (D),Democrat,Governor,2800,2024-10-19,Individual,TX,Not Employed,Retired
+712,Miller (D),Democrat,House,500,2024-10-12,Super PAC,VT,Retail Co,Engineer
+713,Jones (R),Republican,House,9761.807159015709,2024-12-10,Individual,MD,Tech Corp,Engineer
+714,Davis (R),Republican,Senate,1000,2024-03-18,Individual,SD,Finance LLC,Attorney
+715,Miller (D),Democrat,House,50,2024-04-28,PAC,SC,Self-employed,Engineer
+716,Brown (D),Democrat,Senate,500,2024-06-06,Super PAC,CT,Not Employed,Consultant
+717,Davis (R),Republican,House,3542.2179519300485,2024-12-07,Individual,MT,Self-employed,Engineer
+718,Davis (R),Republican,House,250,2024-08-25,Individual,ND,Retired,Business Owner
+719,Miller (D),Democrat,House,1000,2024-12-18,Individual,MD,Not Employed,Teacher
+720,Wilson (I),Independent,House,50,2024-05-16,PAC,WV,Tech Corp,Business Owner
+721,Jones (R),Republican,House,922.9700805317874,2024-08-01,Individual,MA,Education,Teacher
+722,Smith (D),Democrat,House,1251.3595377321817,2024-09-17,Individual,WY,Not Employed,Business Owner
+723,Taylor (R),Republican,House,2319.5808830879996,2024-02-22,Individual,LA,Not Employed,Teacher
+724,Wilson (I),Independent,House,500,2024-12-17,Individual,NE,Education,Business Owner
+725,Brown (D),Democrat,Governor,7019.411429524553,2024-08-22,PAC,AK,Healthcare Inc,Consultant
+726,Smith (D),Democrat,House,2134.3331428191786,2024-07-18,Individual,NM,Finance LLC,Teacher
+727,Brown (D),Democrat,House,25,2024-05-06,Individual,NV,Self-employed,Attorney
+728,Smith (D),Democrat,Governor,50,2024-04-05,PAC,AL,Education,Teacher
+729,Smith (D),Democrat,Senate,250,2024-05-14,Union PAC,TX,Self-employed,Healthcare
+730,Taylor (R),Republican,Senate,10166.447969856314,2024-08-14,Individual,CO,Tech Corp,Teacher
+731,Jones (R),Republican,Senate,500,2024-01-03,PAC,IL,Retired,Consultant
+732,Taylor (R),Republican,Governor,12057.016916755412,2024-06-01,PAC,NH,Tech Corp,Attorney
+733,Davis (R),Republican,Senate,100,2024-05-18,PAC,NY,Finance LLC,Teacher
+734,Miller (D),Democrat,Senate,500,2024-05-18,Individual,MN,Healthcare Inc,Healthcare
+735,Brown (D),Democrat,Senate,250,2024-05-27,Individual,ME,Not Employed,Healthcare
+736,Taylor (R),Republican,Senate,25,2024-10-18,PAC,NV,Self-employed,Consultant
+737,Jones (R),Republican,House,100,2024-10-20,Super PAC,SC,Tech Corp,Healthcare
+738,Taylor (R),Republican,House,3855.9152843167576,2024-01-15,Individual,TX,Finance LLC,Sales
+739,Wilson (I),Independent,Senate,100,2024-03-16,Individual,MN,Education,Healthcare
+740,Davis (R),Republican,House,100,2024-02-12,Individual,OH,Finance LLC,Engineer
+741,Smith (D),Democrat,Governor,250,2024-08-21,Individual,TX,Self-employed,Business Owner
+742,Smith (D),Democrat,House,100,2024-11-09,Individual,OR,Healthcare Inc,Healthcare
+743,Brown (D),Democrat,House,25,2024-05-18,Individual,UT,Retired,Healthcare
+744,Wilson (I),Independent,House,1000,2024-01-04,PAC,MT,Tech Corp,Healthcare
+745,Taylor (R),Republican,House,25,2024-02-12,Individual,OK,Finance LLC,Retired
+746,Wilson (I),Independent,House,250,2024-06-02,Individual,HI,Finance LLC,Business Owner
+747,Taylor (R),Republican,House,25,2024-12-05,Individual,NH,Tech Corp,Engineer
+748,Smith (D),Democrat,Governor,12164.898871896688,2024-11-27,PAC,GA,Retail Co,Retired
+749,Smith (D),Democrat,House,250,2024-05-19,Individual,CO,Not Employed,Consultant
+750,Jones (R),Republican,Governor,100,2024-12-24,Individual,KY,Not Employed,Sales
+751,Taylor (R),Republican,House,6964.800392970573,2024-07-30,Corporate PAC,MA,Tech Corp,Retired
+752,Miller (D),Democrat,House,11411.167841785627,2024-09-01,Individual,IN,Not Employed,Consultant
+753,Miller (D),Democrat,House,500,2024-04-04,Individual,NM,Education,Attorney
+754,Miller (D),Democrat,House,100,2024-06-25,PAC,NM,Retail Co,Engineer
+755,Taylor (R),Republican,House,500,2024-06-05,Corporate PAC,WV,Self-employed,Sales
+756,Brown (D),Democrat,Governor,100,2024-10-26,PAC,NY,Finance LLC,Engineer
+757,Smith (D),Democrat,House,25,2024-01-11,PAC,OR,Healthcare Inc,Retired
+758,Jones (R),Republican,Governor,100,2024-02-25,PAC,MT,Retail Co,Consultant
+759,Jones (R),Republican,House,50,2024-07-06,PAC,OH,Retired,Teacher
+760,Miller (D),Democrat,House,2800,2024-01-08,Individual,MD,Retired,Retired
+761,Taylor (R),Republican,House,100,2024-07-05,PAC,NH,Tech Corp,Business Owner
+762,Taylor (R),Republican,House,2915.309835501385,2024-07-07,PAC,VA,Retail Co,Sales
+763,Taylor (R),Republican,Governor,7334.677287053118,2024-10-29,Individual,MO,Retail Co,Teacher
+764,Wilson (I),Independent,House,100,2024-12-11,Corporate PAC,GA,Healthcare Inc,Attorney
+765,Taylor (R),Republican,House,100,2024-12-31,Individual,SD,Healthcare Inc,Retired
+766,Taylor (R),Republican,House,25,2024-07-11,Individual,DE,Not Employed,Business Owner
+767,Brown (D),Democrat,Governor,50,2024-06-01,Individual,FL,Education,Engineer
+768,Smith (D),Democrat,Senate,250,2024-11-09,Individual,CO,Tech Corp,Engineer
+769,Jones (R),Republican,Governor,1000,2024-12-17,Individual,MA,Not Employed,Engineer
+770,Smith (D),Democrat,House,100,2024-12-30,PAC,MO,Finance LLC,Sales
+771,Jones (R),Republican,Governor,500,2024-01-31,Individual,NV,Education,Engineer
+772,Davis (R),Republican,Governor,1000,2024-03-01,Individual,AK,Education,Sales
+773,Taylor (R),Republican,House,50,2024-12-08,Individual,WV,Tech Corp,Retired
+774,Taylor (R),Republican,House,25,2024-05-26,Individual,OR,Tech Corp,Retired
+775,Brown (D),Democrat,Senate,250,2024-10-14,Individual,MI,Self-employed,Consultant
+776,Taylor (R),Republican,House,25,2024-05-22,Corporate PAC,MT,Retail Co,Sales
+777,Wilson (I),Independent,House,100,2024-10-24,PAC,WA,Education,Sales
+778,Miller (D),Democrat,House,100,2024-08-23,Individual,NJ,Education,Healthcare
+779,Jones (R),Republican,Senate,250,2024-05-24,Individual,OR,Retired,Business Owner
+780,Miller (D),Democrat,Governor,1644.1343084058797,2024-12-18,PAC,MS,Education,Sales
+781,Jones (R),Republican,House,2800,2024-03-26,Individual,NH,Finance LLC,Retired
+782,Miller (D),Democrat,House,500,2024-08-01,Corporate PAC,IL,Not Employed,Retired
+783,Taylor (R),Republican,Senate,100,2024-01-05,Individual,AL,Finance LLC,Sales
+784,Jones (R),Republican,House,25,2024-01-13,PAC,DE,Self-employed,Consultant
+785,Wilson (I),Independent,House,250,2024-01-19,PAC,IN,Healthcare Inc,Healthcare
+786,Davis (R),Republican,Senate,13807.62556731407,2024-10-31,Individual,MT,Retail Co,Sales
+787,Davis (R),Republican,House,25,2024-02-26,Super PAC,SC,Not Employed,Business Owner
+788,Davis (R),Republican,Governor,25,2024-01-01,PAC,MT,Retired,Healthcare
+789,Miller (D),Democrat,House,1000,2024-02-16,PAC,LA,Finance LLC,Retired
+790,Wilson (I),Independent,House,500,2024-05-14,Individual,WV,Finance LLC,Teacher
+791,Miller (D),Democrat,Governor,998.4113413174382,2024-12-04,Individual,ND,Healthcare Inc,Attorney
+792,Wilson (I),Independent,Governor,50,2024-10-16,Individual,AR,Healthcare Inc,Teacher
+793,Taylor (R),Republican,Governor,250,2024-01-11,Individual,SC,Not Employed,Attorney
+794,Taylor (R),Republican,House,500,2024-11-11,PAC,TX,Retired,Sales
+795,Smith (D),Democrat,House,3771.0845855491216,2024-09-23,PAC,ME,Not Employed,Attorney
+796,Taylor (R),Republican,House,32413.63725443037,2024-01-09,Union PAC,TX,Self-employed,Engineer
+797,Jones (R),Republican,Senate,5717.2780043867715,2024-08-22,Individual,CA,Not Employed,Sales
+798,Taylor (R),Republican,Governor,1000,2024-05-30,Individual,LA,Healthcare Inc,Retired
+799,Davis (R),Republican,House,50,2024-12-26,Union PAC,MI,Finance LLC,Healthcare
+800,Taylor (R),Republican,House,100,2024-10-11,Individual,SD,Education,Teacher
+801,Taylor (R),Republican,Senate,1000,2024-01-26,Individual,CT,Finance LLC,Teacher
+802,Smith (D),Democrat,House,1000,2024-09-21,PAC,VA,Retail Co,Teacher
+803,Smith (D),Democrat,Senate,28152.429187166843,2024-04-19,Corporate PAC,NJ,Not Employed,Sales
+804,Smith (D),Democrat,House,25,2024-08-04,PAC,RI,Finance LLC,Engineer
+805,Smith (D),Democrat,Senate,250,2024-10-03,Individual,NY,Retail Co,Business Owner
+806,Miller (D),Democrat,House,250,2024-11-15,Individual,PA,Finance LLC,Healthcare
+807,Taylor (R),Republican,House,500,2024-11-09,Super PAC,MT,Self-employed,Consultant
+808,Wilson (I),Independent,House,250,2024-04-06,PAC,MN,Healthcare Inc,Attorney
+809,Wilson (I),Independent,Senate,250,2024-01-30,Individual,ID,Finance LLC,Attorney
+810,Miller (D),Democrat,Senate,250,2024-07-28,Individual,PA,Retail Co,Business Owner
+811,Wilson (I),Independent,House,100,2024-06-22,Individual,DE,Retired,Healthcare
+812,Wilson (I),Independent,Senate,250,2024-12-20,Individual,NV,Healthcare Inc,Business Owner
+813,Miller (D),Democrat,Senate,1000,2024-04-09,Individual,IL,Retired,Consultant
+814,Davis (R),Republican,Senate,1000,2024-02-22,Individual,IL,Tech Corp,Engineer
+815,Wilson (I),Independent,House,2936.6636232545984,2024-03-15,Corporate PAC,NJ,Retired,Teacher
+816,Smith (D),Democrat,Senate,50,2024-08-24,Individual,SD,Not Employed,Retired
+817,Miller (D),Democrat,House,25,2024-04-29,PAC,WI,Finance LLC,Teacher
+818,Davis (R),Republican,Governor,25,2024-11-16,Individual,NE,Not Employed,Engineer
+819,Miller (D),Democrat,House,250,2024-10-30,Individual,WV,Healthcare Inc,Attorney
+820,Wilson (I),Independent,House,2800,2024-05-15,PAC,IN,Tech Corp,Sales
+821,Davis (R),Republican,House,25,2024-04-25,Individual,LA,Tech Corp,Consultant
+822,Jones (R),Republican,Governor,25,2024-07-06,Individual,CT,Not Employed,Teacher
+823,Davis (R),Republican,Senate,50,2024-01-12,Individual,MN,Self-employed,Retired
+824,Brown (D),Democrat,House,100,2024-03-13,Individual,WA,Education,Consultant
+825,Wilson (I),Independent,House,250,2024-10-19,Individual,ME,Education,Sales
+826,Miller (D),Democrat,Governor,2800,2024-10-27,Individual,TX,Retired,Healthcare
+827,Miller (D),Democrat,Senate,500,2024-07-03,Individual,LA,Finance LLC,Sales
+828,Brown (D),Democrat,Senate,100,2024-03-09,Individual,OH,Not Employed,Engineer
+829,Taylor (R),Republican,Governor,250,2024-12-27,Individual,MA,Self-employed,Healthcare
+830,Wilson (I),Independent,House,1000,2024-03-20,Individual,ID,Education,Teacher
+831,Davis (R),Republican,Governor,14578.775619974967,2024-05-16,Individual,NH,Tech Corp,Consultant
+832,Davis (R),Republican,Governor,50,2024-04-07,Super PAC,ME,Self-employed,Engineer
+833,Miller (D),Democrat,Senate,11071.531526616878,2024-08-27,Individual,RI,Self-employed,Healthcare
+834,Jones (R),Republican,House,100,2024-02-27,Individual,WV,Education,Sales
+835,Wilson (I),Independent,House,3309.816737333269,2024-04-23,Corporate PAC,WV,Tech Corp,Attorney
+836,Brown (D),Democrat,Senate,11259.36744471712,2024-07-20,Individual,KY,Not Employed,Consultant
+837,Wilson (I),Independent,Governor,100,2024-10-09,Individual,VA,Not Employed,Consultant
+838,Miller (D),Democrat,Senate,100,2024-04-01,Corporate PAC,CA,Education,Consultant
+839,Miller (D),Democrat,House,250,2024-04-13,Corporate PAC,NM,Self-employed,Healthcare
+840,Brown (D),Democrat,House,25,2024-02-27,Individual,NH,Finance LLC,Retired
+841,Davis (R),Republican,House,100,2024-07-15,Individual,IN,Self-employed,Sales
+842,Brown (D),Democrat,Senate,100,2024-04-21,PAC,AL,Retired,Engineer
+843,Davis (R),Republican,Governor,500,2024-10-29,Super PAC,SD,Education,Retired
+844,Wilson (I),Independent,House,25,2024-04-21,Individual,OK,Self-employed,Engineer
+845,Wilson (I),Independent,House,50,2024-03-01,Individual,WA,Not Employed,Sales
+846,Jones (R),Republican,House,50,2024-12-28,Individual,NV,Education,Retired
+847,Taylor (R),Republican,Senate,2883.682589176441,2024-03-20,Individual,CA,Tech Corp,Sales
+848,Wilson (I),Independent,House,1018.9439797709277,2024-05-28,PAC,ME,Not Employed,Consultant
+849,Wilson (I),Independent,House,949.3833558216444,2024-03-14,PAC,ME,Not Employed,Attorney
+850,Miller (D),Democrat,House,5050.353222458827,2024-11-01,Union PAC,NJ,Tech Corp,Sales
+851,Davis (R),Republican,Governor,1777.2240554602129,2024-04-02,Individual,MT,Tech Corp,Attorney
+852,Davis (R),Republican,House,50,2024-02-08,Individual,CA,Self-employed,Sales
+853,Brown (D),Democrat,House,100,2024-11-30,Individual,VA,Not Employed,Attorney
+854,Wilson (I),Independent,Senate,100,2024-04-10,Union PAC,MT,Not Employed,Business Owner
+855,Wilson (I),Independent,House,4713.396120479046,2024-03-10,Individual,NM,Retail Co,Business Owner
+856,Jones (R),Republican,Senate,25,2024-03-31,Individual,FL,Retail Co,Teacher
+857,Miller (D),Democrat,House,25,2024-09-19,Individual,UT,Tech Corp,Attorney
+858,Wilson (I),Independent,House,25,2024-11-24,PAC,KY,Tech Corp,Business Owner
+859,Taylor (R),Republican,Senate,250,2024-12-19,Union PAC,KS,Education,Healthcare
+860,Taylor (R),Republican,Governor,1988.9817271912827,2024-04-23,Individual,MI,Tech Corp,Consultant
+861,Smith (D),Democrat,Governor,250,2024-12-14,PAC,KY,Retired,Engineer
+862,Brown (D),Democrat,House,1833.908049211303,2024-08-17,PAC,IA,Retired,Healthcare
+863,Davis (R),Republican,House,250,2024-10-31,Individual,FL,Retail Co,Teacher
+864,Wilson (I),Independent,House,100,2024-12-21,Individual,NY,Retail Co,Engineer
+865,Taylor (R),Republican,House,2081.8267568209203,2024-05-03,PAC,IA,Retired,Healthcare
+866,Taylor (R),Republican,House,50,2024-10-12,PAC,WI,Retired,Business Owner
+867,Taylor (R),Republican,Senate,1000,2024-10-31,PAC,NY,Education,Consultant
+868,Jones (R),Republican,Senate,50,2024-01-10,Individual,OH,Self-employed,Sales
+869,Brown (D),Democrat,House,13631.383019864725,2024-02-27,Individual,CA,Tech Corp,Retired
+870,Davis (R),Republican,Senate,779.5206160493066,2024-04-17,Individual,UT,Tech Corp,Sales
+871,Brown (D),Democrat,House,100,2024-06-14,PAC,AL,Finance LLC,Retired
+872,Brown (D),Democrat,Senate,100,2024-11-18,Individual,NE,Self-employed,Consultant
+873,Smith (D),Democrat,House,50,2024-11-26,Corporate PAC,AK,Self-employed,Business Owner
+874,Miller (D),Democrat,House,250,2024-06-10,Individual,AK,Not Employed,Business Owner
+875,Wilson (I),Independent,Senate,250,2024-01-26,Individual,OR,Healthcare Inc,Business Owner
+876,Smith (D),Democrat,Governor,250,2024-06-25,Individual,TN,Finance LLC,Teacher
+877,Miller (D),Democrat,Governor,1000,2024-07-05,PAC,AZ,Finance LLC,Business Owner
+878,Smith (D),Democrat,Governor,2800,2024-04-12,PAC,IA,Tech Corp,Attorney
+879,Smith (D),Democrat,Senate,24798.181079069516,2024-12-30,Union PAC,ID,Education,Attorney
+880,Davis (R),Republican,House,25,2024-01-03,Individual,KS,Not Employed,Engineer
+881,Brown (D),Democrat,House,50,2024-07-19,Individual,AR,Finance LLC,Business Owner
+882,Smith (D),Democrat,Senate,250,2024-07-13,Super PAC,NH,Retired,Teacher
+883,Jones (R),Republican,House,250,2024-01-11,Corporate PAC,MN,Tech Corp,Consultant
+884,Brown (D),Democrat,House,97276.8561430946,2024-12-24,Corporate PAC,AZ,Self-employed,Business Owner
+885,Smith (D),Democrat,Senate,1000,2024-04-24,Individual,OH,Tech Corp,Business Owner
+886,Taylor (R),Republican,House,250,2024-10-30,PAC,PA,Not Employed,Attorney
+887,Smith (D),Democrat,Governor,50,2024-03-25,PAC,WV,Healthcare Inc,Engineer
+888,Davis (R),Republican,Governor,500,2024-12-20,Union PAC,NM,Finance LLC,Attorney
+889,Taylor (R),Republican,House,500,2024-05-16,Individual,NC,Tech Corp,Retired
+890,Brown (D),Democrat,Senate,3421.2792734469945,2024-12-22,Union PAC,OK,Finance LLC,Attorney
+891,Taylor (R),Republican,House,100,2024-12-25,Individual,AZ,Not Employed,Healthcare
+892,Taylor (R),Republican,Governor,5944.0421951957715,2024-06-02,Individual,WY,Finance LLC,Consultant
+893,Miller (D),Democrat,House,1000,2024-11-06,Corporate PAC,MO,Education,Consultant
+894,Brown (D),Democrat,House,500,2024-07-08,Individual,NJ,Retired,Sales
+895,Taylor (R),Republican,House,100,2024-03-03,Individual,OR,Not Employed,Attorney
+896,Brown (D),Democrat,House,500,2024-04-21,PAC,MD,Finance LLC,Healthcare
+897,Brown (D),Democrat,House,25,2024-06-15,Individual,CT,Retired,Attorney
+898,Brown (D),Democrat,Senate,1000,2024-10-01,Individual,AK,Self-employed,Healthcare
+899,Miller (D),Democrat,Governor,250,2024-05-13,Individual,CA,Finance LLC,Teacher
+900,Jones (R),Republican,House,25,2024-01-14,Individual,MA,Tech Corp,Attorney
+901,Brown (D),Democrat,House,250,2024-07-23,PAC,IA,Retired,Business Owner
+902,Davis (R),Republican,Senate,250,2024-04-23,Individual,SC,Finance LLC,Engineer
+903,Jones (R),Republican,Senate,250,2024-09-29,PAC,WA,Retired,Attorney
+904,Jones (R),Republican,House,250,2024-07-04,Corporate PAC,CT,Finance LLC,Consultant
+905,Taylor (R),Republican,Senate,100,2024-07-14,Individual,IL,Retired,Sales
+906,Miller (D),Democrat,Senate,500,2024-01-22,Individual,AK,Self-employed,Consultant
+907,Davis (R),Republican,House,50,2024-12-29,PAC,NC,Education,Teacher
+908,Taylor (R),Republican,House,3602.3617690463425,2024-11-12,Corporate PAC,NY,Finance LLC,Consultant
+909,Brown (D),Democrat,House,3560.255981461805,2024-10-12,Individual,ID,Tech Corp,Teacher
+910,Miller (D),Democrat,House,500,2024-10-25,Individual,KY,Healthcare Inc,Sales
+911,Brown (D),Democrat,Governor,5629.129028140608,2024-05-21,PAC,ND,Retail Co,Engineer
+912,Jones (R),Republican,House,23940.142895523466,2024-08-02,Individual,ME,Retired,Teacher
+913,Taylor (R),Republican,House,50,2024-03-01,Individual,NM,Tech Corp,Business Owner
+914,Smith (D),Democrat,House,250,2024-12-10,Individual,PA,Healthcare Inc,Sales
+915,Taylor (R),Republican,Senate,25,2024-01-10,Corporate PAC,NM,Retired,Teacher
+916,Davis (R),Republican,Senate,100,2024-01-07,Individual,CT,Self-employed,Business Owner
+917,Davis (R),Republican,Senate,250,2024-06-20,Individual,NH,Healthcare Inc,Attorney
+918,Brown (D),Democrat,House,500,2024-06-28,Individual,ME,Education,Attorney
+919,Davis (R),Republican,Governor,3407.4032122735052,2024-10-19,Super PAC,MO,Education,Engineer
+920,Smith (D),Democrat,House,16640.729683863963,2024-03-06,Individual,NE,Self-employed,Engineer
+921,Jones (R),Republican,Governor,2800,2024-02-25,Individual,WA,Not Employed,Teacher
+922,Miller (D),Democrat,Senate,100,2024-09-26,PAC,VA,Retail Co,Consultant
+923,Brown (D),Democrat,House,100,2024-06-25,Individual,UT,Healthcare Inc,Retired
+924,Brown (D),Democrat,House,2800,2024-11-26,Corporate PAC,MO,Finance LLC,Sales
+925,Brown (D),Democrat,Senate,100,2024-04-20,PAC,MO,Retired,Business Owner
+926,Miller (D),Democrat,Senate,25,2024-07-05,Corporate PAC,MS,Finance LLC,Sales
+927,Taylor (R),Republican,House,500,2024-11-17,Individual,MA,Education,Sales
+928,Davis (R),Republican,Governor,100,2024-01-12,Individual,ND,Tech Corp,Sales
+929,Jones (R),Republican,Governor,1786.0693570825379,2024-11-10,Individual,NE,Retired,Sales
+930,Brown (D),Democrat,Senate,50,2024-03-09,Individual,LA,Self-employed,Healthcare
+931,Miller (D),Democrat,Governor,1000,2024-09-28,Individual,PA,Education,Teacher
+932,Wilson (I),Independent,House,500,2024-06-01,PAC,OH,Retail Co,Attorney
+933,Smith (D),Democrat,Senate,250,2024-09-14,PAC,CO,Tech Corp,Consultant
+934,Smith (D),Democrat,Senate,250,2024-12-23,Individual,IL,Finance LLC,Healthcare
+935,Smith (D),Democrat,House,25,2024-10-16,PAC,KY,Retired,Retired
+936,Miller (D),Democrat,Senate,18576.588422310208,2024-04-23,Individual,NY,Finance LLC,Healthcare
+937,Davis (R),Republican,Governor,100,2024-06-23,Super PAC,WY,Not Employed,Healthcare
+938,Miller (D),Democrat,House,50,2024-04-21,PAC,MN,Not Employed,Teacher
+939,Wilson (I),Independent,Senate,100,2024-07-07,Individual,NM,Healthcare Inc,Consultant
+940,Jones (R),Republican,Senate,50,2024-03-13,Individual,MS,Healthcare Inc,Attorney
+941,Taylor (R),Republican,House,50,2024-03-30,PAC,IA,Education,Teacher
+942,Taylor (R),Republican,Senate,100,2024-11-05,Corporate PAC,NC,Finance LLC,Business Owner
+943,Davis (R),Republican,House,500,2024-09-26,Union PAC,NE,Education,Teacher
+944,Wilson (I),Independent,Governor,50,2024-06-08,Individual,VT,Self-employed,Sales
+945,Brown (D),Democrat,House,250,2024-02-09,PAC,FL,Healthcare Inc,Healthcare
+946,Davis (R),Republican,Governor,9706.303331840734,2024-09-28,Individual,GA,Retired,Healthcare
+947,Taylor (R),Republican,House,21501.870461269642,2024-10-30,Union PAC,TX,Retail Co,Retired
+948,Davis (R),Republican,House,250,2024-12-05,Individual,IL,Healthcare Inc,Sales
+949,Wilson (I),Independent,Senate,25,2024-03-01,Individual,TN,Finance LLC,Healthcare
+950,Brown (D),Democrat,Senate,1000,2024-04-16,Individual,IA,Self-employed,Business Owner
+951,Taylor (R),Republican,House,250,2024-09-25,Individual,NC,Finance LLC,Sales
+952,Jones (R),Republican,House,1580.6535294898745,2024-02-22,Individual,OR,Education,Sales
+953,Miller (D),Democrat,Senate,100,2024-11-11,Individual,WI,Retail Co,Consultant
+954,Smith (D),Democrat,House,2283.067683559955,2024-02-11,Super PAC,MI,Not Employed,Attorney
+955,Brown (D),Democrat,Senate,250,2024-11-23,Individual,NV,Education,Attorney
+956,Taylor (R),Republican,Senate,100,2024-09-25,Individual,AK,Retired,Business Owner
+957,Davis (R),Republican,House,2291.4692490009784,2024-02-26,Individual,NC,Education,Teacher
+958,Taylor (R),Republican,Senate,50,2024-04-03,Individual,MS,Finance LLC,Sales
+959,Jones (R),Republican,House,25,2024-07-25,PAC,WA,Retail Co,Consultant
+960,Brown (D),Democrat,House,50,2024-05-16,Individual,TN,Self-employed,Attorney
+961,Taylor (R),Republican,Senate,50,2024-06-22,PAC,OK,Tech Corp,Attorney
+962,Wilson (I),Independent,House,250,2024-07-16,Individual,SD,Retired,Retired
+963,Miller (D),Democrat,Senate,3431.2204802760143,2024-04-05,PAC,MD,Tech Corp,Retired
+964,Brown (D),Democrat,House,3770.2729971517865,2024-09-07,PAC,UT,Tech Corp,Healthcare
+965,Wilson (I),Independent,House,500,2024-11-28,Individual,KY,Retired,Engineer
+966,Taylor (R),Republican,Governor,250,2024-06-24,Individual,AK,Healthcare Inc,Attorney
+967,Taylor (R),Republican,House,34089.204737936896,2024-11-16,Super PAC,DE,Not Employed,Sales
+968,Brown (D),Democrat,House,500,2024-07-03,PAC,MS,Retired,Consultant
+969,Taylor (R),Republican,Governor,1000,2024-11-06,Individual,ID,Healthcare Inc,Sales
+970,Wilson (I),Independent,Senate,2800,2024-07-19,Individual,NY,Retail Co,Consultant
+971,Jones (R),Republican,Senate,8287.87660634492,2024-06-17,Super PAC,NH,Finance LLC,Sales
+972,Taylor (R),Republican,House,4802.6827478266005,2024-04-27,Individual,NM,Retail Co,Sales
+973,Jones (R),Republican,Governor,100,2024-03-21,Individual,WA,Finance LLC,Engineer
+974,Jones (R),Republican,House,50,2024-04-30,Individual,KS,Retail Co,Healthcare
+975,Smith (D),Democrat,Senate,1000,2024-09-18,Super PAC,AK,Healthcare Inc,Engineer
+976,Taylor (R),Republican,House,100,2024-10-20,Super PAC,MO,Healthcare Inc,Teacher
+977,Brown (D),Democrat,Governor,1211.9064116502657,2024-02-10,Individual,LA,Self-employed,Healthcare
+978,Miller (D),Democrat,Governor,100,2024-05-01,Individual,NM,Retired,Consultant
+979,Wilson (I),Independent,House,50,2024-01-30,Individual,NE,Not Employed,Business Owner
+980,Wilson (I),Independent,House,3365.139436797797,2024-01-08,Individual,IA,Tech Corp,Attorney
+981,Smith (D),Democrat,House,50,2024-07-11,Super PAC,TX,Tech Corp,Consultant
+982,Jones (R),Republican,Senate,1000,2024-08-02,Union PAC,NH,Retail Co,Sales
+983,Jones (R),Republican,Governor,2800,2024-03-21,PAC,WI,Finance LLC,Teacher
+984,Taylor (R),Republican,House,3266.444741042719,2024-02-24,Individual,RI,Finance LLC,Retired
+985,Brown (D),Democrat,Governor,1000,2024-12-08,Individual,ND,Retired,Consultant
+986,Jones (R),Republican,House,50,2024-03-03,PAC,IA,Retired,Teacher
+987,Brown (D),Democrat,Governor,500,2024-11-03,Individual,KY,Not Employed,Attorney
+988,Smith (D),Democrat,Governor,100,2024-07-30,Individual,ME,Finance LLC,Business Owner
+989,Jones (R),Republican,Senate,1000,2024-11-21,Corporate PAC,CT,Finance LLC,Retired
+990,Smith (D),Democrat,House,500,2024-08-31,PAC,LA,Healthcare Inc,Retired
+991,Jones (R),Republican,Senate,500,2024-08-08,Individual,TN,Education,Attorney
+992,Smith (D),Democrat,House,250,2024-02-03,Corporate PAC,CT,Education,Healthcare
+993,Wilson (I),Independent,House,25,2024-05-28,Individual,NC,Retired,Consultant
+994,Brown (D),Democrat,House,25,2024-11-27,Super PAC,NH,Self-employed,Consultant
+995,Jones (R),Republican,Senate,100,2024-10-05,PAC,FL,Education,Attorney
+996,Taylor (R),Republican,House,50,2024-04-26,Individual,TX,Retired,Engineer
+997,Wilson (I),Independent,Governor,50,2024-06-22,Corporate PAC,WV,Self-employed,Retired
+998,Brown (D),Democrat,House,100,2024-12-29,PAC,GA,Finance LLC,Consultant
+999,Taylor (R),Republican,House,50,2024-11-11,Individual,ME,Retail Co,Healthcare
+1000,Brown (D),Democrat,House,500,2024-06-19,Super PAC,SC,Education,Retired
+1001,Wilson (I),Independent,House,100,2024-03-08,PAC,MT,Retail Co,Sales
+1002,Davis (R),Republican,Senate,3770.4841492225655,2024-05-25,Individual,NH,Self-employed,Engineer
+1003,Taylor (R),Republican,House,3877.7974730092606,2024-05-24,Individual,AR,Retired,Healthcare
+1004,Miller (D),Democrat,House,500,2024-01-01,Individual,MT,Education,Healthcare
+1005,Wilson (I),Independent,Senate,50,2024-06-16,Corporate PAC,HI,Finance LLC,Attorney
+1006,Jones (R),Republican,House,3093.5467795753643,2024-08-22,PAC,NY,Tech Corp,Sales
+1007,Miller (D),Democrat,Governor,500,2024-03-31,Corporate PAC,SD,Tech Corp,Consultant
+1008,Jones (R),Republican,House,2800,2024-03-18,Corporate PAC,OR,Finance LLC,Consultant
+1009,Smith (D),Democrat,House,50,2024-06-28,Individual,IA,Education,Healthcare
+1010,Davis (R),Republican,Senate,11716.043383182288,2024-07-23,Individual,AR,Retail Co,Healthcare
+1011,Taylor (R),Republican,House,25,2024-05-11,Individual,KS,Education,Retired
+1012,Smith (D),Democrat,Senate,250,2024-06-13,Super PAC,WV,Education,Business Owner
+1013,Smith (D),Democrat,House,50,2024-09-11,PAC,FL,Retired,Consultant
+1014,Smith (D),Democrat,Governor,500,2024-07-13,Individual,GA,Retired,Business Owner
+1015,Wilson (I),Independent,Senate,100,2024-07-18,Individual,TX,Not Employed,Engineer
+1016,Brown (D),Democrat,House,250,2024-10-03,Individual,MD,Healthcare Inc,Attorney
+1017,Jones (R),Republican,House,500,2024-03-17,PAC,ID,Self-employed,Healthcare
+1018,Jones (R),Republican,House,25,2024-04-18,Individual,WA,Self-employed,Attorney
+1019,Wilson (I),Independent,House,6061.464776850602,2024-12-19,Individual,KY,Education,Attorney
+1020,Wilson (I),Independent,House,4785.68377579865,2024-01-04,Corporate PAC,OH,Self-employed,Retired
+1021,Brown (D),Democrat,Senate,2800,2024-09-13,Corporate PAC,WY,Education,Business Owner
+1022,Miller (D),Democrat,Senate,3144.7503059246837,2024-06-07,Union PAC,WV,Retired,Consultant
+1023,Taylor (R),Republican,Senate,50,2024-06-20,Union PAC,IA,Retail Co,Consultant
+1024,Wilson (I),Independent,Governor,500,2024-07-11,PAC,NJ,Education,Attorney
+1025,Miller (D),Democrat,House,1000,2024-06-02,Individual,CT,Tech Corp,Attorney
+1026,Taylor (R),Republican,House,2800,2024-07-16,Individual,WA,Retired,Healthcare
+1027,Wilson (I),Independent,Senate,500,2024-08-04,Individual,NY,Tech Corp,Healthcare
+1028,Smith (D),Democrat,Senate,250,2024-04-13,Corporate PAC,NC,Tech Corp,Business Owner
+1029,Davis (R),Republican,Senate,2800,2024-03-05,Individual,VT,Not Employed,Engineer
+1030,Davis (R),Republican,House,50,2024-03-10,PAC,AL,Tech Corp,Business Owner
+1031,Taylor (R),Republican,Governor,9722.56436840906,2024-04-08,Corporate PAC,NM,Finance LLC,Sales
+1032,Smith (D),Democrat,Senate,500,2024-01-03,Individual,WY,Education,Teacher
+1033,Smith (D),Democrat,Governor,250,2024-12-20,Union PAC,IA,Healthcare Inc,Healthcare
+1034,Jones (R),Republican,Governor,250,2024-05-03,PAC,CT,Tech Corp,Business Owner
+1035,Miller (D),Democrat,Governor,25,2024-11-14,PAC,OR,Healthcare Inc,Teacher
+1036,Jones (R),Republican,House,25,2024-05-12,Individual,IL,Education,Teacher
+1037,Taylor (R),Republican,House,25,2024-12-15,Super PAC,WI,Tech Corp,Sales
+1038,Davis (R),Republican,House,50,2024-03-27,Super PAC,WA,Retired,Consultant
+1039,Smith (D),Democrat,Governor,500,2024-03-11,Individual,TX,Tech Corp,Business Owner
+1040,Davis (R),Republican,House,1000,2024-02-22,Individual,AL,Retired,Engineer
+1041,Miller (D),Democrat,Senate,250,2024-09-01,Super PAC,SC,Finance LLC,Consultant
+1042,Davis (R),Republican,House,25,2024-08-27,PAC,OH,Retired,Sales
+1043,Taylor (R),Republican,Governor,25,2024-11-13,Individual,VA,Healthcare Inc,Retired
+1044,Taylor (R),Republican,House,1000,2024-02-27,Individual,MD,Education,Sales
+1045,Davis (R),Republican,House,250,2024-05-27,Individual,TX,Finance LLC,Sales
+1046,Wilson (I),Independent,House,500,2024-02-07,Individual,SC,Retired,Attorney
+1047,Wilson (I),Independent,House,100,2024-10-14,PAC,SD,Education,Healthcare
+1048,Brown (D),Democrat,Senate,1344.933444220774,2024-01-06,Individual,ND,Education,Healthcare
+1049,Wilson (I),Independent,Governor,50,2024-05-19,Corporate PAC,MS,Self-employed,Attorney
+1050,Brown (D),Democrat,House,100,2024-10-16,Individual,AR,Tech Corp,Retired
+1051,Wilson (I),Independent,House,1000,2024-11-05,Individual,NJ,Healthcare Inc,Engineer
+1052,Brown (D),Democrat,Senate,250,2024-09-01,PAC,WA,Self-employed,Sales
+1053,Davis (R),Republican,House,500,2024-11-23,PAC,NV,Retail Co,Engineer
+1054,Brown (D),Democrat,Governor,25,2024-11-30,Union PAC,NH,Tech Corp,Consultant
+1055,Smith (D),Democrat,Senate,2244.2563292545997,2024-12-30,Corporate PAC,VA,Retired,Business Owner
+1056,Wilson (I),Independent,Senate,2800,2024-06-15,Corporate PAC,KS,Healthcare Inc,Consultant
+1057,Jones (R),Republican,Senate,1000,2024-08-20,Individual,AK,Not Employed,Teacher
+1058,Brown (D),Democrat,House,368.7326108116163,2024-12-27,Individual,OK,Healthcare Inc,Engineer
+1059,Wilson (I),Independent,House,25,2024-08-22,Individual,AZ,Retail Co,Attorney
+1060,Brown (D),Democrat,Governor,25,2024-09-10,Individual,ND,Tech Corp,Engineer
+1061,Davis (R),Republican,Governor,100,2024-05-11,Union PAC,NE,Tech Corp,Teacher
+1062,Brown (D),Democrat,Senate,500,2024-03-10,PAC,OH,Finance LLC,Attorney
+1063,Miller (D),Democrat,House,100,2024-05-18,Individual,FL,Education,Sales
+1064,Davis (R),Republican,Governor,500,2024-09-04,Individual,MD,Retail Co,Healthcare
+1065,Jones (R),Republican,Senate,2800,2024-12-22,Individual,PA,Finance LLC,Sales
+1066,Jones (R),Republican,Governor,25,2024-11-13,Individual,LA,Retail Co,Teacher
+1067,Taylor (R),Republican,House,50,2024-02-27,PAC,MT,Retired,Retired
+1068,Brown (D),Democrat,Governor,500,2024-12-18,Super PAC,MO,Retired,Engineer
+1069,Wilson (I),Independent,House,25,2024-07-29,Individual,PA,Retail Co,Attorney
+1070,Jones (R),Republican,House,100,2024-01-31,Individual,CA,Retail Co,Retired
+1071,Miller (D),Democrat,House,50,2024-11-19,Individual,ND,Tech Corp,Business Owner
+1072,Smith (D),Democrat,House,3833.5292309462493,2024-05-14,PAC,OK,Education,Retired
+1073,Taylor (R),Republican,House,50,2024-01-08,PAC,NH,Retired,Sales
+1074,Taylor (R),Republican,Senate,100,2024-06-08,Individual,MT,Not Employed,Engineer
+1075,Davis (R),Republican,House,25,2024-08-15,PAC,HI,Not Employed,Engineer
+1076,Wilson (I),Independent,House,5238.2873023996235,2024-09-27,Individual,WY,Self-employed,Business Owner
+1077,Brown (D),Democrat,Senate,4680.689368212358,2024-03-14,Individual,VA,Self-employed,Consultant
+1078,Smith (D),Democrat,Senate,500,2024-08-31,Individual,NH,Retired,Business Owner
+1079,Wilson (I),Independent,House,250,2024-05-06,Individual,IN,Not Employed,Consultant
+1080,Smith (D),Democrat,House,50,2024-07-17,PAC,UT,Retail Co,Retired
+1081,Taylor (R),Republican,House,25,2024-09-25,Corporate PAC,MO,Retired,Attorney
+1082,Jones (R),Republican,Senate,50,2024-06-16,Super PAC,IA,Tech Corp,Retired
+1083,Wilson (I),Independent,House,250,2024-07-18,Individual,MO,Retired,Sales
+1084,Smith (D),Democrat,House,25,2024-10-06,Individual,MN,Healthcare Inc,Business Owner
+1085,Smith (D),Democrat,Senate,100,2024-05-04,Individual,UT,Tech Corp,Sales
+1086,Brown (D),Democrat,House,250,2024-08-24,Individual,VT,Not Employed,Sales
+1087,Wilson (I),Independent,Senate,1368.6979804058521,2024-08-02,Corporate PAC,HI,Education,Retired
+1088,Brown (D),Democrat,House,25,2024-06-07,Individual,DE,Healthcare Inc,Healthcare
+1089,Smith (D),Democrat,House,1000,2024-04-11,Individual,PA,Retail Co,Business Owner
+1090,Jones (R),Republican,House,100,2024-11-19,PAC,NV,Retired,Sales
+1091,Brown (D),Democrat,Governor,2315.7464726097123,2024-06-17,Individual,IA,Healthcare Inc,Healthcare
+1092,Smith (D),Democrat,Governor,22168.75475097131,2024-11-13,Individual,VA,Healthcare Inc,Business Owner
+1093,Davis (R),Republican,Senate,500,2024-08-13,Individual,MO,Self-employed,Retired
+1094,Miller (D),Democrat,Senate,250,2024-01-19,Corporate PAC,OR,Not Employed,Attorney
+1095,Brown (D),Democrat,House,3842.007820067163,2024-09-28,Individual,OK,Self-employed,Healthcare
+1096,Wilson (I),Independent,House,250,2024-11-17,Individual,MS,Not Employed,Teacher
+1097,Davis (R),Republican,Governor,25,2024-09-15,Individual,MO,Healthcare Inc,Teacher
+1098,Jones (R),Republican,House,25,2024-08-06,Individual,OR,Retail Co,Teacher
+1099,Davis (R),Republican,Governor,100,2024-05-01,Individual,FL,Retail Co,Engineer
+1100,Smith (D),Democrat,Governor,100,2024-01-14,Individual,IL,Education,Healthcare
+1101,Miller (D),Democrat,Senate,25,2024-08-10,PAC,OR,Retired,Consultant
+1102,Taylor (R),Republican,House,250,2024-01-15,Individual,NV,Finance LLC,Consultant
+1103,Wilson (I),Independent,House,1000,2024-06-07,Individual,KS,Not Employed,Healthcare
+1104,Davis (R),Republican,Governor,5256.430793290314,2024-10-17,Individual,WA,Tech Corp,Teacher
+1105,Brown (D),Democrat,Senate,2800,2024-09-25,Individual,GA,Not Employed,Attorney
+1106,Smith (D),Democrat,Senate,50,2024-03-24,Individual,MA,Retail Co,Business Owner
+1107,Davis (R),Republican,House,1000,2024-12-30,Individual,MA,Not Employed,Retired
+1108,Smith (D),Democrat,House,1000,2024-06-15,Corporate PAC,WA,Finance LLC,Sales
+1109,Smith (D),Democrat,Senate,250,2024-10-11,Individual,MI,Education,Engineer
+1110,Wilson (I),Independent,House,100,2024-10-03,PAC,TN,Self-employed,Business Owner
+1111,Wilson (I),Independent,House,1000,2024-08-24,Individual,PA,Tech Corp,Consultant
+1112,Jones (R),Republican,Governor,250,2024-11-29,Union PAC,SC,Tech Corp,Retired
+1113,Davis (R),Republican,House,25,2024-09-22,Individual,NM,Education,Teacher
+1114,Miller (D),Democrat,House,1000,2024-01-01,Individual,UT,Finance LLC,Attorney
+1115,Miller (D),Democrat,House,250,2024-11-22,Individual,OR,Finance LLC,Engineer
+1116,Davis (R),Republican,House,50,2024-11-11,Individual,MT,Retired,Retired
+1117,Brown (D),Democrat,Senate,50,2024-06-11,PAC,UT,Self-employed,Sales
+1118,Smith (D),Democrat,House,50,2024-08-05,Individual,NY,Retired,Engineer
+1119,Davis (R),Republican,Senate,25,2024-09-29,Individual,DE,Finance LLC,Retired
+1120,Smith (D),Democrat,House,250,2024-11-01,PAC,CA,Retail Co,Attorney
+1121,Taylor (R),Republican,House,3643.8818756918727,2024-01-02,Corporate PAC,NJ,Healthcare Inc,Retired
+1122,Taylor (R),Republican,Senate,2800,2024-08-23,Union PAC,TN,Self-employed,Consultant
+1123,Miller (D),Democrat,Senate,100,2024-10-04,Individual,ID,Education,Healthcare
+1124,Brown (D),Democrat,Senate,5263.837839093933,2024-06-20,Individual,WI,Education,Business Owner
+1125,Brown (D),Democrat,House,25,2024-11-02,Individual,KS,Retired,Engineer
+1126,Miller (D),Democrat,House,500,2024-10-01,Individual,MS,Retired,Healthcare
+1127,Wilson (I),Independent,Governor,250,2024-07-05,PAC,NY,Healthcare Inc,Attorney
+1128,Davis (R),Republican,Senate,11324.024105841585,2024-09-03,Individual,ND,Finance LLC,Business Owner
+1129,Brown (D),Democrat,Senate,50,2024-06-08,Corporate PAC,PA,Retired,Retired
+1130,Smith (D),Democrat,Governor,1000,2024-06-14,PAC,WI,Education,Sales
+1131,Smith (D),Democrat,Senate,5581.0952088956865,2024-09-30,Union PAC,IL,Self-employed,Engineer
+1132,Taylor (R),Republican,House,7666.632585805728,2024-12-05,Individual,NV,Retired,Healthcare
+1133,Wilson (I),Independent,Senate,25,2024-01-24,Individual,AR,Healthcare Inc,Teacher
+1134,Miller (D),Democrat,Senate,25,2024-06-28,Individual,IN,Retired,Attorney
+1135,Wilson (I),Independent,Governor,1466.624036486899,2024-02-16,PAC,VT,Finance LLC,Teacher
+1136,Brown (D),Democrat,Senate,100,2024-12-04,Corporate PAC,MO,Finance LLC,Engineer
+1137,Wilson (I),Independent,House,100,2024-01-08,Corporate PAC,CA,Not Employed,Retired
+1138,Davis (R),Republican,House,100,2024-05-19,Individual,TX,Retired,Sales
+1139,Miller (D),Democrat,House,100,2024-02-29,Corporate PAC,AZ,Not Employed,Teacher
+1140,Brown (D),Democrat,House,2421.641520508892,2024-03-31,Individual,IA,Tech Corp,Sales
+1141,Taylor (R),Republican,Governor,5440.460775262215,2024-11-17,PAC,MD,Healthcare Inc,Retired
+1142,Taylor (R),Republican,Senate,3181.5256876223107,2024-02-01,Individual,MN,Retail Co,Teacher
+1143,Brown (D),Democrat,Senate,25,2024-08-10,Union PAC,OR,Retired,Consultant
+1144,Brown (D),Democrat,House,25,2024-01-27,PAC,ME,Education,Sales
+1145,Brown (D),Democrat,Governor,100,2024-09-18,PAC,WV,Not Employed,Engineer
+1146,Smith (D),Democrat,House,100,2024-01-15,Corporate PAC,MS,Retired,Retired
+1147,Brown (D),Democrat,Senate,25,2024-06-02,Super PAC,ID,Retired,Teacher
+1148,Taylor (R),Republican,Senate,50,2024-07-04,Corporate PAC,WI,Finance LLC,Business Owner
+1149,Jones (R),Republican,Governor,1000,2024-08-11,Individual,KY,Retail Co,Business Owner
+1150,Wilson (I),Independent,Senate,50,2024-10-29,Individual,NE,Self-employed,Business Owner
+1151,Taylor (R),Republican,House,50,2024-03-30,Individual,DE,Retail Co,Teacher
+1152,Jones (R),Republican,Senate,250,2024-09-09,PAC,OK,Finance LLC,Attorney
+1153,Jones (R),Republican,House,100,2024-05-11,Corporate PAC,KS,Self-employed,Teacher
+1154,Davis (R),Republican,Governor,2876.5315556091036,2024-11-28,Individual,CT,Education,Retired
+1155,Brown (D),Democrat,House,25,2024-12-17,Individual,UT,Tech Corp,Business Owner
+1156,Taylor (R),Republican,House,250,2024-08-16,Individual,MS,Tech Corp,Retired
+1157,Miller (D),Democrat,House,100,2024-04-27,Individual,MD,Finance LLC,Attorney
+1158,Davis (R),Republican,House,1000,2024-04-11,Individual,TX,Retail Co,Healthcare
+1159,Wilson (I),Independent,House,100,2024-03-29,Corporate PAC,GA,Finance LLC,Consultant
+1160,Smith (D),Democrat,House,100,2024-02-01,Individual,MO,Finance LLC,Business Owner
+1161,Miller (D),Democrat,House,50,2024-07-12,Individual,FL,Healthcare Inc,Sales
+1162,Davis (R),Republican,Governor,250,2024-03-18,PAC,WI,Tech Corp,Business Owner
+1163,Miller (D),Democrat,House,25,2024-11-25,Individual,TX,Tech Corp,Business Owner
+1164,Miller (D),Democrat,House,2800,2024-07-01,Individual,IL,Finance LLC,Consultant
+1165,Wilson (I),Independent,House,5712.024028596792,2024-04-11,Individual,IN,Healthcare Inc,Sales
+1166,Taylor (R),Republican,Senate,100,2024-09-19,Individual,AL,Self-employed,Sales
+1167,Taylor (R),Republican,House,4851.766875181264,2024-12-21,Corporate PAC,AZ,Self-employed,Business Owner
+1168,Davis (R),Republican,Governor,100,2024-01-03,Corporate PAC,IN,Retail Co,Teacher
+1169,Smith (D),Democrat,House,50,2024-05-03,PAC,NE,Finance LLC,Healthcare
+1170,Jones (R),Republican,Governor,250,2024-11-01,Individual,WI,Tech Corp,Engineer
+1171,Brown (D),Democrat,Senate,14319.204522783743,2024-09-09,PAC,AL,Education,Engineer
+1172,Brown (D),Democrat,House,100,2024-10-20,Individual,AK,Tech Corp,Attorney
+1173,Smith (D),Democrat,House,100,2024-07-12,Individual,TX,Retired,Retired
+1174,Smith (D),Democrat,House,3121.966871794101,2024-02-05,Individual,NC,Self-employed,Engineer
+1175,Jones (R),Republican,Senate,500,2024-01-18,Corporate PAC,CO,Self-employed,Healthcare
+1176,Jones (R),Republican,Senate,25,2024-12-04,Corporate PAC,MN,Not Employed,Business Owner
+1177,Wilson (I),Independent,Senate,250,2024-10-02,PAC,KY,Healthcare Inc,Sales
+1178,Brown (D),Democrat,House,50,2024-05-01,Individual,WA,Retired,Business Owner
+1179,Wilson (I),Independent,Governor,250,2024-04-04,Individual,ME,Healthcare Inc,Teacher
+1180,Smith (D),Democrat,Governor,250,2024-04-18,Individual,WA,Education,Engineer
+1181,Smith (D),Democrat,Governor,50,2024-04-30,PAC,OH,Retail Co,Healthcare
+1182,Davis (R),Republican,Governor,1000,2024-11-10,PAC,MI,Finance LLC,Teacher
+1183,Taylor (R),Republican,Senate,25,2024-11-12,Individual,OR,Self-employed,Healthcare
+1184,Wilson (I),Independent,House,50,2024-04-08,Individual,ID,Finance LLC,Engineer
+1185,Brown (D),Democrat,House,250,2024-02-17,Individual,WI,Retired,Sales
+1186,Smith (D),Democrat,House,5129.074141187895,2024-05-13,Individual,MT,Self-employed,Sales
+1187,Smith (D),Democrat,Senate,2347.2997449703203,2024-09-05,Individual,HI,Education,Attorney
+1188,Smith (D),Democrat,Governor,8353.893870069658,2024-07-06,Super PAC,NH,Not Employed,Engineer
+1189,Brown (D),Democrat,House,38332.42150996038,2024-07-27,Super PAC,VT,Tech Corp,Sales
+1190,Davis (R),Republican,House,500,2024-09-15,PAC,TN,Education,Business Owner
+1191,Davis (R),Republican,House,5597.431233130565,2024-01-08,Individual,MT,Finance LLC,Engineer
+1192,Smith (D),Democrat,House,1000,2024-08-05,Individual,RI,Self-employed,Retired
+1193,Miller (D),Democrat,House,25,2024-10-21,PAC,WI,Self-employed,Engineer
+1194,Miller (D),Democrat,Senate,500,2024-02-25,PAC,TN,Education,Engineer
+1195,Davis (R),Republican,House,2800,2024-01-07,Individual,CT,Self-employed,Teacher
+1196,Brown (D),Democrat,Governor,250,2024-09-10,Individual,CT,Retired,Sales
+1197,Jones (R),Republican,Senate,250,2024-11-30,PAC,AK,Retail Co,Retired
+1198,Davis (R),Republican,House,100,2024-05-06,Individual,ID,Tech Corp,Engineer
+1199,Davis (R),Republican,Senate,100,2024-06-24,Individual,WI,Retired,Consultant
+1200,Taylor (R),Republican,House,100,2024-12-10,Corporate PAC,ME,Retail Co,Business Owner
+1201,Davis (R),Republican,House,50,2024-01-13,Super PAC,NY,Retired,Sales
+1202,Brown (D),Democrat,House,25,2024-10-17,Individual,AK,Self-employed,Sales
+1203,Brown (D),Democrat,Governor,500,2024-02-23,Individual,IL,Self-employed,Business Owner
+1204,Wilson (I),Independent,House,250,2024-09-23,Individual,ID,Tech Corp,Engineer
+1205,Smith (D),Democrat,Governor,250,2024-07-13,Corporate PAC,CT,Self-employed,Healthcare
+1206,Wilson (I),Independent,Senate,500,2024-05-14,Individual,IL,Education,Consultant
+1207,Jones (R),Republican,House,100,2024-03-29,Individual,IN,Education,Consultant
+1208,Wilson (I),Independent,Senate,25,2024-10-06,Individual,LA,Education,Retired
+1209,Brown (D),Democrat,Senate,100,2024-06-26,Individual,NH,Healthcare Inc,Attorney
+1210,Smith (D),Democrat,House,1000,2024-08-06,PAC,NH,Healthcare Inc,Engineer
+1211,Wilson (I),Independent,Senate,1000,2024-04-06,Individual,AZ,Retired,Healthcare
+1212,Taylor (R),Republican,Governor,100,2024-07-28,Individual,TX,Education,Attorney
+1213,Brown (D),Democrat,House,500,2024-11-04,PAC,NM,Retired,Retired
+1214,Brown (D),Democrat,House,21722.195608702612,2024-08-12,Individual,AR,Finance LLC,Engineer
+1215,Jones (R),Republican,House,250,2024-02-10,Individual,IN,Finance LLC,Retired
+1216,Brown (D),Democrat,House,100,2024-02-24,Individual,RI,Self-employed,Teacher
+1217,Miller (D),Democrat,Senate,500,2024-09-13,Individual,NH,Not Employed,Attorney
+1218,Brown (D),Democrat,Governor,25,2024-11-03,Individual,NM,Not Employed,Retired
+1219,Brown (D),Democrat,House,100,2024-07-27,Individual,SC,Finance LLC,Sales
+1220,Miller (D),Democrat,House,250,2024-08-25,Individual,CA,Finance LLC,Retired
+1221,Wilson (I),Independent,Senate,25,2024-05-21,Individual,VT,Tech Corp,Attorney
+1222,Jones (R),Republican,House,25,2024-07-16,Individual,MS,Healthcare Inc,Healthcare
+1223,Wilson (I),Independent,Senate,100,2024-01-06,Corporate PAC,VA,Healthcare Inc,Retired
+1224,Smith (D),Democrat,House,1000,2024-02-15,PAC,IN,Retired,Sales
+1225,Jones (R),Republican,Governor,100,2024-01-08,Individual,MO,Finance LLC,Retired
+1226,Smith (D),Democrat,House,17092.249819117846,2024-08-24,Individual,AZ,Tech Corp,Consultant
+1227,Wilson (I),Independent,House,100,2024-04-16,PAC,GA,Retail Co,Retired
+1228,Brown (D),Democrat,Governor,50,2024-09-21,Corporate PAC,CO,Healthcare Inc,Healthcare
+1229,Jones (R),Republican,Senate,50,2024-12-11,Individual,CT,Tech Corp,Attorney
+1230,Taylor (R),Republican,Governor,500,2024-09-27,Individual,ID,Healthcare Inc,Consultant
+1231,Miller (D),Democrat,Senate,953.2900540087094,2024-08-26,Individual,WA,Retail Co,Attorney
+1232,Jones (R),Republican,House,50,2024-12-12,Super PAC,PA,Retired,Healthcare
+1233,Smith (D),Democrat,Governor,1000,2024-03-04,Individual,NJ,Retail Co,Teacher
+1234,Brown (D),Democrat,Governor,100,2024-08-13,PAC,MN,Healthcare Inc,Retired
+1235,Davis (R),Republican,House,2088.4734076403656,2024-06-25,Individual,ME,Self-employed,Consultant
+1236,Davis (R),Republican,Governor,500,2024-01-02,Individual,AZ,Tech Corp,Teacher
+1237,Davis (R),Republican,Governor,1000,2024-07-20,Individual,AZ,Healthcare Inc,Healthcare
+1238,Miller (D),Democrat,House,2739.85270880462,2024-12-06,Individual,UT,Self-employed,Attorney
+1239,Miller (D),Democrat,Senate,50,2024-10-22,Union PAC,AR,Self-employed,Healthcare
+1240,Taylor (R),Republican,House,50,2024-12-11,Corporate PAC,CO,Self-employed,Teacher
+1241,Davis (R),Republican,House,100,2024-11-01,Super PAC,NM,Self-employed,Consultant
+1242,Brown (D),Democrat,Governor,100,2024-02-04,Individual,FL,Finance LLC,Business Owner
+1243,Jones (R),Republican,House,25,2024-06-29,PAC,NM,Finance LLC,Healthcare
+1244,Smith (D),Democrat,House,100,2024-09-04,Individual,TX,Self-employed,Sales
+1245,Davis (R),Republican,House,100,2024-04-08,PAC,LA,Self-employed,Retired
+1246,Jones (R),Republican,House,4921.844135275323,2024-11-07,Individual,TX,Tech Corp,Attorney
+1247,Miller (D),Democrat,House,100,2024-06-14,Corporate PAC,ID,Tech Corp,Healthcare
+1248,Jones (R),Republican,House,25,2024-01-23,Individual,VT,Tech Corp,Healthcare
+1249,Wilson (I),Independent,House,100,2024-09-15,PAC,FL,Finance LLC,Healthcare
+1250,Taylor (R),Republican,House,500,2024-03-20,Individual,AK,Healthcare Inc,Healthcare
+1251,Davis (R),Republican,House,1000,2024-06-09,Union PAC,NC,Self-employed,Attorney
+1252,Smith (D),Democrat,Governor,25,2024-11-29,PAC,FL,Self-employed,Engineer
+1253,Smith (D),Democrat,Senate,100,2024-11-18,Corporate PAC,MS,Finance LLC,Healthcare
+1254,Wilson (I),Independent,Governor,100,2024-01-30,PAC,OH,Healthcare Inc,Teacher
+1255,Wilson (I),Independent,Governor,100,2024-12-19,Individual,IN,Not Employed,Business Owner
+1256,Smith (D),Democrat,Senate,7542.683532954358,2024-01-27,Individual,IL,Finance LLC,Sales
+1257,Wilson (I),Independent,Senate,25,2024-02-20,Union PAC,MA,Self-employed,Business Owner
+1258,Miller (D),Democrat,House,35738.01411565427,2024-06-05,Individual,KY,Not Employed,Sales
+1259,Taylor (R),Republican,Senate,25,2024-07-06,Individual,PA,Healthcare Inc,Consultant
+1260,Smith (D),Democrat,House,500,2024-11-02,Individual,WY,Self-employed,Teacher
+1261,Miller (D),Democrat,Governor,500,2024-02-28,PAC,WY,Healthcare Inc,Engineer
+1262,Brown (D),Democrat,Senate,100,2024-07-11,Individual,TX,Retired,Attorney
+1263,Jones (R),Republican,Senate,250,2024-12-31,Individual,MT,Education,Business Owner
+1264,Davis (R),Republican,House,50,2024-08-14,Individual,SD,Retired,Sales
+1265,Jones (R),Republican,Senate,9014.881366884709,2024-06-26,Corporate PAC,IA,Finance LLC,Business Owner
+1266,Davis (R),Republican,House,2800,2024-04-18,Individual,DE,Not Employed,Consultant
+1267,Brown (D),Democrat,House,500,2024-08-14,Individual,SC,Education,Healthcare
+1268,Taylor (R),Republican,House,1000,2024-08-14,Individual,VT,Retail Co,Consultant
+1269,Brown (D),Democrat,Governor,50,2024-02-02,Individual,KY,Education,Sales
+1270,Brown (D),Democrat,Governor,250,2024-11-26,Individual,WV,Healthcare Inc,Retired
+1271,Taylor (R),Republican,Senate,2800,2024-08-18,PAC,NJ,Finance LLC,Business Owner
+1272,Davis (R),Republican,House,500,2024-12-15,PAC,SD,Retail Co,Healthcare
+1273,Davis (R),Republican,Senate,10062.864936463913,2024-04-22,PAC,NJ,Retired,Sales
+1274,Brown (D),Democrat,House,6574.800415627208,2024-02-29,Union PAC,VA,Not Employed,Teacher
+1275,Smith (D),Democrat,House,50,2024-08-07,Individual,ME,Retired,Retired
+1276,Jones (R),Republican,Senate,2800,2024-12-27,Individual,CO,Retail Co,Sales
+1277,Brown (D),Democrat,Governor,305.2759284090928,2024-02-07,Individual,WY,Retail Co,Business Owner
+1278,Wilson (I),Independent,House,50,2024-10-03,Individual,KS,Education,Sales
+1279,Taylor (R),Republican,House,50,2024-09-30,Individual,SD,Retail Co,Business Owner
+1280,Jones (R),Republican,House,500,2024-03-21,Individual,RI,Healthcare Inc,Engineer
+1281,Brown (D),Democrat,House,250,2024-02-28,Individual,TN,Not Employed,Sales
+1282,Smith (D),Democrat,Senate,3679.5916286456936,2024-05-05,Individual,ID,Finance LLC,Sales
+1283,Miller (D),Democrat,House,250,2024-11-06,Super PAC,OH,Retail Co,Attorney
+1284,Brown (D),Democrat,House,25,2024-10-12,PAC,NJ,Finance LLC,Attorney
+1285,Brown (D),Democrat,House,6961.433229869488,2024-07-09,PAC,NM,Finance LLC,Teacher
+1286,Smith (D),Democrat,House,3390.323728206634,2024-04-10,Corporate PAC,NH,Education,Consultant
+1287,Davis (R),Republican,Governor,2800,2024-01-08,Super PAC,OK,Education,Retired
+1288,Davis (R),Republican,Governor,500,2024-11-30,Individual,CO,Retired,Consultant
+1289,Smith (D),Democrat,House,50,2024-03-13,Individual,IN,Healthcare Inc,Business Owner
+1290,Smith (D),Democrat,Governor,250,2024-09-15,Individual,MT,Retired,Consultant
+1291,Smith (D),Democrat,House,50,2024-10-06,PAC,NM,Not Employed,Attorney
+1292,Miller (D),Democrat,Senate,1000,2024-10-07,PAC,KY,Healthcare Inc,Sales
+1293,Taylor (R),Republican,Governor,500,2024-11-10,Individual,LA,Retired,Attorney
+1294,Davis (R),Republican,House,100,2024-06-25,Individual,WV,Not Employed,Consultant
+1295,Wilson (I),Independent,Senate,100,2024-09-10,Corporate PAC,WY,Healthcare Inc,Engineer
+1296,Taylor (R),Republican,Senate,5666.021247910622,2024-02-20,Individual,MI,Self-employed,Teacher
+1297,Taylor (R),Republican,Senate,3110.3864761386976,2024-06-09,Individual,PA,Finance LLC,Retired
+1298,Davis (R),Republican,Senate,1000,2024-06-19,Individual,MD,Finance LLC,Sales
+1299,Davis (R),Republican,House,500,2024-01-18,Corporate PAC,NM,Retired,Consultant
+1300,Miller (D),Democrat,House,250,2024-01-20,Individual,MI,Education,Retired
+1301,Smith (D),Democrat,Senate,1000,2024-07-19,Corporate PAC,OK,Finance LLC,Attorney
+1302,Brown (D),Democrat,Senate,250,2024-09-06,PAC,NH,Healthcare Inc,Sales
+1303,Wilson (I),Independent,House,1000,2024-08-17,Individual,MO,Education,Business Owner
+1304,Davis (R),Republican,Governor,11521.618501495872,2024-12-28,Corporate PAC,OH,Not Employed,Attorney
+1305,Smith (D),Democrat,Senate,100,2024-01-30,Individual,WY,Finance LLC,Attorney
+1306,Wilson (I),Independent,House,50,2024-10-17,Individual,NV,Education,Engineer
+1307,Brown (D),Democrat,House,250,2024-12-17,Union PAC,MO,Tech Corp,Engineer
+1308,Smith (D),Democrat,House,500,2024-09-29,Individual,IL,Not Employed,Retired
+1309,Jones (R),Republican,House,250,2024-07-08,Individual,SD,Finance LLC,Teacher
+1310,Davis (R),Republican,House,250,2024-01-29,Individual,TX,Finance LLC,Retired
+1311,Wilson (I),Independent,Senate,1000,2024-12-26,Individual,AZ,Education,Teacher
+1312,Davis (R),Republican,House,250,2024-02-01,Super PAC,RI,Retired,Engineer
+1313,Smith (D),Democrat,House,20515.131247991732,2024-10-31,PAC,IL,Retired,Teacher
+1314,Taylor (R),Republican,House,25,2024-01-21,Individual,OH,Education,Retired
+1315,Taylor (R),Republican,House,25942.484313433713,2024-08-20,Individual,GA,Tech Corp,Engineer
+1316,Wilson (I),Independent,Senate,14212.153517946948,2024-10-20,Corporate PAC,ID,Not Employed,Attorney
+1317,Jones (R),Republican,Senate,17416.71041403999,2024-12-25,Individual,NH,Healthcare Inc,Sales
+1318,Davis (R),Republican,Senate,500,2024-12-15,PAC,WY,Healthcare Inc,Attorney
+1319,Smith (D),Democrat,House,3803.9153710406213,2024-01-02,Individual,IN,Healthcare Inc,Engineer
+1320,Brown (D),Democrat,House,50,2024-02-14,Individual,IN,Healthcare Inc,Attorney
+1321,Jones (R),Republican,House,2157.903427700615,2024-01-17,Individual,AZ,Self-employed,Attorney
+1322,Brown (D),Democrat,House,1000,2024-05-26,Individual,RI,Retired,Engineer
+1323,Miller (D),Democrat,Senate,1000,2024-04-26,PAC,RI,Tech Corp,Teacher
+1324,Smith (D),Democrat,House,100,2024-09-10,PAC,NC,Tech Corp,Consultant
+1325,Davis (R),Republican,Governor,10772.206904360846,2024-06-03,Individual,AZ,Finance LLC,Consultant
+1326,Brown (D),Democrat,House,100,2024-02-14,Super PAC,NY,Not Employed,Business Owner
+1327,Taylor (R),Republican,Senate,500,2024-05-10,PAC,DE,Retail Co,Healthcare
+1328,Smith (D),Democrat,Governor,100,2024-08-10,Union PAC,AZ,Retail Co,Business Owner
+1329,Wilson (I),Independent,House,12299.707380311602,2024-12-19,Individual,KS,Finance LLC,Attorney
+1330,Brown (D),Democrat,House,10126.825526320928,2024-01-19,Individual,OK,Self-employed,Retired
+1331,Wilson (I),Independent,Senate,500,2024-10-02,Individual,IA,Finance LLC,Retired
+1332,Jones (R),Republican,House,250,2024-05-04,Individual,NH,Healthcare Inc,Retired
+1333,Brown (D),Democrat,House,9783.80471463115,2024-03-03,Individual,MI,Education,Retired
+1334,Smith (D),Democrat,House,50,2024-02-20,Individual,FL,Healthcare Inc,Healthcare
+1335,Miller (D),Democrat,House,100,2024-11-08,Individual,CA,Tech Corp,Healthcare
+1336,Jones (R),Republican,House,50786.796480607314,2024-09-17,Individual,CO,Finance LLC,Attorney
+1337,Jones (R),Republican,Senate,250,2024-10-31,Individual,KS,Not Employed,Healthcare
+1338,Taylor (R),Republican,House,50,2024-06-03,Individual,TN,Self-employed,Attorney
+1339,Miller (D),Democrat,Senate,2800,2024-09-01,PAC,VT,Finance LLC,Healthcare
+1340,Smith (D),Democrat,Governor,250,2024-06-04,Individual,WV,Healthcare Inc,Healthcare
+1341,Miller (D),Democrat,House,250,2024-10-01,Individual,MT,Finance LLC,Consultant
+1342,Taylor (R),Republican,House,100,2024-06-20,Individual,TX,Not Employed,Retired
+1343,Wilson (I),Independent,Governor,102358.69531992606,2024-05-17,PAC,PA,Tech Corp,Attorney
+1344,Smith (D),Democrat,Senate,12748.6876056101,2024-02-11,Individual,WI,Self-employed,Attorney
+1345,Davis (R),Republican,Governor,500,2024-07-27,Individual,ME,Not Employed,Retired
+1346,Taylor (R),Republican,Governor,100,2024-02-13,Individual,VT,Tech Corp,Teacher
+1347,Davis (R),Republican,House,1000,2024-04-03,Individual,WV,Retail Co,Engineer
+1348,Davis (R),Republican,Governor,100,2024-07-01,Individual,RI,Tech Corp,Consultant
+1349,Smith (D),Democrat,Senate,2800,2024-01-20,PAC,IN,Finance LLC,Business Owner
+1350,Smith (D),Democrat,Senate,50,2024-06-22,Corporate PAC,VT,Self-employed,Engineer
+1351,Miller (D),Democrat,Senate,250,2024-12-24,Union PAC,NE,Tech Corp,Attorney
+1352,Miller (D),Democrat,House,5402.257743840832,2024-06-23,Individual,AZ,Retired,Attorney
+1353,Jones (R),Republican,Senate,25,2024-08-01,PAC,SC,Self-employed,Business Owner
+1354,Davis (R),Republican,House,250,2024-11-03,PAC,CT,Healthcare Inc,Engineer
+1355,Jones (R),Republican,House,25,2024-11-11,Super PAC,MS,Retail Co,Business Owner
+1356,Brown (D),Democrat,House,250,2024-05-12,Union PAC,AK,Finance LLC,Attorney
+1357,Taylor (R),Republican,Governor,100,2024-05-02,Individual,AZ,Finance LLC,Business Owner
+1358,Wilson (I),Independent,House,50,2024-08-20,Corporate PAC,IN,Retail Co,Retired
+1359,Miller (D),Democrat,Governor,25,2024-06-07,Individual,NJ,Not Employed,Sales
+1360,Smith (D),Democrat,House,250,2024-09-01,Individual,NH,Retired,Consultant
+1361,Davis (R),Republican,Senate,500,2024-10-19,PAC,NM,Self-employed,Consultant
+1362,Wilson (I),Independent,House,25,2024-02-29,Super PAC,NE,Tech Corp,Business Owner
+1363,Miller (D),Democrat,Senate,1962.2764661577392,2024-07-06,Individual,MN,Education,Engineer
+1364,Jones (R),Republican,House,1000,2024-07-01,Individual,ND,Healthcare Inc,Engineer
+1365,Taylor (R),Republican,Senate,23748.821851998753,2024-06-03,Union PAC,ME,Tech Corp,Attorney
+1366,Wilson (I),Independent,House,250,2024-04-23,PAC,IN,Tech Corp,Healthcare
+1367,Brown (D),Democrat,House,500,2024-11-03,Corporate PAC,SD,Finance LLC,Engineer
+1368,Brown (D),Democrat,House,250,2024-03-31,Individual,ME,Tech Corp,Consultant
+1369,Brown (D),Democrat,Senate,50,2024-05-10,PAC,DE,Self-employed,Teacher
+1370,Taylor (R),Republican,House,50,2024-07-25,Individual,MN,Retail Co,Healthcare
+1371,Brown (D),Democrat,Senate,33646.97226354484,2024-01-27,PAC,MA,Retired,Attorney
+1372,Jones (R),Republican,House,2800,2024-02-29,Individual,IN,Healthcare Inc,Sales
+1373,Brown (D),Democrat,Governor,50,2024-09-12,PAC,AK,Self-employed,Sales
+1374,Smith (D),Democrat,House,3421.7654323015613,2024-03-11,Individual,IA,Finance LLC,Business Owner
+1375,Smith (D),Democrat,Senate,50,2024-10-18,Individual,WV,Not Employed,Consultant
+1376,Davis (R),Republican,House,1000,2024-02-28,Individual,HI,Self-employed,Sales
+1377,Davis (R),Republican,Senate,504.70933495910634,2024-12-02,PAC,IL,Tech Corp,Attorney
+1378,Davis (R),Republican,House,250,2024-02-05,Individual,WV,Not Employed,Consultant
+1379,Taylor (R),Republican,House,50,2024-08-10,Individual,RI,Not Employed,Teacher
+1380,Taylor (R),Republican,House,25,2024-09-17,PAC,AR,Retired,Attorney
+1381,Smith (D),Democrat,House,100,2024-07-03,PAC,AL,Retail Co,Teacher
+1382,Davis (R),Republican,Governor,25,2024-12-31,Individual,CO,Finance LLC,Sales
+1383,Davis (R),Republican,House,5484.738263627353,2024-04-05,Individual,WV,Finance LLC,Consultant
+1384,Taylor (R),Republican,House,100,2024-01-07,Individual,WI,Not Employed,Attorney
+1385,Brown (D),Democrat,Senate,1000,2024-03-26,Individual,GA,Self-employed,Attorney
+1386,Smith (D),Democrat,House,3323.432630814581,2024-10-08,Individual,IN,Finance LLC,Attorney
+1387,Smith (D),Democrat,House,250,2024-03-15,PAC,RI,Self-employed,Attorney
+1388,Jones (R),Republican,Senate,50,2024-03-31,PAC,KY,Not Employed,Engineer
+1389,Davis (R),Republican,House,25,2024-12-04,Individual,NV,Healthcare Inc,Attorney
+1390,Taylor (R),Republican,Senate,25,2024-09-11,Individual,AK,Tech Corp,Engineer
+1391,Davis (R),Republican,Senate,100,2024-09-28,Super PAC,MD,Tech Corp,Engineer
+1392,Miller (D),Democrat,Governor,100,2024-04-17,Individual,DE,Finance LLC,Healthcare
+1393,Jones (R),Republican,Senate,500,2024-04-15,Individual,MS,Education,Healthcare
+1394,Davis (R),Republican,Senate,1000,2024-12-05,PAC,NV,Tech Corp,Consultant
+1395,Wilson (I),Independent,House,50,2024-11-03,PAC,NJ,Finance LLC,Sales
+1396,Smith (D),Democrat,House,250,2024-12-15,Corporate PAC,CT,Retail Co,Business Owner
+1397,Brown (D),Democrat,Senate,100,2024-01-31,PAC,NH,Education,Retired
+1398,Davis (R),Republican,Senate,500,2024-11-08,Individual,AZ,Retail Co,Teacher
+1399,Brown (D),Democrat,Senate,2800,2024-04-08,Individual,PA,Education,Attorney
+1400,Brown (D),Democrat,House,1000,2024-01-23,Individual,UT,Retired,Healthcare
+1401,Smith (D),Democrat,Senate,25,2024-06-15,Individual,KY,Healthcare Inc,Attorney
+1402,Taylor (R),Republican,Governor,250,2024-06-24,Individual,SD,Retired,Consultant
+1403,Taylor (R),Republican,House,15192.568909919297,2024-09-22,Individual,TN,Retired,Engineer
+1404,Jones (R),Republican,House,100,2024-08-28,Individual,MN,Retired,Attorney
+1405,Miller (D),Democrat,House,1000,2024-03-15,Super PAC,MI,Retail Co,Consultant
+1406,Jones (R),Republican,House,500,2024-01-19,Corporate PAC,AK,Tech Corp,Teacher
+1407,Jones (R),Republican,House,50,2024-03-13,Individual,LA,Retired,Sales
+1408,Wilson (I),Independent,House,500,2024-12-17,Individual,NY,Not Employed,Attorney
+1409,Smith (D),Democrat,Governor,100,2024-07-14,Individual,MA,Finance LLC,Engineer
+1410,Taylor (R),Republican,House,50,2024-12-21,Individual,SD,Retired,Sales
+1411,Smith (D),Democrat,Senate,500,2024-07-05,PAC,WA,Education,Sales
+1412,Smith (D),Democrat,Senate,250,2024-12-21,Corporate PAC,OK,Self-employed,Attorney
+1413,Brown (D),Democrat,Governor,500,2024-05-15,Individual,NH,Retired,Retired
+1414,Brown (D),Democrat,House,250,2024-10-19,Individual,PA,Self-employed,Teacher
+1415,Brown (D),Democrat,Governor,500,2024-02-28,PAC,NY,Not Employed,Consultant
+1416,Brown (D),Democrat,House,25,2024-03-31,PAC,GA,Self-employed,Teacher
+1417,Davis (R),Republican,Senate,4148.478585534267,2024-07-16,Super PAC,LA,Retired,Attorney
+1418,Miller (D),Democrat,Senate,2999.1518473179713,2024-03-29,Individual,IA,Tech Corp,Attorney
+1419,Taylor (R),Republican,House,500,2024-01-09,Individual,MI,Retail Co,Attorney
+1420,Jones (R),Republican,Governor,7128.849495938661,2024-08-10,Individual,NH,Not Employed,Consultant
+1421,Brown (D),Democrat,Senate,250,2024-07-28,Individual,MI,Healthcare Inc,Retired
+1422,Smith (D),Democrat,Senate,4085.4144481797316,2024-03-03,Individual,CO,Retired,Attorney
+1423,Smith (D),Democrat,Senate,100,2024-07-02,Individual,AR,Self-employed,Engineer
+1424,Smith (D),Democrat,House,1000,2024-10-03,PAC,NH,Healthcare Inc,Engineer
+1425,Taylor (R),Republican,House,1970.8533157842621,2024-01-06,Individual,MT,Education,Consultant
+1426,Jones (R),Republican,Governor,1405.5269930972918,2024-03-28,Individual,VA,Healthcare Inc,Teacher
+1427,Miller (D),Democrat,Governor,403.2276328320018,2024-10-20,PAC,OK,Healthcare Inc,Engineer
+1428,Davis (R),Republican,House,250,2024-06-08,Union PAC,NY,Not Employed,Business Owner
+1429,Taylor (R),Republican,House,24300.49158970727,2024-11-18,Individual,IN,Retail Co,Consultant
+1430,Miller (D),Democrat,House,500,2024-08-14,PAC,MT,Healthcare Inc,Retired
+1431,Jones (R),Republican,Senate,50,2024-03-18,Corporate PAC,WA,Retail Co,Attorney
+1432,Miller (D),Democrat,House,100,2024-05-11,Individual,SD,Education,Engineer
+1433,Smith (D),Democrat,Governor,500,2024-11-08,Individual,ND,Healthcare Inc,Sales
+1434,Brown (D),Democrat,Senate,500,2024-02-04,Individual,CO,Retired,Healthcare
+1435,Miller (D),Democrat,Governor,250,2024-08-28,Individual,WA,Retired,Retired
+1436,Taylor (R),Republican,Senate,50,2024-01-29,Individual,MA,Finance LLC,Attorney
+1437,Miller (D),Democrat,House,50,2024-04-16,Individual,NV,Not Employed,Sales
+1438,Taylor (R),Republican,House,10293.74050199389,2024-03-13,Individual,ID,Finance LLC,Sales
+1439,Miller (D),Democrat,House,100,2024-05-11,PAC,AZ,Healthcare Inc,Healthcare
+1440,Jones (R),Republican,House,250,2024-09-01,PAC,NE,Retail Co,Teacher
+1441,Wilson (I),Independent,House,1000,2024-05-27,Super PAC,SC,Education,Sales
+1442,Smith (D),Democrat,Senate,250,2024-10-13,Individual,LA,Education,Attorney
+1443,Miller (D),Democrat,Senate,500,2024-03-23,Individual,LA,Not Employed,Retired
+1444,Miller (D),Democrat,House,12804.365167990927,2024-05-30,Individual,MN,Finance LLC,Business Owner
+1445,Brown (D),Democrat,Governor,21264.772008452615,2024-04-23,Corporate PAC,CO,Not Employed,Attorney
+1446,Miller (D),Democrat,House,2800,2024-04-11,PAC,NE,Not Employed,Attorney
+1447,Smith (D),Democrat,House,725.0064807478725,2024-03-14,Union PAC,HI,Self-employed,Healthcare
+1448,Jones (R),Republican,House,100,2024-06-12,Individual,NC,Healthcare Inc,Attorney
+1449,Miller (D),Democrat,House,500,2024-09-28,PAC,IN,Not Employed,Sales
+1450,Wilson (I),Independent,Governor,100,2024-06-16,Individual,OR,Retired,Consultant
+1451,Brown (D),Democrat,Senate,2704.904537157668,2024-12-19,Individual,IN,Self-employed,Sales
+1452,Jones (R),Republican,House,100,2024-01-21,PAC,HI,Finance LLC,Retired
+1453,Miller (D),Democrat,House,1000,2024-11-07,Individual,MO,Retail Co,Attorney
+1454,Wilson (I),Independent,House,9072.361218426464,2024-05-07,Super PAC,ND,Tech Corp,Business Owner
+1455,Taylor (R),Republican,Senate,1000,2024-12-09,Individual,MA,Healthcare Inc,Healthcare
+1456,Brown (D),Democrat,House,250,2024-09-20,Super PAC,HI,Tech Corp,Retired
+1457,Smith (D),Democrat,House,250,2024-04-10,Individual,TX,Finance LLC,Consultant
+1458,Smith (D),Democrat,House,250,2024-01-04,Corporate PAC,NH,Education,Teacher
+1459,Taylor (R),Republican,Governor,100,2024-08-26,Individual,NY,Tech Corp,Consultant
+1460,Wilson (I),Independent,House,5486.254070161299,2024-12-22,Individual,WY,Retired,Business Owner
+1461,Taylor (R),Republican,Governor,25,2024-01-19,Individual,WI,Retired,Consultant
+1462,Jones (R),Republican,House,250,2024-10-03,Individual,MA,Tech Corp,Healthcare
+1463,Smith (D),Democrat,House,10707.530684309972,2024-09-25,Individual,MN,Healthcare Inc,Retired
+1464,Brown (D),Democrat,House,500,2024-08-15,Corporate PAC,NH,Healthcare Inc,Retired
+1465,Taylor (R),Republican,House,250,2024-07-30,Individual,NV,Retired,Attorney
+1466,Wilson (I),Independent,Senate,500,2024-10-21,Individual,NE,Not Employed,Business Owner
+1467,Miller (D),Democrat,House,50,2024-07-15,PAC,MS,Retired,Sales
+1468,Miller (D),Democrat,Senate,15055.004736868566,2024-05-09,Corporate PAC,RI,Healthcare Inc,Attorney
+1469,Davis (R),Republican,Governor,100,2024-02-23,Individual,IA,Healthcare Inc,Retired
+1470,Taylor (R),Republican,House,25,2024-04-01,Corporate PAC,WY,Not Employed,Engineer
+1471,Wilson (I),Independent,House,50,2024-12-24,Individual,NV,Self-employed,Consultant
+1472,Jones (R),Republican,Senate,1448.904772336203,2024-03-13,Individual,UT,Retired,Business Owner
+1473,Wilson (I),Independent,House,100,2024-12-17,Corporate PAC,WV,Finance LLC,Retired
+1474,Wilson (I),Independent,House,500,2024-08-22,Individual,WI,Education,Teacher
+1475,Wilson (I),Independent,House,2800,2024-10-26,Individual,NM,Not Employed,Teacher
+1476,Jones (R),Republican,Senate,100,2024-05-13,Individual,MA,Education,Attorney
+1477,Smith (D),Democrat,House,50,2024-09-25,Super PAC,NC,Healthcare Inc,Consultant
+1478,Jones (R),Republican,House,4539.456389464099,2024-06-23,Individual,VA,Retail Co,Sales
+1479,Wilson (I),Independent,House,50,2024-07-02,Corporate PAC,OH,Tech Corp,Sales
+1480,Davis (R),Republican,House,9026.90524356645,2024-10-04,Individual,AL,Finance LLC,Healthcare
+1481,Taylor (R),Republican,House,9125.98037615499,2024-02-13,Super PAC,CT,Retail Co,Consultant
+1482,Smith (D),Democrat,House,1000,2024-05-03,Corporate PAC,MA,Tech Corp,Sales
+1483,Miller (D),Democrat,House,500,2024-06-01,Corporate PAC,WA,Tech Corp,Attorney
+1484,Wilson (I),Independent,Senate,100,2024-04-05,PAC,KS,Finance LLC,Healthcare
+1485,Miller (D),Democrat,House,100,2024-07-26,Corporate PAC,VA,Finance LLC,Healthcare
+1486,Smith (D),Democrat,Governor,50,2024-03-31,Individual,LA,Healthcare Inc,Sales
+1487,Wilson (I),Independent,Senate,25,2024-03-11,Corporate PAC,NC,Finance LLC,Consultant
+1488,Taylor (R),Republican,Senate,250,2024-09-23,Corporate PAC,MO,Finance LLC,Retired
+1489,Smith (D),Democrat,House,3310.4624694756794,2024-10-31,Individual,AR,Retail Co,Engineer
+1490,Brown (D),Democrat,House,250,2024-11-15,Individual,AK,Retired,Consultant
+1491,Jones (R),Republican,House,100,2024-04-28,Individual,MI,Retired,Retired
+1492,Brown (D),Democrat,Senate,7070.496609485098,2024-08-01,Individual,SC,Tech Corp,Attorney
+1493,Brown (D),Democrat,House,4383.768197301634,2024-01-04,Corporate PAC,WA,Education,Retired
+1494,Brown (D),Democrat,House,1928.666709884629,2024-06-28,Individual,NM,Retail Co,Business Owner
+1495,Miller (D),Democrat,House,250,2024-11-24,PAC,MA,Education,Retired
+1496,Jones (R),Republican,Senate,100,2024-10-27,PAC,RI,Retail Co,Attorney
+1497,Davis (R),Republican,Senate,250,2024-07-04,Corporate PAC,NY,Healthcare Inc,Healthcare
+1498,Smith (D),Democrat,Governor,100,2024-12-08,Union PAC,LA,Education,Business Owner
+1499,Taylor (R),Republican,Senate,500,2024-09-02,Individual,TN,Self-employed,Consultant
+1500,Smith (D),Democrat,House,100,2024-08-11,PAC,UT,Not Employed,Sales
+1501,Wilson (I),Independent,House,1775.976428140756,2024-08-04,Super PAC,MA,Self-employed,Healthcare
+1502,Brown (D),Democrat,Senate,50,2024-04-27,Individual,MN,Education,Engineer
+1503,Wilson (I),Independent,House,50,2024-08-26,Individual,ME,Self-employed,Sales
+1504,Wilson (I),Independent,Senate,9677.787131351717,2024-06-28,Individual,MS,Retired,Healthcare
+1505,Jones (R),Republican,Governor,250,2024-11-08,Corporate PAC,AK,Retired,Business Owner
+1506,Davis (R),Republican,Senate,250,2024-12-23,Individual,UT,Self-employed,Attorney
+1507,Davis (R),Republican,House,100,2024-12-28,Individual,ID,Healthcare Inc,Healthcare
+1508,Miller (D),Democrat,House,2800,2024-05-10,Corporate PAC,TX,Not Employed,Engineer
+1509,Miller (D),Democrat,House,8233.198122387781,2024-06-27,Union PAC,NJ,Not Employed,Sales
+1510,Miller (D),Democrat,Governor,100,2024-08-14,Individual,NJ,Retired,Attorney
+1511,Smith (D),Democrat,House,50,2024-11-22,Super PAC,ID,Retail Co,Teacher
+1512,Wilson (I),Independent,Governor,24486.363964357635,2024-11-24,Union PAC,MS,Finance LLC,Teacher
+1513,Miller (D),Democrat,Senate,250,2024-02-21,Individual,IN,Tech Corp,Business Owner
+1514,Taylor (R),Republican,House,1000,2024-04-10,Individual,WV,Retail Co,Retired
+1515,Wilson (I),Independent,House,250,2024-12-05,PAC,NJ,Finance LLC,Teacher
+1516,Jones (R),Republican,Senate,500,2024-08-24,Individual,LA,Education,Consultant
+1517,Jones (R),Republican,House,1472.9687561937276,2024-05-08,Union PAC,HI,Healthcare Inc,Retired
+1518,Miller (D),Democrat,House,3840.6662466874623,2024-05-09,PAC,GA,Education,Consultant
+1519,Miller (D),Democrat,House,2800,2024-03-02,Individual,IN,Tech Corp,Sales
+1520,Smith (D),Democrat,House,1000,2024-10-13,PAC,ID,Healthcare Inc,Consultant
+1521,Davis (R),Republican,Senate,50,2024-09-05,Individual,TX,Tech Corp,Attorney
+1522,Wilson (I),Independent,House,100,2024-03-22,Individual,MN,Tech Corp,Healthcare
+1523,Smith (D),Democrat,Senate,500,2024-09-02,Individual,TX,Self-employed,Business Owner
+1524,Smith (D),Democrat,Governor,100,2024-05-10,Individual,ID,Self-employed,Healthcare
+1525,Smith (D),Democrat,Senate,14125.880779312442,2024-12-04,Super PAC,RI,Retired,Retired
+1526,Davis (R),Republican,Governor,25,2024-07-21,Individual,CO,Tech Corp,Attorney
+1527,Miller (D),Democrat,Senate,250,2024-08-06,PAC,WV,Tech Corp,Engineer
+1528,Smith (D),Democrat,House,50,2024-08-07,PAC,ND,Retail Co,Business Owner
+1529,Wilson (I),Independent,Senate,100,2024-12-21,Individual,ME,Finance LLC,Consultant
+1530,Miller (D),Democrat,Governor,1000,2024-11-10,Super PAC,ME,Healthcare Inc,Consultant
+1531,Wilson (I),Independent,House,50,2024-05-19,PAC,OR,Not Employed,Business Owner
+1532,Taylor (R),Republican,Senate,2800,2024-07-27,Individual,SC,Tech Corp,Healthcare
+1533,Taylor (R),Republican,House,500,2024-01-22,Corporate PAC,AR,Healthcare Inc,Attorney
+1534,Miller (D),Democrat,House,500,2024-09-01,Individual,GA,Retail Co,Engineer
+1535,Jones (R),Republican,Governor,100,2024-03-12,Individual,NC,Education,Healthcare
+1536,Miller (D),Democrat,Senate,1698.9708689547629,2024-12-20,Super PAC,WA,Self-employed,Healthcare
+1537,Wilson (I),Independent,House,860.871389264629,2024-09-01,Individual,GA,Retail Co,Sales
+1538,Davis (R),Republican,Senate,250,2024-10-30,PAC,WA,Retail Co,Business Owner
+1539,Taylor (R),Republican,Governor,100,2024-06-16,Individual,FL,Self-employed,Healthcare
+1540,Taylor (R),Republican,Senate,250,2024-10-13,Corporate PAC,AZ,Retail Co,Sales
+1541,Wilson (I),Independent,House,500,2024-08-31,Union PAC,DE,Self-employed,Retired
+1542,Wilson (I),Independent,Governor,3025.52917442823,2024-07-19,Individual,AZ,Tech Corp,Healthcare
+1543,Brown (D),Democrat,House,250,2024-10-03,Individual,IA,Self-employed,Attorney
+1544,Miller (D),Democrat,Senate,250,2024-11-07,PAC,NV,Finance LLC,Business Owner
+1545,Davis (R),Republican,House,100,2024-08-15,Individual,WY,Finance LLC,Attorney
+1546,Jones (R),Republican,House,25,2024-07-17,Super PAC,SD,Tech Corp,Retired
+1547,Smith (D),Democrat,Senate,12106.19264860364,2024-05-30,PAC,WV,Retail Co,Consultant
+1548,Jones (R),Republican,House,25,2024-10-09,Corporate PAC,ND,Healthcare Inc,Sales
+1549,Jones (R),Republican,House,100,2024-12-24,Individual,WY,Retired,Engineer
+1550,Jones (R),Republican,House,5950.739443279836,2024-06-11,Individual,FL,Education,Business Owner
+1551,Taylor (R),Republican,Senate,100,2024-02-06,Super PAC,AR,Self-employed,Retired
+1552,Davis (R),Republican,House,50,2024-09-23,Individual,UT,Education,Consultant
+1553,Davis (R),Republican,Governor,250,2024-07-12,Individual,CT,Healthcare Inc,Engineer
+1554,Taylor (R),Republican,House,1000,2024-12-21,Individual,MN,Retired,Business Owner
+1555,Jones (R),Republican,Governor,2800,2024-11-17,Individual,NY,Education,Healthcare
+1556,Wilson (I),Independent,Senate,25,2024-12-04,PAC,UT,Healthcare Inc,Retired
+1557,Brown (D),Democrat,Senate,50,2024-07-23,Union PAC,MA,Education,Retired
+1558,Davis (R),Republican,Governor,250,2024-04-29,PAC,AK,Self-employed,Business Owner
+1559,Wilson (I),Independent,Senate,500,2024-01-20,Individual,MT,Self-employed,Attorney
+1560,Miller (D),Democrat,House,500,2024-10-29,Individual,VT,Tech Corp,Business Owner
+1561,Wilson (I),Independent,Senate,15442.734073134226,2024-06-14,PAC,MI,Healthcare Inc,Engineer
+1562,Wilson (I),Independent,Senate,500,2024-04-22,Super PAC,AL,Healthcare Inc,Engineer
+1563,Taylor (R),Republican,House,25,2024-10-15,Individual,TX,Finance LLC,Retired
+1564,Smith (D),Democrat,Governor,7122.847321513693,2024-04-06,Individual,DE,Tech Corp,Retired
+1565,Wilson (I),Independent,House,500,2024-09-09,Super PAC,OR,Retired,Engineer
+1566,Brown (D),Democrat,Senate,100,2024-01-05,Super PAC,NJ,Tech Corp,Healthcare
+1567,Miller (D),Democrat,House,100,2024-06-03,Individual,KS,Finance LLC,Consultant
+1568,Miller (D),Democrat,House,25,2024-06-19,Individual,RI,Retired,Sales
+1569,Wilson (I),Independent,House,250,2024-04-11,PAC,IL,Healthcare Inc,Consultant
+1570,Taylor (R),Republican,House,7330.1295690295865,2024-02-11,Individual,TX,Retail Co,Healthcare
+1571,Brown (D),Democrat,House,25,2024-10-31,Super PAC,MI,Finance LLC,Healthcare
+1572,Brown (D),Democrat,Governor,250,2024-07-08,PAC,NE,Retail Co,Engineer
+1573,Smith (D),Democrat,House,1000,2024-04-13,Individual,TN,Healthcare Inc,Teacher
+1574,Smith (D),Democrat,Governor,100,2024-11-01,Individual,NJ,Retired,Business Owner
+1575,Davis (R),Republican,Governor,25,2024-09-11,Individual,TX,Retail Co,Business Owner
+1576,Davis (R),Republican,House,50,2024-10-26,Individual,TN,Education,Engineer
+1577,Taylor (R),Republican,House,250,2024-11-11,PAC,OH,Tech Corp,Retired
+1578,Brown (D),Democrat,House,1000,2024-06-17,Individual,UT,Retired,Consultant
+1579,Brown (D),Democrat,Senate,250,2024-12-22,Individual,WI,Self-employed,Business Owner
+1580,Jones (R),Republican,House,25,2024-07-10,Corporate PAC,TX,Not Employed,Business Owner
+1581,Smith (D),Democrat,House,4226.905758713482,2024-01-23,PAC,CT,Education,Business Owner
+1582,Brown (D),Democrat,House,500,2024-07-28,PAC,MT,Self-employed,Engineer
+1583,Wilson (I),Independent,House,100,2024-07-04,Individual,MA,Education,Healthcare
+1584,Miller (D),Democrat,Governor,12290.573382172497,2024-10-24,Individual,CO,Not Employed,Engineer
+1585,Miller (D),Democrat,Senate,250,2024-06-07,Individual,MA,Education,Consultant
+1586,Taylor (R),Republican,Governor,1000,2024-06-07,Individual,NY,Finance LLC,Teacher
+1587,Miller (D),Democrat,House,3883.9589054388257,2024-08-19,Union PAC,KS,Retail Co,Engineer
+1588,Miller (D),Democrat,Senate,250,2024-04-04,PAC,OH,Tech Corp,Business Owner
+1589,Smith (D),Democrat,Senate,50,2024-05-16,Individual,WI,Not Employed,Engineer
+1590,Smith (D),Democrat,Senate,50,2024-01-23,PAC,MI,Healthcare Inc,Engineer
+1591,Davis (R),Republican,House,50,2024-05-08,Individual,IN,Education,Sales
+1592,Brown (D),Democrat,House,250,2024-07-12,Individual,AL,Retail Co,Teacher
+1593,Smith (D),Democrat,Senate,100,2024-10-10,PAC,VT,Healthcare Inc,Consultant
+1594,Brown (D),Democrat,House,25,2024-02-18,Corporate PAC,MS,Retail Co,Consultant
+1595,Brown (D),Democrat,Governor,50,2024-01-03,Individual,DE,Finance LLC,Consultant
+1596,Wilson (I),Independent,Senate,25,2024-12-30,PAC,MD,Retired,Business Owner
+1597,Jones (R),Republican,Governor,250,2024-01-03,Individual,VA,Education,Business Owner
+1598,Taylor (R),Republican,Governor,250,2024-07-05,Individual,AR,Education,Retired
+1599,Jones (R),Republican,House,50,2024-06-16,Individual,IN,Self-employed,Sales
+1600,Smith (D),Democrat,House,3563.0429351092766,2024-03-31,Individual,VT,Retail Co,Consultant
+1601,Smith (D),Democrat,Senate,100,2024-09-08,Corporate PAC,MT,Not Employed,Engineer
+1602,Smith (D),Democrat,Governor,100,2024-01-20,Individual,WI,Tech Corp,Sales
+1603,Brown (D),Democrat,Governor,7552.553340938524,2024-12-12,Individual,OK,Retired,Attorney
+1604,Miller (D),Democrat,Governor,500,2024-03-06,Individual,AK,Education,Retired
+1605,Smith (D),Democrat,Senate,100,2024-01-08,Individual,MI,Not Employed,Sales
+1606,Brown (D),Democrat,House,18332.484691637605,2024-09-21,PAC,ID,Education,Attorney
+1607,Jones (R),Republican,House,9755.068833359172,2024-06-16,PAC,IL,Retired,Engineer
+1608,Jones (R),Republican,Senate,500,2024-04-14,Corporate PAC,AZ,Retail Co,Healthcare
+1609,Taylor (R),Republican,Senate,100,2024-02-20,Individual,OH,Retail Co,Healthcare
+1610,Davis (R),Republican,House,50,2024-09-15,Union PAC,HI,Healthcare Inc,Retired
+1611,Brown (D),Democrat,Senate,100,2024-09-30,Individual,OK,Finance LLC,Business Owner
+1612,Taylor (R),Republican,House,25,2024-09-25,Individual,SC,Tech Corp,Retired
+1613,Jones (R),Republican,Governor,100,2024-03-18,PAC,MT,Tech Corp,Engineer
+1614,Miller (D),Democrat,Governor,50,2024-08-27,Individual,ME,Finance LLC,Retired
+1615,Smith (D),Democrat,Senate,500,2024-02-13,Individual,NY,Retired,Consultant
+1616,Brown (D),Democrat,Senate,11190.106431396322,2024-03-28,Individual,GA,Retired,Retired
+1617,Wilson (I),Independent,Senate,100,2024-03-09,Individual,NM,Education,Healthcare
+1618,Taylor (R),Republican,Senate,1177.9889422881336,2024-05-21,Individual,MI,Self-employed,Sales
+1619,Taylor (R),Republican,House,1000,2024-08-14,Individual,OH,Retired,Retired
+1620,Wilson (I),Independent,Governor,3497.7955057981426,2024-09-14,Individual,OK,Tech Corp,Teacher
+1621,Taylor (R),Republican,House,25,2024-06-29,Individual,AR,Not Employed,Teacher
+1622,Brown (D),Democrat,House,7907.000615457107,2024-02-06,Individual,WA,Retired,Healthcare
+1623,Brown (D),Democrat,Senate,8088.037343987353,2024-04-24,Individual,ND,Finance LLC,Engineer
+1624,Wilson (I),Independent,Senate,15252.519605719608,2024-02-11,Individual,IN,Finance LLC,Engineer
+1625,Brown (D),Democrat,Senate,100,2024-06-15,Individual,CA,Healthcare Inc,Consultant
+1626,Jones (R),Republican,Senate,100,2024-05-28,Union PAC,OH,Tech Corp,Teacher
+1627,Taylor (R),Republican,Senate,7104.592141801145,2024-10-10,Super PAC,CO,Not Employed,Consultant
+1628,Brown (D),Democrat,Senate,25,2024-06-16,Corporate PAC,WY,Education,Business Owner
+1629,Smith (D),Democrat,House,817.5821193803754,2024-11-16,Individual,OR,Tech Corp,Retired
+1630,Brown (D),Democrat,Senate,500,2024-01-02,Individual,TX,Retired,Engineer
+1631,Jones (R),Republican,Senate,16513.43437017788,2024-10-23,Individual,WV,Retired,Teacher
+1632,Brown (D),Democrat,Senate,500,2024-11-05,Individual,FL,Self-employed,Consultant
+1633,Davis (R),Republican,Governor,100,2024-12-26,Super PAC,OR,Not Employed,Business Owner
+1634,Davis (R),Republican,House,25,2024-09-11,Individual,NM,Self-employed,Business Owner
+1635,Miller (D),Democrat,Governor,250,2024-05-20,Individual,MT,Not Employed,Attorney
+1636,Brown (D),Democrat,House,500,2024-02-04,Individual,RI,Healthcare Inc,Teacher
+1637,Davis (R),Republican,House,1000,2024-01-01,Individual,SD,Tech Corp,Retired
+1638,Smith (D),Democrat,Governor,50,2024-12-26,Corporate PAC,TN,Not Employed,Engineer
+1639,Jones (R),Republican,House,25,2024-09-14,Corporate PAC,VT,Education,Business Owner
+1640,Brown (D),Democrat,House,500,2024-04-24,Individual,VA,Education,Sales
+1641,Wilson (I),Independent,House,2800,2024-09-05,Individual,ND,Self-employed,Retired
+1642,Jones (R),Republican,Senate,2800,2024-01-24,Individual,VT,Finance LLC,Engineer
+1643,Jones (R),Republican,Senate,100,2024-10-09,Individual,DE,Finance LLC,Teacher
+1644,Brown (D),Democrat,House,100,2024-11-02,Individual,VT,Retail Co,Engineer
+1645,Davis (R),Republican,Senate,100,2024-09-28,Individual,CA,Self-employed,Sales
+1646,Miller (D),Democrat,Senate,1000,2024-06-04,Individual,GA,Retail Co,Engineer
+1647,Davis (R),Republican,Governor,24354.13142755888,2024-11-10,Corporate PAC,IA,Retired,Healthcare
+1648,Miller (D),Democrat,Governor,50,2024-03-16,PAC,SD,Self-employed,Consultant
+1649,Brown (D),Democrat,House,50,2024-12-31,Individual,CA,Retail Co,Attorney
+1650,Davis (R),Republican,House,100,2024-11-16,Individual,IL,Retired,Consultant
+1651,Smith (D),Democrat,Senate,1000,2024-02-08,Individual,WA,Healthcare Inc,Engineer
+1652,Smith (D),Democrat,Senate,500,2024-11-30,Individual,AR,Not Employed,Engineer
+1653,Taylor (R),Republican,Governor,100,2024-10-09,Individual,VA,Retail Co,Engineer
+1654,Miller (D),Democrat,House,1000,2024-03-09,Individual,MN,Tech Corp,Engineer
+1655,Brown (D),Democrat,Senate,2179.96571798393,2024-12-18,Individual,NM,Not Employed,Business Owner
+1656,Miller (D),Democrat,Governor,500,2024-03-18,Corporate PAC,AR,Education,Attorney
+1657,Wilson (I),Independent,House,4480.5566294888795,2024-01-30,Individual,MO,Retail Co,Retired
+1658,Smith (D),Democrat,House,250,2024-06-27,PAC,SC,Education,Consultant
+1659,Davis (R),Republican,House,25,2024-06-08,Individual,NE,Healthcare Inc,Sales
+1660,Jones (R),Republican,House,500,2024-04-06,Union PAC,LA,Finance LLC,Engineer
+1661,Taylor (R),Republican,House,100,2024-09-26,PAC,ME,Tech Corp,Retired
+1662,Jones (R),Republican,House,6117.065208897499,2024-05-19,Corporate PAC,GA,Finance LLC,Consultant
+1663,Brown (D),Democrat,Senate,50,2024-04-19,Individual,WI,Retail Co,Attorney
+1664,Brown (D),Democrat,House,25,2024-08-26,Individual,ND,Self-employed,Engineer
+1665,Wilson (I),Independent,House,9787.628449561558,2024-05-30,Individual,WA,Education,Sales
+1666,Jones (R),Republican,Senate,50,2024-08-29,Individual,WA,Finance LLC,Retired
+1667,Taylor (R),Republican,Governor,100,2024-03-24,Individual,HI,Finance LLC,Retired
+1668,Taylor (R),Republican,House,100,2024-10-27,Individual,MS,Healthcare Inc,Consultant
+1669,Wilson (I),Independent,House,1000,2024-09-04,Union PAC,GA,Retired,Retired
+1670,Smith (D),Democrat,House,250,2024-12-08,Individual,ID,Self-employed,Business Owner
+1671,Brown (D),Democrat,Governor,25,2024-05-03,PAC,KY,Finance LLC,Consultant
+1672,Smith (D),Democrat,House,250,2024-12-12,Individual,KY,Education,Retired
+1673,Jones (R),Republican,Senate,50,2024-09-04,Individual,MI,Education,Attorney
+1674,Miller (D),Democrat,House,25,2024-07-02,Super PAC,UT,Healthcare Inc,Sales
+1675,Taylor (R),Republican,House,1000,2024-05-31,Individual,OK,Healthcare Inc,Engineer
+1676,Davis (R),Republican,Governor,50,2024-02-05,PAC,VA,Healthcare Inc,Consultant
+1677,Brown (D),Democrat,Senate,1000,2024-08-17,PAC,WA,Self-employed,Attorney
+1678,Wilson (I),Independent,House,250,2024-11-29,Individual,IN,Retail Co,Engineer
+1679,Wilson (I),Independent,House,500,2024-11-15,Individual,FL,Finance LLC,Engineer
+1680,Davis (R),Republican,House,2800,2024-02-08,Individual,HI,Education,Healthcare
+1681,Miller (D),Democrat,Governor,250,2024-05-21,Individual,CA,Retired,Teacher
+1682,Miller (D),Democrat,House,25,2024-06-28,Union PAC,AR,Education,Healthcare
+1683,Davis (R),Republican,Senate,25,2024-05-11,Individual,ND,Retail Co,Healthcare
+1684,Smith (D),Democrat,Governor,50,2024-05-16,Individual,UT,Retail Co,Sales
+1685,Davis (R),Republican,Governor,250,2024-08-15,Individual,PA,Tech Corp,Teacher
+1686,Wilson (I),Independent,House,1000,2024-12-26,Individual,AZ,Education,Healthcare
+1687,Wilson (I),Independent,Senate,2065.493591721013,2024-03-06,PAC,PA,Tech Corp,Engineer
+1688,Miller (D),Democrat,Governor,100,2024-07-15,PAC,CA,Education,Teacher
+1689,Brown (D),Democrat,House,9888.648584631146,2024-04-21,Individual,WY,Tech Corp,Healthcare
+1690,Taylor (R),Republican,Governor,1967.0268997372154,2024-12-08,PAC,NV,Finance LLC,Attorney
+1691,Miller (D),Democrat,House,250,2024-12-20,Individual,OK,Retail Co,Attorney
+1692,Miller (D),Democrat,Governor,50,2024-08-30,Corporate PAC,NY,Tech Corp,Sales
+1693,Taylor (R),Republican,Senate,100,2024-01-21,Individual,WA,Not Employed,Retired
+1694,Jones (R),Republican,House,50,2024-01-07,Individual,AK,Retail Co,Consultant
+1695,Jones (R),Republican,House,34899.289933128355,2024-06-01,PAC,NY,Not Employed,Business Owner
+1696,Wilson (I),Independent,House,1000,2024-09-05,Corporate PAC,MI,Retired,Business Owner
+1697,Davis (R),Republican,Governor,500,2024-07-15,Individual,FL,Retail Co,Retired
+1698,Miller (D),Democrat,Governor,3148.0744706719893,2024-07-09,PAC,NY,Retail Co,Attorney
+1699,Davis (R),Republican,House,1703.404635365856,2024-12-09,Individual,WI,Self-employed,Business Owner
+1700,Taylor (R),Republican,Senate,50,2024-04-16,Individual,AL,Retail Co,Teacher
+1701,Taylor (R),Republican,Governor,25,2024-01-17,Corporate PAC,KS,Finance LLC,Consultant
+1702,Smith (D),Democrat,House,2367.2485355931394,2024-11-30,Individual,CA,Healthcare Inc,Consultant
+1703,Smith (D),Democrat,Senate,100,2024-06-10,Individual,WV,Healthcare Inc,Engineer
+1704,Smith (D),Democrat,House,50,2024-11-17,Union PAC,TX,Tech Corp,Attorney
+1705,Brown (D),Democrat,Senate,1806.0118654737003,2024-01-15,Union PAC,FL,Self-employed,Teacher
+1706,Brown (D),Democrat,Senate,12123.373466272016,2024-04-17,Individual,ND,Not Employed,Healthcare
+1707,Brown (D),Democrat,Senate,6713.757530099665,2024-07-07,Individual,OH,Healthcare Inc,Sales
+1708,Smith (D),Democrat,House,50,2024-11-24,Individual,IA,Finance LLC,Sales
+1709,Jones (R),Republican,Senate,500,2024-10-08,Individual,KS,Healthcare Inc,Business Owner
+1710,Miller (D),Democrat,Governor,25,2024-02-13,Corporate PAC,MD,Not Employed,Teacher
+1711,Taylor (R),Republican,Governor,100,2024-05-11,Individual,MS,Healthcare Inc,Retired
+1712,Jones (R),Republican,House,25,2024-01-14,Individual,MI,Not Employed,Sales
+1713,Smith (D),Democrat,House,500,2024-03-15,Individual,MD,Education,Business Owner
+1714,Taylor (R),Republican,House,50,2024-01-15,Individual,VT,Self-employed,Teacher
+1715,Wilson (I),Independent,House,1000,2024-08-16,PAC,NH,Not Employed,Engineer
+1716,Wilson (I),Independent,House,25,2024-05-02,Corporate PAC,ID,Education,Consultant
+1717,Miller (D),Democrat,House,50,2024-03-11,PAC,TN,Healthcare Inc,Sales
+1718,Jones (R),Republican,Senate,50,2024-04-22,Individual,CT,Healthcare Inc,Healthcare
+1719,Brown (D),Democrat,House,250,2024-04-15,Individual,NC,Healthcare Inc,Retired
+1720,Miller (D),Democrat,Governor,1000,2024-02-12,Individual,MO,Not Employed,Engineer
+1721,Taylor (R),Republican,Senate,500,2024-05-21,Individual,UT,Education,Sales
+1722,Wilson (I),Independent,Governor,1000,2024-02-13,PAC,NV,Finance LLC,Teacher
+1723,Smith (D),Democrat,Senate,250,2024-05-27,Individual,AK,Finance LLC,Attorney
+1724,Jones (R),Republican,House,100,2024-08-02,Individual,OH,Healthcare Inc,Attorney
+1725,Davis (R),Republican,House,50,2024-12-14,Individual,WI,Finance LLC,Healthcare
+1726,Taylor (R),Republican,House,25,2024-04-25,PAC,MN,Not Employed,Retired
+1727,Jones (R),Republican,Governor,9050.879575547393,2024-08-02,Individual,ME,Not Employed,Sales
+1728,Jones (R),Republican,Governor,25,2024-05-01,Super PAC,NV,Not Employed,Attorney
+1729,Taylor (R),Republican,House,1000,2024-06-22,Super PAC,LA,Education,Attorney
+1730,Taylor (R),Republican,House,12926.710286512684,2024-02-02,Individual,UT,Retail Co,Consultant
+1731,Brown (D),Democrat,Governor,50,2024-09-30,Individual,TX,Not Employed,Engineer
+1732,Smith (D),Democrat,Governor,100,2024-10-23,Union PAC,WV,Healthcare Inc,Healthcare
+1733,Smith (D),Democrat,House,500,2024-03-26,Individual,IA,Healthcare Inc,Engineer
+1734,Smith (D),Democrat,House,25,2024-02-15,Individual,SC,Tech Corp,Consultant
+1735,Smith (D),Democrat,House,25,2024-02-21,PAC,AL,Not Employed,Healthcare
+1736,Jones (R),Republican,House,1723.1608442623804,2024-09-06,Corporate PAC,UT,Finance LLC,Engineer
+1737,Wilson (I),Independent,House,500,2024-08-20,PAC,MN,Education,Business Owner
+1738,Smith (D),Democrat,Governor,50,2024-10-29,Super PAC,NM,Tech Corp,Retired
+1739,Jones (R),Republican,Senate,250,2024-03-18,Individual,WY,Education,Teacher
+1740,Jones (R),Republican,Senate,100,2024-05-06,Individual,SD,Tech Corp,Attorney
+1741,Davis (R),Republican,Senate,100,2024-05-03,Individual,PA,Retired,Teacher
+1742,Miller (D),Democrat,Senate,4522.29020566744,2024-09-02,Individual,LA,Education,Teacher
+1743,Miller (D),Democrat,House,11276.232753306007,2024-03-09,Individual,OR,Not Employed,Consultant
+1744,Davis (R),Republican,Governor,2073.426476599877,2024-01-03,Individual,WI,Retail Co,Consultant
+1745,Miller (D),Democrat,House,977.5488060539825,2024-02-02,PAC,CA,Education,Consultant
+1746,Miller (D),Democrat,House,1000,2024-01-10,PAC,LA,Healthcare Inc,Business Owner
+1747,Wilson (I),Independent,Senate,50,2024-02-22,Individual,ID,Tech Corp,Teacher
+1748,Taylor (R),Republican,House,250,2024-03-18,Super PAC,MN,Finance LLC,Attorney
+1749,Brown (D),Democrat,Senate,100,2024-12-17,Corporate PAC,KY,Retired,Healthcare
+1750,Jones (R),Republican,Governor,250,2024-03-03,Individual,VT,Retail Co,Healthcare
+1751,Davis (R),Republican,House,3138.2458029841573,2024-01-22,Individual,IN,Education,Attorney
+1752,Taylor (R),Republican,Senate,6976.104024842472,2024-07-31,PAC,ND,Finance LLC,Teacher
+1753,Smith (D),Democrat,House,100,2024-08-16,Corporate PAC,RI,Retail Co,Consultant
+1754,Miller (D),Democrat,House,25,2024-04-25,Corporate PAC,WA,Finance LLC,Attorney
+1755,Miller (D),Democrat,House,50,2024-05-22,Individual,GA,Retail Co,Attorney
+1756,Taylor (R),Republican,House,25,2024-07-08,Corporate PAC,FL,Finance LLC,Teacher
+1757,Taylor (R),Republican,House,100,2024-07-23,Individual,IN,Finance LLC,Attorney
+1758,Brown (D),Democrat,House,2941.3368787535387,2024-08-18,Super PAC,OH,Education,Consultant
+1759,Jones (R),Republican,House,50,2024-03-15,PAC,NJ,Not Employed,Engineer
+1760,Miller (D),Democrat,Senate,100,2024-07-06,Individual,PA,Self-employed,Engineer
+1761,Wilson (I),Independent,Governor,2800,2024-10-01,Individual,CT,Tech Corp,Retired
+1762,Davis (R),Republican,House,1445.1053798701423,2024-07-15,Individual,NV,Not Employed,Attorney
+1763,Davis (R),Republican,House,100,2024-03-30,Individual,WV,Self-employed,Attorney
+1764,Taylor (R),Republican,Governor,250,2024-07-11,PAC,AR,Self-employed,Consultant
+1765,Wilson (I),Independent,House,250,2024-06-03,Individual,UT,Education,Consultant
+1766,Davis (R),Republican,Senate,500,2024-11-17,PAC,GA,Retired,Sales
+1767,Taylor (R),Republican,Governor,1000,2024-08-19,PAC,NH,Tech Corp,Healthcare
+1768,Davis (R),Republican,House,2409.0197829526264,2024-07-13,PAC,MN,Self-employed,Retired
+1769,Taylor (R),Republican,Governor,250,2024-11-21,Individual,ME,Retired,Engineer
+1770,Smith (D),Democrat,Senate,50,2024-07-22,Individual,SC,Retail Co,Business Owner
+1771,Wilson (I),Independent,House,50,2024-03-15,Individual,MO,Retired,Retired
+1772,Wilson (I),Independent,House,500,2024-10-20,Union PAC,ND,Self-employed,Retired
+1773,Brown (D),Democrat,House,25,2024-11-07,Corporate PAC,WY,Education,Sales
+1774,Taylor (R),Republican,House,25,2024-08-24,Corporate PAC,OR,Retail Co,Attorney
+1775,Miller (D),Democrat,House,25,2024-05-26,Individual,NE,Education,Consultant
+1776,Miller (D),Democrat,Senate,100,2024-05-24,Individual,AL,Self-employed,Engineer
+1777,Smith (D),Democrat,House,2072.937262429964,2024-12-21,Super PAC,UT,Healthcare Inc,Business Owner
+1778,Taylor (R),Republican,Senate,25,2024-07-14,Corporate PAC,NE,Finance LLC,Business Owner
+1779,Taylor (R),Republican,House,100,2024-06-23,Individual,KS,Tech Corp,Engineer
+1780,Brown (D),Democrat,Senate,3420.9954697094227,2024-12-16,Super PAC,NM,Education,Teacher
+1781,Wilson (I),Independent,House,100,2024-06-02,Individual,MA,Retail Co,Sales
+1782,Taylor (R),Republican,House,2005.0028824276526,2024-07-02,Individual,IA,Not Employed,Consultant
+1783,Smith (D),Democrat,Governor,1000,2024-10-23,Individual,OR,Education,Attorney
+1784,Smith (D),Democrat,House,250,2024-02-27,Corporate PAC,NC,Education,Retired
+1785,Davis (R),Republican,House,250,2024-10-10,Individual,AL,Healthcare Inc,Sales
+1786,Davis (R),Republican,House,3939.3029037549672,2024-04-06,Union PAC,NM,Education,Retired
+1787,Taylor (R),Republican,Governor,100,2024-08-12,Individual,CO,Self-employed,Attorney
+1788,Davis (R),Republican,House,250,2024-06-02,Individual,MN,Retired,Business Owner
+1789,Jones (R),Republican,House,25,2024-02-13,Individual,MT,Not Employed,Business Owner
+1790,Jones (R),Republican,Senate,25,2024-05-25,Individual,AZ,Self-employed,Teacher
+1791,Smith (D),Democrat,Governor,2800,2024-03-13,PAC,VT,Healthcare Inc,Teacher
+1792,Wilson (I),Independent,House,25,2024-09-15,PAC,VA,Not Employed,Sales
+1793,Miller (D),Democrat,Senate,500,2024-05-19,Individual,NJ,Retired,Teacher
+1794,Miller (D),Democrat,House,37056.58309295659,2024-07-22,Individual,CO,Self-employed,Retired
+1795,Brown (D),Democrat,House,100,2024-05-11,Corporate PAC,FL,Finance LLC,Engineer
+1796,Davis (R),Republican,Governor,100,2024-06-03,Individual,MO,Retired,Consultant
+1797,Davis (R),Republican,House,100,2024-07-27,Individual,NC,Healthcare Inc,Engineer
+1798,Smith (D),Democrat,Senate,500,2024-09-17,Corporate PAC,CA,Self-employed,Healthcare
+1799,Davis (R),Republican,Senate,500,2024-01-17,Individual,PA,Self-employed,Attorney
+1800,Jones (R),Republican,House,2429.557093027488,2024-08-05,Corporate PAC,MI,Finance LLC,Business Owner
+1801,Davis (R),Republican,House,2800,2024-03-20,Individual,WV,Education,Consultant
+1802,Miller (D),Democrat,House,25,2024-01-25,Individual,NV,Not Employed,Healthcare
+1803,Jones (R),Republican,House,8870.816377214125,2024-10-10,Individual,KY,Not Employed,Business Owner
+1804,Miller (D),Democrat,House,1000,2024-08-11,Individual,SD,Not Employed,Engineer
+1805,Davis (R),Republican,Governor,250,2024-01-20,Individual,MN,Tech Corp,Sales
+1806,Miller (D),Democrat,Governor,500,2024-10-24,Individual,TX,Not Employed,Teacher
+1807,Smith (D),Democrat,House,50,2024-10-06,Individual,LA,Finance LLC,Healthcare
+1808,Miller (D),Democrat,Governor,500,2024-04-04,Individual,WY,Tech Corp,Sales
+1809,Brown (D),Democrat,House,500,2024-09-17,Individual,TN,Not Employed,Attorney
+1810,Davis (R),Republican,Senate,250,2024-04-07,PAC,AZ,Retail Co,Consultant
+1811,Smith (D),Democrat,House,1000,2024-11-14,PAC,WI,Tech Corp,Retired
+1812,Miller (D),Democrat,Senate,500,2024-04-12,Individual,NH,Finance LLC,Teacher
+1813,Jones (R),Republican,Senate,250,2024-05-12,Corporate PAC,MN,Not Employed,Attorney
+1814,Brown (D),Democrat,House,1000,2024-08-11,Individual,HI,Tech Corp,Business Owner
+1815,Taylor (R),Republican,House,2800,2024-03-19,Individual,WA,Not Employed,Retired
+1816,Wilson (I),Independent,Senate,250,2024-06-28,Individual,WV,Finance LLC,Teacher
+1817,Smith (D),Democrat,Governor,100,2024-10-14,Union PAC,MI,Healthcare Inc,Attorney
+1818,Taylor (R),Republican,Senate,2334.824186061053,2024-10-07,Individual,MI,Not Employed,Consultant
+1819,Miller (D),Democrat,Senate,100,2024-03-17,PAC,NH,Retired,Consultant
+1820,Davis (R),Republican,House,25,2024-11-19,Individual,PA,Tech Corp,Business Owner
+1821,Smith (D),Democrat,House,100,2024-11-01,Individual,TN,Healthcare Inc,Business Owner
+1822,Brown (D),Democrat,Senate,2800,2024-09-25,PAC,AR,Healthcare Inc,Consultant
+1823,Wilson (I),Independent,Senate,100,2024-05-30,PAC,OH,Education,Consultant
+1824,Davis (R),Republican,House,100,2024-06-15,Individual,VT,Education,Retired
+1825,Davis (R),Republican,Senate,250,2024-10-24,Individual,OR,Retired,Sales
+1826,Smith (D),Democrat,House,100,2024-06-21,Individual,SD,Retail Co,Attorney
+1827,Taylor (R),Republican,Governor,1000,2024-01-25,Individual,CA,Retired,Business Owner
+1828,Jones (R),Republican,House,100,2024-03-04,PAC,CA,Retail Co,Engineer
+1829,Miller (D),Democrat,Senate,100,2024-06-15,PAC,MA,Retired,Attorney
+1830,Brown (D),Democrat,House,2800,2024-01-14,Individual,WV,Retail Co,Teacher
+1831,Brown (D),Democrat,Governor,50,2024-07-28,Individual,AR,Tech Corp,Teacher
+1832,Miller (D),Democrat,Senate,4090.0194876351143,2024-08-31,PAC,MT,Finance LLC,Healthcare
+1833,Miller (D),Democrat,Governor,100,2024-01-13,Super PAC,CT,Finance LLC,Teacher
+1834,Smith (D),Democrat,Governor,100,2024-12-21,Union PAC,WV,Retail Co,Healthcare
+1835,Taylor (R),Republican,House,2800,2024-04-16,Super PAC,ID,Retired,Teacher
+1836,Davis (R),Republican,Governor,500,2024-07-16,Individual,ME,Retired,Healthcare
+1837,Davis (R),Republican,House,100,2024-03-22,Individual,WI,Self-employed,Engineer
+1838,Brown (D),Democrat,Governor,32671.345821820312,2024-03-25,Corporate PAC,OH,Not Employed,Healthcare
+1839,Smith (D),Democrat,House,2800,2024-09-11,PAC,MT,Self-employed,Retired
+1840,Davis (R),Republican,House,5383.205789605721,2024-05-31,Individual,SD,Not Employed,Retired
+1841,Smith (D),Democrat,House,250,2024-09-29,Individual,VT,Not Employed,Attorney
+1842,Taylor (R),Republican,House,100,2024-05-14,Individual,TN,Education,Healthcare
+1843,Davis (R),Republican,House,8205.912349360142,2024-10-18,Individual,MO,Not Employed,Attorney
+1844,Wilson (I),Independent,Senate,500,2024-05-18,Individual,NM,Retired,Sales
+1845,Davis (R),Republican,House,100,2024-02-05,Individual,GA,Tech Corp,Engineer
+1846,Brown (D),Democrat,House,100,2024-09-30,Individual,SD,Self-employed,Retired
+1847,Jones (R),Republican,Senate,1000,2024-12-01,Individual,MT,Tech Corp,Healthcare
+1848,Davis (R),Republican,Senate,1000,2024-07-04,Individual,MT,Self-employed,Attorney
+1849,Smith (D),Democrat,Governor,1000,2024-01-01,PAC,WY,Self-employed,Engineer
+1850,Smith (D),Democrat,House,25,2024-08-17,Union PAC,AL,Healthcare Inc,Consultant
+1851,Davis (R),Republican,House,50,2024-04-25,PAC,MO,Tech Corp,Engineer
+1852,Wilson (I),Independent,House,100,2024-10-01,Individual,MS,Finance LLC,Healthcare
+1853,Wilson (I),Independent,House,659.7017912644736,2024-03-21,Individual,MA,Education,Business Owner
+1854,Wilson (I),Independent,Senate,25,2024-11-19,Individual,IA,Education,Engineer
+1855,Smith (D),Democrat,Senate,25,2024-12-21,Individual,ME,Retired,Attorney
+1856,Smith (D),Democrat,Governor,100,2024-01-24,Individual,MA,Retail Co,Consultant
+1857,Smith (D),Democrat,Governor,1000,2024-05-21,Super PAC,NV,Retail Co,Teacher
+1858,Jones (R),Republican,House,8378.39190376316,2024-04-18,Individual,NC,Healthcare Inc,Business Owner
+1859,Taylor (R),Republican,House,250,2024-09-25,Individual,UT,Retail Co,Retired
+1860,Taylor (R),Republican,Senate,250,2024-04-20,Individual,TN,Retired,Teacher
+1861,Brown (D),Democrat,House,250,2024-10-27,Individual,IL,Self-employed,Teacher
+1862,Smith (D),Democrat,Senate,3211.4982620961496,2024-07-27,Individual,MD,Finance LLC,Consultant
+1863,Wilson (I),Independent,House,100,2024-06-13,Corporate PAC,SC,Not Employed,Sales
+1864,Taylor (R),Republican,House,500,2024-02-05,Individual,ND,Not Employed,Sales
+1865,Miller (D),Democrat,House,13681.204485954851,2024-11-03,Individual,KY,Finance LLC,Attorney
+1866,Taylor (R),Republican,House,500,2024-06-25,Individual,VT,Retail Co,Engineer
+1867,Jones (R),Republican,Senate,7780.951318086229,2024-02-02,Individual,ME,Education,Consultant
+1868,Brown (D),Democrat,Governor,1000,2024-02-07,Individual,MN,Tech Corp,Consultant
+1869,Wilson (I),Independent,Governor,2800,2024-04-20,Super PAC,ND,Retired,Healthcare
+1870,Taylor (R),Republican,House,9914.088123430512,2024-04-19,Individual,NC,Education,Business Owner
+1871,Smith (D),Democrat,Governor,250,2024-09-25,Individual,AL,Not Employed,Business Owner
+1872,Wilson (I),Independent,Senate,500,2024-09-03,Individual,GA,Not Employed,Business Owner
+1873,Smith (D),Democrat,House,250,2024-10-03,Individual,PA,Healthcare Inc,Teacher
+1874,Jones (R),Republican,Senate,500,2024-02-21,Individual,ME,Retail Co,Teacher
+1875,Davis (R),Republican,House,100,2024-03-08,PAC,CT,Tech Corp,Consultant
+1876,Brown (D),Democrat,House,100,2024-05-29,PAC,MA,Education,Healthcare
+1877,Jones (R),Republican,Senate,250,2024-03-18,Individual,AK,Retail Co,Retired
+1878,Taylor (R),Republican,Governor,4066.1427396167533,2024-11-12,Individual,WA,Healthcare Inc,Consultant
+1879,Miller (D),Democrat,Governor,500,2024-08-26,PAC,OK,Finance LLC,Business Owner
+1880,Miller (D),Democrat,Senate,100,2024-09-12,Individual,AR,Tech Corp,Consultant
+1881,Jones (R),Republican,Senate,250,2024-10-28,Individual,IA,Retail Co,Attorney
+1882,Miller (D),Democrat,House,50,2024-05-03,Super PAC,ME,Not Employed,Engineer
+1883,Taylor (R),Republican,House,1769.8967205658585,2024-10-24,Individual,PA,Self-employed,Teacher
+1884,Jones (R),Republican,House,50,2024-06-04,Individual,AL,Not Employed,Consultant
+1885,Taylor (R),Republican,Governor,1000,2024-10-29,Super PAC,PA,Education,Sales
+1886,Jones (R),Republican,Governor,2233.678370603343,2024-03-21,Individual,DE,Not Employed,Healthcare
+1887,Davis (R),Republican,House,50,2024-02-23,PAC,NE,Education,Healthcare
+1888,Jones (R),Republican,Senate,25,2024-08-28,PAC,PA,Finance LLC,Engineer
+1889,Brown (D),Democrat,Senate,100,2024-06-16,Super PAC,RI,Retired,Consultant
+1890,Taylor (R),Republican,Governor,500,2024-09-03,Individual,AL,Finance LLC,Engineer
+1891,Davis (R),Republican,House,100,2024-11-16,PAC,MT,Tech Corp,Retired
+1892,Brown (D),Democrat,House,100,2024-05-24,Individual,MA,Finance LLC,Business Owner
+1893,Miller (D),Democrat,Governor,100,2024-02-20,Union PAC,HI,Self-employed,Sales
+1894,Smith (D),Democrat,Governor,2800,2024-05-29,PAC,FL,Education,Healthcare
+1895,Smith (D),Democrat,House,250,2024-09-26,Individual,OH,Retail Co,Consultant
+1896,Wilson (I),Independent,Senate,50,2024-07-22,Individual,LA,Retail Co,Attorney
+1897,Smith (D),Democrat,Senate,25,2024-02-21,PAC,CT,Healthcare Inc,Healthcare
+1898,Smith (D),Democrat,Senate,4049.659713731219,2024-12-26,Individual,CA,Not Employed,Engineer
+1899,Miller (D),Democrat,Governor,250,2024-08-05,Union PAC,TX,Retired,Sales
+1900,Smith (D),Democrat,Governor,100,2024-12-28,Individual,VT,Retired,Sales
+1901,Taylor (R),Republican,House,5731.0384902431715,2024-04-20,Individual,OK,Retail Co,Teacher
+1902,Miller (D),Democrat,House,50,2024-04-14,PAC,AL,Finance LLC,Sales
+1903,Davis (R),Republican,House,100,2024-12-31,PAC,AR,Tech Corp,Consultant
+1904,Wilson (I),Independent,Senate,1000,2024-01-06,Corporate PAC,OH,Finance LLC,Business Owner
+1905,Taylor (R),Republican,Governor,100,2024-07-04,Individual,WA,Self-employed,Engineer
+1906,Jones (R),Republican,Governor,50,2024-05-02,Super PAC,AR,Retired,Healthcare
+1907,Jones (R),Republican,House,1000,2024-06-05,Corporate PAC,CO,Not Employed,Sales
+1908,Jones (R),Republican,Governor,25,2024-01-07,Individual,GA,Retail Co,Engineer
+1909,Taylor (R),Republican,Senate,500,2024-06-21,Individual,NM,Education,Sales
+1910,Smith (D),Democrat,Governor,1000,2024-06-23,Individual,HI,Finance LLC,Attorney
+1911,Brown (D),Democrat,House,1547.2089956098769,2024-02-20,Individual,IA,Healthcare Inc,Engineer
+1912,Wilson (I),Independent,House,100,2024-07-18,Individual,KY,Education,Attorney
+1913,Jones (R),Republican,House,5965.339689680803,2024-09-02,Individual,WI,Tech Corp,Consultant
+1914,Taylor (R),Republican,House,9385.595248326797,2024-04-04,Individual,MI,Tech Corp,Attorney
+1915,Taylor (R),Republican,House,1000,2024-05-27,Super PAC,NE,Retired,Attorney
+1916,Miller (D),Democrat,House,5532.850294381605,2024-03-20,Individual,UT,Retail Co,Retired
+1917,Miller (D),Democrat,House,1340.8407257539602,2024-10-01,PAC,AL,Retired,Sales
+1918,Jones (R),Republican,House,25,2024-05-27,PAC,MO,Retail Co,Attorney
+1919,Taylor (R),Republican,Senate,5040.095531169955,2024-07-18,Individual,SD,Education,Attorney
+1920,Smith (D),Democrat,House,50,2024-03-26,PAC,NM,Retired,Attorney
+1921,Jones (R),Republican,House,500,2024-06-18,Corporate PAC,VT,Finance LLC,Sales
+1922,Taylor (R),Republican,Governor,500,2024-12-23,Individual,MO,Tech Corp,Business Owner
+1923,Taylor (R),Republican,House,500,2024-02-05,Corporate PAC,SC,Retail Co,Business Owner
+1924,Smith (D),Democrat,Senate,50,2024-03-23,Individual,NJ,Healthcare Inc,Retired
+1925,Brown (D),Democrat,House,250,2024-04-27,PAC,NM,Retail Co,Retired
+1926,Smith (D),Democrat,Senate,4697.066216047895,2024-05-12,Individual,IA,Finance LLC,Attorney
+1927,Davis (R),Republican,Senate,500,2024-05-30,Individual,MI,Retired,Business Owner
+1928,Wilson (I),Independent,House,50,2024-11-17,Union PAC,HI,Self-employed,Teacher
+1929,Smith (D),Democrat,House,100,2024-06-05,Individual,KS,Retired,Business Owner
+1930,Wilson (I),Independent,House,50,2024-02-22,Super PAC,AL,Self-employed,Business Owner
+1931,Brown (D),Democrat,Senate,2800,2024-06-19,PAC,MN,Self-employed,Teacher
+1932,Miller (D),Democrat,House,100,2024-03-05,PAC,WI,Tech Corp,Attorney
+1933,Wilson (I),Independent,Governor,250,2024-01-22,Corporate PAC,TX,Healthcare Inc,Healthcare
+1934,Taylor (R),Republican,House,25,2024-10-06,Individual,IL,Not Employed,Teacher
+1935,Wilson (I),Independent,House,25,2024-11-17,Individual,WA,Not Employed,Engineer
+1936,Wilson (I),Independent,Senate,100,2024-04-21,PAC,MD,Education,Engineer
+1937,Miller (D),Democrat,Senate,1128.7415873451168,2024-11-06,Corporate PAC,MI,Education,Retired
+1938,Miller (D),Democrat,House,250,2024-02-24,Individual,HI,Self-employed,Teacher
+1939,Miller (D),Democrat,Governor,500,2024-06-28,Individual,OH,Self-employed,Sales
+1940,Smith (D),Democrat,Governor,100,2024-09-01,Individual,TN,Retired,Sales
+1941,Jones (R),Republican,House,50,2024-12-15,Individual,MA,Education,Engineer
+1942,Jones (R),Republican,House,45225.278434379026,2024-05-12,Individual,MN,Retail Co,Sales
+1943,Davis (R),Republican,House,25,2024-09-05,Union PAC,MN,Retired,Consultant
+1944,Miller (D),Democrat,Senate,25,2024-03-19,Individual,OK,Not Employed,Retired
+1945,Jones (R),Republican,House,100,2024-02-06,PAC,KY,Education,Engineer
+1946,Wilson (I),Independent,Governor,100,2024-09-29,Individual,PA,Education,Attorney
+1947,Smith (D),Democrat,House,250,2024-02-02,Corporate PAC,ID,Healthcare Inc,Engineer
+1948,Brown (D),Democrat,Senate,250,2024-12-02,Individual,IL,Healthcare Inc,Engineer
+1949,Taylor (R),Republican,Senate,250,2024-05-08,Individual,ID,Self-employed,Teacher
+1950,Miller (D),Democrat,House,500,2024-10-13,Corporate PAC,MT,Not Employed,Engineer
+1951,Taylor (R),Republican,House,25,2024-06-12,Corporate PAC,NM,Education,Teacher
+1952,Smith (D),Democrat,House,14200.599160149597,2024-12-01,Individual,LA,Education,Sales
+1953,Jones (R),Republican,House,250,2024-10-19,Super PAC,IA,Healthcare Inc,Consultant
+1954,Davis (R),Republican,Senate,100,2024-03-14,Union PAC,WA,Finance LLC,Teacher
+1955,Smith (D),Democrat,Senate,500,2024-05-09,Individual,TN,Retail Co,Consultant
+1956,Brown (D),Democrat,House,100,2024-12-07,PAC,KS,Self-employed,Engineer
+1957,Smith (D),Democrat,House,250,2024-01-21,Individual,NJ,Retail Co,Attorney
+1958,Davis (R),Republican,House,250,2024-09-18,Individual,MT,Retail Co,Consultant
+1959,Davis (R),Republican,House,1000,2024-09-09,Individual,NM,Education,Attorney
+1960,Davis (R),Republican,Senate,100,2024-05-13,Corporate PAC,ME,Retired,Consultant
+1961,Miller (D),Democrat,House,250,2024-10-26,Individual,MS,Finance LLC,Consultant
+1962,Wilson (I),Independent,House,50,2024-06-25,Corporate PAC,MS,Not Employed,Business Owner
+1963,Taylor (R),Republican,House,50,2024-11-11,Individual,OH,Not Employed,Retired
+1964,Taylor (R),Republican,Governor,1000,2024-04-05,Individual,NM,Retired,Retired
+1965,Brown (D),Democrat,Senate,2800,2024-04-07,PAC,DE,Education,Attorney
+1966,Wilson (I),Independent,House,500,2024-10-04,Individual,AK,Retail Co,Attorney
+1967,Smith (D),Democrat,House,2628.7664661316635,2024-01-19,Union PAC,WI,Self-employed,Sales
+1968,Jones (R),Republican,Senate,250,2024-05-21,Individual,MS,Self-employed,Healthcare
+1969,Taylor (R),Republican,Senate,6192.585685533191,2024-12-11,Union PAC,MA,Tech Corp,Engineer
+1970,Wilson (I),Independent,Governor,50,2024-06-30,Individual,VT,Healthcare Inc,Business Owner
+1971,Wilson (I),Independent,Senate,2800,2024-01-12,Individual,NJ,Tech Corp,Business Owner
+1972,Miller (D),Democrat,Senate,25,2024-01-12,Individual,CA,Healthcare Inc,Business Owner
+1973,Davis (R),Republican,House,100,2024-06-11,Individual,TN,Education,Attorney
+1974,Davis (R),Republican,House,100,2024-07-23,Corporate PAC,MN,Education,Engineer
+1975,Davis (R),Republican,House,50,2024-03-07,Corporate PAC,IN,Not Employed,Retired
+1976,Smith (D),Democrat,House,1000,2024-05-13,Individual,WY,Finance LLC,Sales
+1977,Brown (D),Democrat,House,100,2024-08-29,Individual,IL,Education,Engineer
+1978,Davis (R),Republican,House,250,2024-02-12,Individual,MT,Healthcare Inc,Teacher
+1979,Brown (D),Democrat,Governor,100,2024-10-31,Individual,PA,Self-employed,Engineer
+1980,Davis (R),Republican,House,500,2024-04-26,PAC,TX,Education,Business Owner
+1981,Jones (R),Republican,Senate,4593.748466126999,2024-02-24,Individual,RI,Not Employed,Attorney
+1982,Jones (R),Republican,Governor,25,2024-08-01,Individual,PA,Healthcare Inc,Healthcare
+1983,Smith (D),Democrat,House,50,2024-10-31,Corporate PAC,TN,Not Employed,Engineer
+1984,Smith (D),Democrat,House,2800,2024-12-17,Individual,WY,Finance LLC,Teacher
+1985,Wilson (I),Independent,House,25,2024-11-20,Individual,MN,Retail Co,Teacher
+1986,Wilson (I),Independent,House,1000,2024-03-29,Individual,MO,Retail Co,Attorney
+1987,Brown (D),Democrat,House,50,2024-07-20,Individual,OK,Education,Retired
+1988,Wilson (I),Independent,Senate,25,2024-01-29,PAC,OH,Retired,Sales
+1989,Wilson (I),Independent,Senate,1000,2024-06-12,Individual,LA,Healthcare Inc,Engineer
+1990,Smith (D),Democrat,House,250,2024-07-06,Corporate PAC,SC,Retail Co,Healthcare
+1991,Taylor (R),Republican,Senate,100,2024-08-12,Individual,ID,Not Employed,Consultant
+1992,Jones (R),Republican,Senate,250,2024-03-27,Individual,WA,Education,Healthcare
+1993,Davis (R),Republican,House,10447.225690781619,2024-05-24,Individual,AZ,Retail Co,Business Owner
+1994,Jones (R),Republican,Governor,50,2024-01-22,Individual,SD,Not Employed,Attorney
+1995,Wilson (I),Independent,House,25,2024-11-19,Union PAC,AK,Education,Healthcare
+1996,Smith (D),Democrat,Governor,100,2024-01-17,Individual,LA,Self-employed,Healthcare
+1997,Jones (R),Republican,House,250,2024-05-31,Union PAC,HI,Retired,Business Owner
+1998,Miller (D),Democrat,House,50,2024-04-02,PAC,UT,Finance LLC,Healthcare
+1999,Taylor (R),Republican,Governor,500,2024-01-31,Super PAC,GA,Self-employed,Engineer
+2000,Wilson (I),Independent,Governor,250,2024-05-25,Individual,VA,Tech Corp,Business Owner

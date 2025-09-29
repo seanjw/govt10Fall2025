@@ -1,0 +1,370 @@
+---
+title: "Week 3, Class 5: Practice Exercises"
+subtitle: "Data Transformation and Variable Creation"
+date: "2025"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(formatR)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# Non-AI Exercises
+
+## 1. Understanding mutate()
+
+### 1.1 Multiple Choice: mutate() Function
+
+What does the `mutate()` function do?
+
+a) Removes columns from a data frame
+b) Creates new columns or modifies existing ones
+c) Filters rows based on conditions
+d) Sorts data by a variable
+
+Answer: _____
+
+### 1.2 Code Detective: Basic mutate()
+
+What does this code create?
+
+```r
+data %>%
+  mutate(
+    vote_margin = dem_votes - rep_votes,
+    winner = if_else(vote_margin > 0, "Democrat", "Republican")
+  )
+```
+
+Line 3 creates: _____
+Line 4 creates: _____
+
+### 1.3 Fill in the Blanks: Variable Types
+
+When creating new variables, we often need to:
+
+1. Calculate _____ between existing variables
+2. _____ text variables into categories
+3. Create _____ (TRUE/FALSE) indicators
+4. Convert between _____ types
+5. Handle _____ values appropriately
+
+Word bank: differences, recode, logical, data, missing
+
+## 2. Conditional Logic
+
+### 2.1 Match: if_else() vs case_when()
+
+Match each function with when to use it:
+
+**Functions:**
+a) if_else()
+b) case_when()
+
+**Use cases:**
+1. Creating a variable with only two possible outcomes
+2. Creating a variable with multiple categories
+3. Simple yes/no binary coding
+4. Complex multi-condition logic
+
+Matches: a = _____ and _____, b = _____ and _____
+
+### 2.2 Code Detective: case_when()
+
+What categories does this code create?
+
+```r
+data %>%
+  mutate(
+    age_group = case_when(
+      age < 30 ~ "Young",
+      age < 50 ~ "Middle",
+      age < 65 ~ "Older",
+      TRUE ~ "Senior"
+    )
+  )
+```
+
+For someone age 25: _____
+For someone age 45: _____
+For someone age 70: _____
+
+### 2.3 Spot the Error
+
+What's wrong with this case_when() statement?
+
+```r
+mutate(
+  income_cat = case_when(
+    income < 30000 ~ "Low",
+    income < 50000 ~ "Medium",
+    income < 30000 ~ "Low",
+    TRUE ~ "High"
+  )
+)
+```
+
+Problem: _____
+
+## 3. Working with Proportions
+
+### 3.1 Multiple Choice: Calculating Proportions
+
+To calculate the proportion of Democrats in a dataset, you would:
+
+a) Count Democrats and divide by Republicans
+b) Count Democrats and divide by total observations
+c) Count total and divide by Democrats
+d) Use mean() on a logical variable
+
+Answer: _____
+
+### 3.2 True or False: summarise()
+
+Mark each statement as True (T) or False (F):
+
+_____ summarise() reduces multiple rows to a single summary row
+_____ You can calculate multiple statistics in one summarise() call
+_____ summarise() automatically groups by all variables
+_____ n() counts the number of rows in each group
+_____ summarise() can only calculate numeric summaries
+
+### 3.3 Fill in the Code
+
+Complete this code to calculate turnout rate:
+
+```r
+data %>%
+  summarise(
+    total_voters = _____,
+    total_voted = sum(_____ == "Yes"),
+    turnout_rate = _____ / _____
+  )
+```
+
+## 4. Advanced Transformations
+
+### 4.1 Match: Functions and Purposes
+
+Match each function with its purpose:
+
+**Functions:**
+a) round()
+b) log()
+c) sqrt()
+d) abs()
+e) lag()
+
+**Purposes:**
+1. Remove decimal places
+2. Transform skewed data
+3. Calculate square root
+4. Make negative values positive
+5. Get previous row's value
+
+Matches: a = _____, b = _____, c = _____, d = _____, e = _____
+
+### 4.2 Code Detective: Complex Transformation
+
+What does this code calculate?
+
+```r
+data %>%
+  group_by(state) %>%
+  mutate(
+    state_avg = mean(income, na.rm = TRUE),
+    income_diff = income - state_avg,
+    above_avg = income_diff > 0
+  )
+```
+
+This code calculates: _____
+
+# AI Exercises
+
+For each AI exercise:
+- Work with Claude to analyze the data
+- Record your prompts and key findings
+
+## 5. Creating Political Variables
+
+**Dataset: legislative_votes.csv**
+
+**Description**: Roll call voting data with legislator information.
+
+**Variables**:
+- `legislator_id`: Unique identifier (int)
+- `name`: Legislator name (chr)
+- `party`: Political party (chr)
+- `state`: State abbreviation (chr)
+- `district`: District number (int)
+- `ideology_score`: -1 (liberal) to 1 (conservative) (dbl)
+- `vote_attendance`: Percentage of votes attended (dbl)
+- `bills_sponsored`: Number of bills sponsored (int)
+- `years_service`: Years in office (int)
+- `committee_count`: Number of committees served on (int)
+
+### 5.1 Initial Data Exploration
+
+```{r}
+# Load the dataset
+library(tidyverse)
+legislators <- read_csv("Week 3/Class 5/legislative_votes.csv")
+
+# Examine the data
+glimpse(legislators)
+```
+
+### 5.2 Creating Categorical Variables
+
+Ask Claude to help you create:
+- An "ideology_category" variable (left, center, right) based on terciles of `ideology_score`
+- An "effectiveness" score based on bills sponsored and committee work (assume more than 4 is effective)
+- A "seniority" category based on years of service (>20 is senior)
+
+```{r}
+
+```
+
+### 5.3 Calculating Party Metrics
+
+Work with Claude to calculate party-level statistics for the variables you created in the last step.  For each party, what percent of legislators are in each category you created.
+
+```{r}
+
+```
+
+## 6. Education and Political Participation
+
+**Dataset: civic_engagement.csv**
+
+**Description**: Survey data on education and political participation.
+
+**Variables**:
+- `respondent_id`: Unique identifier (int)
+- `education`: Highest degree earned (chr)
+- `age`: Age in years (int)
+- `income`: Annual income (dbl)
+- `voted_2020`: Whether voted in 2020 (chr: Yes/No)
+- `political_interest`: 1-10 scale (int)
+- `volunteer_hours`: Political volunteer hours per month (int)
+- `donations`: Political donations in dollars (dbl)
+- `social_media_political`: Hours per week on political social media (dbl)
+
+### 6.1 Loading and Initial Transformation
+
+```{r}
+# Load the dataset
+civic <- read_csv("Week 3/Class 5/civic_engagement.csv")
+
+# Check the structure
+glimpse(civic)
+```
+
+
+### 6.2 Education and Engagement Index
+
+Work with Claude to:
+- Recode education into "High School + " and "Less than High School"
+- Create a variable called `activist` that is TRUE if the person donated more than the median, volunteered more than the median and voted in 2020.
+
+```{r}
+
+```
+
+
+## 7. Campaign Finance Transformations
+
+**Dataset: campaign_finance_2024.csv**
+
+**Description**: Campaign contribution data for 2024 elections.
+
+**Variables**:
+- `contribution_id`: Unique identifier (int)
+- `candidate`: Candidate name (chr)
+- `party`: Political party (chr)
+- `office`: Office sought (chr)
+- `amount`: Contribution amount (dbl)
+- `date`: Date of contribution (date)
+- `contributor_type`: Individual, PAC, etc. (chr)
+- `state`: Contributor state (chr)
+- `employer`: Contributor employer (chr)
+- `occupation`: Contributor occupation (chr)
+
+### 7.1 Data Preparation
+
+```{r}
+# Load the dataset
+finance <- read_csv("Week 3/Class 5/campaign_finance_2024.csv")
+
+# Explore the data
+glimpse(finance)
+
+```
+
+
+### 7.2 Creating Contribution Categories
+
+Ask Claude to help you:
+- Identify small donors vs major donors (< mean or > mean)
+- Create variables for in-state vs out-of-state contributions (assume that your state is New York)
+
+```{r}
+
+```
+
+### 7.3 Time-Based Transformations
+
+Work with Claude to summarize the data.
+- When was the most money given? Contribution timing (early, middle, late in campaign)
+- How much money was given each month? 
+- How much was contributed over time
+
+```{r}
+
+```
+
+## 8. Demographic Transformations
+
+**Dataset: census_political.csv**
+
+**Description**: Census data merged with political outcomes.
+
+**Variables**:
+- `county_id`: County FIPS code (int)
+- `county_name`: County name (chr)
+- `state`: State abbreviation (chr)
+- `population`: Total population (int)
+- `median_age`: Median age (dbl)
+- `pct_college`: Percent with college degree (dbl)
+- `median_income`: Median household income (dbl)
+- `unemployment_rate`: Unemployment percentage (dbl)
+- `dem_vote_share_2020`: Democratic vote share 2020 (dbl)
+- `turnout_2020`: Voter turnout 2020 (dbl)
+
+### 8.1 Initial Exploration
+
+```{r}
+# Load the dataset
+census <- read_csv("Week 3/Class 5/census_political.csv")
+
+# Look at the data
+glimpse(census)
+```
+
+### 8.2 Creating Composite Indicators
+
+Work with Claude to:
+- Create urban/rural classifications based on population density (above or below the median)
+- Create a variable that captures the quartiles of unemployment 
+
+```{r}
+
+```
+

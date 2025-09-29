@@ -1,0 +1,337 @@
+---
+title: "Week 3, Class 6: Practice Exercises"
+subtitle: "Research Designs"
+date: "2025"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(formatR)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# Non-AI Exercises
+
+## 1. Understanding Research Designs
+
+### 1.1 Match: Research Design Types
+
+Match each research design with its key characteristic:
+
+**Designs:**
+a) Experimental
+b) Natural experiment
+c) Cross-sectional
+d) Panel/Longitudinal
+
+**Characteristics:**
+1. Observes the same units over multiple time periods
+2. Researcher controls random assignment
+3. Takes advantage of external events for quasi-random assignment
+4. Observes many units at a single point in time
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+### 1.2 Multiple Choice: Random Assignment
+
+What is the main advantage of random assignment in experiments?
+
+a) It makes the study cheaper to conduct
+b) It ensures treatment and control groups are similar on average
+c) It guarantees everyone benefits from treatment
+d) It eliminates the need for statistical analysis
+
+Answer: _____
+
+### 1.3 True or False: Research Designs
+
+Mark each statement as True (T) or False (F):
+
+_____ Experiments always require a laboratory setting
+_____ Natural experiments rely on events outside researcher control
+_____ Cross-sectional data can show individual change over time
+_____ Panel data follows the same people over multiple periods
+_____ Observational studies can never establish causation
+
+## 2. Natural Experiments
+
+### 2.1 Fill in the Blanks: Natural Experiments
+
+Natural experiments occur when:
+
+1. An external _____ creates quasi-random assignment
+2. The researcher does not _____ the treatment
+3. Groups become comparable by _____
+4. We can compare _____ and control groups
+5. The assignment process is _____ to political outcomes
+
+Word bank: event, control, chance, treatment, unrelated
+
+### 2.2 Code Detective: Research Design
+
+What type of research design does this analysis suggest?
+
+```r
+data %>%
+  filter(distance_to_border < 10) %>%
+  mutate(treatment = ifelse(state == "Legal_Marijuana", 1, 0)) %>%
+  group_by(treatment) %>%
+  summarise(avg_crime = mean(crime_rate))
+```
+
+This code suggests a: _____
+
+### 2.3 Multiple Choice: Lottery Draft
+
+The Vietnam draft lottery is a good natural experiment because:
+
+a) Researchers controlled who was drafted
+b) Birth dates were randomly assigned to draft numbers
+c) Everyone wanted to avoid the draft
+d) It only affected men
+
+Answer: _____
+
+## 3. Cross-sectional vs Longitudinal Data
+
+### 3.1 Match: Data Structure
+
+Match each scenario with the appropriate data type:
+
+**Scenarios:**
+a) Survey 1000 voters on election day
+b) Track 500 families' income for 10 years
+c) Poll different people each month about approval
+d) Interview same legislators every session
+
+**Data Types:**
+1. Cross-sectional
+2. Panel/Longitudinal
+3. Repeated cross-sections
+4. Time series panel
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+### 3.2 Fill in the Code: Panel Data
+
+Complete this code to analyze panel data:
+
+```r
+panel_data %>%
+  group_by(_____) %>%  # Group by individual
+  arrange(_____) %>%   # Sort by time
+  mutate(
+    income_change = income - lag(_____)
+  )
+```
+
+### 3.3 Spot the Error: Research Design
+
+What's wrong with this conclusion?
+
+"We surveyed 1000 people and found that older people vote more. Therefore, as people age, they become more likely to vote."
+
+Problem: _____
+
+## 4. Validity and Limitations
+
+### 4.1 Multiple Choice: Internal Validity
+
+A study has high internal validity when:
+
+a) Results apply to many different contexts
+b) We can confidently attribute effects to the treatment
+c) The sample size is very large
+d) It uses advanced statistical methods
+
+Answer: _____
+
+### 4.2 Match: Validity Threats
+
+Match each threat with its type:
+
+**Threats:**
+a) Results only apply to college students
+b) Something else caused the outcome
+c) People dropped out of the study
+d) Treatment and control groups were different
+
+**Types:**
+1. Selection bias
+2. External validity
+3. Attrition
+4. Confounding
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+### 4.3 True or False: Research Tradeoffs
+
+Mark each statement as True (T) or False (F):
+
+_____ Lab experiments have high internal validity but may lack realism
+_____ Natural experiments always have perfect random assignment
+_____ Large samples guarantee causal inference
+_____ Field experiments balance control and realism
+_____ Observational studies are always inferior to experiments
+
+# AI Exercises
+
+For each AI exercise:
+- Work with Claude to analyze the data
+- Record your prompts and key findings
+
+## 5. Analyzing a Natural Experiment
+
+**Dataset: border_policy_change.csv**
+
+**Description**: Data from counties where minimum wage laws differ.
+
+**Variables**:
+- `county_fips`: County FIPS code (int)
+- `year`: Year of observation (int)
+- `unemployment_rate`: Unemployment percentage (dbl)
+- `median_income`: Median household income (dbl)
+- `gini_index`: Income inequality measure (dbl)
+- `poverty_rate`: Poverty percentage (dbl)
+- `pop_density`: Population density (dbl)
+- `urban_rural`: Urban or rural classification (chr)
+- `percent_white`: Percentage white population (dbl)
+- `percent_black`: Percentage black population (dbl)
+- `percent_hispanic`: Percentage hispanic population (dbl)
+- `wage_change`: Whether minimum wage changed in that year (lgl)
+
+### 5.1 Understanding the Natural Experiment
+
+```{r}
+# Load the dataset
+library(tidyverse)
+border_data <- read_csv("Week 3/Class 6/border_policy_change.csv")
+
+# Examine the structure
+glimpse(border_data)
+```
+
+
+### 5.2 Implementing the Design
+
+Ask Claude to help you:
+- Compute poverty rates and unemployment in treated and control counties
+
+```{r}
+
+```
+
+## 6. Working with Panel Data
+
+**Dataset: voter_panel_study.csv**
+
+**Description**: Panel survey following the same voters over multiple elections.
+
+**Variables**:
+- `respondent_id`: Unique voter identifier (int)
+- `wave`: Panel wave number (int)
+- `age`: Age at time of survey (int)
+- `education`: Education level (chr)
+- `ideology`: Political ideology (chr)
+- `political_interest`: Interest in politics (int)
+- `social_media_use`: Social media usage (chr)
+- `participated_protest`: Whether participated in protest (lgl)
+- `protest_issue`: Issue of protest if participated (chr)
+- `voted_last_election`: Whether voted in last election (lgl)
+
+### 6.1 Exploring Panel Structure
+
+```{r}
+# Load the dataset
+panel_data <- read_csv("Week 3/Class 6/voter_panel_study.csv")
+
+# Check the panel structure
+glimpse(panel_data)
+```
+
+
+### 6.2 Analyzing Change Over Time
+
+Work with Claude to:
+- Track how individual respondents' ideology and political interest change across waves
+- Is average Analyze social media higher or lower for those who voted in the last election?
+- Identify voters who become more or less politically engaged over time based on voting behavior
+
+```{r}
+
+```
+
+
+## 7. Experimental Design Analysis
+
+**Dataset: gotv_experiment.csv**
+
+**Description**: Get-out-the-vote field experiment data.
+
+**Variables**:
+- `voter_id`: Voter identifier (int)
+- `treatment`: Treatment assignment (chr)
+- `age_group`: Age group category (chr)
+- `education`: Education level (chr)
+- `voted_2022`: Whether voted in 2022 (lgl)
+
+### 7.1 Understanding the Experiment
+
+```{r}
+# Load the dataset
+gotv <- read_csv("Week 3/Class 6/gotv_experiment.csv")
+
+# Explore the experimental design
+glimpse(gotv)
+```
+
+### 7.2 Analyzing Treatment Effects
+
+Ask Claude to help you:
+- Calculate turnout rates by treatment group
+- Compare the  mean turnout rate for each group to control.  Which had the greatest effect on turnout?
+
+```{r}
+
+```
+
+## 8. Cross-Sectional Survey Analysis
+
+**Dataset: political_attitudes_2024.csv**
+
+**Description**: Large cross-sectional survey of political attitudes.
+
+**Variables**:
+- `respondent_id`: Unique identifier (int)
+- `age`: Age in years (int)
+- `gender`: Gender identity (chr)
+- `race_ethnicity`: Race/ethnicity (chr)
+- `education`: Highest degree (chr)
+- `income_bracket`: Income bracket (chr)
+- `ideology`: Political ideology (chr)
+- `party_id`: Party identification (chr)
+- `trust_gov`: Trust in government (int)
+- `policy_support_env`: Environmental policy support (int)
+- `policy_support_guns`: Gun policy support (int)
+
+### 8.1 Cross-Sectional Exploration
+
+```{r}
+# Load the dataset
+attitudes <- read_csv("Week 3/Class 6/political_attitudes_2024.csv")
+
+# Examine the data
+glimpse(attitudes)
+```
+
+### 8.2 Limitations of Cross-Sectional Data
+
+Work with Claude to:
+- Identify what questions this data can answer
+- Discuss what questions it cannot answer
+- Explore correlations vs causal claims
