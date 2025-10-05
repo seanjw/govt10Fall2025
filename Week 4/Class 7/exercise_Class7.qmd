@@ -1,0 +1,323 @@
+---
+title: "Week 4, Class 7: Practice Exercises"
+subtitle: "Causality"
+date: "2025"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(formatR)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# Non-AI Exercises
+
+## 1. Three Requirements for Causality
+
+### 1.1 Match: Causal Requirements
+
+Match each requirement with its definition:
+
+**Requirements:**
+a) Association
+b) Temporal ordering
+c) No confounding
+
+**Definitions:**
+1. The cause must come before the effect
+2. No third variable explains both X and Y
+3. X and Y must be statistically related
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+### 1.2 Multiple Choice: Ice Cream and Crime
+
+Why is "ice cream sales cause crime" a spurious correlation?
+
+a) Ice cream and crime are not associated
+b) Crime happens before ice cream sales
+c) Temperature affects both ice cream sales and crime
+d) The correlation is too weak
+
+Answer: _____
+
+### 1.3 True or False: Causation
+
+Mark each statement as True (T) or False (F):
+
+_____ Correlation always implies causation
+_____ Causation requires temporal ordering
+_____ Large correlations are more likely to be causal
+_____ Randomized experiments help establish causation
+_____ Observational data can never show causation
+
+## 2. Identifying Confounders
+
+### 2.1 Fill in the Blanks: Confounding
+
+A confounding variable:
+
+1. Affects both the _____ and the _____
+2. Creates a _____ relationship between X and Y
+3. Must occur _____ to both X and Y
+4. Can be controlled through _____ assignment
+5. Makes causal inference _____
+
+Word bank: treatment, outcome, spurious, prior, random, difficult
+
+### Match: Examples
+
+Match each scenario with the likely confounding variable:
+
+**Scenarios:**
+a) Wealthy people live longer
+b) Students with more books at home do better in school
+c) Cities with more police have more crime
+d) Married people are happier
+
+**Confounders:**
+1. Crime rates drive police hiring
+2. Access to healthcare
+3. Parents' education and income
+4. Selection into marriage
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+## 3. Temporal Ordering
+
+### 3.1 Multiple Choice: Time Order
+
+Which scenario violates temporal ordering for causation?
+
+a) Studying causes better grades
+b) Rain causes wet streets
+c) High crime causes more police hiring last year
+d) Tall children have tall parents
+
+Answer: _____
+
+### 3.2 Spot the Error: Causal Claims
+
+What's wrong with this causal claim?
+
+"States with stricter gun laws have more gun violence, so gun laws cause violence."
+
+Problem: _____
+
+## 4. Alternative Explanations
+
+### 4.1 Multiple Choice: Spurious Correlations
+
+The correlation between divorce rate and margarine consumption is likely:
+
+a) Causal - margarine causes divorce
+b) Causal - divorce causes margarine consumption
+c) Spurious - both follow similar time trends
+d) Reversed - the causation goes backwards
+
+Answer: _____
+
+### 4.2 True or False: Research Design
+
+Mark each statement as True (T) or False (F):
+
+_____ Random assignment eliminates all confounders
+_____ Large samples guarantee causal inference
+_____ Natural experiments can establish causation
+_____ Correlation is necessary but not sufficient for causation
+_____ Time series data always shows causation
+
+### 4.3 Match: Causal Mechanisms
+
+Match each political example with its mechanism:
+
+**Examples:**
+a) Education → Higher income
+b) Campaign spending → Votes
+c) Media coverage → Public opinion
+d) Voting laws → Turnout
+
+**Mechanisms:**
+1. Increased name recognition
+2. Skills and credentials
+3. Agenda setting and framing
+4. Access and convenience
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+# AI Exercises
+
+For each AI exercise:
+- Work with Claude to analyze the data
+- Record your prompts and key findings
+
+## 5. Testing Causal Claims
+
+**Dataset: minimum_wage_effects.csv**
+
+**Description**: State-level data on minimum wage changes and employment.
+
+**Variables**:
+
+- `state`: State name (chr)
+- `year`: Year of observation (int)
+- `min_wage`: State minimum wage (dbl)
+- `unemployment_rate`: Unemployment percentage (dbl)
+- `teen_employment_rate`: Teen employment percentage (dbl)
+- `median_income`: State median income (dbl)
+- `cost_of_living`: Cost of living index (dbl)
+- `gdp_growth`: State GDP growth rate (dbl)
+- `border_state_wage`: Average minimum wage in bordering states (dbl)
+
+### 5.1 Initial Exploration
+
+```{r}
+# Load the dataset
+library(tidyverse)
+wage_data <- read_csv("Week 4/Class 7/minimum_wage_effects.csv")
+
+# Examine the structure
+glimpse(wage_data)
+```
+
+
+### 5.2 Checking Causal Requirements
+
+Ask Claude to help you:
+- Test for association between minimum wage and employment
+
+```{r}
+
+```
+
+### 5.3 Alternative Explanations
+
+Work with Claude to explore alternative explanations for any patterns you find.
+
+## 6. Media Effects on Politics
+
+**Dataset: media_influence_study.csv**
+
+**Description**: Data on media consumption and political attitudes.
+
+**Variables**:
+
+- `respondent_id`: Unique identifier (int)
+- `survey_wave`: Wave 1 or 2 (int)
+- `fox_news_hours`: Weekly hours watching Fox News (dbl)
+- `msnbc_hours`: Weekly hours watching MSNBC (dbl)
+- `conservative_score`: Conservative attitudes, 0-100 (dbl)
+- `trump_approval`: Trump approval, 0-100 (dbl)
+- `age`: Age in years (int)
+- `education`: Education level (chr)
+- `party_id`: Party identification (chr)
+- `political_interest`: Interest in politics, 1-10 (int)
+
+### 6.1 Media and Attitudes
+
+```{r}
+# Load the dataset
+media_data <- read_csv("Week 4/Class 7/media_influence_study.csv")
+
+# Check the structure
+glimpse(media_data)
+```
+
+### 6.2 Reverse Causation
+
+Work with Claude to:
+- Test whether conservatives choose Fox News (selection)
+
+```{r}
+
+```
+
+### 6.3 Confounding Factors
+
+Ask Claude to help identify and control for variables that might affect both media choice and political attitudes.
+
+## 7. Campaign Finance and Elections
+
+**Dataset: campaign_causality.csv**
+
+**Description**: Congressional election data with spending information.
+
+**Variables**:
+
+- `district_id`: Congressional district (chr)
+- `year`: Election year (int)
+- `incumbent_party`: Party of incumbent (chr)
+- `incumbent_spending`: Incumbent campaign spending (dbl)
+- `challenger_spending`: Challenger campaign spending (dbl)
+- `incumbent_vote_share`: Incumbent's vote percentage (dbl)
+- `presidential_vote`: Presidential vote in district (dbl)
+- `median_income`: District median income (dbl)
+- `incumbent_scandal`: Whether incumbent had scandal (lgl)
+- `quality_challenger`: Whether challenger held prior office (lgl)
+
+### 7.1 Money and Votes
+
+```{r}
+# Load the dataset
+campaign_data <- read_csv("Week 4/Class 7/campaign_causality.csv")
+
+# Explore the data
+glimpse(campaign_data)
+```
+
+
+### 7.2 Endogeneity Problems
+
+Ask Claude to help you understand:
+- Why might successful candidates raise more money?
+- How does expected competitiveness affect fundraising?
+- What confounders affect both money and votes?
+
+### 7.3 Natural Experiments
+
+Work with Claude to identify situations where spending might be more randomly assigned (e.g., unexpected donations, spending limits).
+
+## 8. Policy Evaluation
+
+**Dataset: policy_intervention.csv**
+
+**Description**: Data on states before/after policy changes.
+
+**Variables**:
+
+- `state`: State name (chr)
+- `year`: Year (int)
+- `policy_adopted`: Whether state adopted policy (lgl)
+- `year_adopted`: Year policy was adopted (int)
+- `outcome_variable`: Policy outcome of interest (dbl)
+- `population`: State population (int)
+- `unemployment`: Unemployment rate (dbl)
+- `gov_party`: Governor's party (chr)
+- `leg_control`: Party controlling legislature (chr)
+- `neighbor_adopted`: Whether neighboring state has policy (lgl)
+
+### 8.1 Policy Effects
+
+```{r}
+# Load the dataset
+policy_data <- read_csv("Week 4/Class 7/policy_intervention.csv")
+
+# Look at the structure
+glimpse(policy_data)
+```
+
+### 8.2 Selection into Treatment
+
+Work with Claude to:
+- Identify which states adopted the policy and when
+- Check pre-treatment trends
+
+```{r}
+
+```
+

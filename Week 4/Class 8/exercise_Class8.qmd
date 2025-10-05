@@ -1,0 +1,310 @@
+---
+title: "Week 4, Class 8: Practice Exercises"
+subtitle: "Modern Causal Inference"
+date: "2025"
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(formatR)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+# Non-AI Exercises
+
+## 1. Fundamental Problem of Causal Inference
+
+### 1.1 Multiple Choice: Counterfactuals
+
+What is the fundamental problem of causal inference?
+
+a) We can't measure outcomes accurately
+b) We can't observe the same unit under both treatment and control conditions
+c) Random assignment is difficult
+d) Statistical software has limitations
+
+Answer: _____
+
+### 1.2 Fill in the Blanks: Potential Outcomes
+
+In potential outcomes notation:
+
+1. Y(1) represents the outcome when _____
+2. Y(0) represents the outcome when _____
+3. The individual causal effect is _____
+4. We can only observe _____ of these for each person
+5. The unobserved outcome is called a _____
+
+Word bank: treated, not treated, Y(1) - Y(0), one, counterfactual
+
+### 1.3 True or False: Causal Inference
+
+Mark each statement as True (T) or False (F):
+
+_____ We can directly observe individual causal effects
+_____ Random assignment helps create comparable groups
+_____ The ATE is the average of individual treatment effects
+_____ Counterfactuals are hypothetical unobserved outcomes
+_____ Causal inference requires observing all potential outcomes
+
+## 2. Average Treatment Effects
+
+### 2.1 Code Detective: ATE Calculation
+
+What does this code calculate?
+
+```r
+treatment_group %>%
+  summarise(mean_outcome = mean(outcome)) -> treated_mean
+
+control_group %>%
+  summarise(mean_outcome = mean(outcome)) -> control_mean
+
+ate <- treated_mean$mean_outcome - control_mean$mean_outcome
+```
+
+This calculates: _____
+
+### 2.2 Match: ATE Components
+
+Match each component with its meaning:
+
+**Components:**
+a) E[Y(1)]
+b) E[Y(0)]
+c) E[Y(1) - Y(0)]
+d) E[Y|T=1] - E[Y|T=0]
+
+**Meanings:**
+1. Average treatment effect
+2. Expected outcome under treatment
+3. Expected outcome under control
+4. Observed difference in means
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+### 2.3 Multiple Choice: Random Assignment
+
+Why does random assignment help identify causal effects?
+
+a) It makes the sample larger
+b) It ensures treatment and control groups are similar on average
+c) It eliminates all confounders perfectly
+d) It makes people more honest
+
+Answer: _____
+
+## 3. Difference-in-Differences
+
+### 3.1 Fill in the Blanks: DiD Logic
+
+Difference-in-differences compares:
+
+1. Changes over time in the _____ group
+2. Changes over time in the _____ group
+3. The difference between these changes estimates the _____
+4. DiD assumes _____ trends without treatment
+5. We need at least _____ time periods
+
+Word bank: treatment, control, causal effect, parallel, two
+
+### 3.2  True or False: DiD Assumptions
+
+Mark each statement as True (T) or False (F):
+
+_____ DiD requires random assignment of treatment
+_____ Parallel trends assumption means groups move together pre-treatment
+_____ DiD can work with observational data
+_____ We need panel data for DiD
+_____ DiD eliminates all time-invariant confounders
+
+## 4. Validity
+
+### 4.1 Match: Validity Types
+
+Match each validity type with its concern:
+
+**Types:**
+a) Internal validity
+b) External validity
+c) Construct validity
+d) Statistical validity
+
+**Concerns:**
+1. Whether results generalize to other contexts
+2. Whether we can attribute effects to treatment
+3. Whether we're measuring what we think
+4. Whether statistical tests are appropriate
+
+Matches: a = _____, b = _____, c = _____, d = _____
+
+### 4.2 Multiple Choice: Threats
+
+Which threatens internal validity?
+
+a) Small sample size
+b) Selection bias
+c) Limited geographic scope
+d) Measurement error
+
+Answer: _____
+
+### 4.3 Spot the Error: Causal Claims
+
+What's wrong with this conclusion?
+
+"States that adopted the policy saw crime decrease, so the policy reduced crime."
+
+Problem: _____
+
+# AI Exercises
+
+For each dataset below, work with Claude to:
+- Calculate the Average Treatment Effect (ATE)
+- Test for statistical significance
+- Interpret the magnitude and meaning of the ATE in context
+
+## 5. Job Training Program RCT
+
+**Dataset: job_training_rct.csv**
+
+**Description**: Randomized controlled trial of a job training program with 1,200 participants.
+
+**Variables**:
+
+- `participant_id`: Unique identifier (int)
+- `age`: Age in years (int)
+- `gender`: Gender (chr)
+- `education`: Education level 1-5 (int)
+- `prior_earnings`: Annual earnings before program (dbl)
+- `treated`: Treatment assignment 1=treated, 0=control (int)
+- `takeup`: Actually participated if treated (int)
+- `post_earnings_6m`: Earnings 6 months after (dbl)
+- `post_earnings_12m`: Earnings 12 months after (dbl)
+- `employment_12m`: Employed at 12 months 1=yes (int)
+- `center_id`: Training center ID (int)
+
+```{r}
+# Load the data
+library(tidyverse)
+job_data <- read_csv("job_training_rct.csv")
+
+# Calculate ATE for earnings at 12 months
+
+# Calculate ATE for employment at 12 months
+
+
+```
+
+Interpret: What do these ATEs mean in practical terms?
+
+## 6. Get Out The Vote Experiment
+
+**Dataset: gotv_experiment.csv**
+
+**Description**: Field experiment testing different voter mobilization methods with 5,000 registered voters.
+
+**Variables**:
+
+- `voter_id`: Unique identifier (int)
+- `treatment`: Treatment group - "Control", "Phone Call", "Canvassing", "Mailer" (chr)
+- `age_group`: Age category (chr)
+- `education`: Education level (chr)
+- `voted_2022`: Whether voted in 2022 election 1=yes (int)
+
+```{r}
+# Load the data
+gotv_data <- read_csv("gotv_experiment.csv")
+
+# Calculate ATE for each treatment compared to control
+
+```
+
+Interpret: Which intervention is most effective? Is it cost-effective?
+
+## 7. Media Advertising Experiment
+
+**Dataset: media_experiment_full.csv**
+
+**Description**: Experiment on political advertising effects with 1,400 participants tracked over time.
+
+**Variables**:
+
+- `viewer_id`: Unique identifier (int)
+- `day`: Day of observation (int)
+- `battleground_state`: In battleground state 1=yes (int)
+- `minutes_tv_news`: Minutes of TV news watched (int)
+- `total_ads_seen`: Total political ads seen (int)
+- `voting_intent`: Voting intention 0-100 scale (dbl)
+- `ads_candidate_A`: Number of ads for candidate A (int)
+- `ads_candidate_B`: Number of ads for candidate B (int)
+
+```{r}
+# Load the data
+media_data <- read_csv("media_experiment_full.csv")
+
+# Calculate ATE of seeing more ads for candidate A vs B on voting intent
+
+```
+
+Interpret: How much do political ads move voter preferences?
+
+
+## 8. Online Course Completion
+
+**Dataset: mooc_progress.csv**
+
+**Description**: Data from 3,000 students in online courses comparing free vs paid subscriptions.
+
+**Variables**:
+
+- `enroll_id`: Enrollment ID (int)
+- `day_of_course`: Day in course (int)
+- `videos_watched`: Number of videos watched (int)
+- `quiz_attempted`: Attempted quiz 1=yes (int)
+- `forum_posts`: Number of forum posts (int)
+- `subscription_type`: "free" or "paid" (chr)
+- `completed_course`: Completed course 1=yes (int)
+
+```{r}
+# Load the data
+mooc_data <- read_csv("mooc_progress.csv")
+
+# Calculate ATE of paid subscription on course completion
+
+```
+
+Does paying for a course increase commitment to complete it?
+
+## 9. Refugee Integration Program
+
+**Dataset: refugee_integration.csv**
+
+**Description**: Study of 800 refugee families comparing different levels of English language training.
+
+**Variables**:
+
+- `case_id`: Family case ID (int)
+- `arrival_year`: Year arrived (int)
+- `country_origin`: Country of origin (chr)
+- `family_size`: Number of family members (int)
+- `english_class_hours`: Hours of English classes provided (int)
+- `employed_year1`: Family member employed by year 1 (int)
+- `income_year5`: Family income at year 5 (dbl)
+- `citizenship_applied`: Applied for citizenship 1=yes (int)
+
+```{r}
+# Load the data
+refugee_data <- read_csv("refugee_integration.csv")
+
+# Calculate ATE of receiving >100 hours vs ≤100 hours of English training on employment
+
+
+```
+
+Is intensive English training worth the investment?
